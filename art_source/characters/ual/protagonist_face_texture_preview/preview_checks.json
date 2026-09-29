@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "width": 736,
+      "colorScheme": "light",
+      "states": 11,
+      "passed": true
+    },
+    {
+      "width": 736,
+      "colorScheme": "dark",
+      "states": 11,
+      "passed": true
+    },
+    {
+      "width": 360,
+      "colorScheme": "light",
+      "states": 11,
+      "passed": true
+    },
+    {
+      "width": 360,
+      "colorScheme": "dark",
+      "states": 11,
+      "passed": true
+    }
+  ],
+  "failures": []
+}

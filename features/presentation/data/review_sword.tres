@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/presentation/equipment_visual_definition.gd" id="1_trv3h"]
+[ext_resource type="PackedScene" path="res://assets/equipment/review/azure_sword.tscn" id="2_agxyt"]
+
+[resource]
+script = ExtResource("1_trv3h")
+id = &"sword"
+display_name = "Azure sword · existing review mesh"
+visual = ExtResource("2_agxyt")
+held_socket = &"right_hand"
+stowed_socket = &"left_hip"
+held_transform = Transform3D(0.65, 0, 0, 0, 0.65, 0, 0, 0, 0.65, 0, 0, 0)
+stowed_transform = Transform3D(0.6427012, -4.2458965e-09, 0.09713479, -0.09713479, -2.809336e-08, 0.6427012, 0, -0.65, -2.8412401e-08, 0, 0, 0)
+occupied_hands = Array[StringName]([&"right_hand"])

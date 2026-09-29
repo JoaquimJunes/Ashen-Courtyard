@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_action_profile.gd" id="Script"]
+[ext_resource type="Script" path="res://features/items/item_action_binding.gd" id="Binding"]
+[ext_resource type="Resource" path="res://features/abilities/data/heal.tres" id="A0"]
+[ext_resource type="Resource" path="res://features/items/data/heal_visual.tres" id="P0"]
+
+[sub_resource type="Resource" id="Action0"]
+script = ExtResource("Binding")
+role = &"use"
+executor = "heal"
+ability = ExtResource("A0")
+presentation = ExtResource("P0")
+item_cost = 1
+
+[resource]
+script = ExtResource("Script")
+actions = Array[ExtResource("Binding")]([SubResource("Action0")])

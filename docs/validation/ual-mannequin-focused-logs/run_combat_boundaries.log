@@ -1,0 +1,23 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS Assigned target at height 10.0 is outside player melee reach
+PASS Warden overhead starts through the shared lifecycle
+PASS Warden cannot hit across a 10.0 m height difference
+PASS Assigned target at height -10.0 is outside player melee reach
+PASS Warden overhead starts through the shared lifecycle
+PASS Warden cannot hit across a -10.0 m height difference
+PASS Nearby elevated target remains within reach
+PASS Warden overhead starts through the shared lifecycle
+PASS Nearby elevated Warden can still hit
+PASS Target behind the player remains outside the attack arc
+PASS Distant level target remains outside player melee reach
+PASS Warden overhead starts through the shared lifecycle
+PASS Distant level target remains outside Warden melee reach
+PASS World geometry blocks player melee
+PASS Warden overhead starts through the shared lifecycle
+PASS World geometry blocks Warden melee
+PASS Blocked player strike can hit after the obstruction clears
+PASS Successful player strike still deduplicates damage
+PASS Blocked Warden strike can hit after the obstruction clears
+PASS Successful Warden strike still deduplicates damage
+COMBAT BOUNDARIES: 20 checks, 0 failures

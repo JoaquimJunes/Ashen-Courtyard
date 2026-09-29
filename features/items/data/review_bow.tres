@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Script"]
+[ext_resource type="Resource" path="res://features/items/data/bow_hands.tres" id="equipment"]
+[ext_resource type="Resource" path="res://features/presentation/data/review_bow.tres" id="visual"]
+
+
+[resource]
+script = ExtResource("Script")
+id = &"review_bow"
+display_name = "Bow — equipment test"
+description = "Two-handed equipment fixture. Bow attacks are not implemented."
+category = "bow"
+subtype = &"shortbow"
+equipment = ExtResource("equipment")
+visual = ExtResource("visual")
+

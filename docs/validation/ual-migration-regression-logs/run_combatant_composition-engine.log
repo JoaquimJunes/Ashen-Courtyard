@@ -1,0 +1,19 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS Player preserves its collision layer, mask and capsule dimensions
+PASS Warden preserves its collision layer, mask and capsule dimensions
+PASS Compositions retain their existing model scenes
+PASS Model presentation exposes the same weapon pivots
+PASS Both models receive their existing locomotion definitions
+PASS Shared body definitions produce independent runtime shapes
+PASS Runtime posture changes cannot mutate shared definitions or another character
+PASS Accepted damage drives instance-local hit feedback
+PASS Hit feedback ends at the original duration
+PASS Player reset clears visual feedback
+PASS Warden retains its death pose feedback
+PASS Generic Combatant assembles without a model, weapon or session services
+PASS Collision size and team layer are independently configurable
+PASS Model-free damage forwards health exactly once
+PASS Damage history expires without a visual tick
+PASS Model-free Combatant uses the shared motor
+COMBATANT COMPOSITION: 16 checks, 0 failures

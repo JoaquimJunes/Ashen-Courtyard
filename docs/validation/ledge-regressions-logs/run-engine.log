@@ -1,0 +1,65 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Imported knight contains both mirrored halves
+PASS: Imported walk animation and hand rig are available
+PASS: Sword is attached to the imported hand bone
+PASS: F8 disables retro effects without pausing combat
+PASS: F8 restores retro effects
+PASS: Fresh player health and flasks
+PASS: Fresh stamina and mana
+PASS: First strike accepted
+PASS: Repeated strike cannot double-hit
+PASS: Next strike can damage
+PASS: Invulnerability rejects damage
+PASS: Expired invulnerability allows damage
+PASS: Unaffordable action does not spend stamina
+PASS: Heavy attack spends its cost once
+PASS: Committed attack cannot be cancelled by dodge
+PASS: Windup does not deal damage
+PASS: Active window deals exactly one hit
+PASS: Recovery does not deal damage
+PASS: Dodge enters invulnerability window
+PASS: Dodge leaves invulnerability window
+PASS: Dodge ends in free movement
+PASS: Spell cannot start without mana
+PASS: Spell spends mana at start
+PASS: Interrupted cast produces no projectile or refund
+PASS: Completed cast emits only one projectile
+PASS: Swept projectile hits boss without tunneling
+PASS: Projectile is stopped by courtyard wall
+PASS: Healing spends one flask and caps health
+PASS: Regeneration caps at resource maximums
+PASS: Burst damages a nearby target
+PASS: Burst cannot damage through geometry
+PASS: Burst cannot damage outside its radius
+PASS: Boss pattern 0 telegraph is harmless
+PASS: Boss pattern 0 active window hits
+PASS: Boss pattern 0 deduplicates its strike
+PASS: Boss combo second swing is an independent strike
+PASS: Boss pattern 0 can be avoided sideways
+PASS: Boss pattern 0 exposes recovery
+PASS: Boss pattern 1 telegraph is harmless
+PASS: Boss pattern 1 active window hits
+PASS: Boss pattern 1 deduplicates its strike
+PASS: Boss pattern 1 can be avoided sideways
+PASS: Boss pattern 1 exposes recovery
+PASS: Boss pattern 2 telegraph is harmless
+PASS: Boss pattern 2 active window hits
+PASS: Boss pattern 2 deduplicates its strike
+PASS: Boss pattern 2 can be avoided sideways
+PASS: Boss pattern 2 exposes recovery
+PASS: Camera retracts near boundary (1.0, 0.0, 0.0)
+PASS: Camera retracts near boundary (-1.0, 0.0, 0.0)
+PASS: Camera retracts near boundary (0.0, 0.0, -1.0)
+PASS: Camera retracts near boundary (0.0, 0.0, 1.0)
+PASS: Lock clears when target disappears
+PASS: Pause opens menu and stops encounter
+PASS: Resume restores encounter
+PASS: Victory opens retry and clears lock
+PASS: Retry preserves the chosen effects setting
+PASS: Retry restores encounter and boss health
+PASS: Retry restores all resources
+PASS: Retry clears strike history and projectiles
+PASS: Death opens retry menu
+PASS: Repeated retry works after death
+RESULT: 62 checks, 0 failures

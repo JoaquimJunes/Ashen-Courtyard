@@ -1,0 +1,610 @@
+[
+  {
+    "frame": 0,
+    "grounded": true,
+    "phase": 0,
+    "rise": 0.599900186061859,
+    "time": 0.0166666666666667,
+    "travel": 0.0
+  },
+  {
+    "frame": 1,
+    "grounded": true,
+    "phase": 0,
+    "rise": 0.599900186061859,
+    "time": 0.0333333333333333,
+    "travel": 0.0
+  },
+  {
+    "frame": 2,
+    "grounded": true,
+    "phase": 0,
+    "rise": 0.599900186061859,
+    "time": 0.05,
+    "travel": 0.0
+  },
+  {
+    "frame": 3,
+    "grounded": true,
+    "phase": 0,
+    "rise": 0.600830793380737,
+    "time": 0.0666666666666667,
+    "travel": 0.0205555558204651
+  },
+  {
+    "frame": 4,
+    "grounded": true,
+    "phase": 0,
+    "rise": 0.600808382034302,
+    "time": 0.0833333333333333,
+    "travel": 0.0822222232818604
+  },
+  {
+    "frame": 5,
+    "grounded": true,
+    "phase": 0,
+    "rise": 0.600811541080475,
+    "time": 0.1,
+    "travel": 0.185000002384186
+  },
+  {
+    "frame": 6,
+    "grounded": true,
+    "phase": 1,
+    "rise": 0.600811541080475,
+    "time": 0.116666666666667,
+    "travel": 0.185000002384186
+  },
+  {
+    "frame": 7,
+    "grounded": false,
+    "phase": 1,
+    "rise": 0.692026853561401,
+    "time": 0.133333333333333,
+    "travel": 0.368381410837173
+  },
+  {
+    "frame": 8,
+    "grounded": false,
+    "phase": 1,
+    "rise": 0.774418234825134,
+    "time": 0.15,
+    "travel": 0.55171474814415
+  },
+  {
+    "frame": 9,
+    "grounded": false,
+    "phase": 1,
+    "rise": 0.848301827907562,
+    "time": 0.166666666666667,
+    "travel": 0.660675525665283
+  },
+  {
+    "frame": 10,
+    "grounded": false,
+    "phase": 1,
+    "rise": 0.913230299949646,
+    "time": 0.183333333333333,
+    "travel": 0.681592732667923
+  },
+  {
+    "frame": 11,
+    "grounded": true,
+    "phase": 1,
+    "rise": 0.999222278594971,
+    "time": 0.2,
+    "travel": 0.842970579862595
+  },
+  {
+    "frame": 12,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.05081367492676,
+    "time": 0.216666666666667,
+    "travel": 1.02630391716957
+  },
+  {
+    "frame": 13,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.09360504150391,
+    "time": 0.233333333333333,
+    "travel": 1.20963725447655
+  },
+  {
+    "frame": 14,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.12759649753571,
+    "time": 0.25,
+    "travel": 1.39297065138817
+  },
+  {
+    "frame": 15,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.15278792381287,
+    "time": 0.266666666666667,
+    "travel": 1.57630404829979
+  },
+  {
+    "frame": 16,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.16917932033539,
+    "time": 0.283333333333333,
+    "travel": 1.75963744521141
+  },
+  {
+    "frame": 17,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.17677068710327,
+    "time": 0.3,
+    "travel": 1.94297084212303
+  },
+  {
+    "frame": 18,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.17556214332581,
+    "time": 0.316666666666667,
+    "travel": 2.12630423903465
+  },
+  {
+    "frame": 19,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.1655535697937,
+    "time": 0.333333333333333,
+    "travel": 2.30963763594627
+  },
+  {
+    "frame": 20,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.14674496650696,
+    "time": 0.35,
+    "travel": 2.49297103285789
+  },
+  {
+    "frame": 21,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.11913633346558,
+    "time": 0.366666666666667,
+    "travel": 2.67630442976952
+  },
+  {
+    "frame": 22,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.08272778987885,
+    "time": 0.383333333333333,
+    "travel": 2.85963782668114
+  },
+  {
+    "frame": 23,
+    "grounded": false,
+    "phase": 1,
+    "rise": 1.03751921653748,
+    "time": 0.4,
+    "travel": 3.04297122359276
+  },
+  {
+    "frame": 24,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083994865417,
+    "time": 0.416666666666667,
+    "travel": 3.22630462050438
+  },
+  {
+    "frame": 25,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081765651703,
+    "time": 0.433333333333333,
+    "travel": 3.34657582640648
+  },
+  {
+    "frame": 26,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.0008031129837,
+    "time": 0.45,
+    "travel": 3.46314606070518
+  },
+  {
+    "frame": 27,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00082337856293,
+    "time": 0.466666666666667,
+    "travel": 3.57601556181908
+  },
+  {
+    "frame": 28,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00080466270447,
+    "time": 0.483333333333333,
+    "travel": 3.68518456816673
+  },
+  {
+    "frame": 29,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083231925964,
+    "time": 0.5,
+    "travel": 3.79065284132957
+  },
+  {
+    "frame": 30,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081241130829,
+    "time": 0.516666666666667,
+    "travel": 3.89242061972618
+  },
+  {
+    "frame": 31,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081884860992,
+    "time": 0.533333333333333,
+    "travel": 3.99048742651939
+  },
+  {
+    "frame": 32,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00082850456238,
+    "time": 0.55,
+    "travel": 4.08485397696495
+  },
+  {
+    "frame": 33,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083673000336,
+    "time": 0.566666666666667,
+    "travel": 4.17551979422569
+  },
+  {
+    "frame": 34,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083684921265,
+    "time": 0.583333333333333,
+    "travel": 4.2624851167202
+  },
+  {
+    "frame": 35,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083720684052,
+    "time": 0.6,
+    "travel": 4.34574970602989
+  },
+  {
+    "frame": 36,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00082385540009,
+    "time": 0.616666666666667,
+    "travel": 4.42531356215477
+  },
+  {
+    "frame": 37,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.0008202791214,
+    "time": 0.633333333333334,
+    "travel": 4.50117692351341
+  },
+  {
+    "frame": 38,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083947181702,
+    "time": 0.65,
+    "travel": 4.57333955168724
+  },
+  {
+    "frame": 39,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083661079407,
+    "time": 0.666666666666667,
+    "travel": 4.64180192351341
+  },
+  {
+    "frame": 40,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083613395691,
+    "time": 0.683333333333334,
+    "travel": 4.70656356215477
+  },
+  {
+    "frame": 41,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083684921265,
+    "time": 0.700000000000001,
+    "travel": 4.76762446761131
+  },
+  {
+    "frame": 42,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083577632904,
+    "time": 0.716666666666667,
+    "travel": 4.82498416304588
+  },
+  {
+    "frame": 43,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00082945823669,
+    "time": 0.733333333333334,
+    "travel": 4.8786436021328
+  },
+  {
+    "frame": 44,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00082397460938,
+    "time": 0.750000000000001,
+    "travel": 4.92860278487206
+  },
+  {
+    "frame": 45,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083184242249,
+    "time": 0.766666666666667,
+    "travel": 4.97486075758934
+  },
+  {
+    "frame": 46,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081360340118,
+    "time": 0.783333333333334,
+    "travel": 5.01741799712181
+  },
+  {
+    "frame": 47,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.0008317232132,
+    "time": 0.800000000000001,
+    "travel": 5.05627498030663
+  },
+  {
+    "frame": 48,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081217288971,
+    "time": 0.816666666666668,
+    "travel": 5.09143075346947
+  },
+  {
+    "frame": 49,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081396102905,
+    "time": 0.833333333333334,
+    "travel": 5.12288579344749
+  },
+  {
+    "frame": 50,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081026554108,
+    "time": 0.850000000000001,
+    "travel": 5.15064057707787
+  },
+  {
+    "frame": 51,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00080966949463,
+    "time": 0.866666666666668,
+    "travel": 5.17469462752342
+  },
+  {
+    "frame": 52,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081670284271,
+    "time": 0.883333333333334,
+    "travel": 5.19504794478416
+  },
+  {
+    "frame": 53,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081884860992,
+    "time": 0.900000000000001,
+    "travel": 5.21170052886009
+  },
+  {
+    "frame": 54,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00083374977112,
+    "time": 0.916666666666668,
+    "travel": 5.22465285658836
+  },
+  {
+    "frame": 55,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00080609321594,
+    "time": 0.933333333333335,
+    "travel": 5.23390445113182
+  },
+  {
+    "frame": 56,
+    "grounded": true,
+    "phase": 2,
+    "rise": 1.00081098079681,
+    "time": 0.950000000000001,
+    "travel": 5.23945578932762
+  },
+  {
+    "frame": 57,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 58,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 59,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 60,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 61,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 62,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 63,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 64,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 65,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 66,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 67,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 68,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 69,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 70,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 71,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 72,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 73,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 74,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  },
+  {
+    "frame": 75,
+    "grounded": true,
+    "phase": 3,
+    "rise": 1.00083112716675,
+    "time": 0.966666666666668,
+    "travel": 5.24130591750145
+  }
+]

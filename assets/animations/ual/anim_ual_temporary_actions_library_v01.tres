@@ -1,0 +1,16 @@
+[gd_resource type="AnimationLibrary" load_steps=8 format=3]
+
+[ext_resource type="Animation" path="res://assets/animations/ual/anim_ual_jump_start_v01.tres" id="1"]
+[ext_resource type="Animation" path="res://assets/animations/ual/anim_ual_jump_air_v01.tres" id="2"]
+[ext_resource type="Animation" path="res://assets/animations/ual/anim_ual_jump_land_v01.tres" id="3"]
+[ext_resource type="Animation" path="res://assets/animations/ual/anim_ual_roll_forward_v01.tres" id="4"]
+[ext_resource type="Animation" path="res://assets/animations/ual/anim_ual_roll_left_v01.tres" id="5"]
+[ext_resource type="Animation" path="res://assets/animations/ual/anim_ual_roll_right_v01.tres" id="6"]
+[ext_resource type="Animation" path="res://assets/animations/ual/anim_ual_roll_back_v01.tres" id="7"]
+
+[resource]
+_data = {
+"jump_start": ExtResource("1"), "jump_air": ExtResource("2"), "jump_land": ExtResource("3"),
+"roll_forward": ExtResource("4"), "roll_left": ExtResource("5"), "roll_right": ExtResource("6"), "roll_back": ExtResource("7")
+}
+metadata/status = "Temporary action compatibility; not approved native UAL action animation"

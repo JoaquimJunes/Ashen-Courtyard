@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/abilities/ability_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"ledge_grab"
+combat_action = false
+allowed_modes = Array[StringName]([&"airborne",&"climbing",&"surface_swimming"])
+active_seconds = 0.24
+input_buffer_seconds = 0.0

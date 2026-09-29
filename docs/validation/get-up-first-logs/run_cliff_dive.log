@@ -1,0 +1,2 @@
+b'Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org\n\nPASS: 30 Hz: cliff dive starts through the shared action lifecycle\nPASS: 30 Hz: forward speed continues beyond 5.5 m and 0.70 s until contact\nPASS: 30 Hz: failed heavy cliff landing hands the dive to ragdoll\nPASS: 30 Hz: no airborne roll, extra cost, renewed immunity, or negative budget\nPASS: 30 Hz: physical contact never repeats fall damage or charges a failed roll\n'
+ERROR: Test timed out

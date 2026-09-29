@@ -1,0 +1,48 @@
+// Disposable browser fixture: production annotations and assets are never modified.
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),{spawn}=require('node:child_process'),{chromium}=require('playwright');
+const root=path.resolve(__dirname,'..'),M=require('../docs/tracker/model.js'),A=require('../docs/tracker/art-search.js');
+const fixture=fs.mkdtempSync(path.join(os.tmpdir(),'animation-duplicates-')),tracker=path.join(fixture,'docs/tracker');fs.mkdirSync(tracker,{recursive:true});
+for(const name of fs.readdirSync(path.join(root,'docs/tracker')))if(/\.(js|css|html)$/.test(name)&&name!=='data.js')fs.copyFileSync(path.join(root,'docs/tracker',name),path.join(tracker,name));
+const original=JSON.parse(fs.readFileSync(path.join(root,'docs/tracker/catalog.json'))),write=(p,value)=>{fs.mkdirSync(path.dirname(path.join(fixture,p)),{recursive:true});fs.writeFileSync(path.join(fixture,p),typeof value==='string'?value:JSON.stringify(value));};
+const source=id=>({id:'art:'+id,title:id,path:'assets/'+id+'.fbx',types:['Animations'],kind:'Animations',origin:'Project files',clip_names:['mixamo_com'],missing:false});
+const parents=['keeper','copy','protected','uncertain','variant'].map(source);
+const clip=(i,extra={})=>({id:'art:clip:'+parents[i].title,parent_id:parents[i].id,path:parents[i].path,title:'Jump to Free Hang',source_clip:{name:'mixamo_com'},types:['Animations'],origin:'Project files',animation_categories:['Movement'],animation_tags:['Jumping'],source_library:i?'Copy':'Original',start_state:i?'Jump':'Standing',end_state:'Free hang',transition_steps:['Jump','Free hang'],original_names:['Jumping To Hanging'],naming_status:'verified',naming_evidence:['Reviewed start and finish'],duplicate_status:'verified_duplicate',duplicate_group:'jump',duplicate_keeper_id:'art:clip:keeper',duplicate_evidence:['Imported duration and sampled poses match'],duplicate_file_eligible:true,preview:{kind:'model',status:'unavailable',reason:'Fixture has no playable model'},...extra});
+const clips=[clip(0),clip(1,{duplicate_references:['docs/naming-audit.md'],duplicate_runtime_references:[]}),clip(2),clip(3,{duplicate_status:'candidate',duplicate_group:'unresolved',duplicate_keeper_id:'art:clip:uncertain',naming_status:'needs_review'}),clip(4,{duplicate_status:'distinct_variant',duplicate_group:'variant',duplicate_keeper_id:'art:clip:variant',title:'Free Hang — Shimmy Left'})];
+const categories=[{id:'art:category:movement',title:'Movement',category_label:'Movement',animation_category:true,members:clips.map(e=>e.id)}];
+const catalog={...original,features:[],art:parents,packs:[],animation_clips:clips,animation_categories:categories};
+write('docs/tracker/catalog.json',catalog);write('docs/tracker/data.js','window.TRACKER_DATA='+JSON.stringify(catalog)+';');write('tools/art_animation_taxonomy.json',original.animation_taxonomy);
+const state={version:M.version,revision:0,items:{[parents[2].id]:{...M.defaults(parents[2]),review_label:'Approved'}},history:[]};write('docs/tracker/tracking.json',state);for(const p of parents)write(p.path,'fixture only');
+let browser,server,page;const errors=[],downloads=[];
+(async()=>{try{
+ server=spawn('python3',[path.join(__dirname,'serve_progress_tracker.py'),'--root',fixture,'--port','0'],{cwd:root,stdio:['ignore','pipe','pipe']});let log='';server.stderr.on('data',b=>log+=b);
+ const url=await new Promise((resolve,reject)=>{let out='';const t=setTimeout(()=>reject(Error(log)),15000);server.stdout.on('data',b=>{out+=b;const m=out.match(/http:\/\/127\.0\.0\.1:\d+/);if(m){clearTimeout(t);resolve(m[0]);}});});
+ browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});page=await browser.newPage({viewport:{width:1179,height:958}});page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/\.(fbx|glb|gltf|tres)(?:\?|$)/.test(r.url()))downloads.push(r.url());});
+ const saved=()=>page.waitForFunction(()=>document.getElementById('save-state').textContent==='Saved to project');
+ await page.goto(url+'/docs/tracker/');await saved();await page.click('[data-book=art]');await page.click('[data-art-mode=duplicates]');
+ assert.equal(await page.locator('#results .entry').count(),3,'One duplicate motion, one unresolved candidate, one real variation');
+ assert.match(await page.textContent('#count'),/3 compared motions.*5 source clips/);
+ const grouped=page.locator('#results .entry[data-id="art:clip:keeper"]');assert.equal(await grouped.locator('.animation-source-row').count(),3);
+ const copy=grouped.locator('.animation-source-row').filter({has:page.getByText('assets/copy.fbx',{exact:true})});
+ const protectedRow=grouped.locator('.animation-source-row').filter({has:page.getByText('assets/protected.fbx',{exact:true})});
+ assert.equal(await protectedRow.getByRole('button',{name:'Mark redundant file as Scrap'}).isDisabled(),true);
+ page.once('dialog',d=>d.dismiss());await copy.getByRole('button',{name:'Mark redundant file as Scrap'}).click();assert.equal(JSON.parse(fs.readFileSync(path.join(tracker,'tracking.json'))).items[parents[1].id],undefined);
+ page.once('dialog',d=>d.accept());await copy.getByRole('button',{name:'Mark redundant file as Scrap'}).click();await saved();await page.waitForFunction(async()=>((await (await fetch('/api/tracker')).json()).items['art:copy']?.review_label)==='Scrap');
+ assert.equal(fs.readFileSync(path.join(fixture,parents[1].path),'utf8'),'fixture only');assert.equal(JSON.parse(fs.readFileSync(path.join(tracker,'tracking.json'))).items[clips[1].id],undefined,'Clip annotations are separate');
+ // Changes made while a detail stays open must refresh source protection.
+ await copy.getByRole('button',{name:'Source file details'}).click();await page.selectOption('#art-review-label','');await saved();await page.click('#close-detail');
+ await copy.locator('button').first().click();await page.selectOption('#art-review-label','Approved');await saved();
+ const ownRow=page.locator('#detail .animation-source-row').filter({has:page.getByText('assets/copy.fbx',{exact:true})});
+ assert.equal(await ownRow.getByRole('button',{name:'Mark redundant file as Scrap'}).isDisabled(),true,'New clip approval immediately protects its parent file');
+ await page.selectOption('#art-review-label','');await saved();assert.equal(await ownRow.getByRole('button',{name:'Mark redundant file as Scrap'}).isEnabled(),true);
+ await page.evaluate(()=>{window.fixtureTrash=state.trash;state={...state,trash:{hidden_ids:['art:keeper']}};updateDetailProgress();});
+ assert.equal(await ownRow.getByRole('button',{name:'Mark redundant file as Scrap'}).isDisabled(),true,'A missing keeper cannot justify removing the last copy');
+ await page.evaluate(()=>{state={...state,trash:window.fixtureTrash};updateDetailProgress();});await page.click('#close-detail');
+ await page.check('#show-duplicate-sources');assert.equal(await page.locator('#results .entry').count(),5);await page.reload();await saved();assert.equal(await page.isChecked('#show-duplicate-sources'),true);
+ await page.fill('#search','jumping hanging');assert.equal(await page.locator('#results .entry').count(),5,'Original names remain searchable');
+ await page.locator('input[data-group="source_libraries"][value="Copy"]').check();await page.locator('input[data-group="start_states"][value="Standing"]').check();assert.equal(await page.locator('#results .entry').count(),0,'Different copies cannot combine facets');
+ await page.click('#clear-filters');await page.uncheck('#show-duplicate-sources');await page.locator('#results .entry[data-id="art:clip:keeper"] h2 button').click();
+ assert.match(await page.textContent('#detail-body'),/Reviewed start and finish/);assert.equal(await page.locator('#detail .animation-source-row').filter({has:page.getByText('assets/protected.fbx',{exact:true})}).getByRole('button',{name:'Mark redundant file as Scrap'}).isDisabled(),true);
+ await page.click('#close-detail');await page.setViewportSize({width:390,height:850});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.click('#open-art-filters');await page.keyboard.press('Escape');assert.equal(await page.evaluate(()=>document.activeElement.id),'open-art-filters');
+ assert.deepEqual(errors,[]);assert.deepEqual(downloads,[]);console.log('Duplicate browser: grouping, exact-source filters, original-name search, safe Scrap confirmation/protection, independent records, saved preference, mobile keyboard and no animation downloads passed.');
+}finally{await browser?.close();if(server&&server.exitCode===null){const done=new Promise(r=>server.once('exit',r));server.kill();await done;}fs.rmSync(fixture,{recursive:true,force:true});}})().catch(e=>{console.error(e);process.exitCode=1;});

@@ -1,0 +1,16 @@
+{
+  "frames": 600,
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 60,
+  "duration_seconds": 10,
+  "alpha": "RGBA, transparent exterior and opaque subject in every frame",
+  "minimum_canvas_margin_px": 30,
+  "heart_pixels_constant": true,
+  "settled_wisps_animate": true,
+  "video_blocks": 600,
+  "audio_tracks": 0,
+  "protected_preview_files_unchanged": 28
+}

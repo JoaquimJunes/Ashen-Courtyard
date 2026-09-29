@@ -1,0 +1,21 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS 30 Hz: production Warden starts supported
+PASS Production lunge starts through the common lifecycle
+PASS 30 Hz: lunge, recovery and action completion preserve the same air velocity
+PASS Warden keeps moving after the lunge's active window and commitment finish
+PASS A wall changes physical momentum after ownership has been released
+PASS Removing the wall cannot revive a finished enemy lunge
+PASS 60 Hz: production Warden starts supported
+PASS Production lunge starts through the common lifecycle
+PASS 60 Hz: lunge, recovery and action completion preserve the same air velocity
+PASS Warden keeps moving after the lunge's active window and commitment finish
+PASS A wall changes physical momentum after ownership has been released
+PASS Removing the wall cannot revive a finished enemy lunge
+PASS 120 Hz: production Warden starts supported
+PASS Production lunge starts through the common lifecycle
+PASS 120 Hz: lunge, recovery and action completion preserve the same air velocity
+PASS Warden keeps moving after the lunge's active window and commitment finish
+PASS A wall changes physical momentum after ownership has been released
+PASS Removing the wall cannot revive a finished enemy lunge
+BOSS MOTION: 18 checks, 0 failures

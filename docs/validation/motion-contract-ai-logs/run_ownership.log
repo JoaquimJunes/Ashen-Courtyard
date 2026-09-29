@@ -1,0 +1,44 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS Scripted sprint drives physical speed and sprint animation without keyboard state
+PASS Unfunded sprint cannot claim the sprint animation
+PASS direct: submission does not spend or acquire ownership
+PASS direct: ongoing sprint cost precedes attack reservation
+PASS Direct request reports its actual post-cost rejection
+PASS intent: submission does not spend or acquire ownership
+PASS intent: ongoing sprint cost precedes attack reservation
+PASS keyboard: submission does not spend or acquire ownership
+PASS keyboard: ongoing sprint cost precedes attack reservation
+PASS One pending slot resolves superseded requests
+PASS Latest request starts and pays exactly once
+PASS Buffered request expires during commitment without spending again
+PASS Expired buffer cannot start after recovery
+PASS Paused request cannot start or spend
+PASS Resume resolves the pending request once
+PASS Reset releases queued result ownership
+PASS Reset cannot cause a delayed start
+PASS Burst respects its captured 1.2-second recovery instead of bolt or replacement definition
+PASS Captured burst completes after its own windup plus recovery
+PASS Mode policy 0 sees an actual ledge departure
+PASS Default incompatible-mode policy cancels action and damage ownership
+PASS Mode policy 1 sees an actual ledge departure
+PASS An explicit continue policy can preserve a committed action on mode exit
+PASS Damage is published once by resources and once by its character facade
+PASS Healing uses the same resource notification route
+PASS Reset emits one consistent resource/character health update
+PASS Death clears pending requests and health stays nonnegative
+PASS AI caster does not require a player camera
+PASS AI action submits through the same pending-result contract
+PASS Shared lifecycle charges the AI spell exactly once
+PASS AI bolt uses explicit world aim and shared damage, then releases action ownership (health=68.0, action=<null>, time=0.03333333333333)
+PASS AI cast interruption cannot release a free or delayed projectile
+PASS AI actions use the same capability requirements
+PASS AI actions use the same movement compatibility
+PASS Boss patterns acquire shared action ownership
+PASS Encounter freeze releases boss attack and strike ownership
+PASS Normal AI still alternates combo and overhead at close range
+PASS AI-selected overhead starts with its visible telegraph
+PASS Normal AI selects the existing lunge against a distant target
+PASS Distance pressure retains its windup before movement/damage
+PASS AI unload resolves pending requests and releases ownership
+OWNERSHIP: 41 checks, 0 failures

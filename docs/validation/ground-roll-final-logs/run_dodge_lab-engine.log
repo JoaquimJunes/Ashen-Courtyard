@@ -1,0 +1,26 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Walking access to 0.5 m gap takeoff platform
+PASS: Legacy forward hop toward 0.5 m laboratory gap
+PASS: Land across 0.5 m actual gap
+PASS: Clear the gap without triggering its catch/reset area
+PASS: Walking access to 1.0 m gap takeoff platform
+PASS: Legacy forward hop toward 1.0 m laboratory gap
+PASS: Land across 1.0 m actual gap
+PASS: Clear the gap without triggering its catch/reset area
+PASS: Walking access to 2.0 m gap takeoff platform
+PASS: Legacy forward hop toward 2.0 m laboratory gap
+PASS: Land across 2.0 m actual gap
+PASS: Clear the gap without triggering its catch/reset area
+PASS: Walking access to 3.0 m gap takeoff platform
+PASS: Legacy forward hop toward 3.0 m laboratory gap
+PASS: Land across 3.0 m actual gap
+PASS: Clear the gap without triggering its catch/reset area
+PASS: Physical roll lands on 10.0 degree ramp from side -1.0
+PASS: Physical roll lands on 10.0 degree ramp from side 1.0
+PASS: Physical roll lands on 20.0 degree ramp from side -1.0
+PASS: Physical roll lands on 20.0 degree ramp from side 1.0
+PASS: Physical roll lands on 30.0 degree ramp from side -1.0
+PASS: Physical roll lands on 30.0 degree ramp from side 1.0
+PASS: Station reset clears the directional roll
+DODGE LAB RESULT: 23 checks, 0 failures

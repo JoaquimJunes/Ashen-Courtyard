@@ -1,0 +1,53 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: 30 Hz descending hit accepted
+PASS: Descending hit transfers physical authority and action ownership
+PASS: Ten physical bodies simulate the knight
+PASS: Ragdoll handover does not teleport the camera anchor
+PASS: No buffered actions leak through ragdoll/get-up
+PASS: Surviving ragdoll settles and automatically gets up
+PASS: Recovery restores collision, presentation and grounded control
+PASS: Recovery releases reaction and physical ownership
+PASS: Safe ragdoll landing counts once, without extra damage (events=1, health=95.0)
+PASS: Jump works after physical recovery
+PASS: 60 Hz descending hit accepted
+PASS: Descending hit transfers physical authority and action ownership
+PASS: Ten physical bodies simulate the knight
+PASS: Ragdoll handover does not teleport the camera anchor
+PASS: No buffered actions leak through ragdoll/get-up
+PASS: Surviving ragdoll settles and automatically gets up
+PASS: Recovery restores collision, presentation and grounded control
+PASS: Recovery releases reaction and physical ownership
+PASS: Safe ragdoll landing counts once, without extra damage (events=1, health=95.0)
+PASS: Jump works after physical recovery
+PASS: 120 Hz descending hit accepted
+PASS: Descending hit transfers physical authority and action ownership
+PASS: Ten physical bodies simulate the knight
+PASS: Ragdoll handover does not teleport the camera anchor
+PASS: No buffered actions leak through ragdoll/get-up
+PASS: Surviving ragdoll settles and automatically gets up
+PASS: Recovery restores collision, presentation and grounded control
+PASS: Recovery releases reaction and physical ownership
+PASS: Safe ragdoll landing counts once, without extra damage (events=1, health=95.0)
+PASS: Jump works after physical recovery
+PASS: Rising hit does not ragdoll
+PASS: Grounded hit does not ragdoll
+PASS: Lethal landing activates ragdoll
+PASS: Dead ragdoll never gets up and releases action ownership
+PASS: Airborne ragdoll still receives one shared fall-damage event
+PASS: Physical bone explicitly resolves to its character receiver
+PASS: Shared rig definition creates independent per-character physics bodies
+PASS: Ragdoll damage uses normal strike deduplication
+PASS: Pause freezes ragdoll physics and recovery clock
+PASS: Low ceiling blocks unsafe standing recovery
+PASS: Clearing headroom allows automatic get-up
+PASS: Recovery starts after settling
+PASS: Losing support during get-up returns to physical falling
+PASS: A lower safe landing can recover after interrupted get-up
+PASS: Lethal damage during get-up returns to dead ragdoll
+PASS: Prone camera pivot remains above nearby floor
+PASS: Repeated reset releases all physical and action ownership
+PASS: Repeated reset releases all physical and action ownership
+PASS: Repeated reset releases all physical and action ownership
+PASS: Unloading stops physical simulation
+RAGDOLL: 50 checks, 0 failures

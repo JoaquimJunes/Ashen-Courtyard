@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/abilities/dodge_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+requires_standing = true
+id = &"dodge_forward"
+combat_action = false
+variant = &"dodge_forward"
+requires_ground = true
+allowed_modes = Array[StringName]([&"grounded", &"airborne"])
+preparation = 0.10
+height = 0.25
+extension = 0.05
+air_rate = 1.2
+speed = 11.0
+distance = 5.5
+stamina_cost = 25.0
+adaptive_clearance = true
+airborne_motion = 2

@@ -1,0 +1,15 @@
+/* Whole-pack edits stay near the gallery without replacing the image view. */
+.whole-pack-editor{border:1px solid var(--line);border-radius:8px;background:#202923;padding:14px;margin:16px 0}
+.whole-pack-editor h3{margin:0 0 6px}.whole-pack-editor>.path{margin:0 0 12px}
+.pack-editor-toolbar{display:flex;align-items:end;gap:16px;flex-wrap:wrap}
+.pack-editor-toolbar>label{flex:1;min-width:180px;max-width:350px}
+.pack-editor-shortcuts{display:flex;gap:8px;flex-wrap:wrap;align-items:end}
+.pack-editor-shortcuts button[aria-expanded=true]{border-color:var(--accent);color:var(--accent)}
+.pack-editor-shortcuts button:hover:not(:disabled){background:var(--accent);color:#161b18}
+.pack-editor-section{border-top:1px solid var(--line);margin-top:14px;padding-top:14px}
+.pack-editor-section[hidden]{display:none}.pack-editor-section textarea{width:100%;resize:vertical}
+.pack-editor-flags{border:0;padding:0;margin:0;display:flex;gap:12px;flex-wrap:wrap}
+.pack-editor-flags legend{font-size:13px;color:var(--muted);margin-bottom:10px}.pack-editor-flags .checklabel{margin:0}
+@media(max-width:600px){.whole-pack-editor{padding:12px}.pack-editor-toolbar{display:block}.pack-editor-toolbar>label{max-width:none}.pack-editor-shortcuts{margin-top:12px}.pack-editor-shortcuts button{flex:1;font-size:12px;padding:8px}.pack-editor-section .rename-form label{min-width:0;flex-basis:100%}.pack-editor-section .rename-form button{font-size:12px;min-width:0}.pack-editor-flags{gap:10px}}
+.pack-approval{display:flex;flex-direction:column;gap:3px}.pack-approval p{margin:0;font-variant-numeric:tabular-nums}.pack-member .pack-member-review{padding:0 8px 8px}.pack-member-review .badge{margin:0}
+@media(max-width:600px){.pack-approval{margin-top:10px;align-items:start}}

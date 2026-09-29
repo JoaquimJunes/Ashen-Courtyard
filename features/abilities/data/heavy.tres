@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/abilities/ability_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+requires_standing = true
+id = &"heavy"
+damage = 52.0
+stamina_cost = 36.0
+windup = 0.65
+active_seconds = 0.22
+recovery = 0.55
+allowed_modes = Array[StringName]([&"grounded", &"airborne"])

@@ -1,0 +1,37 @@
+{
+  "engine": "<USER_HOME>/Desktop/Ashen Courtyard/Godot_v4.6.2-stable_linux.x86_64",
+  "passed": true,
+  "checks": 119,
+  "suites": [
+    {
+      "suite": "run_motion_boss",
+      "seconds": 1.029,
+      "passed": true,
+      "checks": 21,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ownership",
+      "seconds": 1.397,
+      "passed": true,
+      "checks": 41,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_movement_practice",
+      "seconds": 3.854,
+      "passed": true,
+      "checks": 57,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    }
+  ]
+}

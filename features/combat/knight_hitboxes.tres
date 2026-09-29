@@ -1,0 +1,191 @@
+[gd_resource type="Resource" load_steps=37 format=3]
+
+[ext_resource type="Script" path="res://features/combat/hitbox_profile.gd" id="1"]
+[ext_resource type="Script" path="res://features/combat/hit_region.gd" id="2"]
+
+[sub_resource type="BoxShape3D" id="shape_0"]
+size = Vector3(0.510781, 0.232986, 0.332067)
+
+[sub_resource type="Resource" id="region_0"]
+script = ExtResource("2")
+id = &"pelvis"
+bone = &"Body"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.046828, -0.017106)
+shape = SubResource("shape_0")
+
+[sub_resource type="BoxShape3D" id="shape_1"]
+size = Vector3(0.313220, 0.086481, 0.213917)
+
+[sub_resource type="Resource" id="region_1"]
+script = ExtResource("2")
+id = &"abdomen"
+bone = &"Body"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.096906, -0.008277)
+shape = SubResource("shape_1")
+
+[sub_resource type="BoxShape3D" id="shape_2"]
+size = Vector3(0.371581, 0.166150, 0.305619)
+
+[sub_resource type="Resource" id="region_2"]
+script = ExtResource("2")
+id = &"chest"
+bone = &"Body"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.422837, 0.015925)
+shape = SubResource("shape_2")
+
+[sub_resource type="BoxShape3D" id="shape_3"]
+size = Vector3(0.098888, 0.319369, 0.108216)
+
+[sub_resource type="Resource" id="region_3"]
+script = ExtResource("2")
+id = &"foot.l"
+bone = &"Foot.l"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, -0.007126, 0.108211, -0.023733)
+shape = SubResource("shape_3")
+
+[sub_resource type="BoxShape3D" id="shape_4"]
+size = Vector3(0.098888, 0.319369, 0.108216)
+
+[sub_resource type="Resource" id="region_4"]
+script = ExtResource("2")
+id = &"foot.r"
+bone = &"Foot.r"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.007126, 0.108211, -0.023733)
+shape = SubResource("shape_4")
+
+[sub_resource type="BoxShape3D" id="shape_5"]
+size = Vector3(0.075833, 0.082896, 0.094288)
+
+[sub_resource type="Resource" id="region_5"]
+script = ExtResource("2")
+id = &"hand.l"
+bone = &"Hand.l"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, -0.009642, 0.093252, -0.002876)
+shape = SubResource("shape_5")
+
+[sub_resource type="BoxShape3D" id="shape_6"]
+size = Vector3(0.075833, 0.082896, 0.094288)
+
+[sub_resource type="Resource" id="region_6"]
+script = ExtResource("2")
+id = &"hand.r"
+bone = &"Hand.r"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.009642, 0.093252, -0.002876)
+shape = SubResource("shape_6")
+
+[sub_resource type="CapsuleShape3D" id="shape_7"]
+radius = 0.132101
+height = 0.264202
+
+[sub_resource type="Resource" id="region_7"]
+script = ExtResource("2")
+id = &"head"
+bone = &"Head"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.153469, 0.026752)
+shape = SubResource("shape_7")
+
+[sub_resource type="CapsuleShape3D" id="shape_8"]
+radius = 0.051970
+height = 0.199632
+
+[sub_resource type="Resource" id="region_8"]
+script = ExtResource("2")
+id = &"lowerarm.l"
+bone = &"LowerArm.l"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, -0.001850, 0.125431, 0.000152)
+shape = SubResource("shape_8")
+
+[sub_resource type="CapsuleShape3D" id="shape_9"]
+radius = 0.051970
+height = 0.199632
+
+[sub_resource type="Resource" id="region_9"]
+script = ExtResource("2")
+id = &"lowerarm.r"
+bone = &"LowerArm.r"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.001850, 0.125431, 0.000152)
+shape = SubResource("shape_9")
+
+[sub_resource type="CapsuleShape3D" id="shape_10"]
+radius = 0.080094
+height = 0.389899
+
+[sub_resource type="Resource" id="region_10"]
+script = ExtResource("2")
+id = &"lowerleg.l"
+bone = &"LowerLeg.l"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.004180, 0.241392, -0.021348)
+shape = SubResource("shape_10")
+
+[sub_resource type="CapsuleShape3D" id="shape_11"]
+radius = 0.080094
+height = 0.389899
+
+[sub_resource type="Resource" id="region_11"]
+script = ExtResource("2")
+id = &"lowerleg.r"
+bone = &"LowerLeg.r"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, -0.004180, 0.241392, -0.021348)
+shape = SubResource("shape_11")
+
+[sub_resource type="CapsuleShape3D" id="shape_12"]
+radius = 0.171017
+height = 0.395661
+
+[sub_resource type="Resource" id="region_12"]
+script = ExtResource("2")
+id = &"upperarm.l"
+bone = &"UpperArm.l"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, -0.004526, 0.117121, 0.018021)
+shape = SubResource("shape_12")
+
+[sub_resource type="CapsuleShape3D" id="shape_13"]
+radius = 0.171017
+height = 0.395661
+
+[sub_resource type="Resource" id="region_13"]
+script = ExtResource("2")
+id = &"upperarm.r"
+bone = &"UpperArm.r"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.004526, 0.117121, 0.018021)
+shape = SubResource("shape_13")
+
+[sub_resource type="CapsuleShape3D" id="shape_14"]
+radius = 0.103568
+height = 0.515709
+
+[sub_resource type="Resource" id="region_14"]
+script = ExtResource("2")
+id = &"upperleg.l"
+bone = &"UpperLeg.l"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, -0.003566, 0.269231, -0.017507)
+shape = SubResource("shape_14")
+
+[sub_resource type="CapsuleShape3D" id="shape_15"]
+radius = 0.103568
+height = 0.515709
+
+[sub_resource type="Resource" id="region_15"]
+script = ExtResource("2")
+id = &"upperleg.r"
+bone = &"UpperLeg.r"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.003566, 0.269231, -0.017507)
+shape = SubResource("shape_15")
+
+[sub_resource type="CapsuleShape3D" id="shape_16"]
+radius = 0.064000
+height = 0.128000
+
+[sub_resource type="Resource" id="region_16"]
+script = ExtResource("2")
+id = &"neck"
+bone = &"Head"
+local_transform = Transform3D(1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.025000, 0.000000)
+shape = SubResource("shape_16")
+
+[resource]
+script = ExtResource("1")
+rig_id = &"knight_14"
+regions = Array[ExtResource("2")]([SubResource("region_0"), SubResource("region_1"), SubResource("region_2"), SubResource("region_3"), SubResource("region_4"), SubResource("region_5"), SubResource("region_6"), SubResource("region_7"), SubResource("region_8"), SubResource("region_9"), SubResource("region_10"), SubResource("region_11"), SubResource("region_12"), SubResource("region_13"), SubResource("region_14"), SubResource("region_15"), SubResource("region_16")])
+breathing_offset = Vector3(0.000000, 0.135000, 0.102000)
+source_model = "res://scenes/models/psx_knight.tscn"

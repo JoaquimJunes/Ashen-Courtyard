@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_upgrade_profile.gd" id="Script"]
+[ext_resource type="Script" path="res://features/items/item_upgrade_step.gd" id="Step"]
+
+[sub_resource type="Resource" id="One"]
+script = ExtResource("Step")
+damage_multiplier = 1.1
+
+[sub_resource type="Resource" id="Two"]
+script = ExtResource("Step")
+damage_multiplier = 1.2
+
+[resource]
+script = ExtResource("Script")
+levels = Array[ExtResource("Step")]([SubResource("One"), SubResource("Two")])

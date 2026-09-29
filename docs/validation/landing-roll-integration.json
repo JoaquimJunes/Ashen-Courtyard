@@ -1,0 +1,67 @@
+{
+  "engine": "<USER_HOME>/Desktop/Ashen Courtyard/Godot_v4.6.2-stable_linux.x86_64",
+  "passed": true,
+  "checks": 308,
+  "suites": [
+    {
+      "suite": "run_architecture",
+      "seconds": 0.544,
+      "passed": true,
+      "checks": 32,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ownership",
+      "seconds": 0.829,
+      "passed": true,
+      "checks": 41,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_jump",
+      "seconds": 1.568,
+      "passed": true,
+      "checks": 118,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_cliff_dive",
+      "seconds": 1.089,
+      "passed": true,
+      "checks": 24,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ragdoll",
+      "seconds": 1.28,
+      "passed": true,
+      "checks": 50,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_lab_forward_dive",
+      "seconds": 1.465,
+      "passed": true,
+      "checks": 43,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    }
+  ]
+}

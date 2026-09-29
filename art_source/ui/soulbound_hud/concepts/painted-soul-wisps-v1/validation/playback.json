@@ -1,0 +1,21 @@
+{
+  "duration": 10,
+  "width": 1280,
+  "height": 720,
+  "error": null,
+  "playbackAdvances": true,
+  "seekChecks": [
+    {
+      "time": 2.95,
+      "quality": {}
+    },
+    {
+      "time": 5.4,
+      "quality": {}
+    },
+    {
+      "time": 9.2,
+      "quality": {}
+    }
+  ]
+}

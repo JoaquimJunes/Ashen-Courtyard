@@ -1,0 +1,38 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Jump preserves momentum in (0.0, 0.0, -1.0) direction
+PASS: Retargeted armor stays above capsule bottom
+PASS: Jump preserves momentum in (0.0, 0.0, 1.0) direction
+PASS: Retargeted armor stays above capsule bottom
+PASS: Jump preserves momentum in (-1.0, 0.0, 0.0) direction
+PASS: Retargeted armor stays above capsule bottom
+PASS: Jump preserves momentum in (1.0, 0.0, 0.0) direction
+PASS: Retargeted armor stays above capsule bottom
+PASS: Jump preserves momentum in (1.0, 0.0, 1.0) direction
+PASS: Retargeted armor stays above capsule bottom
+PASS: Jump preserves momentum in (-1.0, 0.0, 1.0) direction
+PASS: Retargeted armor stays above capsule bottom
+PASS: Jump preserves momentum in (1.0, 0.0, -1.0) direction
+PASS: Retargeted armor stays above capsule bottom
+PASS: Jump preserves momentum in (-1.0, 0.0, -1.0) direction
+PASS: Retargeted armor stays above capsule bottom
+PASS: Two characters share read-only jump and landing definitions
+PASS: Second character does not share jump state or costs
+PASS: Unloading clears airborne ownership and pending result
+PASS: Lab drop fixture 2.5 m has a grounded start
+PASS: Selecting a drop resets resources and ownership
+PASS: Station reset restores entrance and jump eligibility
+PASS: Lab drop fixture 4.5 m has a grounded start
+PASS: Selecting a drop resets resources and ownership
+PASS: Station reset restores entrance and jump eligibility
+PASS: Lab drop fixture 8.0 m has a grounded start
+PASS: Selecting a drop resets resources and ownership
+PASS: Station reset restores entrance and jump eligibility
+PASS: Lab drop fixture 16.0 m has a grounded start
+PASS: Selecting a drop resets resources and ownership
+PASS: Station reset restores entrance and jump eligibility
+PASS: Jump works with laboratory combat disabled
+PASS: Lab guide includes the active Jump binding
+PASS: Drop + hit tool uses accepted descending damage and the shared reaction
+PASS: Lab reset clears drop-hit reaction and temporary combat test permission
+JUMP INTEGRATION: 35 checks, 0 failures

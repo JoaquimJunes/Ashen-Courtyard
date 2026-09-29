@@ -1,0 +1,31 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: roll_forward stays above ground, including interpolated poses (min 0.0194 m)
+PASS: roll_forward remains within a plausible character height (max 1.93 m)
+PASS: roll_forward never rotates the visual root around its feet
+PASS: roll_left stays above ground, including interpolated poses (min 0.0201 m)
+PASS: roll_left remains within a plausible character height (max 2.09 m)
+PASS: roll_left never rotates the visual root around its feet
+PASS: roll_right stays above ground, including interpolated poses (min 0.0203 m)
+PASS: roll_right remains within a plausible character height (max 1.94 m)
+PASS: roll_right never rotates the visual root around its feet
+PASS: roll_back stays above ground, including interpolated poses (min 0.0160 m)
+PASS: roll_back remains within a plausible character height (max 2.39 m)
+PASS: roll_back never rotates the visual root around its feet
+PASS: Forward and left rolls have different torso rotation
+PASS: Left and right rolls lean toward opposite shoulders
+PASS: forward input selects its own animation path
+PASS: forward spends the existing dodge cost once
+PASS: left input selects its own animation path
+PASS: left spends the existing dodge cost once
+PASS: right input selects its own animation path
+PASS: right spends the existing dodge cost once
+PASS: back input selects its own animation path
+PASS: back spends the existing dodge cost once
+PASS: Standing dodge selects the shared forward dive
+PASS: Imported animation preserves the invulnerability window
+PASS: Roll completion restores locomotion and ends immunity
+PASS: Locomotion restores upright posture after rolling
+PASS: Damage before immunity interrupts the roll pose
+PASS: Retry clears all roll animation state
+ROLL RESULT: 28 checks, 0 failures

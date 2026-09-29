@@ -1,0 +1,34 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Custom keyboard and mouse bindings save
+PASS: Bindings survive loading from disk
+PASS: Remapping replaces the default movement key
+PASS: Escape remains available after remapping pause
+PASS: Conflicts are rejected without changing active bindings
+PASS: Failed saves preserve active controls
+PASS: Malformed saved data falls back to playable defaults
+PASS: arena: controls entry exists
+PASS: arena: controls open while gameplay stays paused
+PASS: arena: duplicate binding rejected
+PASS: arena: Escape cancels capture without closing menu
+PASS: arena: key combinations rejected
+PASS: arena: edits remain a draft
+PASS: arena: cancel preserves controls and returns to pause
+PASS: arena: mouse capture saves and updates InputMap
+PASS: arena: on-screen guide reflects custom binding
+PASS: arena: scene configuration preserves custom bindings
+PASS: arena: restore defaults saves correctly
+PASS: arena: normal play resumes
+PASS: movement_lab: controls entry exists
+PASS: movement_lab: controls open while gameplay stays paused
+PASS: movement_lab: duplicate binding rejected
+PASS: movement_lab: Escape cancels capture without closing menu
+PASS: movement_lab: key combinations rejected
+PASS: movement_lab: edits remain a draft
+PASS: movement_lab: cancel preserves controls and returns to pause
+PASS: movement_lab: mouse capture saves and updates InputMap
+PASS: movement_lab: on-screen guide reflects custom binding
+PASS: movement_lab: scene configuration preserves custom bindings
+PASS: movement_lab: restore defaults saves correctly
+PASS: movement_lab: normal play resumes
+KEYBINDINGS RESULT: 31 checks, 0 failures

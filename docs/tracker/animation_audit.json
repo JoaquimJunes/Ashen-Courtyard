@@ -1,0 +1,2914 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-29T23:10:02.647620+00:00",
+  "groups": [
+    {
+      "id": "animation-duplicate:50b72d0fc745cc10f270ed15",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Braced Hang Hop Up (1).fbx",
+        "assets/animations/Mixamo/Braced Hang Hop Up.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Braced Hang Hop Up.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Braced Hang Hop Up (1).fbx": "905bb0c08d054ce53436e4af1f0e2b06d64581c13094f5e7143cc3fc6cb704b3",
+        "assets/animations/Mixamo/Braced Hang Hop Up.fbx": "bbfde61101db3d006324e9068cbbbe835940d7109fdbef2301fe69b29859a298"
+      },
+      "structural_fingerprint": "06d4a6e564a40e54203bf22566c7dbf176c238b1f99cb95735cda66741fd81b9",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Braced Hang Hop Up (1).fbx": [],
+          "assets/animations/Mixamo/Braced Hang Hop Up.fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 1.66666662693024,
+            "loop": 0,
+            "metadata_sha256": "7293f4a3e145ce3311cb59c3bb65cd4af6c18f76f026c1942b086278f448a9bc",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 247,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-duplicate:935d54e5a72f91932848d531",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Falling To Landing(1).fbx",
+        "assets/animations/Mixamo/Falling To Landing.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Falling To Landing.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Falling To Landing(1).fbx": "b990c3d8fd4bd5314047d2f048da634f6bf1d91095a525baae28ba425c77af69",
+        "assets/animations/Mixamo/Falling To Landing.fbx": "63276206e8b2cad9460244ab03ba464c4e15fc29255e07fd350c1fee5d383156"
+      },
+      "structural_fingerprint": "1e7bcfc4b936033891247d8d41216b30752f71ab9d7b5714c3b3cc2d3af26748",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Falling To Landing(1).fbx": [],
+          "assets/animations/Mixamo/Falling To Landing.fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 1.06666672229767,
+            "loop": 0,
+            "metadata_sha256": "5b08eca8db7e2b9029848536c93d94d99aac9a987a767a34f8b48179e043370d",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 159,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-duplicate:c84eff76b28a38423b96dfef",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Jumping To Hanging (1).fbx",
+        "assets/animations/Mixamo/Jumping To Hanging.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Jumping To Hanging.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Jumping To Hanging (1).fbx": "7b0e0479a896c8b0c9a1006c9888e1291b41d45cba4d3dfaa42e02132d63bef6",
+        "assets/animations/Mixamo/Jumping To Hanging.fbx": "b328b9069b854716546f41db25228cd21bc5436be11a392a64aa73a63cefa0bd"
+      },
+      "structural_fingerprint": "20f8ad5e28414d62d2fd6491f447835f239e98696e09da48d77f4f177a7a9813",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Jumping To Hanging (1).fbx": [],
+          "assets/animations/Mixamo/Jumping To Hanging.fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 1.5,
+            "loop": 0,
+            "metadata_sha256": "814ffde3a50582174e2cc90fd092fcd261a62d3c3f7d3b3b5af986a4d018bdc7",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 223,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-duplicate:b1de5ef39b7a198fc0813a48",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Braced Hang Shimmy Left.fbx",
+        "assets/animations/Mixamo/Braced Hang Shimmy.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Braced Hang Shimmy Left.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Braced Hang Shimmy.fbx": "5f210e982173dd18b2ea3656e6634299b75d40b1e4995a1bdb80c7e068aefc5f",
+        "assets/animations/Mixamo/Braced Hang Shimmy Left.fbx": "dcfc95ffca184542c85083707ae0f89108db4efdce3593f8cd010acbbdbf642e"
+      },
+      "structural_fingerprint": "2c013f24fd2c9368835f1427fff5793b2cf91008f1b4aef5e63d82d7b52eb35a",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Braced Hang Shimmy Left.fbx": [],
+          "assets/animations/Mixamo/Braced Hang Shimmy.fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 1.16666662693024,
+            "loop": 0,
+            "metadata_sha256": "ebd829ba6091d96ed78e4801c8122ec4409a269a096c4c8aad93b71615bd4d07",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 173,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-duplicate:90e398832ca5335f666cd973",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Braced Hang Hop Left (1).fbx",
+        "assets/animations/Mixamo/Braced Hang Hop Left.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Braced Hang Hop Left.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Braced Hang Hop Left (1).fbx": "d73f7ec1bc9db83459e494f18e421c935eb8ea3d4932d5817c0ead6a3bb9553f",
+        "assets/animations/Mixamo/Braced Hang Hop Left.fbx": "eeb507657bba02bb6054d00ddd1e851021da526299c4b96a57c6ff70543af7f3"
+      },
+      "structural_fingerprint": "6d8db04ff6e7d3a569d6ca8b592cfe5a233ef0ce783f7004eccecee050bcf976",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Braced Hang Hop Left (1).fbx": [],
+          "assets/animations/Mixamo/Braced Hang Hop Left.fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 1.5,
+            "loop": 0,
+            "metadata_sha256": "97cc0fe011081835fbd3aba0f1ebf5f8699e71ca87538060d2d83a1555b73e89",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 281,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-duplicate:ae9191a92b837502b873e95f",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Falling to Braced Hang.fbx",
+        "assets/animations/Mixamo/Jump Braced Hang Wall.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Falling to Braced Hang.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Jump Braced Hang Wall.fbx": "630ce042736a5dcac0916a925b17b69c012be784cbc56431736240a995b5e3d2",
+        "assets/animations/Mixamo/Falling to Braced Hang.fbx": "716ad0da097ea6355928e009af822e4f63e0d3847b19ac22ca6cc7686241b643"
+      },
+      "structural_fingerprint": "8727e04aed3471da9f2bd43f45ab021f3df4571975d58cbafdc29cfd0cd711d5",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Falling to Braced Hang.fbx": [],
+          "assets/animations/Mixamo/Jump Braced Hang Wall.fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 1.29999995231628,
+            "loop": 0,
+            "metadata_sha256": "dba347633ddd064fc694be216ad19d11dcbdfef4f9ae568fa3e0256dde48acad",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 193,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-duplicate:3038cb8269042179ac75898e",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Braced Hang Shimmy Right.fbx",
+        "assets/animations/Mixamo/Braced Hang Shimmy(1).fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Braced Hang Shimmy Right.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Braced Hang Shimmy(1).fbx": "7111637841e2e88bb358dc08aa3d455d6bd4289d3802dadd50f11c98babd0e5f",
+        "assets/animations/Mixamo/Braced Hang Shimmy Right.fbx": "75e7ac7a15c4f2b7c78aa30147d2d9ea0587a7a901aea2ae62e667bf89bd87de"
+      },
+      "structural_fingerprint": "a293242b6815cb76caa4185576ba40e7cd367f9944d9863593c981b56e785270",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Braced Hang Shimmy Right.fbx": [],
+          "assets/animations/Mixamo/Braced Hang Shimmy(1).fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 1.16666662693024,
+            "loop": 0,
+            "metadata_sha256": "54f0bac9f7e359d8e7b6d2beb7de8ac1b4fed122404aeb704d7739b9fd0b299a",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 173,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-duplicate:08413a33f935f14084c17df3",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Braced Hang Hop Right (1).fbx",
+        "assets/animations/Mixamo/Braced Hang Hop Right.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Braced Hang Hop Right.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Braced Hang Hop Right (1).fbx": "7cda2bfa0080c60905e97fe4fc69199d8b7a18e4f0e9a3f8f0ad24fe2c1cf939",
+        "assets/animations/Mixamo/Braced Hang Hop Right.fbx": "17c14b5fd9cdf89ecf0e3d2733b05fcd24a7ff89653fd2e2b519fced286176e7"
+      },
+      "structural_fingerprint": "b0235c53e0d1433a5a7ffb96f3d75236aa540caa78823e3a4009c7033d5e135c",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Braced Hang Hop Right (1).fbx": [],
+          "assets/animations/Mixamo/Braced Hang Hop Right.fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 1.66666662693024,
+            "loop": 0,
+            "metadata_sha256": "28ba62b6d6c745b9b0328751acd18f1f06f55c055442f7dc506bc66f8f2547eb",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 247,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-duplicate:600e34a9a91aa1107d36cf65",
+      "status": "verified_duplicate",
+      "members": [
+        "assets/animations/Mixamo/Braced Hang Drop (1).fbx",
+        "assets/animations/Mixamo/Braced Hang Drop.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Braced Hang Drop.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Braced Hang Drop (1).fbx": "07c03e548ac2e78b2e54c0836b9c85f0df2b914a68e9b2229123f1ac148ef74a",
+        "assets/animations/Mixamo/Braced Hang Drop.fbx": "f3e9438cdd91308edf1fc0586fd1ca09f6f14d38e6e4b53e0ab761a7aeb38229"
+      },
+      "structural_fingerprint": "d1a4f9036b3a037bd4ba4c6b015304a7094707cf6a7b9e241bfd325cd96f1031",
+      "evidence": [
+        "Exact decoded FBX GlobalSettings match, including coordinate axes, units and time settings.",
+        "Complete Model and NodeAttribute properties match, including hierarchy and rest transforms.",
+        "AnimationStack timing, AnimationLayer properties and Takes match.",
+        "Full animation curve key times, values, default values, interpolation flags, tangent data and reference counts match.",
+        "All 399 connections match after normalizing file-specific object IDs.",
+        "Unconnected unnamed curves are compared as complete multisets; they do not participate in the playback graph.",
+        "Godot imported node hierarchy/rest transforms and resolved bone bindings match exactly.",
+        "Actual clip identities, durations, loops, interpolation metadata and all imported key values match exactly.",
+        "All node and bone world transforms match at 120 Hz, every imported key time, and both endpoints; root motion is retained."
+      ],
+      "keeper_basis": {
+        "active_references": {
+          "assets/animations/Mixamo/Braced Hang Drop (1).fbx": [],
+          "assets/animations/Mixamo/Braced Hang Drop.fbx": []
+        },
+        "approved_members": []
+      },
+      "reason": "Source structure and imported Godot poses match. Redundant files may be proposed for a separate Trash confirmation.",
+      "duplicate_file_eligible": true,
+      "pose_verification": {
+        "clips": [
+          {
+            "binding_count": 43,
+            "duration": 0.899999976158142,
+            "loop": 0,
+            "metadata_sha256": "e57b8ef547067fe80ffafbca9109629cf3d81203ea5d1f87d4fa25104c8c0ded",
+            "name": "mixamo_com"
+          }
+        ],
+        "max_basis_error": 0.0,
+        "max_position_error_m": 0.0,
+        "sample_hz": 120.0,
+        "samples": 134,
+        "verified": true
+      }
+    },
+    {
+      "id": "animation-variant:52700441a2b17bf4f557e183",
+      "status": "distinct_variant",
+      "members": [
+        "assets/animations/Mixamo/Braced Hang Shimmy(1).fbx",
+        "assets/animations/Mixamo/Braced Hang Shimmy.fbx"
+      ],
+      "keeper": "assets/animations/Mixamo/Braced Hang Shimmy.fbx",
+      "member_sha256": {
+        "assets/animations/Mixamo/Braced Hang Shimmy(1).fbx": "7111637841e2e88bb358dc08aa3d455d6bd4289d3802dadd50f11c98babd0e5f",
+        "assets/animations/Mixamo/Braced Hang Shimmy.fbx": "5f210e982173dd18b2ea3656e6634299b75d40b1e4995a1bdb80c7e068aefc5f"
+      },
+      "evidence": [
+        "Similar filenames have different decoded animation structure."
+      ],
+      "reason": "These files must remain separate; a numeric download suffix is not duplicate evidence.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:df4ea2cf8ee625c9ef496827",
+      "status": "derived",
+      "members": [
+        "assets/animations/crouch_idle.tres"
+      ],
+      "keeper": "assets/animations/crouch_idle.tres",
+      "member_sha256": {
+        "assets/animations/crouch_idle.tres": "cc7a46b821cec4b7c3495d841209b6de7ffeeaa594a3fc563886892421ecc563"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:46cda5c9437e4eba1306a977",
+      "status": "derived",
+      "members": [
+        "assets/animations/crouch_walk.tres"
+      ],
+      "keeper": "assets/animations/crouch_walk.tres",
+      "member_sha256": {
+        "assets/animations/crouch_walk.tres": "424a67452e714da01b8c5b84c89bb672a4392b934196d4784c144f280bdb27e6"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:c347b7ba8a954b101be9a91d",
+      "status": "derived",
+      "members": [
+        "assets/animations/jog.tres"
+      ],
+      "keeper": "assets/animations/jog.tres",
+      "member_sha256": {
+        "assets/animations/jog.tres": "29d655cff19e8d4eabc85e6a1bc0156d554f7d8151bc60dbef2d9a65321548d0"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:84f3aff60a99b08932a4ba59",
+      "status": "derived",
+      "members": [
+        "assets/animations/jump_air.tres"
+      ],
+      "keeper": "assets/animations/jump_air.tres",
+      "member_sha256": {
+        "assets/animations/jump_air.tres": "2dee56ce88b46fd6429432039aa8547a291571c65b8e5f2ee56deaa1e3baee4f"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:578dd3cbf4e46a485fa33519",
+      "status": "derived",
+      "members": [
+        "assets/animations/jump_land.tres"
+      ],
+      "keeper": "assets/animations/jump_land.tres",
+      "member_sha256": {
+        "assets/animations/jump_land.tres": "85e0d93cc3bd71c53f923a340cd295bf4c1855f1972a540324d33c246e3b5696"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:ed862b2c3438bfe1d8744109",
+      "status": "derived",
+      "members": [
+        "assets/animations/jump_start.tres"
+      ],
+      "keeper": "assets/animations/jump_start.tres",
+      "member_sha256": {
+        "assets/animations/jump_start.tres": "2a6060789d01b02c9ab457af38e7a2223e90cfcc578ee4b72c5e8ae65b15ee8c"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:7e6b80ee72b0490fcd842a27",
+      "status": "derived",
+      "members": [
+        "assets/animations/roll_back.tres"
+      ],
+      "keeper": "assets/animations/roll_back.tres",
+      "member_sha256": {
+        "assets/animations/roll_back.tres": "0d8bb24961217b1b53f9acdaff1da9cbe64243756528b21f8a812e5de75fcd08"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:af159157f1b25a5d9c3c2f11",
+      "status": "derived",
+      "members": [
+        "assets/animations/roll_forward.tres"
+      ],
+      "keeper": "assets/animations/roll_forward.tres",
+      "member_sha256": {
+        "assets/animations/roll_forward.tres": "c2744bc67b0a84bfb3f6376eaf8b948834fb976c7e18c5c13dc8054dae58204c"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:ad92eef8a3bc316e06c8d816",
+      "status": "derived",
+      "members": [
+        "assets/animations/roll_left.tres"
+      ],
+      "keeper": "assets/animations/roll_left.tres",
+      "member_sha256": {
+        "assets/animations/roll_left.tres": "62ba6be76cd8db2a78fb1d3a7c484637a2f7a9b91e41ad543c3534d276dd6d96"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:b55df76fa5ab557321862a03",
+      "status": "derived",
+      "members": [
+        "assets/animations/roll_right.tres"
+      ],
+      "keeper": "assets/animations/roll_right.tres",
+      "member_sha256": {
+        "assets/animations/roll_right.tres": "13838a49980ed77a2fda589b807df4c06c3eacdb837629b14ad0178e3bca37dd"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:3dd9497ff91a9d0c59446647",
+      "status": "derived",
+      "members": [
+        "assets/animations/sprint.tres"
+      ],
+      "keeper": "assets/animations/sprint.tres",
+      "member_sha256": {
+        "assets/animations/sprint.tres": "ca332ffbc01dd907bb21778606325ee26ac62658b70bc2159d19848d44c44712"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:d4262b86ca64719dc87a4d61",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/crouch_idle.tres"
+      ],
+      "keeper": "assets/animations/ual/crouch_idle.tres",
+      "member_sha256": {
+        "assets/animations/ual/crouch_idle.tres": "f2773dce578a6720defe62824ff3be5d5cb3f57cd71b486b1dc99451fe4082ec"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:5c2ac1826984aa18bc51aed7",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/crouch_walk.tres"
+      ],
+      "keeper": "assets/animations/ual/crouch_walk.tres",
+      "member_sha256": {
+        "assets/animations/ual/crouch_walk.tres": "aadbc7271506c01c6a9b6a2d2ee9e1017d5a261a6c794309ae29ba259df35392"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:63bb5459e6d2c6adb82ba2b2",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/idle.tres"
+      ],
+      "keeper": "assets/animations/ual/idle.tres",
+      "member_sha256": {
+        "assets/animations/ual/idle.tres": "21fce3ace0ad26aa7fd0cbbed9761c1f709411c578ab01ab3f031721bc2eb15f"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:b3cbcfb72f4a631b50f0ba18",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/jog.tres"
+      ],
+      "keeper": "assets/animations/ual/jog.tres",
+      "member_sha256": {
+        "assets/animations/ual/jog.tres": "b41794868252abba10dee61d745365fa3c88b7a65c5adeed231ede27baa61462"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:0a67482a4426ea3dff7e0d35",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/jump_air.tres"
+      ],
+      "keeper": "assets/animations/ual/jump_air.tres",
+      "member_sha256": {
+        "assets/animations/ual/jump_air.tres": "eaaa831e3de2e649f5389843c2e17d07b2286ef9a91682695d9c0d80cf0b6cb9"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:d844ef2e5c57ecd09c91191c",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/jump_land.tres"
+      ],
+      "keeper": "assets/animations/ual/jump_land.tres",
+      "member_sha256": {
+        "assets/animations/ual/jump_land.tres": "c66ad64e2dfc66e94ef9e05be9435487a2c3e63f566d30692ad90d5ac25cd536"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:0857fbed8e6f8f2651d8c232",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/jump_start.tres"
+      ],
+      "keeper": "assets/animations/ual/jump_start.tres",
+      "member_sha256": {
+        "assets/animations/ual/jump_start.tres": "003c99b0cb0aebf099674d9c60f9df5c89135591219072cdf62f9416ed1cd131"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:68a40e38586e6f44a5f7c824",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/mixamo_crawling.tres"
+      ],
+      "keeper": "assets/animations/ual/mixamo_crawling.tres",
+      "member_sha256": {
+        "assets/animations/ual/mixamo_crawling.tres": "26aeed8a88fd1c82c4c8bcf20f8f9b494fd96019b56c037965b2020ea55db3e0"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:6b58d47dba2159e3353bce5f",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/native_actions.tres"
+      ],
+      "keeper": "assets/animations/ual/native_actions.tres",
+      "member_sha256": {
+        "assets/animations/ual/native_actions.tres": "0941796a17098626470d599ddb2055313fb177beb7a9b0565d4af6d3cbeb47f9"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:6db7e0fcae57e0cebde9c4d1",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/native_combat.tres"
+      ],
+      "keeper": "assets/animations/ual/native_combat.tres",
+      "member_sha256": {
+        "assets/animations/ual/native_combat.tres": "434319b5394c2f78b1dc0a83f015d085b04fe34eb5a3f436f7286402d0d108ec"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:1d883620303db89ccab55673",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/native_locomotion.tres"
+      ],
+      "keeper": "assets/animations/ual/native_locomotion.tres",
+      "member_sha256": {
+        "assets/animations/ual/native_locomotion.tres": "4d05390ed72452f2a756cd4d9b45d53e5fb82d73f860b8441afad684b3d803ad"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:bd90cd36f9aff26bb2c50534",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/native_swimming.tres"
+      ],
+      "keeper": "assets/animations/ual/native_swimming.tres",
+      "member_sha256": {
+        "assets/animations/ual/native_swimming.tres": "f6f307b785d48014048a904c05e7d3be5dba33e2ee0af66f11428263bb7d3abe"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:9a5751f369ed2ab160f2c22f",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/roll_back.tres"
+      ],
+      "keeper": "assets/animations/ual/roll_back.tres",
+      "member_sha256": {
+        "assets/animations/ual/roll_back.tres": "ce64be3631f6fa7d3ed33279818a44b32484622ae3089e749987181aa25ba4f7"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:b366dc8044b1dd4ee992a463",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/roll_forward.tres"
+      ],
+      "keeper": "assets/animations/ual/roll_forward.tres",
+      "member_sha256": {
+        "assets/animations/ual/roll_forward.tres": "91d7644898c398651ea61461646a5447af2bc226c7d345a416ad84a38b4578f3"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:e7ffcb36f5861505995e3d57",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/roll_left.tres"
+      ],
+      "keeper": "assets/animations/ual/roll_left.tres",
+      "member_sha256": {
+        "assets/animations/ual/roll_left.tres": "6d36ca5760dab42474e511ed1a500c5b74fccd6b65766cb1bf2483edf6bb5a21"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:e17d4d76c217fc548c808963",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/roll_right.tres"
+      ],
+      "keeper": "assets/animations/ual/roll_right.tres",
+      "member_sha256": {
+        "assets/animations/ual/roll_right.tres": "44a196d521fc3d02b3ed98ef8b2bab85c61efdedabd91e809ad8cfead839bb62"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:519ee0898e654839ee8b3339",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/sprint.tres"
+      ],
+      "keeper": "assets/animations/ual/sprint.tres",
+      "member_sha256": {
+        "assets/animations/ual/sprint.tres": "edf234e32546a945be0caf38d23ea6ce67dfb088d61b96c259006491694ce0d0"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:5c6e56ecfa2c30e7f9641c76",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/temporary_actions.tres"
+      ],
+      "keeper": "assets/animations/ual/temporary_actions.tres",
+      "member_sha256": {
+        "assets/animations/ual/temporary_actions.tres": "5d5ab49921c491903ded8602791aa9af2f9204ec50b9516945d6764c020e02b4"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    },
+    {
+      "id": "animation-derived:a78178eff2847b7a4843ef33",
+      "status": "derived",
+      "members": [
+        "assets/animations/ual/walk.tres"
+      ],
+      "keeper": "assets/animations/ual/walk.tres",
+      "member_sha256": {
+        "assets/animations/ual/walk.tres": "5c3188df8bed80110b4bd492e91e1bee4a999ca589dee9d835d5b02d0f086627"
+      },
+      "evidence": [
+        "Project-owned Godot animation resource; source filename equality is not a playback-equivalence test."
+      ],
+      "reason": "Retain runtime animation resources separately from source libraries and browser previews.",
+      "duplicate_file_eligible": false
+    }
+  ],
+  "source_count": 116,
+  "fbx_count": 77,
+  "exact_file_groups": [],
+  "unresolved_clip_name_collisions": [
+    {
+      "name": "A_TPose",
+      "clips": [
+        {
+          "id": "art:clip:57ab40477768c4d1cf2e8459",
+          "path": "assets/third_party/quaternius/UAL1_Standard.glb",
+          "name": "A_TPose"
+        },
+        {
+          "id": "art:clip:a9161e36a48ac388e3b9ede7",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "A_TPose"
+        },
+        {
+          "id": "art:clip:2f5948421b05c2f774614f72",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "A_TPose"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Chest_Open",
+      "clips": [
+        {
+          "id": "art:clip:480e0d5d0d58f8aea752c5af",
+          "path": "assets/third_party/quaternius/fantasy_props/Exports/glTF/Chest_Wood.gltf",
+          "name": "Chest_Open"
+        },
+        {
+          "id": "art:clip:71862b8a14b165ef890e9e5f",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Chest_Open"
+        },
+        {
+          "id": "art:clip:f7f75beacace872c14755514",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Chest_Open"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "ClimbUp_1m",
+      "clips": [
+        {
+          "id": "art:clip:c1ed7e0613d7bcebd732fa60",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "ClimbUp_1m"
+        },
+        {
+          "id": "art:clip:9d1f55c7c9e1c15975359a93",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "ClimbUp_1m"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Consume",
+      "clips": [
+        {
+          "id": "art:clip:d4a8373cb9b3df34f31fbfdb",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Consume"
+        },
+        {
+          "id": "art:clip:acfdb8f132c9ba5bcdb1c82f",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Consume"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Farm_Harvest",
+      "clips": [
+        {
+          "id": "art:clip:7acdbe4e155610a856a7bdad",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Farm_Harvest"
+        },
+        {
+          "id": "art:clip:bd1f9405c1cbcb975343c1f1",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Farm_Harvest"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Farm_PlantSeed",
+      "clips": [
+        {
+          "id": "art:clip:2a1e14700a9c2c099dce33be",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Farm_PlantSeed"
+        },
+        {
+          "id": "art:clip:2bbecf160827b49d10a4f26f",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Farm_PlantSeed"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Farm_Watering",
+      "clips": [
+        {
+          "id": "art:clip:c6f075d3a476fa7885ce7f7a",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Farm_Watering"
+        },
+        {
+          "id": "art:clip:5756780580e251c6794e51b4",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Farm_Watering"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Hit_Knockback",
+      "clips": [
+        {
+          "id": "art:clip:18a7e7ad7de0f058e29d79c5",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Hit_Knockback"
+        },
+        {
+          "id": "art:clip:66176a510dea2ffc645c6869",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Hit_Knockback"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Idle_FoldArms_Loop",
+      "clips": [
+        {
+          "id": "art:clip:103623e6ccf8478cbf965f03",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Idle_FoldArms_Loop"
+        },
+        {
+          "id": "art:clip:16ebde8792bade41a6571b1f",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Idle_FoldArms_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Idle_Lantern_Loop",
+      "clips": [
+        {
+          "id": "art:clip:fb9f261a5f177c74285a343c",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Idle_Lantern_Loop"
+        },
+        {
+          "id": "art:clip:c231be1bf845e62b80223483",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Idle_Lantern_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Idle_No_Loop",
+      "clips": [
+        {
+          "id": "art:clip:ee63d3d7319121e107bbaa81",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Idle_No_Loop"
+        },
+        {
+          "id": "art:clip:42f6046c2dc3317ce8e782cb",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Idle_No_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Idle_Rail_Call",
+      "clips": [
+        {
+          "id": "art:clip:2cda631f484de172274d4d69",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Idle_Rail_Call"
+        },
+        {
+          "id": "art:clip:92ed3922a3e3a3f1ca34c31d",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Idle_Rail_Call"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Idle_Rail_Loop",
+      "clips": [
+        {
+          "id": "art:clip:c39e47615426f1b4cf21b49e",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Idle_Rail_Loop"
+        },
+        {
+          "id": "art:clip:50fa8e049c3ad35e8606d2ad",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Idle_Rail_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Idle_Shield_Break",
+      "clips": [
+        {
+          "id": "art:clip:0f69ed553653b9aab241411b",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Idle_Shield_Break"
+        },
+        {
+          "id": "art:clip:c4641f614b26993cae2a52d3",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Idle_Shield_Break"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Idle_Shield_Loop",
+      "clips": [
+        {
+          "id": "art:clip:d86b61ac90a80b6d0bd394d5",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Idle_Shield_Loop"
+        },
+        {
+          "id": "art:clip:f467000d6d4ebfee2ddc63c7",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Idle_Shield_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Idle_TalkingPhone_Loop",
+      "clips": [
+        {
+          "id": "art:clip:f6fd00b394d82aa8ffcc36c7",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Idle_TalkingPhone_Loop"
+        },
+        {
+          "id": "art:clip:2d89360e9d974ee5f1388407",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Idle_TalkingPhone_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "LayToIdle",
+      "clips": [
+        {
+          "id": "art:clip:c54d8a0bfb2afa7aec86b579",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "LayToIdle"
+        },
+        {
+          "id": "art:clip:190443a87bda9b0e11d7587a",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "LayToIdle"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Melee_Hook",
+      "clips": [
+        {
+          "id": "art:clip:53938e849e56bb8777746e86",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Melee_Hook"
+        },
+        {
+          "id": "art:clip:531a9f1316f2727b3393b70f",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Melee_Hook"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Melee_Hook_Rec",
+      "clips": [
+        {
+          "id": "art:clip:55db3def597e8bf4b28adbf0",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Melee_Hook_Rec"
+        },
+        {
+          "id": "art:clip:439a98905fb088816ff76f0b",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Melee_Hook_Rec"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "NinjaJump_Idle_Loop",
+      "clips": [
+        {
+          "id": "art:clip:a065a2fce8115c2148f237ee",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "NinjaJump_Idle_Loop"
+        },
+        {
+          "id": "art:clip:b4e68715e5456881117da6ed",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "NinjaJump_Idle_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "NinjaJump_Land",
+      "clips": [
+        {
+          "id": "art:clip:1168b393324dcc7452889c4c",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "NinjaJump_Land"
+        },
+        {
+          "id": "art:clip:bb171d3a40e7355c7a7117a8",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "NinjaJump_Land"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "NinjaJump_Start",
+      "clips": [
+        {
+          "id": "art:clip:3caac64df85dd37cce42e9e0",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "NinjaJump_Start"
+        },
+        {
+          "id": "art:clip:d938a551d79942f32d4bde50",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "NinjaJump_Start"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "OverhandThrow",
+      "clips": [
+        {
+          "id": "art:clip:7d886f3097eae141e02dc59b",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "OverhandThrow"
+        },
+        {
+          "id": "art:clip:e2717ba03848dd8bca3546ee",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "OverhandThrow"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Shield_Dash",
+      "clips": [
+        {
+          "id": "art:clip:67670534e98d3c2e667a5e3f",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Shield_Dash"
+        },
+        {
+          "id": "art:clip:32a43eedd5daab00aaa9c19d",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Shield_Dash"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Shield_OneShot",
+      "clips": [
+        {
+          "id": "art:clip:65324105899ccfff6b0d5346",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Shield_OneShot"
+        },
+        {
+          "id": "art:clip:c2e4c486c7a106b30a5a9949",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Shield_OneShot"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Slide_Exit",
+      "clips": [
+        {
+          "id": "art:clip:438881927f7d2f9c97c88ab7",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Slide_Exit"
+        },
+        {
+          "id": "art:clip:a77cb3fd8212eb0dbbb59ed6",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Slide_Exit"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Slide_Loop",
+      "clips": [
+        {
+          "id": "art:clip:358950a15535e5e77a9e2423",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Slide_Loop"
+        },
+        {
+          "id": "art:clip:8eb8d4ebcb6a9c04e287db3f",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Slide_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Slide_Start",
+      "clips": [
+        {
+          "id": "art:clip:b34d7c2fb242a89cc2c771b6",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Slide_Start"
+        },
+        {
+          "id": "art:clip:54ffd30fea8c74eeaf893272",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Slide_Start"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Block",
+      "clips": [
+        {
+          "id": "art:clip:eebcd0abe0532dc02610627c",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Block"
+        },
+        {
+          "id": "art:clip:81d5b533d6cf0fa1dff8cc76",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Block"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Dash",
+      "clips": [
+        {
+          "id": "art:clip:c627bae6d0d3f23c48a6a790",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Dash"
+        },
+        {
+          "id": "art:clip:853c56559922ec136bf5a232",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Dash"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Heavy_Combo",
+      "clips": [
+        {
+          "id": "art:clip:6fe3db9f61cbc4bdafa3e5b2",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Heavy_Combo"
+        },
+        {
+          "id": "art:clip:1f91ddfc378619f4272e2e60",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Heavy_Combo"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Regular_A",
+      "clips": [
+        {
+          "id": "art:clip:cb5b5c0532cdd90c4264682d",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Regular_A"
+        },
+        {
+          "id": "art:clip:fccb6f7dfd0f1c73b018a1b2",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Regular_A"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Regular_A_Rec",
+      "clips": [
+        {
+          "id": "art:clip:ee78bc5e300b3bd53a8ef922",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Regular_A_Rec"
+        },
+        {
+          "id": "art:clip:cc35b96d3d52cd6f0fafc9ac",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Regular_A_Rec"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Regular_B",
+      "clips": [
+        {
+          "id": "art:clip:c95e384a619a3d9b5577f38b",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Regular_B"
+        },
+        {
+          "id": "art:clip:ba0f613ae6f1de142f1fc3c1",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Regular_B"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Regular_B_Rec",
+      "clips": [
+        {
+          "id": "art:clip:38ecf08b1737df16ee091f98",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Regular_B_Rec"
+        },
+        {
+          "id": "art:clip:1b23d7d7c93a77370feb593d",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Regular_B_Rec"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Regular_C",
+      "clips": [
+        {
+          "id": "art:clip:42a31484dc9461dff9e5d922",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Regular_C"
+        },
+        {
+          "id": "art:clip:de71d0c7aad53571ee0b23f0",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Regular_C"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Sword_Regular_Combo",
+      "clips": [
+        {
+          "id": "art:clip:2a78c16231ef9b3ba265f1e0",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Sword_Regular_Combo"
+        },
+        {
+          "id": "art:clip:d84940dad92a95bd23f2db37",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Sword_Regular_Combo"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "TreeChopping_Loop",
+      "clips": [
+        {
+          "id": "art:clip:3bb4d7cbb9d1586f47850659",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "TreeChopping_Loop"
+        },
+        {
+          "id": "art:clip:b9ead48711234a88462f9ff6",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "TreeChopping_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Walk_Carry_Loop",
+      "clips": [
+        {
+          "id": "art:clip:d905ac21926b2d580136eb57",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Walk_Carry_Loop"
+        },
+        {
+          "id": "art:clip:0c9163b45915b418ce94bdbf",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Walk_Carry_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Yes",
+      "clips": [
+        {
+          "id": "art:clip:9410b06fa600d5d7486ab455",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Yes"
+        },
+        {
+          "id": "art:clip:a6246012d5c47ed1dd0feb63",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Yes"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Zombie_Idle_Loop",
+      "clips": [
+        {
+          "id": "art:clip:d1ed51a91cf9070f3a64c233",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Zombie_Idle_Loop"
+        },
+        {
+          "id": "art:clip:9e34b1f7ccb2d2ea4104cb3e",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Zombie_Idle_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Zombie_Scratch",
+      "clips": [
+        {
+          "id": "art:clip:d961181bea11f1e01cc2c2ac",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Zombie_Scratch"
+        },
+        {
+          "id": "art:clip:3f5e0e05f5c5156efac7b12b",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Zombie_Scratch"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "Zombie_Walk_Fwd_Loop",
+      "clips": [
+        {
+          "id": "art:clip:324a69c4a45f32646e5c7239",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+          "name": "Zombie_Walk_Fwd_Loop"
+        },
+        {
+          "id": "art:clip:484947acb6e6b266888060ab",
+          "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+          "name": "Zombie_Walk_Fwd_Loop"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "crouch_idle",
+      "clips": [
+        {
+          "id": "art:clip:7335fee9dc69cd52ba0dfbeb",
+          "path": "assets/animations/ual/native_locomotion.tres",
+          "name": "crouch_idle"
+        },
+        {
+          "id": "art:clip:6e0357aeb2dfdb3a675be022",
+          "path": "assets/animations/ual/crouch_idle.tres",
+          "name": "crouch_idle"
+        },
+        {
+          "id": "art:clip:ec11aff9e9f20fd436dfa733",
+          "path": "assets/animations/crouch_idle.tres",
+          "name": "crouch_idle"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "crouch_walk",
+      "clips": [
+        {
+          "id": "art:clip:26d1303f49788c107ebd2739",
+          "path": "assets/animations/ual/crouch_walk.tres",
+          "name": "crouch_walk"
+        },
+        {
+          "id": "art:clip:c59290f5ac7b75992a6cf154",
+          "path": "assets/animations/ual/native_locomotion.tres",
+          "name": "crouch_walk"
+        },
+        {
+          "id": "art:clip:8fb931bc71568d9b2160490a",
+          "path": "assets/animations/crouch_walk.tres",
+          "name": "crouch_walk"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "idle",
+      "clips": [
+        {
+          "id": "art:clip:3db0c00fcd217b9fd5a3418b",
+          "path": "assets/animations/ual/idle.tres",
+          "name": "idle"
+        },
+        {
+          "id": "art:clip:7f386c35e5d51efbcf87c231",
+          "path": "assets/animations/ual/native_locomotion.tres",
+          "name": "idle"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "jog",
+      "clips": [
+        {
+          "id": "art:clip:375c1b518b0c3418f2c720f6",
+          "path": "assets/animations/ual/native_locomotion.tres",
+          "name": "jog"
+        },
+        {
+          "id": "art:clip:798ed23df08152e7be044ebb",
+          "path": "assets/animations/ual/jog.tres",
+          "name": "jog"
+        },
+        {
+          "id": "art:clip:a2f5c0b81c850f3fa3e4cf35",
+          "path": "assets/animations/jog.tres",
+          "name": "jog"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "jump_air",
+      "clips": [
+        {
+          "id": "art:clip:1ee23eae4689f1fdbed87419",
+          "path": "assets/animations/ual/jump_air.tres",
+          "name": "jump_air"
+        },
+        {
+          "id": "art:clip:c14444a767322435a601c432",
+          "path": "assets/animations/jump_air.tres",
+          "name": "jump_air"
+        },
+        {
+          "id": "art:clip:b7f4518c3e0802377db8122a",
+          "path": "assets/animations/ual/temporary_actions.tres",
+          "name": "jump_air"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "jump_land",
+      "clips": [
+        {
+          "id": "art:clip:bf9b87a34abd41ac8c962a18",
+          "path": "assets/animations/ual/jump_land.tres",
+          "name": "jump_land"
+        },
+        {
+          "id": "art:clip:922f8202563af9351389ef4b",
+          "path": "assets/animations/ual/temporary_actions.tres",
+          "name": "jump_land"
+        },
+        {
+          "id": "art:clip:801380ecdbe1702346db8a36",
+          "path": "assets/animations/jump_land.tres",
+          "name": "jump_land"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "jump_start",
+      "clips": [
+        {
+          "id": "art:clip:e4336d7fb9cd4975e4f95ab3",
+          "path": "assets/animations/jump_start.tres",
+          "name": "jump_start"
+        },
+        {
+          "id": "art:clip:346dcac3bc244f3db475e6a8",
+          "path": "assets/animations/ual/jump_start.tres",
+          "name": "jump_start"
+        },
+        {
+          "id": "art:clip:1241fc261a7fa4bd9ad3d13f",
+          "path": "assets/animations/ual/temporary_actions.tres",
+          "name": "jump_start"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "k_idle",
+      "clips": [
+        {
+          "id": "art:clip:c9b1de1d11e3897ff08064e4",
+          "path": "assets/third_party/fullplate_knight/knight.glb",
+          "name": "k_idle"
+        },
+        {
+          "id": "art:clip:85dae0831fa0f1ae6073d9fc",
+          "path": "assets/third_party/fullplate_knight/knight_complete.glb",
+          "name": "k_idle"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "k_walk",
+      "clips": [
+        {
+          "id": "art:clip:798d816178eeaa89e04bf278",
+          "path": "assets/third_party/fullplate_knight/knight.glb",
+          "name": "k_walk"
+        },
+        {
+          "id": "art:clip:2ea868930dc60abe78b3624f",
+          "path": "assets/third_party/fullplate_knight/knight_complete.glb",
+          "name": "k_walk"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "mixamo_com",
+      "clips": [
+        {
+          "id": "art:clip:54c636f97f0d5b9108164ddc",
+          "path": "assets/animations/Mixamo/Standing Aim Walk Right.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:aed54ee202427bbdc1dfe9d2",
+          "path": "assets/animations/Mixamo/Dying.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:08591c4919929d7f52e89671",
+          "path": "assets/animations/Mixamo/Standing Aim Recoil.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:dc37a66b1c99a5a7ebd8506b",
+          "path": "assets/animations/Mixamo/Fight Idle.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:efb7bafcc63be92d8aa65cdc",
+          "path": "assets/animations/Mixamo/Standing Melee Attack Horizontal.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:996c8fa54722962528f07eab",
+          "path": "assets/animations/Mixamo/Run With Sword.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:eb4dc269d76625dfb8796516",
+          "path": "assets/animations/Mixamo/Two Hand Spell Casting.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:48940d6fa88731b02e6012c1",
+          "path": "assets/animations/Mixamo/Being Strangled.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:a711edffac8fb106e7cc37a9",
+          "path": "assets/animations/Mixamo/Stunned.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:f47013ac002d3541f72f5a38",
+          "path": "assets/animations/Mixamo/Sheathing Sword.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:c90162f9779070a4e15c7ff1",
+          "path": "assets/animations/Mixamo/Standing Run Right.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:85c9a6754b3c47a87b53db4f",
+          "path": "assets/animations/Mixamo/Crawling.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:8a870e2881cae4150d31931c",
+          "path": "assets/animations/Mixamo/Mutant Swiping.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:49d20525cfa4efc0c61d69ea",
+          "path": "assets/animations/Mixamo/Standing Aim Walk Back.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:2b3df3c1a3dc090520322668",
+          "path": "assets/animations/Mixamo/Standing Aim Overdraw.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:7b75aa97d1d78fdf129ef1ca",
+          "path": "assets/animations/Mixamo/Crouch Walk Back.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:9d28869329cc4debd7ebf605",
+          "path": "assets/animations/Mixamo/Mutant Roaring.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:a1a4e11cda3817be288a9be4",
+          "path": "assets/animations/Mixamo/Crouch Walk Left.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:66a242ca7cf1d396f4b8982b",
+          "path": "assets/animations/Mixamo/Unarmed Equip Underarm.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:c6025ca810eff6f545d527fe",
+          "path": "assets/animations/Mixamo/Withdrawing Sword.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:10b79a0654cc054dda8d4cb0",
+          "path": "assets/animations/Mixamo/Low Crawl.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:4feb200647df3b71ea2af213",
+          "path": "assets/animations/Mixamo/Standing Disarm Bow.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:cdf3c7a9cbfc4f8e41bd0966",
+          "path": "assets/animations/Mixamo/Standing Draw Arrow.fbx",
+          "name": "mixamo_com"
+        },
+        {
+          "id": "art:clip:a320d3033e5d758387638d14",
+          "path": "assets/animations/Mixamo/Standing Aim Walk Left.fbx",
+          "name": "mixamo_com"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "roll_back",
+      "clips": [
+        {
+          "id": "art:clip:78cbffe8bf3d85af58476b07",
+          "path": "assets/animations/ual/roll_back.tres",
+          "name": "roll_back"
+        },
+        {
+          "id": "art:clip:b69fd38eea6fef2f361b22a0",
+          "path": "assets/animations/roll_back.tres",
+          "name": "roll_back"
+        },
+        {
+          "id": "art:clip:1317d1cb22888cd18f482d52",
+          "path": "assets/animations/ual/temporary_actions.tres",
+          "name": "roll_back"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "roll_forward",
+      "clips": [
+        {
+          "id": "art:clip:17e0630d1408d3815429e687",
+          "path": "assets/animations/roll_forward.tres",
+          "name": "roll_forward"
+        },
+        {
+          "id": "art:clip:9fdd86fdc69cd2ebbbe53eb5",
+          "path": "assets/animations/ual/roll_forward.tres",
+          "name": "roll_forward"
+        },
+        {
+          "id": "art:clip:3cb393aba92875d8dd4c6f5b",
+          "path": "assets/animations/ual/temporary_actions.tres",
+          "name": "roll_forward"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "roll_left",
+      "clips": [
+        {
+          "id": "art:clip:760d2bdf18c6670a33fc0057",
+          "path": "assets/animations/roll_left.tres",
+          "name": "roll_left"
+        },
+        {
+          "id": "art:clip:cdb498223f57b0d5abd8b58e",
+          "path": "assets/animations/ual/roll_left.tres",
+          "name": "roll_left"
+        },
+        {
+          "id": "art:clip:4055a7f125f38831cc77c64f",
+          "path": "assets/animations/ual/temporary_actions.tres",
+          "name": "roll_left"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "roll_right",
+      "clips": [
+        {
+          "id": "art:clip:a20f3b5a0beea95e03e46dab",
+          "path": "assets/animations/ual/roll_right.tres",
+          "name": "roll_right"
+        },
+        {
+          "id": "art:clip:5282d2a66258c01a73df71ab",
+          "path": "assets/animations/roll_right.tres",
+          "name": "roll_right"
+        },
+        {
+          "id": "art:clip:5b8cdaf9ae75d9f186da283d",
+          "path": "assets/animations/ual/temporary_actions.tres",
+          "name": "roll_right"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "sprint",
+      "clips": [
+        {
+          "id": "art:clip:a6d6fa1e28459be6983f128a",
+          "path": "assets/animations/ual/native_locomotion.tres",
+          "name": "sprint"
+        },
+        {
+          "id": "art:clip:e670725d751ec62f04ffe51e",
+          "path": "assets/animations/sprint.tres",
+          "name": "sprint"
+        },
+        {
+          "id": "art:clip:2309801ee21b21f2d12be2ca",
+          "path": "assets/animations/ual/sprint.tres",
+          "name": "sprint"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    },
+    {
+      "name": "walk",
+      "clips": [
+        {
+          "id": "art:clip:42355dcb957427a39d2d6ec5",
+          "path": "assets/animations/ual/walk.tres",
+          "name": "walk"
+        },
+        {
+          "id": "art:clip:7349781cd8b609dd7ff0a598",
+          "path": "assets/animations/ual/native_locomotion.tres",
+          "name": "walk"
+        }
+      ],
+      "duplicate_file_eligible": false,
+      "reason": "Shared clip name only. No clip-level structural or pose equivalence has been established across these libraries/resources."
+    }
+  ],
+  "coverage": "Whole-file hashes cover all listed sources. Structural/pose equivalence applies only to the explicit FBX groups; same-name clips inside GLB/glTF/Godot libraries remain unproven.",
+  "files": [
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Drop (1).fbx",
+      "current_path": "assets/animations/Mixamo/Braced Hang Drop (1).fbx",
+      "sha256": "07c03e548ac2e78b2e54c0836b9c85f0df2b914a68e9b2229123f1ac148ef74a",
+      "format": ".fbx",
+      "structural_fingerprint": "d1a4f9036b3a037bd4ba4c6b015304a7094707cf6a7b9e241bfd325cd96f1031"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Hop Left (1).fbx",
+      "current_path": "assets/animations/Mixamo/Braced Hang Hop Left (1).fbx",
+      "sha256": "d73f7ec1bc9db83459e494f18e421c935eb8ea3d4932d5817c0ead6a3bb9553f",
+      "format": ".fbx",
+      "structural_fingerprint": "6d8db04ff6e7d3a569d6ca8b592cfe5a233ef0ce783f7004eccecee050bcf976"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Hop Right (1).fbx",
+      "current_path": "assets/animations/Mixamo/Braced Hang Hop Right (1).fbx",
+      "sha256": "7cda2bfa0080c60905e97fe4fc69199d8b7a18e4f0e9a3f8f0ad24fe2c1cf939",
+      "format": ".fbx",
+      "structural_fingerprint": "b0235c53e0d1433a5a7ffb96f3d75236aa540caa78823e3a4009c7033d5e135c"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Hop Up (1).fbx",
+      "current_path": "assets/animations/Mixamo/Braced Hang Hop Up (1).fbx",
+      "sha256": "905bb0c08d054ce53436e4af1f0e2b06d64581c13094f5e7143cc3fc6cb704b3",
+      "format": ".fbx",
+      "structural_fingerprint": "06d4a6e564a40e54203bf22566c7dbf176c238b1f99cb95735cda66741fd81b9"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Shimmy(1).fbx",
+      "current_path": "assets/animations/Mixamo/Braced Hang Shimmy(1).fbx",
+      "sha256": "7111637841e2e88bb358dc08aa3d455d6bd4289d3802dadd50f11c98babd0e5f",
+      "format": ".fbx",
+      "structural_fingerprint": "a293242b6815cb76caa4185576ba40e7cd367f9944d9863593c981b56e785270"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Shimmy.fbx",
+      "current_path": "assets/animations/Mixamo/Braced Hang Shimmy.fbx",
+      "sha256": "5f210e982173dd18b2ea3656e6634299b75d40b1e4995a1bdb80c7e068aefc5f",
+      "format": ".fbx",
+      "structural_fingerprint": "2c013f24fd2c9368835f1427fff5793b2cf91008f1b4aef5e63d82d7b52eb35a"
+    },
+    {
+      "path": "assets/animations/Mixamo/Falling To Landing(1).fbx",
+      "current_path": "assets/animations/Mixamo/Falling To Landing(1).fbx",
+      "sha256": "b990c3d8fd4bd5314047d2f048da634f6bf1d91095a525baae28ba425c77af69",
+      "format": ".fbx",
+      "structural_fingerprint": "1e7bcfc4b936033891247d8d41216b30752f71ab9d7b5714c3b3cc2d3af26748"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jump Braced Hang Wall.fbx",
+      "current_path": "assets/animations/Mixamo/Jump Braced Hang Wall.fbx",
+      "sha256": "630ce042736a5dcac0916a925b17b69c012be784cbc56431736240a995b5e3d2",
+      "format": ".fbx",
+      "structural_fingerprint": "8727e04aed3471da9f2bd43f45ab021f3df4571975d58cbafdc29cfd0cd711d5"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jumping To Hanging (1).fbx",
+      "current_path": "assets/animations/Mixamo/Jumping To Hanging (1).fbx",
+      "sha256": "7b0e0479a896c8b0c9a1006c9888e1291b41d45cba4d3dfaa42e02132d63bef6",
+      "format": ".fbx",
+      "structural_fingerprint": "20f8ad5e28414d62d2fd6491f447835f239e98696e09da48d77f4f177a7a9813"
+    },
+    {
+      "path": "assets/animations/Mixamo/Falling to Braced Hang.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_airborne_to_braced_hang_v01.fbx",
+      "sha256": "716ad0da097ea6355928e009af822e4f63e0d3847b19ac22ca6cc7686241b643",
+      "format": ".fbx",
+      "structural_fingerprint": "8727e04aed3471da9f2bd43f45ab021f3df4571975d58cbafdc29cfd0cd711d5"
+    },
+    {
+      "path": "assets/animations/Mixamo/Being Strangled.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_being_strangled_v01.fbx",
+      "sha256": "c35c19ee75d89d1da8f39acb63a4585d0951dc4704c248f02c95c53d9f7a78f1",
+      "format": ".fbx",
+      "structural_fingerprint": "7d39ac472e667da7a626fa084b0328ff1ad6f1a3f5e0fe293b1dae130a658077"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Fall.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_drop_to_landing_v01.fbx",
+      "sha256": "7fd1a2d4a470557bd6ef7c37280bedefffb3d640b2fb5ea096723cedc2a02094",
+      "format": ".fbx",
+      "structural_fingerprint": "428ceacc1abf1308b8fb0543580cccbec861849c8afa5082a886e18f758b17e6"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Drop.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_drop_to_lower_hold_v01.fbx",
+      "sha256": "f3e9438cdd91308edf1fc0586fd1ca09f6f14d38e6e4b53e0ab761a7aeb38229",
+      "format": ".fbx",
+      "structural_fingerprint": "d1a4f9036b3a037bd4ba4c6b015304a7094707cf6a7b9e241bfd325cd96f1031"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Hop Left.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_hop_left_v01.fbx",
+      "sha256": "eeb507657bba02bb6054d00ddd1e851021da526299c4b96a57c6ff70543af7f3",
+      "format": ".fbx",
+      "structural_fingerprint": "6d8db04ff6e7d3a569d6ca8b592cfe5a233ef0ce783f7004eccecee050bcf976"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Hop Right.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_hop_right_v01.fbx",
+      "sha256": "17c14b5fd9cdf89ecf0e3d2733b05fcd24a7ff89653fd2e2b519fced286176e7",
+      "format": ".fbx",
+      "structural_fingerprint": "b0235c53e0d1433a5a7ffb96f3d75236aa540caa78823e3a4009c7033d5e135c"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Hop Up.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_hop_up_v01.fbx",
+      "sha256": "bbfde61101db3d006324e9068cbbbe835940d7109fdbef2301fe69b29859a298",
+      "format": ".fbx",
+      "structural_fingerprint": "06d4a6e564a40e54203bf22566c7dbf176c238b1f99cb95735cda66741fd81b9"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Shimmy Left.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_shimmy_left_inplace_v01.fbx",
+      "sha256": "dcfc95ffca184542c85083707ae0f89108db4efdce3593f8cd010acbbdbf642e",
+      "format": ".fbx",
+      "structural_fingerprint": "2c013f24fd2c9368835f1427fff5793b2cf91008f1b4aef5e63d82d7b52eb35a"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Shimmy Right.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_shimmy_right_inplace_v01.fbx",
+      "sha256": "75e7ac7a15c4f2b7c78aa30147d2d9ea0587a7a901aea2ae62e667bf89bd87de",
+      "format": ".fbx",
+      "structural_fingerprint": "a293242b6815cb76caa4185576ba40e7cd367f9944d9863593c981b56e785270"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang To Crouch.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_to_mantle_to_crouch_v01.fbx",
+      "sha256": "a1d07eddf93cee82aa1706a932e3e1b94ffffae8d61901066c0330f98842ae17",
+      "format": ".fbx",
+      "structural_fingerprint": "c752bd45ac615a987916303c739a8c088184b77f00e7234bc29a626548c317a1"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jump From Wall.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_braced_hang_wall_jump_v01.fbx",
+      "sha256": "0a5fe8f1fd019bf9ff221f9fe9e79975d490fddb01caa112b9de14f92e29ed7c",
+      "format": ".fbx",
+      "structural_fingerprint": "631827b0796b0f2284773f8cd0df0a3697860317e7cc98a447643fd687b022df"
+    },
+    {
+      "path": "assets/animations/Mixamo/Climbing Down.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_climbing_down_v01.fbx",
+      "sha256": "06f890c8b15d5c8506d816fe29c56e6c363d055cd804203c3b69a27d0b54359e",
+      "format": ".fbx",
+      "structural_fingerprint": "feed74a024dbdd9259d3a092cca22f710f8d1562979f6bccd0d855b423835dd7"
+    },
+    {
+      "path": "assets/animations/Mixamo/Climbing Down Wall.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_climbing_down_wall_v01.fbx",
+      "sha256": "fdce552b3b592e883ef3398be8c9c188aa57a802bae9e218f0776c2c715a89b7",
+      "format": ".fbx",
+      "structural_fingerprint": "5442f43b1ee8ab6d1b11599e89e1d2b6f13357c385ccca9799e66a1e31fca4d0"
+    },
+    {
+      "path": "assets/animations/Mixamo/Climbing Up Wall.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_climbing_up_wall_v01.fbx",
+      "sha256": "4ec1b7d0e8601567b66b8d3af0a0ae8fe519ef9e935f5eb24889f6ad15ddda28",
+      "format": ".fbx",
+      "structural_fingerprint": "882a43aad2a29684b142e0cd4f49f3cb3f2fd01bbdd086f20a03eb38cf070565"
+    },
+    {
+      "path": "assets/animations/Mixamo/Crawling.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_crawling_v01.fbx",
+      "sha256": "c9d06ce44b709040ade754ed61910516316cc42ff3cef262097cf6a7d8d4699a",
+      "format": ".fbx",
+      "structural_fingerprint": "0176149cada34c8ab86222d40b88a9e1b3c9fe27b8bfbcf5fd6dd4b6fdfcfcb7"
+    },
+    {
+      "path": "assets/animations/Mixamo/Crouch Walk Back.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_crouch_walk_back_v01.fbx",
+      "sha256": "81c1fb84d2ee7f8abfd3cef654c45bfd63b75f5554aa8e933a959d6661d0eac1",
+      "format": ".fbx",
+      "structural_fingerprint": "5cf973b1f536caf3c65b0c9cfcfa0964527536341edb6e9ac0449613df41f29a"
+    },
+    {
+      "path": "assets/animations/Mixamo/Crouch Walk Left.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_crouch_walk_left_v01.fbx",
+      "sha256": "fb7fbe2f4bfe39da54ff9e9ec86f1d5960e802d41a60831ad502f47d85c0a57a",
+      "format": ".fbx",
+      "structural_fingerprint": "1e9fe8a1ba59f3a01cc5fa25fc8c851ed770f0d5da943c212debea0e1fb2d135"
+    },
+    {
+      "path": "assets/animations/Mixamo/Dying.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_dying_v01.fbx",
+      "sha256": "d82ed9041f6e4d8ee75faccb7aa663673d18822e9402471ea7bf3fea5f93393e",
+      "format": ".fbx",
+      "structural_fingerprint": "8f4685b34cf6e2cc3b77fa636d0b4a82b53aea42688d00a79c95381369bb53b4"
+    },
+    {
+      "path": "assets/animations/Mixamo/Falling Flat Impact.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_falling_flat_impact_v01.fbx",
+      "sha256": "2d9a84eb80634011936fba94d5aa20d22782edacd4189d274dadb939ee79fcbb",
+      "format": ".fbx",
+      "structural_fingerprint": "386ce5f7c44ebbeea0fdc2f586d8ddf1deb1221ce2d8b5a9af7999b5b2322052"
+    },
+    {
+      "path": "assets/animations/Mixamo/Falling Idle.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_falling_idle_v01.fbx",
+      "sha256": "ae8e06bc46a03142186589f8e117635fd3da317c6ef595f3a05f3c66c7ebb5b8",
+      "format": ".fbx",
+      "structural_fingerprint": "4c73323bd385166c16ebb6247896d4830648091f47da967515e6e92dcca95b63"
+    },
+    {
+      "path": "assets/animations/Mixamo/Falling To Landing.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_falling_to_landing_v01.fbx",
+      "sha256": "63276206e8b2cad9460244ab03ba464c4e15fc29255e07fd350c1fee5d383156",
+      "format": ".fbx",
+      "structural_fingerprint": "1e7bcfc4b936033891247d8d41216b30752f71ab9d7b5714c3b3cc2d3af26748"
+    },
+    {
+      "path": "assets/animations/Mixamo/Fight Idle.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_fight_idle_v01.fbx",
+      "sha256": "fbaaaf45149f80a88b66acc3f8c1f4e93e9dededd93834920ee666efebb6ce0d",
+      "format": ".fbx",
+      "structural_fingerprint": "3b9842d62c2800cd0895a71cfc97e520686278fe14bd7b70da4408aff5bd9d56"
+    },
+    {
+      "path": "assets/animations/Mixamo/Free Fall.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_free_fall_v01.fbx",
+      "sha256": "59a8ddf1009f83e5688cf249a31fd3d33131732fc41e6ef4f83aa938aba552ab",
+      "format": ".fbx",
+      "structural_fingerprint": "b8ec00458c0d00542f9e9a7926d2c47133efa65d92214e6a3aeae4c13fc16231"
+    },
+    {
+      "path": "assets/animations/Mixamo/Free Hang Hop Left.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_free_hang_hop_left_v01.fbx",
+      "sha256": "63e8922c8a96d3b45985471dcf230469293dd0a93388a93dada92d734217d018",
+      "format": ".fbx",
+      "structural_fingerprint": "87c82d918dcfe74604b98f130c1853a8237cf0737bd5710d58450ba6229f2642"
+    },
+    {
+      "path": "assets/animations/Mixamo/Free Hang Hop Right.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_free_hang_hop_right_v01.fbx",
+      "sha256": "b301d09326049cfc7985c913a069ae8766bfb38ab76f2aceac1f80974133b113",
+      "format": ".fbx",
+      "structural_fingerprint": "56b44db51ba4e5acb35d4a28e489941cd03c4ed16aba993bcf5a6c369956263e"
+    },
+    {
+      "path": "assets/animations/Mixamo/Hanging Idle.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_free_hang_idle_v01.fbx",
+      "sha256": "7e1be342c93ab82275d7b34edd249b0bae04f15738a5fdd2b59bd398cc42befc",
+      "format": ".fbx",
+      "structural_fingerprint": "af9203972dbd295f6b679719426c8cb21951f0ab3bd8c686704022f13d444c41"
+    },
+    {
+      "path": "assets/animations/Mixamo/Free Hang Left Shimmy.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_free_hang_shimmy_left_v01.fbx",
+      "sha256": "6fc27da42857d8a0d1ff913b78a20a0c7bbe9262cbc0b17fdbcb77be041a6509",
+      "format": ".fbx",
+      "structural_fingerprint": "7e25c27a3b543912168aa022773a8fb7ac488459f1276085f913f0935518b462"
+    },
+    {
+      "path": "assets/animations/Mixamo/Free Hang Right Shimmy.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_free_hang_shimmy_right_v01.fbx",
+      "sha256": "0c8cac17ed28a6fb8d33aaed1000d1a9d217a4dec7e45f2c1d83113c9d5e830d",
+      "format": ".fbx",
+      "structural_fingerprint": "2c2c9bbe3b3a31730b6a093d81c60bd05af5274e585810e96b6972b28e03fe13"
+    },
+    {
+      "path": "assets/animations/Mixamo/Freehang Climb.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_free_hang_to_mantle_to_standing_v01.fbx",
+      "sha256": "f0aa93d4df94663cb14ab77f61b8f47b5e41454ed5bd7204904b26b28a73292b",
+      "format": ".fbx",
+      "structural_fingerprint": "a3db274df53e56eb733b7565e474fb83ded266a14f71fcb694a08936e46199e9"
+    },
+    {
+      "path": "assets/animations/Mixamo/Hanging.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_hanging_v01.fbx",
+      "sha256": "811177e82e9a7976fd1dab3fa51acc317240e29c0176652654a66d5faedd7e0b",
+      "format": ".fbx",
+      "structural_fingerprint": "228feb8e8e86a0c537c17e8767a89924a19114d6634d17b042216fa416ed4dd0"
+    },
+    {
+      "path": "assets/animations/Mixamo/Hard Landing.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_hard_landing_v01.fbx",
+      "sha256": "fd6880d36e368b849d431338c9a3a8c2670c90cbca4efa0fec304fde3908a790",
+      "format": ".fbx",
+      "structural_fingerprint": "36f68995f3dcdc11c52e4b769fab43dbfe71348279cbd67fd02a0b1d1ace5945"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jumping To Hanging.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_jump_to_braced_hang_v01.fbx",
+      "sha256": "b328b9069b854716546f41db25228cd21bc5436be11a392a64aa73a63cefa0bd",
+      "format": ".fbx",
+      "structural_fingerprint": "20f8ad5e28414d62d2fd6491f447835f239e98696e09da48d77f4f177a7a9813"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jump To Hang.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_jump_to_free_hang_v01.fbx",
+      "sha256": "2ee56ea961b042f726a3b17781182d32fce4a9ec11e9bf8a35cd903de7194495",
+      "format": ".fbx",
+      "structural_fingerprint": "aaea8e2ac90a463d30a91bf6dba563e74806bee19e7f5d17e382a486de7e7310"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jumping Up.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_jumping_up_v01.fbx",
+      "sha256": "5c212330279773aa9ccc995fbb12791053b88d3b1b547093b01ad43b7cf5573d",
+      "format": ".fbx",
+      "structural_fingerprint": "ed5a1864c58ae4f82b8e8f9bc1e698a65b984bcfe7e4faec90995dbb34c3f7fe"
+    },
+    {
+      "path": "assets/animations/Mixamo/Low Crawl.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_low_crawl_v01.fbx",
+      "sha256": "3daa682822bf679cc2ea647d458b5c7efa845292fa4a5de173f787feb2bdd1da",
+      "format": ".fbx",
+      "structural_fingerprint": "118365f4b2ff06a2a3c6adeb9fafa2fbab84bbb7ba7fb1dae4d4ba1341560b90"
+    },
+    {
+      "path": "assets/animations/Mixamo/Mutant Roaring.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_mutant_roaring_v01.fbx",
+      "sha256": "d0298b396f920e55e0654b5a8d392704dbaab7f86ce65dc6ab25d199857b47ad",
+      "format": ".fbx",
+      "structural_fingerprint": "fc21f85900154a5e4fe2e52e0add562079f9d1a842661a250d6d0f6e935a2073"
+    },
+    {
+      "path": "assets/animations/Mixamo/Mutant Swiping.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_mutant_swiping_v01.fbx",
+      "sha256": "f25e15005e46ddee56cd36b2b83776f7ea3ebc151cc408d39c07ffc24b42c497",
+      "format": ".fbx",
+      "structural_fingerprint": "6f0bb52c5e62fcb2a79420c30b4344d2989bd9abae05b360dfd7d3aef1306a7a"
+    },
+    {
+      "path": "assets/animations/Mixamo/Rope Climb.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_rope_climb_v01.fbx",
+      "sha256": "b358b1fc03d67939b4971667c901faabc68b98134bf861240d85803453f49321",
+      "format": ".fbx",
+      "structural_fingerprint": "bb8c74f01b7167468b4c2234f70210ae2efb818ccddb7584fb22d334dd758593"
+    },
+    {
+      "path": "assets/animations/Mixamo/Run With Sword.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_run_with_sword_v01.fbx",
+      "sha256": "15094d0086ed801708341ecad5fbf848e8472ffae4feaf63074e5ef77809d580",
+      "format": ".fbx",
+      "structural_fingerprint": "3ede8be5c1ff8151cbfe0f0a669385e442ade85b629d74fbf2b383e69f69393f"
+    },
+    {
+      "path": "assets/animations/Mixamo/Running Jump.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_running_jump_v01.fbx",
+      "sha256": "39c8647bb03dcad01e0231569c476d46c19ce7efdd623973752374665a8c5808",
+      "format": ".fbx",
+      "structural_fingerprint": "11ed86680a867feb3429843ba7017fc812e2678eb47c8a0d026838e8f441c99d"
+    },
+    {
+      "path": "assets/animations/Mixamo/Sheathing Sword.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_sheathing_sword_v01.fbx",
+      "sha256": "3aab66ab42962e424bcdab3b8f4b10955a0cdb11ebe9d29706d489a2b95429d2",
+      "format": ".fbx",
+      "structural_fingerprint": "c871b05a7a08698eae8b8c11c651dc53437b809e2f23cc58c86bc1113f4a7b16"
+    },
+    {
+      "path": "assets/animations/Mixamo/Sprint To Wall Climb.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_sprint_to_mantle_to_crouch_v01.fbx",
+      "sha256": "891b0ddc372e6fe803543e3b53becb620a2871dc9309fb0203be177c68a0c678",
+      "format": ".fbx",
+      "structural_fingerprint": "a0c71bf1ddd9b5257db85c231d018d28ad36894d3ecedb370e1df33b044e66da"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Aim Overdraw.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_aim_overdraw_v01.fbx",
+      "sha256": "cada2ca6de311ab82fd984ffc35a4d1aa51dd66cff971781d18a24b892681348",
+      "format": ".fbx",
+      "structural_fingerprint": "1970eafbaae5166194cf7ce819549cdeb81d108ba9cb419e274307279747faaf"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Aim Recoil.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_aim_recoil_v01.fbx",
+      "sha256": "058eb6abf22001d80a85ea1ff1638d6e3efbe43e9c8a95074acce0a0599927ae",
+      "format": ".fbx",
+      "structural_fingerprint": "b08ea516e2b82977cd14ebd67bea7a827c95fa847aa93100bea3e9e89f9f2b3b"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Aim Walk Back.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_aim_walk_back_v01.fbx",
+      "sha256": "acb24739ec1505324cffbd6cba0e6605bf4d94d42b9c8d4afce3e74cc9375121",
+      "format": ".fbx",
+      "structural_fingerprint": "68f543f69341431c4787863396296cfbeb884e45ca8d13e4bb2cbb75cb864eb4"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Aim Walk Left.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_aim_walk_left_v01.fbx",
+      "sha256": "340c2e9bd9d52323c0a5770afbba392511baa27a2cc3f4d36946c76c3a88d316",
+      "format": ".fbx",
+      "structural_fingerprint": "44b0302689406db28dd7c95c93905e2a62466be77998576267713da815aa10fb"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Aim Walk Right.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_aim_walk_right_v01.fbx",
+      "sha256": "21589dade27105021082f2919e7f3226f85cf9e9b60acc7e22ca1b218b331162",
+      "format": ".fbx",
+      "structural_fingerprint": "356fd8436980bd22f175934a90df80eca5ea7f3cbf1747ee107d62b99431c5f3"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Disarm Bow.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_disarm_bow_v01.fbx",
+      "sha256": "ba60b2c192dcc4635f17573b4df6fce00d206a45665b7710051e701c615b41d8",
+      "format": ".fbx",
+      "structural_fingerprint": "087b75e8665e76f890d3b3073c6b2208e1a548326159029649854f9067fd0485"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Draw Arrow.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_draw_arrow_v01.fbx",
+      "sha256": "19fc835c976589618e652ebf4c4805a5769984190b8af7388fe5d3769b62104e",
+      "format": ".fbx",
+      "structural_fingerprint": "e2a1baf6cc6f8602cd52ced8c4b2e6578656e5a0c90e0315273c822a41ecb350"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Melee Attack Horizontal.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_melee_attack_horizontal_v01.fbx",
+      "sha256": "ed4e95e79af2868a3aebf0dd167ffd5f0065e0d86e1e59071460fac86153d1e4",
+      "format": ".fbx",
+      "structural_fingerprint": "fa56766336cc17d93f306732b42bba7635c55e51a174507039c15cf401646415"
+    },
+    {
+      "path": "assets/animations/Mixamo/Standing Run Right.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_standing_run_right_v01.fbx",
+      "sha256": "e2c15e83632a93878525163c01996ca85b9afe92822794fed986273bf53969cd",
+      "format": ".fbx",
+      "structural_fingerprint": "81dcb6e88393a03f0c0802dc04e7102c26f41c91aecd6860a66c712dc4c22d94"
+    },
+    {
+      "path": "assets/animations/Mixamo/Stunned.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_stunned_v01.fbx",
+      "sha256": "68b4607aa6bf13699a4402dc6f8b86ab7c29763afab762ca6586bcbc565c601a",
+      "format": ".fbx",
+      "structural_fingerprint": "4157448a65b8450b4346b4b402554842f9a156998dafe59dfb223c6f95a11a24"
+    },
+    {
+      "path": "assets/animations/Mixamo/Two Hand Spell Casting.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_two_hand_spell_casting_v01.fbx",
+      "sha256": "2290b2ab736eb2db7ee4a4b0e5569ad80e068bc70a4d82931a8f7694bd5e8868",
+      "format": ".fbx",
+      "structural_fingerprint": "e0c95d8a584dc59bce7d7626d1a5a410e0f4f161e47d916429128ffcf13de314"
+    },
+    {
+      "path": "assets/animations/Mixamo/Unarmed Equip Underarm.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_unarmed_equip_underarm_v01.fbx",
+      "sha256": "24361844c320628d9e183b7e91fc8b6978a304b7586b44dfd60e99ced55f5d7f",
+      "format": ".fbx",
+      "structural_fingerprint": "cb59bdde775a24ec9fd81a0e0e33998ba5cc1cb21b3e592e122109c8b27e32d7"
+    },
+    {
+      "path": "assets/animations/Mixamo/Withdrawing Sword.fbx",
+      "current_path": "assets/animations/Mixamo/anim_mixamo_withdrawing_sword_v01.fbx",
+      "sha256": "8cafea8336e29815a8bdb7f23787426a9eee917a334004241c6227f11efba47d",
+      "format": ".fbx",
+      "structural_fingerprint": "2b3f4ec56a216621d888127690c528a2a146958ce7162853d123c74be8edc30f"
+    },
+    {
+      "path": "assets/animations/crouch_idle.tres",
+      "current_path": "assets/animations/anim_legacy_knight_crouch_idle_v01.tres",
+      "sha256": "cc7a46b821cec4b7c3495d841209b6de7ffeeaa594a3fc563886892421ecc563",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/crouch_walk.tres",
+      "current_path": "assets/animations/anim_legacy_knight_crouch_walk_v01.tres",
+      "sha256": "424a67452e714da01b8c5b84c89bb672a4392b934196d4784c144f280bdb27e6",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/jog.tres",
+      "current_path": "assets/animations/anim_legacy_knight_jog_v01.tres",
+      "sha256": "29d655cff19e8d4eabc85e6a1bc0156d554f7d8151bc60dbef2d9a65321548d0",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/jump_air.tres",
+      "current_path": "assets/animations/anim_legacy_knight_jump_air_v01.tres",
+      "sha256": "2dee56ce88b46fd6429432039aa8547a291571c65b8e5f2ee56deaa1e3baee4f",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/jump_land.tres",
+      "current_path": "assets/animations/anim_legacy_knight_jump_land_v01.tres",
+      "sha256": "85e0d93cc3bd71c53f923a340cd295bf4c1855f1972a540324d33c246e3b5696",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/jump_start.tres",
+      "current_path": "assets/animations/anim_legacy_knight_jump_start_v01.tres",
+      "sha256": "2a6060789d01b02c9ab457af38e7a2223e90cfcc578ee4b72c5e8ae65b15ee8c",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/roll_back.tres",
+      "current_path": "assets/animations/anim_legacy_knight_roll_back_v01.tres",
+      "sha256": "0d8bb24961217b1b53f9acdaff1da9cbe64243756528b21f8a812e5de75fcd08",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/roll_forward.tres",
+      "current_path": "assets/animations/anim_legacy_knight_roll_forward_v01.tres",
+      "sha256": "c2744bc67b0a84bfb3f6376eaf8b948834fb976c7e18c5c13dc8054dae58204c",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/roll_left.tres",
+      "current_path": "assets/animations/anim_legacy_knight_roll_left_v01.tres",
+      "sha256": "62ba6be76cd8db2a78fb1d3a7c484637a2f7a9b91e41ad543c3534d276dd6d96",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/roll_right.tres",
+      "current_path": "assets/animations/anim_legacy_knight_roll_right_v01.tres",
+      "sha256": "13838a49980ed77a2fda589b807df4c06c3eacdb837629b14ad0178e3bca37dd",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/sprint.tres",
+      "current_path": "assets/animations/anim_legacy_knight_sprint_v01.tres",
+      "sha256": "ca332ffbc01dd907bb21778606325ee26ac62658b70bc2159d19848d44c44712",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/crouch_idle.tres",
+      "current_path": "assets/animations/ual/anim_ual_crouch_idle_v01.tres",
+      "sha256": "f2773dce578a6720defe62824ff3be5d5cb3f57cd71b486b1dc99451fe4082ec",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/crouch_walk.tres",
+      "current_path": "assets/animations/ual/anim_ual_crouch_walk_v01.tres",
+      "sha256": "aadbc7271506c01c6a9b6a2d2ee9e1017d5a261a6c794309ae29ba259df35392",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/idle.tres",
+      "current_path": "assets/animations/ual/anim_ual_idle_v01.tres",
+      "sha256": "21fce3ace0ad26aa7fd0cbbed9761c1f709411c578ab01ab3f031721bc2eb15f",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/jog.tres",
+      "current_path": "assets/animations/ual/anim_ual_jog_v01.tres",
+      "sha256": "b41794868252abba10dee61d745365fa3c88b7a65c5adeed231ede27baa61462",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/jump_air.tres",
+      "current_path": "assets/animations/ual/anim_ual_jump_air_v01.tres",
+      "sha256": "eaaa831e3de2e649f5389843c2e17d07b2286ef9a91682695d9c0d80cf0b6cb9",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/jump_land.tres",
+      "current_path": "assets/animations/ual/anim_ual_jump_land_v01.tres",
+      "sha256": "c66ad64e2dfc66e94ef9e05be9435487a2c3e63f566d30692ad90d5ac25cd536",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/jump_start.tres",
+      "current_path": "assets/animations/ual/anim_ual_jump_start_v01.tres",
+      "sha256": "003c99b0cb0aebf099674d9c60f9df5c89135591219072cdf62f9416ed1cd131",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/mixamo_crawling.tres",
+      "current_path": "assets/animations/ual/anim_ual_mixamo_crawling_library_v01.tres",
+      "sha256": "26aeed8a88fd1c82c4c8bcf20f8f9b494fd96019b56c037965b2020ea55db3e0",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/native_actions.tres",
+      "current_path": "assets/animations/ual/anim_ual_native_actions_library_v01.tres",
+      "sha256": "0941796a17098626470d599ddb2055313fb177beb7a9b0565d4af6d3cbeb47f9",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/native_combat.tres",
+      "current_path": "assets/animations/ual/anim_ual_native_combat_library_v01.tres",
+      "sha256": "434319b5394c2f78b1dc0a83f015d085b04fe34eb5a3f436f7286402d0d108ec",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/native_locomotion.tres",
+      "current_path": "assets/animations/ual/anim_ual_native_locomotion_library_v01.tres",
+      "sha256": "4d05390ed72452f2a756cd4d9b45d53e5fb82d73f860b8441afad684b3d803ad",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/native_swimming.tres",
+      "current_path": "assets/animations/ual/anim_ual_native_swimming_library_v01.tres",
+      "sha256": "f6f307b785d48014048a904c05e7d3be5dba33e2ee0af66f11428263bb7d3abe",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/roll_back.tres",
+      "current_path": "assets/animations/ual/anim_ual_roll_back_v01.tres",
+      "sha256": "ce64be3631f6fa7d3ed33279818a44b32484622ae3089e749987181aa25ba4f7",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/roll_forward.tres",
+      "current_path": "assets/animations/ual/anim_ual_roll_forward_v01.tres",
+      "sha256": "91d7644898c398651ea61461646a5447af2bc226c7d345a416ad84a38b4578f3",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/roll_left.tres",
+      "current_path": "assets/animations/ual/anim_ual_roll_left_v01.tres",
+      "sha256": "6d36ca5760dab42474e511ed1a500c5b74fccd6b65766cb1bf2483edf6bb5a21",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/roll_right.tres",
+      "current_path": "assets/animations/ual/anim_ual_roll_right_v01.tres",
+      "sha256": "44a196d521fc3d02b3ed98ef8b2bab85c61efdedabd91e809ad8cfead839bb62",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/sprint.tres",
+      "current_path": "assets/animations/ual/anim_ual_sprint_v01.tres",
+      "sha256": "edf234e32546a945be0caf38d23ea6ce67dfb088d61b96c259006491694ce0d0",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/temporary_actions.tres",
+      "current_path": "assets/animations/ual/anim_ual_temporary_actions_library_v01.tres",
+      "sha256": "5d5ab49921c491903ded8602791aa9af2f9204ec50b9516945d6764c020e02b4",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/animations/ual/walk.tres",
+      "current_path": "assets/animations/ual/anim_ual_walk_v01.tres",
+      "sha256": "5c3188df8bed80110b4bd492e91e1bee4a999ca589dee9d835d5b02d0f086627",
+      "format": ".tres"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Characters/Realistic/CustomMaleRealistic/Male_Custom_PS1.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Characters/Realistic/CustomMaleRealistic/Male_Custom_PS1.fbx",
+      "sha256": "f5bb2064df0aab3ac4fe2801d6278459e95edd3ffcc57d78c5eb476b3491e242",
+      "format": ".fbx",
+      "structural_fingerprint": "5b29f662eccfdda0c9ea9acfa64350a34d5c51d1255ad88206a58d243d73e872"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Props/Angelic Demon Statue/AngelicDemonStatue.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Props/Angelic Demon Statue/AngelicDemonStatue.fbx",
+      "sha256": "78b224281f641697ab1f5eed4001d961c21621247ce3a947f6e3b9db54f1183f",
+      "format": ".fbx",
+      "audit_error": "Unsupported or malformed FBX: Ambiguous connected object identities"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Props/Apple/Apple.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Props/Apple/Apple.fbx",
+      "sha256": "cc1715780c06d6a83ad3865b5b5c126af6d863cb5b6ae6c6e0cb2d85706df12f",
+      "format": ".fbx",
+      "structural_fingerprint": "8854b9457a64da7afbabaefb24cb45554e232592fe136aa4a0d7b6bb105b56ec"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Props/BigTree/FBX/PS1_BigTree.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Props/BigTree/FBX/PS1_BigTree.fbx",
+      "sha256": "ef5c0f152a617e2c0d6de89edb4029c67eac239677e63396ce8f1cfcda56b5d1",
+      "format": ".fbx",
+      "audit_error": "Unsupported or malformed FBX: Ambiguous connected object identities"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Props/DoubleBed/DoubleBed.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Props/DoubleBed/DoubleBed.fbx",
+      "sha256": "3e8359507ff24e23d63e625898933ae12956a9ce22dbd0d20bf6ff452a2c2147",
+      "format": ".fbx",
+      "structural_fingerprint": "ff62a24b7e1998424c9821ffec3a2bc751b074c61c1e51a75bbbc5d3b460dda4"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Props/WoodChair/WoodChair.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Props/WoodChair/WoodChair.fbx",
+      "sha256": "1bee612b9bd889efbddf17e38275ee326a281612db5f8e44a1dac5f7d4ba0415",
+      "format": ".fbx",
+      "structural_fingerprint": "ddcad6f50e611c41730cebbd7f4a0507317c05b788f680ceb79c87ffe38e10e3"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Props/Xmas Tree/XmasTree.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Props/Xmas Tree/XmasTree.fbx",
+      "sha256": "6772e651503bd24cba0408fe2700264b3fcf76f528aa4435a31224c5ab3a59c6",
+      "format": ".fbx",
+      "structural_fingerprint": "fabcae5aa571eac39a7ebfebfa521fa3fa188d87d6f8734d61b7a5d1e2f9c75b"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Tools/Spade/Spade.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Tools/Spade/Spade.fbx",
+      "sha256": "39ec748deb11ce64f70de017b0d30ec5c4e2d8bede2a230fa0e5e48887c54641",
+      "format": ".fbx",
+      "structural_fingerprint": "375d29ffe3bfdb164c7161051b8cc8ef394e43fb68c1445c82ee461aee0d525e"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/BaseballBat/BaseballBat.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/BaseballBat/BaseballBat.fbx",
+      "sha256": "b3e021f592411dcc8da90b13f83eba90de6020114af6673f04efd83490c5edc4",
+      "format": ".fbx",
+      "structural_fingerprint": "731512802ba1ac7578a6b27b37cb8872810bdaba79aee82d8ea57d841c00ee7d"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/Claymore/Claymore.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/Claymore/Claymore.fbx",
+      "sha256": "429f24d477971d185af00e6362be613481ac2e20da3228480b4933ebda5ce289",
+      "format": ".fbx",
+      "structural_fingerprint": "b1458708ce7b4cc473c1890e0d0b7d32ad7c579b197d6605b9ec93b159a12bd4"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/Flintlock/Flintlock.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/Flintlock/Flintlock.fbx",
+      "sha256": "e5e97a28013ff4737c693ec458de7639daafe3af109cca5d8b29f7e2894e1202",
+      "format": ".fbx",
+      "structural_fingerprint": "0ff97ce0e8ee731ef25c4e0a4356907ecf3863a1a6449557a519c3a7c5fac38e"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/Glock-17/Glock17.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/Glock-17/Glock17.fbx",
+      "sha256": "9156dc0a418e36c719f2f97575d9b28520295c8bbdb1ac0ce96eccf2a951be41",
+      "format": ".fbx",
+      "structural_fingerprint": "af7ee80869642289bbdd5082577383f9c44231df288b634d19d3205105334b61"
+    },
+    {
+      "path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/Katana/Katana.fbx",
+      "current_path": "assets/third_party/dysfunctional_psx_starter/models/Weapons/Katana/Katana.fbx",
+      "sha256": "706df378bc95446efc9c52526cef7735d9c765e465353d7b37a59a026001690d",
+      "format": ".fbx",
+      "structural_fingerprint": "66d9d3aaa47ee1564036797e7e93c9104a5e6f23c680a124946e69bd46b19e59"
+    },
+    {
+      "path": "assets/third_party/fullplate_knight/knight.glb",
+      "current_path": "assets/third_party/fullplate_knight/knight.glb",
+      "sha256": "a2de7d006584025406e998bece2fc81f15fba376df6ebb0d18badbc2e7fd4a43",
+      "format": ".glb"
+    },
+    {
+      "path": "assets/third_party/fullplate_knight/knight_complete.glb",
+      "current_path": "assets/third_party/fullplate_knight/knight_complete.glb",
+      "sha256": "f1e1c900c193d7a8ba56d8fb2ec7c3d7ae174e65a422379243c9a3c016ada0d0",
+      "format": ".glb"
+    },
+    {
+      "path": "assets/third_party/psx_going_medieval/Market/beans_barrel_fillter.glb",
+      "current_path": "assets/third_party/psx_going_medieval/Market/beans_barrel_fillter.glb",
+      "sha256": "5135a22db25904263989aaddfe7344058abed4d894f187140b2c507a478d0ec7",
+      "format": ".glb"
+    },
+    {
+      "path": "assets/third_party/psx_going_medieval/Market/eggplant_barrel_fillter.glb",
+      "current_path": "assets/third_party/psx_going_medieval/Market/eggplant_barrel_fillter.glb",
+      "sha256": "7364e9e1d34e62b212419675ceff6be94b24164e5f283daff1c0c4c36852d7b1",
+      "format": ".glb"
+    },
+    {
+      "path": "assets/third_party/psx_going_medieval/Market/potato_barrel_fillter.glb",
+      "current_path": "assets/third_party/psx_going_medieval/Market/potato_barrel_fillter.glb",
+      "sha256": "ff53c8ee5e5636ea78e8ea3516fb6045a003c6f11688c69ebf83f50032bd7e9a",
+      "format": ".glb"
+    },
+    {
+      "path": "assets/third_party/quaternius/UAL1_Standard.glb",
+      "current_path": "assets/third_party/quaternius/UAL1_Standard.glb",
+      "sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+      "format": ".glb"
+    },
+    {
+      "path": "assets/third_party/quaternius/fantasy_props/Exports/glTF/Chest_Wood.gltf",
+      "current_path": "assets/third_party/quaternius/fantasy_props/Exports/glTF/Chest_Wood.gltf",
+      "sha256": "b2022f69b76526fcbbc7f7a8855848beeefa6e8a6f55337d923bce38ed03b2b6",
+      "format": ".gltf"
+    },
+    {
+      "path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+      "current_path": "assets/third_party/quaternius/ual2/UAL2_Standard.glb",
+      "sha256": "8cee20ab1bc55130092447e810e26df22dd2803eccc54f52137a7d54d7ab88a8",
+      "format": ".glb"
+    },
+    {
+      "path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+      "current_path": "assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb",
+      "sha256": "814eee878f82934992d3ea746c539df25e981487109c591f5efbb8dd03286f99",
+      "format": ".glb"
+    }
+  ],
+  "policy": "Audit only. No files are renamed, deleted or moved to Trash by this tool."
+}

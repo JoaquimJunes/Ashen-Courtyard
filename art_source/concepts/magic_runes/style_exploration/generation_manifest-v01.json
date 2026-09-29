@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "date": "2026-09-29",
+  "status": "A — Ancient Chisel approved; B/C archived alternatives",
+  "concept_approved": true,
+  "implementation_status": "Not started",
+  "tool": "built-in image_gen",
+  "generation_count": 3,
+  "generation_limit": 3,
+  "additional_generation_requires_permission": true,
+  "reference_images": [
+    "<PROJECT_ROOT>/art_source/concepts/magic_runes/rune-dictionary-v01.png",
+    "<PROJECT_ROOT>/art_source/ui/soulbound_hud/concepts/evolution-partial-closeup.png"
+  ],
+  "reference_roles": [
+    "Shape and meaning authority: large clean dictionary glyphs",
+    "Supporting charcoal stone, lowpoly facets and violet atmosphere only"
+  ],
+  "internet_references_used": false,
+  "interactive_preview_created": false,
+  "order": [
+    [
+      "Soul",
+      "Flesh",
+      "Stone",
+      "Draw"
+    ],
+    [
+      "Bind",
+      "Transform",
+      "Release",
+      "Sever"
+    ],
+    [
+      "Vessel",
+      "Path",
+      "Boundary",
+      "Anchor"
+    ]
+  ],
+  "outputs": [
+    {
+      "direction": "A",
+      "title": "Ancient Chisel",
+      "path": "direction-a-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-225e0522-0a80-4561-ae6b-361fe53bf8f0.png",
+      "prompt": "Use case: style-transfer / stylized-concept.\nCreate ONE static concept-art sheet exploring the surface treatment of an established twelve-rune language for Retro Lowpoly Dark Fantasy.\nIMAGE 1 is the shape authority: the rune dictionary. Copy the LARGE clean glyph in each card, not the small gauge thumbnail. IMAGE 2 is a supporting reference for dark charcoal stone, angular facets and restrained violet illumination ONLY. Do not reproduce the HUD, hearts, vessel, eyes, sockets or magic circle.\nLayout: four columns by three rows, exactly TWELVE equally sized rune studies. Landscape format with sufficient height for three rows, preferably 1536x1024 or larger. Identical front-on viewing angle, glyph scale, soft upper-left lighting, charcoal stone backdrop and brightness across all cells. Twelve restrained rectangular stone study areas, simple spacing, not a decorative interface. Fill most of each study area with its rune. Title at top, each rune name ONCE immediately beneath the correct glyph. No definitions, no source thumbnails, no numbers, no extra symbols, no subpanels, no magic circles.\nEXACT ORDER and labels, left to right:\nRow1: Soul | Flesh | Stone | Draw\nRow2: Bind | Transform | Release | Sever\nRow3: Vessel | Path | Boundary | Anchor\nSHAPE IS LOCKED: Preserve each rune's main strokes, branch count, connections, orientation, open spaces and recognizable silhouette from image 1. This is material/stroke-finish concept art, NOT a new alphabet. No flipping, rotating, swapping, inventing flourishes, adding branches, filling intentional gaps, or breaking main strokes. Surface chips cannot create new symbolic strokes. Keep glyphs recognizable without glow. The labels are exact, spelled as above.\nPay particular attention:\nSoul is the top-bar/stem with hooked angular right branch and a crossing diagonal.\nFlesh has the upright stem and asymmetrical fork with the long right descending diagonal.\nStone is the right-facing triangular outline with its short inner diagonal.\nDraw is the left-facing angular triangular shape with an inward short stroke.\nBind is the upright R-like branched form. Transform has a SLANTED main stem and a high triangular branch; it must stay visibly distinct from Bind.\nRelease has an upright stem, triangular arrowhead and short right crossbar.\nSever is the K-like split-stem shape, preserving its narrow upper branch.\nVessel is the upright stem with a slanted enclosed flag.\nPath is the bent crossing stem with the lower angled crossing structure.\nBoundary is the stem with small upper triangular branch and distinct lower diagonal.\nAnchor is a long slightly tilted stem crossed by two ascending diagonals, with the small bent upper terminal.\nPalette and style: matte charcoal stone (#25232b family), restrained lavender-violet glyph accents, limited bloom, no other saturated colors, no gold/metal/gems. Deliberate broad faceted planes and simplified texture; lowpoly dark fantasy rather than photoreal microtexture. Same moderate dim emission level on all twelve runes; protect carved edge visibility. Background does not overpower glyphs.\n\nTREATMENT A — ANCIENT CHISEL: Deep angular engravings cut into charcoal stone. Uneven but controlled stroke widths, broad chisel-cut bevels, slightly chipped edges and restrained weathering. Heavy ancient workmanship. Violet lies faintly in the groove depths, leaving dark incision walls readable. Preserve continuous original glyph geometry despite superficial chips.\nExact heading: \"A — ANCIENT CHISEL\". Return exactly ONE image with the twelve locked glyphs.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "04807ed0f74f9cd083c3ae3343e3b65c66a3661a3757e2fe15f2f25fefcb65ad",
+      "status": "Approved rune art direction"
+    },
+    {
+      "direction": "B",
+      "title": "Ritual Hand",
+      "path": "direction-b-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-ec892ef6-5c2c-4e74-96de-f734d9f073b3.png",
+      "prompt": "Use case: style-transfer / stylized-concept.\nCreate ONE static concept-art sheet exploring the surface treatment of an established twelve-rune language for Retro Lowpoly Dark Fantasy.\nIMAGE 1 is the shape authority: the rune dictionary. Copy the LARGE clean glyph in each card, not the small gauge thumbnail. IMAGE 2 is a supporting reference for dark charcoal stone, angular facets and restrained violet illumination ONLY. Do not reproduce the HUD, hearts, vessel, eyes, sockets or magic circle.\nLayout: four columns by three rows, exactly TWELVE equally sized rune studies. Landscape format with sufficient height for three rows, preferably 1536x1024 or larger. Identical front-on viewing angle, glyph scale, soft upper-left lighting, charcoal stone backdrop and brightness across all cells. Twelve restrained rectangular stone study areas, simple spacing, not a decorative interface. Fill most of each study area with its rune. Title at top, each rune name ONCE immediately beneath the correct glyph. No definitions, no source thumbnails, no numbers, no extra symbols, no subpanels, no magic circles.\nEXACT ORDER and labels, left to right:\nRow1: Soul | Flesh | Stone | Draw\nRow2: Bind | Transform | Release | Sever\nRow3: Vessel | Path | Boundary | Anchor\nSHAPE IS LOCKED: Preserve each rune's main strokes, branch count, connections, orientation, open spaces and recognizable silhouette from image 1. This is material/stroke-finish concept art, NOT a new alphabet. No flipping, rotating, swapping, inventing flourishes, adding branches, filling intentional gaps, or breaking main strokes. Surface chips cannot create new symbolic strokes. Keep glyphs recognizable without glow. The labels are exact, spelled as above.\nPay particular attention:\nSoul is the top-bar/stem with hooked angular right branch and a crossing diagonal.\nFlesh has the upright stem and asymmetrical fork with the long right descending diagonal.\nStone is the right-facing triangular outline with its short inner diagonal.\nDraw is the left-facing angular triangular shape with an inward short stroke.\nBind is the upright R-like branched form. Transform has a SLANTED main stem and a high triangular branch; it must stay visibly distinct from Bind.\nRelease has an upright stem, triangular arrowhead and short right crossbar.\nSever is the K-like split-stem shape, preserving its narrow upper branch.\nVessel is the upright stem with a slanted enclosed flag.\nPath is the bent crossing stem with the lower angled crossing structure.\nBoundary is the stem with small upper triangular branch and distinct lower diagonal.\nAnchor is a long slightly tilted stem crossed by two ascending diagonals, with the small bent upper terminal.\nPalette and style: matte charcoal stone (#25232b family), restrained lavender-violet glyph accents, limited bloom, no other saturated colors, no gold/metal/gems. Deliberate broad faceted planes and simplified texture; lowpoly dark fantasy rather than photoreal microtexture. Same moderate dim emission level on all twelve runes; protect carved edge visibility. Background does not overpower glyphs.\n\nTREATMENT B — RITUAL HAND: Carefully inscribed angular grooves with deliberate taper from broader stroke beginnings to sharp terminals, restrained asymmetry and precise skilled workmanship. The original angular paths remain intact; calligraphic stroke weight ONLY, no extra flourishes and no cursive curves. Cleaner shallow bevels than Ancient Chisel. Faint violet within the inscription, limited bloom, crisp shape readability.\nExact heading: \"B — RITUAL HAND\". Return exactly ONE image with the twelve locked glyphs.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "f9842e779dccfa3238b44f24eed87acb74535ba1719853d551307cb11c64c638",
+      "status": "Archived alternative"
+    },
+    {
+      "direction": "C",
+      "title": "Living Inscription",
+      "path": "direction-c-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-7f53e365-dbea-4ac2-bbd7-c05a2aadc8e1.png",
+      "prompt": "Use case: style-transfer / stylized-concept.\nCreate ONE static concept-art sheet exploring the surface treatment of an established twelve-rune language for Retro Lowpoly Dark Fantasy.\nIMAGE 1 is the shape authority: the rune dictionary. Copy the LARGE clean glyph in each card, not the small gauge thumbnail. IMAGE 2 is a supporting reference for dark charcoal stone, angular facets and restrained violet illumination ONLY. Do not reproduce the HUD, hearts, vessel, eyes, sockets or magic circle.\nLayout: four columns by three rows, exactly TWELVE equally sized rune studies. Landscape format with sufficient height for three rows, preferably 1536x1024 or larger. Identical front-on viewing angle, glyph scale, soft upper-left lighting, charcoal stone backdrop and brightness across all cells. Twelve restrained rectangular stone study areas, simple spacing, not a decorative interface. Fill most of each study area with its rune. Title at top, each rune name ONCE immediately beneath the correct glyph. No definitions, no source thumbnails, no numbers, no extra symbols, no subpanels, no magic circles.\nEXACT ORDER and labels, left to right:\nRow1: Soul | Flesh | Stone | Draw\nRow2: Bind | Transform | Release | Sever\nRow3: Vessel | Path | Boundary | Anchor\nSHAPE IS LOCKED: Preserve each rune's main strokes, branch count, connections, orientation, open spaces and recognizable silhouette from image 1. This is material/stroke-finish concept art, NOT a new alphabet. No flipping, rotating, swapping, inventing flourishes, adding branches, filling intentional gaps, or breaking main strokes. Surface chips cannot create new symbolic strokes. Keep glyphs recognizable without glow. The labels are exact, spelled as above.\nPay particular attention:\nSoul is the top-bar/stem with hooked angular right branch and a crossing diagonal.\nFlesh has the upright stem and asymmetrical fork with the long right descending diagonal.\nStone is the right-facing triangular outline with its short inner diagonal.\nDraw is the left-facing angular triangular shape with an inward short stroke.\nBind is the upright R-like branched form. Transform has a SLANTED main stem and a high triangular branch; it must stay visibly distinct from Bind.\nRelease has an upright stem, triangular arrowhead and short right crossbar.\nSever is the K-like split-stem shape, preserving its narrow upper branch.\nVessel is the upright stem with a slanted enclosed flag.\nPath is the bent crossing stem with the lower angled crossing structure.\nBoundary is the stem with small upper triangular branch and distinct lower diagonal.\nAnchor is a long slightly tilted stem crossed by two ascending diagonals, with the small bent upper terminal.\nPalette and style: matte charcoal stone (#25232b family), restrained lavender-violet glyph accents, limited bloom, no other saturated colors, no gold/metal/gems. Deliberate broad faceted planes and simplified texture; lowpoly dark fantasy rather than photoreal microtexture. Same moderate dim emission level on all twelve runes; protect carved edge visibility. Background does not overpower glyphs.\n\nTREATMENT C — LIVING INSCRIPTION: Engraved strokes filled with restrained violet energy. Subtle narrow internal fissures within the STROKE material and controlled thin light along groove edges suggest a living inscription. Fissures must not branch out into new rune strokes. Maintain the SAME overall glow intensity as the other treatments: use internal structure and concentrated edge light, not stronger bloom, fog, sparks or floating particles. Preserve dark groove walls and charcoal stone facets.\nExact heading: \"C — LIVING INSCRIPTION\". Return exactly ONE image with the twelve locked glyphs.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "fd84ccd9eca2508d15bfd878257b6ad1d6193b309f19ba7ad36a5add57a3f248",
+      "status": "Archived alternative"
+    }
+  ],
+  "approved_direction": "A",
+  "approval_scope": "Rune visual treatment, preserving twelve shapes and meanings. Low-poly visuals with visible polygon geometry required. Game integration deferred."
+}

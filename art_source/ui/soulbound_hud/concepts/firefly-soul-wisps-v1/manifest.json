@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "purpose": "Standalone Firefly wisp reference pack; no preview integration authorized",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "background": "opaque RGB black"
+  },
+  "model": "Firefly Video",
+  "documented_generation_defaults": {
+    "fps": 24,
+    "duration_seconds": 5
+  },
+  "delivery_target_fps": 60,
+  "composition": {
+    "wisp_transform": "All source poses: 1672x941 \u21921152x648, centered within1280x720",
+    "vessel_center": [
+      450,
+      435
+    ],
+    "protected_hud_mask": "source/hud-holdout.png",
+    "alignment_only": true,
+    "holdout_usage": "Compositing and review only; do not upload the mask. Raw painted tails stay intact in Firefly frames."
+  },
+  "transitions": [
+    {
+      "id": "01-burst",
+      "name": "Burst",
+      "first": "images/01-empty.png",
+      "last": "images/02-burst.png",
+      "prompt_file": "prompts/01-burst.txt",
+      "target_duration_seconds": 0.45,
+      "timeline_seconds": [
+        2.5,
+        2.95
+      ],
+      "prompt": "Locked camera, fixed composition. Painted 2D dark-fantasy Soul wisps on a pure black background. Bright violet cores pull broad translucent smoky tails through hollow curls, ending in sharp hooked tips. Motion feels supernatural, weighty and restless. Preserve the reference texture, colors and position. Keep the central opening and the space to its right clear. Animate the smoke continuously through curling and deformation. No camera movement, objects, text, faces, orange flames or thin ribbon effects.\n\nFrom darkness, Soul energy erupts upward from the lower circular boundary. Luminous cores surge ahead as thick smoky tails unfurl into aggressive hooked curls, reaching the final image\u2019s peak."
+    },
+    {
+      "id": "02-gather",
+      "name": "Gather",
+      "first": "images/02-burst.png",
+      "last": "images/03-gather.png",
+      "prompt_file": "prompts/02-gather.txt",
+      "target_duration_seconds": 0.75,
+      "timeline_seconds": [
+        2.95,
+        3.7
+      ],
+      "prompt": "Locked camera, fixed composition. Painted 2D dark-fantasy Soul wisps on a pure black background. Bright violet cores pull broad translucent smoky tails through hollow curls, ending in sharp hooked tips. Motion feels supernatural, weighty and restless. Preserve the reference texture, colors and position. Keep the central opening and the space to its right clear. Animate the smoke continuously through curling and deformation. No camera movement, objects, text, faces, orange flames or thin ribbon effects.\n\nThe eruption loses upward momentum. The wisps curl inward toward their circular origin, retaining their broad tails as their height and brightness decrease."
+    },
+    {
+      "id": "03-settle",
+      "name": "Settle",
+      "first": "images/03-gather.png",
+      "last": "images/04-settled-a.png",
+      "prompt_file": "prompts/03-settle.txt",
+      "target_duration_seconds": 0.9,
+      "timeline_seconds": [
+        3.7,
+        4.6
+      ],
+      "prompt": "Locked camera, fixed composition. Painted 2D dark-fantasy Soul wisps on a pure black background. Bright violet cores pull broad translucent smoky tails through hollow curls, ending in sharp hooked tips. Motion feels supernatural, weighty and restless. Preserve the reference texture, colors and position. Keep the central opening and the space to its right clear. Animate the smoke continuously through curling and deformation. No camera movement, objects, text, faces, orange flames or thin ribbon effects.\n\nThe remaining energy gathers into a compact aura. Large curls relax into smaller restless eddies; the glow gradually softens without disappearing."
+    },
+    {
+      "id": "04-full-idle",
+      "name": "Full idle",
+      "first": "images/04-settled-a.png",
+      "last": "images/05-settled-b.png",
+      "prompt_file": "prompts/04-full-idle.txt",
+      "target_duration_seconds": 2,
+      "timeline_seconds": [
+        4.6,
+        6.6
+      ],
+      "prompt": "Locked camera, fixed composition. Painted 2D dark-fantasy Soul wisps on a pure black background. Bright violet cores pull broad translucent smoky tails through hollow curls, ending in sharp hooked tips. Motion feels supernatural, weighty and restless. Preserve the reference texture, colors and position. Keep the central opening and the space to its right clear. Animate the smoke continuously through curling and deformation. No camera movement, objects, text, faces, orange flames or thin ribbon effects.\n\nMaintain a compact aura at steady brightness. Individual wisps slowly coil, stretch and fold back into themselves, with gentle irregular motion."
+    },
+    {
+      "id": "05-spend-linger",
+      "name": "Spend / linger",
+      "first": "images/05-settled-b.png",
+      "last": "images/04-settled-a.png",
+      "prompt_file": "prompts/05-spend-linger.txt",
+      "target_duration_seconds": 1.5,
+      "timeline_seconds": [
+        6.6,
+        8.1
+      ],
+      "prompt": "Locked camera, fixed composition. Painted 2D dark-fantasy Soul wisps on a pure black background. Bright violet cores pull broad translucent smoky tails through hollow curls, ending in sharp hooked tips. Motion feels supernatural, weighty and restless. Preserve the reference texture, colors and position. Keep the central opening and the space to its right clear. Animate the smoke continuously through curling and deformation. No camera movement, objects, text, faces, orange flames or thin ribbon effects.\n\nThe compact aura remains alive and restless. Preserve its overall size and brightness while its smoky curls move naturally toward the final pose. No renewed eruption."
+    },
+    {
+      "id": "06-dissolve",
+      "name": "Dissolve",
+      "first": "images/04-settled-a.png",
+      "last": "images/01-empty.png",
+      "prompt_file": "prompts/06-dissolve.txt",
+      "target_duration_seconds": 0.6,
+      "timeline_seconds": [
+        8.1,
+        8.7
+      ],
+      "prompt": "Locked camera, fixed composition. Painted 2D dark-fantasy Soul wisps on a pure black background. Bright violet cores pull broad translucent smoky tails through hollow curls, ending in sharp hooked tips. Motion feels supernatural, weighty and restless. Preserve the reference texture, colors and position. Keep the central opening and the space to its right clear. Animate the smoke continuously through curling and deformation. No camera movement, objects, text, faces, orange flames or thin ribbon effects.\n\nThe luminous cores dim first. Their broad tails loosen, fragment into faint vapor and gradually disappear into black. End completely empty, without a flash."
+    }
+  ],
+  "holds": [
+    {
+      "timeline_seconds": [
+        0,
+        2.5
+      ],
+      "image": "images/01-empty.png",
+      "reason": "Empty/cooldown/refill; no exterior aura before full"
+    },
+    {
+      "timeline_seconds": [
+        8.7,
+        10
+      ],
+      "image": "images/01-empty.png",
+      "reason": "Below full; no exterior aura"
+    }
+  ],
+  "source_references": [
+    "source/approved-keyframes.png"
+  ],
+  "generation_method": "built-in image_gen for painted poses; ImageMagick for deterministic canvas normalization, HUD holdout and alignment-sheet compositing",
+  "preview_changes": false
+}

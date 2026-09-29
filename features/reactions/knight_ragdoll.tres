@@ -1,0 +1,88 @@
+[gd_resource type="Resource" format=3 uid="uid://dkdgul7peyie0"]
+
+[ext_resource type="Script" uid="uid://bx38gmti2ufi2" path="res://features/reactions/ragdoll_definition.gd" id="1"]
+[ext_resource type="Resource" uid="uid://b340lahp2ixom" path="res://features/presentation/knight_get_up.tres" id="1_8iake"]
+[ext_resource type="Script" uid="uid://c1h5abxn2nvoq" path="res://features/reactions/ragdoll_part.gd" id="2"]
+
+[sub_resource type="Resource" id="part_0"]
+script = ExtResource("2")
+bone_name = &"Body"
+length = 0.53
+radius = 0
+box_size = Vector3(0.48, 0.6, 0.36)
+mass = 16.0
+joint_type = 0
+
+[sub_resource type="Resource" id="part_1"]
+script = ExtResource("2")
+bone_name = &"Head"
+length = 0.23
+radius = 0.13
+
+[sub_resource type="Resource" id="part_2"]
+script = ExtResource("2")
+bone_name = &"UpperArm.l"
+length = 0.29
+radius = 0.095
+hinge_axis = Vector3(-1, 0, 0)
+swing_span = 60.0
+
+[sub_resource type="Resource" id="part_3"]
+script = ExtResource("2")
+bone_name = &"LowerArm.l"
+length = 0.27
+radius = 0.095
+joint_type = 3
+hinge_axis = Vector3(-1, 0, 0)
+swing_span = 60.0
+
+[sub_resource type="Resource" id="part_4"]
+script = ExtResource("2")
+bone_name = &"UpperArm.r"
+length = 0.29
+radius = 0.095
+hinge_axis = Vector3(-1, 0, 0)
+swing_span = 60.0
+
+[sub_resource type="Resource" id="part_5"]
+script = ExtResource("2")
+bone_name = &"LowerArm.r"
+length = 0.27
+radius = 0.095
+joint_type = 3
+hinge_axis = Vector3(-1, 0, 0)
+swing_span = 60.0
+
+[sub_resource type="Resource" id="part_6"]
+script = ExtResource("2")
+bone_name = &"UpperLeg.l"
+length = 0.51
+radius = 0.13
+mass = 5.0
+
+[sub_resource type="Resource" id="part_7"]
+script = ExtResource("2")
+bone_name = &"LowerLeg.l"
+length = 0.49
+radius = 0.11
+mass = 5.0
+joint_type = 3
+
+[sub_resource type="Resource" id="part_8"]
+script = ExtResource("2")
+bone_name = &"UpperLeg.r"
+length = 0.51
+radius = 0.13
+mass = 5.0
+
+[sub_resource type="Resource" id="part_9"]
+script = ExtResource("2")
+bone_name = &"LowerLeg.r"
+length = 0.49
+radius = 0.11
+mass = 5.0
+joint_type = 3
+
+[resource]
+script = ExtResource("1")
+parts = Array[ExtResource("2")]([SubResource("part_0"), SubResource("part_1"), SubResource("part_2"), SubResource("part_3"), SubResource("part_4"), SubResource("part_5"), SubResource("part_6"), SubResource("part_7"), SubResource("part_8"), SubResource("part_9")])

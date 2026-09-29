@@ -1,0 +1,197 @@
+{
+  "engine": "<USER_HOME>/Desktop/Ashen Courtyard/Godot_v4.6.2-stable_linux.x86_64",
+  "passed": true,
+  "checks": 1535,
+  "suites": [
+    {
+      "suite": "run_ual_model",
+      "seconds": 3.625,
+      "passed": true,
+      "checks": 54,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_lock_movement",
+      "seconds": 5.583,
+      "passed": true,
+      "checks": 75,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_running",
+      "seconds": 7.457,
+      "passed": true,
+      "checks": 26,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_dodge_consistency",
+      "seconds": 41.325,
+      "passed": true,
+      "checks": 297,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ground_roll",
+      "seconds": 11.574,
+      "passed": true,
+      "checks": 228,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_dive_clearance",
+      "seconds": 40.495,
+      "passed": true,
+      "checks": 81,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_jump",
+      "seconds": 16.411,
+      "passed": true,
+      "checks": 118,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_jump_integration",
+      "seconds": 10.362,
+      "passed": true,
+      "checks": 35,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_crouch",
+      "seconds": 14.096,
+      "passed": true,
+      "checks": 161,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_crouch_poses",
+      "seconds": 4.772,
+      "passed": true,
+      "checks": 110,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_cast_lifecycle",
+      "seconds": 14.071,
+      "passed": true,
+      "checks": 15,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_combat_boundaries",
+      "seconds": 3.763,
+      "passed": true,
+      "checks": 20,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ragdoll",
+      "seconds": 11.003,
+      "passed": true,
+      "checks": 50,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_get_up",
+      "seconds": 16.578,
+      "passed": true,
+      "checks": 92,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_mantle",
+      "seconds": 5.407,
+      "passed": true,
+      "checks": 50,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_poses",
+      "seconds": 5.246,
+      "passed": true,
+      "checks": 9,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_shimmy",
+      "seconds": 9.803,
+      "passed": true,
+      "checks": 48,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_shimmy_poses",
+      "seconds": 9.047,
+      "passed": true,
+      "checks": 18,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_motion_contract",
+      "seconds": 1.427,
+      "passed": true,
+      "checks": 48,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_presentation_profile.gd" id="Script"]
+
+
+[resource]
+script = ExtResource("Script")
+role = &"spell"
+free_hands = true
+color = Color(0.4470588235294118, 0.8745098039215686, 0.8980392156862745, 1)

@@ -1,0 +1,95 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Approved option B is an editable 1.20-second recovery
+PASS: 30 Hz face_down: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 30 Hz face_down slope 0: continuous bone paths (largest step 0.357 m; LowerLeg.l at 0.278)
+PASS: Armor stays above its support plane after entry (minimum 0.015 m)
+PASS: Planted hand/foot retain their anchors (errors 0.001 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 30 Hz face_down: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 30 Hz face_down slope 20: continuous bone paths (largest step 0.357 m; LowerLeg.l at 0.278)
+PASS: Armor stays above its support plane after entry (minimum 0.015 m)
+PASS: Planted hand/foot retain their anchors (errors 0.001 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 30 Hz face_up: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 30 Hz face_up slope 0: continuous bone paths (largest step 0.300 m; LowerLeg.r at 0.389)
+PASS: Armor stays above its support plane after entry (minimum 0.009 m)
+PASS: Planted hand/foot retain their anchors (errors 0.000 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 30 Hz face_up: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 30 Hz face_up slope 20: continuous bone paths (largest step 0.300 m; LowerLeg.r at 0.389)
+PASS: Armor stays above its support plane after entry (minimum 0.009 m)
+PASS: Planted hand/foot retain their anchors (errors 0.000 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 60 Hz face_down: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 60 Hz face_down slope 0: continuous bone paths (largest step 0.184 m; LowerLeg.l at 0.278)
+PASS: Armor stays above its support plane after entry (minimum 0.015 m)
+PASS: Planted hand/foot retain their anchors (errors 0.008 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 60 Hz face_down: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 60 Hz face_down slope 20: continuous bone paths (largest step 0.184 m; LowerLeg.l at 0.278)
+PASS: Armor stays above its support plane after entry (minimum 0.015 m)
+PASS: Planted hand/foot retain their anchors (errors 0.008 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 60 Hz face_up: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 60 Hz face_up slope 0: continuous bone paths (largest step 0.165 m; LowerLeg.r at 0.389)
+PASS: Armor stays above its support plane after entry (minimum 0.005 m)
+PASS: Planted hand/foot retain their anchors (errors 0.000 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 60 Hz face_up: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 60 Hz face_up slope 20: continuous bone paths (largest step 0.165 m; LowerLeg.r at 0.389)
+PASS: Armor stays above its support plane after entry (minimum 0.005 m)
+PASS: Planted hand/foot retain their anchors (errors 0.000 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 120 Hz face_down: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 120 Hz face_down slope 0: continuous bone paths (largest step 0.098 m; LowerLeg.l at 0.271)
+PASS: Armor stays above its support plane after entry (minimum 0.015 m)
+PASS: Planted hand/foot retain their anchors (errors 0.008 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 120 Hz face_down: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 120 Hz face_down slope 20: continuous bone paths (largest step 0.098 m; LowerLeg.l at 0.271)
+PASS: Armor stays above its support plane after entry (minimum 0.015 m)
+PASS: Planted hand/foot retain their anchors (errors 0.008 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 120 Hz face_up: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 120 Hz face_up slope 0: continuous bone paths (largest step 0.084 m; LowerLeg.r at 0.382)
+PASS: Armor stays above its support plane after entry (minimum 0.005 m)
+PASS: Planted hand/foot retain their anchors (errors 0.000 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: 120 Hz face_up: select pose and settled heading independently of old actor facing
+PASS: Ragdoll-to-animation handover preserves every bone's world position
+PASS: Pose sampling never moves the collision body or produces invalid transforms
+PASS: 120 Hz face_up slope 20: continuous bone paths (largest step 0.084 m; LowerLeg.r at 0.382)
+PASS: Armor stays above its support plane after entry (minimum 0.005 m)
+PASS: Planted hand/foot retain their anchors (errors 0.000 / 0.000 m)
+PASS: Reset releases pose snapshots, contacts and definition ownership
+PASS: Actual surviving fall acquires the get-up action
+PASS: Pause freezes recovery clock and supported pose
+PASS: Nonlethal damage remains effective without stealing recovery ownership
+PASS: Get-up remains committed after a surviving hit
+PASS: Control stays committed beyond the old 0.85-second duration
+PASS: Recovery releases control at 1.20 s within one physics tick
+PASS: Completion releases action and presentation state together
+GET UP: 92 checks, 0 failures

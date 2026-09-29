@@ -1,0 +1,44 @@
+{
+  "method": "built-in image_gen edit",
+  "reference": "<PROJECT_ROOT>/art_source/characters/ual/awakening_concepts/direction-b-v02.png",
+  "status": "awaiting-user-visual-review",
+  "progression": "permanent maximum-life upgrades; independent of mana and current health",
+  "images": [
+    {
+      "stage": 0,
+      "name": "Fractured",
+      "file": "stage-0-fractured-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-a071590a-a1e9-4603-a760-6e61dde1f575.png"
+    },
+    {
+      "stage": 1,
+      "name": "Binding",
+      "file": "stage-1-binding-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-dc008aaa-05a8-4f43-ba23-4c305bb6f67c.png"
+    },
+    {
+      "stage": 2,
+      "name": "Reinforced",
+      "file": "stage-2-reinforced-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-1d5d55db-b16f-44f8-a04a-0d4f061835e1.png"
+    },
+    {
+      "stage": 3,
+      "name": "Consolidated",
+      "file": "stage-3-consolidated-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-6577eeee-8d46-4d51-a051-596150971676.png"
+    },
+    {
+      "stage": 4,
+      "name": "Fortified",
+      "file": "stage-4-fortified-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-ae317f52-a41b-4395-a2ed-33321592c65e.png"
+    },
+    {
+      "stage": 5,
+      "name": "Unbroken",
+      "file": "stage-5-unbroken-v01.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-72a78a55-4b1c-4ad8-ba1e-c2de91cb7b92.png"
+    }
+  ]
+}

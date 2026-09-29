@@ -1,0 +1,2173 @@
+{
+  "configuration": {
+    "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+    "debug_build": false,
+    "display_server": "X11",
+    "godot_version": "4.6.2-stable (official)",
+    "headless_smoke_only": false,
+    "logical_processors": 8,
+    "measurement_seconds": 5.0,
+    "physics_hz": 60,
+    "render_cap": 0,
+    "rendering_method": "gl_compatibility",
+    "resolution": [
+      1280,
+      720
+    ],
+    "video_adapter": "Mesa Intel(R) Iris(R) Xe Graphics (TGL GT2)",
+    "vsync": 0,
+    "warmup_seconds": 3.0
+  },
+  "notes": [
+    "Whole-frame values are uncapped wall-clock frame intervals; run an exported release on the real GPU without concurrent tests.",
+    "Physics animation CPU is summed once per character physics completion; render CPU is summed once per displayed frame.",
+    "Scenarios include production motor/action/IK/equipment costs, shadows and spell effects; individual player camera and HUD processing is disabled.",
+    "RSS is sampled at each measurement boundary; peak RSS is process-wide Linux VmHWM.",
+    "startup_to_ready_ms includes the ordinary game bootstrap before the opt-in benchmark scene; spawn values use already loaded resources.",
+    "Optional slow-frame traces record intervals above 33.33 ms with intervening physics ticks, pose CPU and action starts. These correlations are not an attribution of GPU or whole-game CPU cost; each case retains at most 512 records."
+  ],
+  "results": [
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 1.306,
+        "mean": 0.455896666666666,
+        "p50": 0.408,
+        "p95": 0.758,
+        "p99": 1.135,
+        "samples": 300
+      },
+      "animation_render_ms": {
+        "max": 0.594,
+        "mean": 0.128788414634146,
+        "p50": 0.109,
+        "p95": 0.265,
+        "p99": 0.41,
+        "samples": 1640
+      },
+      "characters": 1,
+      "frame_ms": {
+        "max": 10.107,
+        "mean": 3.04884085365854,
+        "p50": 2.627,
+        "p95": 5.561,
+        "p99": 6.247,
+        "samples": 1640
+      },
+      "measurement_seconds": 5.00096,
+      "memory_end": {
+        "process_peak_rss_mib": 217.4609375,
+        "rss_mib": 217.4609375
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 217.4296875,
+        "rss_mib": 217.4296875
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "idle",
+      "slow_frames": [],
+      "spawn_ms": 51.87
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 3.54,
+        "mean": 1.20038205980066,
+        "p50": 1.066,
+        "p95": 2.033,
+        "p99": 3.357,
+        "samples": 301
+      },
+      "animation_render_ms": {
+        "max": 0.793,
+        "mean": 0.14152621231979,
+        "p50": 0.114,
+        "p95": 0.329,
+        "p99": 0.447,
+        "samples": 1526
+      },
+      "characters": 1,
+      "frame_ms": {
+        "max": 14.484,
+        "mean": 3.27585255570118,
+        "p50": 2.71,
+        "p95": 6.673,
+        "p99": 7.404,
+        "samples": 1526
+      },
+      "measurement_seconds": 5.001417,
+      "memory_end": {
+        "process_peak_rss_mib": 218.61328125,
+        "rss_mib": 218.61328125
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 218.61328125,
+        "rss_mib": 218.61328125
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "slope",
+      "slow_frames": [],
+      "spawn_ms": 125.269
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 3.18,
+        "mean": 1.54280333333333,
+        "p50": 1.461,
+        "p95": 2.109,
+        "p99": 2.889,
+        "samples": 300
+      },
+      "animation_render_ms": {
+        "max": 0.478,
+        "mean": 0.0662710646636185,
+        "p50": 0.05,
+        "p95": 0.182,
+        "p99": 0.287,
+        "samples": 1531
+      },
+      "characters": 1,
+      "frame_ms": {
+        "max": 11.079,
+        "mean": 3.26657805355977,
+        "p50": 2.935,
+        "p95": 5.346,
+        "p99": 7.158,
+        "samples": 1531
+      },
+      "measurement_seconds": 5.002298,
+      "memory_end": {
+        "process_peak_rss_mib": 218.61328125,
+        "rss_mib": 218.61328125
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 218.61328125,
+        "rss_mib": 218.61328125
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "crouch",
+      "slow_frames": [],
+      "spawn_ms": 102.599
+    },
+    {
+      "actions_started": 7,
+      "animation_physics_ms": {
+        "max": 1.262,
+        "mean": 0.542455149501661,
+        "p50": 0.498,
+        "p95": 0.796,
+        "p99": 0.94,
+        "samples": 301
+      },
+      "animation_render_ms": {
+        "max": 0.609,
+        "mean": 0.136218241042345,
+        "p50": 0.115,
+        "p95": 0.294,
+        "p99": 0.439,
+        "samples": 1535
+      },
+      "characters": 1,
+      "frame_ms": {
+        "max": 56.315,
+        "mean": 3.25972508143322,
+        "p50": 2.806,
+        "p95": 5.658,
+        "p99": 8.245,
+        "samples": 1535
+      },
+      "measurement_seconds": 5.00474,
+      "memory_end": {
+        "process_peak_rss_mib": 225.1875,
+        "rss_mib": 225.1875
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 224.98046875,
+        "rss_mib": 224.98046875
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "combat",
+      "slow_frames": [
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 0.0773060000000001,
+          "frame_ms": 55.193,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 1.428,
+          "projectiles": 0,
+          "render_pose_ms": 0.068
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 1.582594,
+          "frame_ms": 56.315,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 1.207,
+          "projectiles": 0,
+          "render_pose_ms": 0.073
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 3.0703,
+          "frame_ms": 50.489,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 0.797,
+          "projectiles": 0,
+          "render_pose_ms": 0.064
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 4.572651,
+          "frame_ms": 54.125,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 0.775,
+          "projectiles": 0,
+          "render_pose_ms": 0.078
+        }
+      ],
+      "spawn_ms": 99.79
+    },
+    {
+      "actions_started": 1,
+      "animation_physics_ms": {
+        "max": 1.435,
+        "mean": 0.420543333333333,
+        "p50": 0.068,
+        "p95": 1.082,
+        "p99": 1.315,
+        "samples": 300
+      },
+      "animation_render_ms": {
+        "max": 0.09,
+        "mean": 0.000176436107854631,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "samples": 1706
+      },
+      "characters": 1,
+      "frame_ms": {
+        "max": 11.317,
+        "mean": 2.93207209847597,
+        "p50": 2.886,
+        "p95": 4.444,
+        "p99": 5.404,
+        "samples": 1706
+      },
+      "measurement_seconds": 5.00339,
+      "memory_end": {
+        "process_peak_rss_mib": 225.23828125,
+        "rss_mib": 225.23828125
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 225.234375,
+        "rss_mib": 225.234375
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 1,
+      "scenario": "recovery",
+      "slow_frames": [],
+      "spawn_ms": 117.856
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 4.13,
+        "mean": 1.32871333333333,
+        "p50": 1.186,
+        "p95": 1.899,
+        "p99": 2.576,
+        "samples": 300
+      },
+      "animation_render_ms": {
+        "max": 1.431,
+        "mean": 0.396916984732824,
+        "p50": 0.38,
+        "p95": 0.643,
+        "p99": 0.863,
+        "samples": 1048
+      },
+      "characters": 5,
+      "frame_ms": {
+        "max": 16.273,
+        "mean": 4.77126812977099,
+        "p50": 3.681,
+        "p95": 9.253,
+        "p99": 10.035,
+        "samples": 1048
+      },
+      "measurement_seconds": 5.001837,
+      "memory_end": {
+        "process_peak_rss_mib": 225.3046875,
+        "rss_mib": 225.3046875
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 225.3046875,
+        "rss_mib": 225.3046875
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "idle",
+      "slow_frames": [],
+      "spawn_ms": 371.006
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 6.233,
+        "mean": 3.18362876254181,
+        "p50": 3.053,
+        "p95": 4.282,
+        "p99": 5.703,
+        "samples": 299
+      },
+      "animation_render_ms": {
+        "max": 1.243,
+        "mean": 0.314701149425287,
+        "p50": 0.259,
+        "p95": 0.629,
+        "p99": 1.019,
+        "samples": 783
+      },
+      "characters": 5,
+      "frame_ms": {
+        "max": 148.675,
+        "mean": 6.38091315453385,
+        "p50": 4.413,
+        "p95": 12.31,
+        "p99": 14.233,
+        "samples": 783
+      },
+      "measurement_seconds": 5.000881,
+      "memory_end": {
+        "process_peak_rss_mib": 225.0859375,
+        "rss_mib": 225.0859375
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 225.3046875,
+        "rss_mib": 225.3046875
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "slope",
+      "slow_frames": [
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.359805,
+          "frame_ms": 148.675,
+          "physics_ticks": 6,
+          "pose_cpu_ms": 21.572,
+          "projectiles": 0,
+          "render_pose_ms": 0.26
+        }
+      ],
+      "spawn_ms": 316.577
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 9.121,
+        "mean": 4.87374750830565,
+        "p50": 4.791,
+        "p95": 5.804,
+        "p99": 6.596,
+        "samples": 301
+      },
+      "animation_render_ms": {
+        "max": 0.641,
+        "mean": 0.108395007342144,
+        "p50": 0.09,
+        "p95": 0.245,
+        "p99": 0.37,
+        "samples": 681
+      },
+      "characters": 5,
+      "frame_ms": {
+        "max": 18.346,
+        "mean": 7.34470190895741,
+        "p50": 5.511,
+        "p95": 14.293,
+        "p99": 16.099,
+        "samples": 681
+      },
+      "measurement_seconds": 5.002431,
+      "memory_end": {
+        "process_peak_rss_mib": 225.1640625,
+        "rss_mib": 225.1640625
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 225.1640625,
+        "rss_mib": 225.1640625
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "crouch",
+      "slow_frames": [],
+      "spawn_ms": 259.677
+    },
+    {
+      "actions_started": 34,
+      "animation_physics_ms": {
+        "max": 3.462,
+        "mean": 1.91148837209302,
+        "p50": 1.784,
+        "p95": 2.67,
+        "p99": 3.093,
+        "samples": 301
+      },
+      "animation_render_ms": {
+        "max": 1.135,
+        "mean": 0.366006514657981,
+        "p50": 0.342,
+        "p95": 0.561,
+        "p99": 0.745,
+        "samples": 921
+      },
+      "characters": 5,
+      "frame_ms": {
+        "max": 57.419,
+        "mean": 5.42281541802389,
+        "p50": 3.542,
+        "p95": 10.18,
+        "p99": 17.491,
+        "samples": 921
+      },
+      "measurement_seconds": 5.00871,
+      "memory_end": {
+        "process_peak_rss_mib": 228.08984375,
+        "rss_mib": 228.08984375
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 227.87109375,
+        "rss_mib": 227.87109375
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "combat",
+      "slow_frames": [
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 0.904387,
+          "frame_ms": 57.419,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 4.634,
+          "projectiles": 0,
+          "render_pose_ms": 0.269
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 1.543943,
+          "frame_ms": 56.127,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 4.923,
+          "projectiles": 2,
+          "render_pose_ms": 0.255
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 2.3939,
+          "frame_ms": 47.582,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 3.416,
+          "projectiles": 1,
+          "render_pose_ms": 0.304
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 3.036063,
+          "frame_ms": 49.492,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 3.07,
+          "projectiles": 2,
+          "render_pose_ms": 0.26
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 3.077325,
+          "frame_ms": 34.635,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 4.9,
+          "projectiles": 1,
+          "render_pose_ms": 0.253
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 3.903732,
+          "frame_ms": 47.256,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 2.979,
+          "projectiles": 1,
+          "render_pose_ms": 0.294
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 4.515255,
+          "frame_ms": 44.907,
+          "physics_ticks": 1,
+          "pose_cpu_ms": 1.356,
+          "projectiles": 2,
+          "render_pose_ms": 0.228
+        }
+      ],
+      "spawn_ms": 275.072
+    },
+    {
+      "actions_started": 7,
+      "animation_physics_ms": {
+        "max": 4.996,
+        "mean": 1.72442474916388,
+        "p50": 1.808,
+        "p95": 3.797,
+        "p99": 4.305,
+        "samples": 299
+      },
+      "animation_render_ms": {
+        "max": 0.238,
+        "mean": 0.00107879924953096,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.042,
+        "samples": 1066
+      },
+      "characters": 5,
+      "frame_ms": {
+        "max": 181.904,
+        "mean": 4.68826923076923,
+        "p50": 3.644,
+        "p95": 9.2,
+        "p99": 11.21,
+        "samples": 1066
+      },
+      "measurement_seconds": 5.001716,
+      "memory_end": {
+        "process_peak_rss_mib": 227.98046875,
+        "rss_mib": 227.98046875
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 228.0,
+        "rss_mib": 228.0
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 7,
+      "scenario": "recovery",
+      "slow_frames": [
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.321652,
+          "frame_ms": 181.904,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 20.82,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        }
+      ],
+      "spawn_ms": 278.209
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 6.18,
+        "mean": 2.07264451827243,
+        "p50": 1.953,
+        "p95": 2.646,
+        "p99": 3.932,
+        "samples": 301
+      },
+      "animation_render_ms": {
+        "max": 1.628,
+        "mean": 0.653388316151203,
+        "p50": 0.612,
+        "p95": 1.083,
+        "p99": 1.394,
+        "samples": 582
+      },
+      "characters": 10,
+      "frame_ms": {
+        "max": 22.235,
+        "mean": 8.60543127147765,
+        "p50": 9.797,
+        "p95": 13.454,
+        "p99": 18.681,
+        "samples": 582
+      },
+      "measurement_seconds": 5.0103,
+      "memory_end": {
+        "process_peak_rss_mib": 228.94140625,
+        "rss_mib": 228.94140625
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 228.94140625,
+        "rss_mib": 228.94140625
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "idle",
+      "slow_frames": [],
+      "spawn_ms": 787.374
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 10.152,
+        "mean": 6.00647491638796,
+        "p50": 5.875,
+        "p95": 7.187,
+        "p99": 8.004,
+        "samples": 299
+      },
+      "animation_render_ms": {
+        "max": 1.279,
+        "mean": 0.465348648648648,
+        "p50": 0.434,
+        "p95": 0.664,
+        "p99": 0.894,
+        "samples": 370
+      },
+      "characters": 10,
+      "frame_ms": {
+        "max": 57.084,
+        "mean": 13.5099027027027,
+        "p50": 14.404,
+        "p95": 22.776,
+        "p99": 41.058,
+        "samples": 370
+      },
+      "measurement_seconds": 5.003483,
+      "memory_end": {
+        "process_peak_rss_mib": 229.08203125,
+        "rss_mib": 229.08203125
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 229.0546875,
+        "rss_mib": 229.0546875
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "slope",
+      "slow_frames": [
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.455256,
+          "frame_ms": 35.421,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 18.007,
+          "projectiles": 0,
+          "render_pose_ms": 0.43
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.752918,
+          "frame_ms": 51.045,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 13.115,
+          "projectiles": 0,
+          "render_pose_ms": 0.525
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.829536,
+          "frame_ms": 40.205,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 11.268,
+          "projectiles": 0,
+          "render_pose_ms": 0.566
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.964468,
+          "frame_ms": 41.058,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 11.513,
+          "projectiles": 0,
+          "render_pose_ms": 0.452
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.239243,
+          "frame_ms": 57.084,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 13.694,
+          "projectiles": 0,
+          "render_pose_ms": 0.427
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.347138,
+          "frame_ms": 43.161,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.059,
+          "projectiles": 0,
+          "render_pose_ms": 0.402
+        }
+      ],
+      "spawn_ms": 559.148
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 11.123,
+        "mean": 8.72472333333333,
+        "p50": 8.691,
+        "p95": 9.636,
+        "p99": 10.381,
+        "samples": 300
+      },
+      "animation_render_ms": {
+        "max": 0.566,
+        "mean": 0.173766393442623,
+        "p50": 0.136,
+        "p95": 0.359,
+        "p99": 0.48,
+        "samples": 244
+      },
+      "characters": 10,
+      "frame_ms": {
+        "max": 167.753,
+        "mean": 20.4954303278688,
+        "p50": 17.145,
+        "p95": 31.926,
+        "p99": 64.805,
+        "samples": 244
+      },
+      "measurement_seconds": 5.007451,
+      "memory_end": {
+        "process_peak_rss_mib": 229.2578125,
+        "rss_mib": 229.2578125
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 229.2578125,
+        "rss_mib": 229.2578125
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "crouch",
+      "slow_frames": [
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.246037,
+          "frame_ms": 36.503,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.401,
+          "projectiles": 0,
+          "render_pose_ms": 0.118
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.928153,
+          "frame_ms": 40.412,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.479,
+          "projectiles": 0,
+          "render_pose_ms": 0.131
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.09934,
+          "frame_ms": 42.21,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.239,
+          "projectiles": 0,
+          "render_pose_ms": 0.206
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.88461,
+          "frame_ms": 36.511,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 19.413,
+          "projectiles": 0,
+          "render_pose_ms": 0.187
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.042741,
+          "frame_ms": 167.753,
+          "physics_ticks": 6,
+          "pose_cpu_ms": 53.924,
+          "projectiles": 0,
+          "render_pose_ms": 0.152
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.10796,
+          "frame_ms": 65.219,
+          "physics_ticks": 5,
+          "pose_cpu_ms": 40.255,
+          "projectiles": 0,
+          "render_pose_ms": 0.131
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.172765,
+          "frame_ms": 64.805,
+          "physics_ticks": 5,
+          "pose_cpu_ms": 41.571,
+          "projectiles": 0,
+          "render_pose_ms": 0.128
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.224705,
+          "frame_ms": 51.94,
+          "physics_ticks": 4,
+          "pose_cpu_ms": 33.445,
+          "projectiles": 0,
+          "render_pose_ms": 0.131
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.264739,
+          "frame_ms": 40.034,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 24.704,
+          "projectiles": 0,
+          "render_pose_ms": 0.119
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.989076,
+          "frame_ms": 47.307,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 18.604,
+          "projectiles": 0,
+          "render_pose_ms": 0.127
+        }
+      ],
+      "spawn_ms": 482.06
+    },
+    {
+      "actions_started": 67,
+      "animation_physics_ms": {
+        "max": 4.804,
+        "mean": 3.00421926910299,
+        "p50": 2.981,
+        "p95": 3.667,
+        "p99": 3.937,
+        "samples": 301
+      },
+      "animation_render_ms": {
+        "max": 1.449,
+        "mean": 0.555240631163708,
+        "p50": 0.499,
+        "p95": 0.866,
+        "p99": 1.072,
+        "samples": 507
+      },
+      "characters": 10,
+      "frame_ms": {
+        "max": 52.022,
+        "mean": 9.86411834319527,
+        "p50": 11.75,
+        "p95": 14.815,
+        "p99": 42.435,
+        "samples": 507
+      },
+      "measurement_seconds": 5.009359,
+      "memory_end": {
+        "process_peak_rss_mib": 233.54296875,
+        "rss_mib": 233.54296875
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 233.3671875,
+        "rss_mib": 233.3671875
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "combat",
+      "slow_frames": [
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 0.7985,
+          "frame_ms": 41.209,
+          "physics_ticks": 1,
+          "pose_cpu_ms": 2.419,
+          "projectiles": 4,
+          "render_pose_ms": 0.421
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 0.847941,
+          "frame_ms": 39.225,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 5.565,
+          "projectiles": 3,
+          "render_pose_ms": 0.427
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 1.470965,
+          "frame_ms": 49.611,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 5.149,
+          "projectiles": 4,
+          "render_pose_ms": 0.433
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 2.323453,
+          "frame_ms": 50.644,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 5.159,
+          "projectiles": 4,
+          "render_pose_ms": 0.441
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 2.964991,
+          "frame_ms": 49.77,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 5.118,
+          "projectiles": 4,
+          "render_pose_ms": 0.435
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 3.017544,
+          "frame_ms": 42.435,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 5.651,
+          "projectiles": 3,
+          "render_pose_ms": 0.42
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 3.802116,
+          "frame_ms": 42.617,
+          "physics_ticks": 1,
+          "pose_cpu_ms": 2.541,
+          "projectiles": 4,
+          "render_pose_ms": 0.455
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 3.854164,
+          "frame_ms": 41.722,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 6.53,
+          "projectiles": 3,
+          "render_pose_ms": 0.452
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 4.468709,
+          "frame_ms": 52.022,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 4.738,
+          "projectiles": 4,
+          "render_pose_ms": 0.683
+        }
+      ],
+      "spawn_ms": 499.248
+    },
+    {
+      "actions_started": 12,
+      "animation_physics_ms": {
+        "max": 7.773,
+        "mean": 2.67945333333333,
+        "p50": 2.378,
+        "p95": 6.237,
+        "p99": 7.213,
+        "samples": 300
+      },
+      "animation_render_ms": {
+        "max": 0.127,
+        "mean": 0.0013361581920904,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.038,
+        "samples": 708
+      },
+      "characters": 10,
+      "frame_ms": {
+        "max": 23.237,
+        "mean": 7.06791242937853,
+        "p50": 5.239,
+        "p95": 14.36,
+        "p99": 16.669,
+        "samples": 708
+      },
+      "measurement_seconds": 5.010423,
+      "memory_end": {
+        "process_peak_rss_mib": 233.57421875,
+        "rss_mib": 233.57421875
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 233.5625,
+        "rss_mib": 233.5625
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 12,
+      "scenario": "recovery",
+      "slow_frames": [],
+      "spawn_ms": 490.941
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 8.922,
+        "mean": 2.64830666666667,
+        "p50": 2.532,
+        "p95": 3.253,
+        "p99": 4.338,
+        "samples": 300
+      },
+      "animation_render_ms": {
+        "max": 1.94,
+        "mean": 0.786807486631016,
+        "p50": 0.711,
+        "p95": 1.307,
+        "p99": 1.649,
+        "samples": 374
+      },
+      "characters": 15,
+      "frame_ms": {
+        "max": 135.781,
+        "mean": 13.3509037433155,
+        "p50": 13.999,
+        "p95": 20.406,
+        "p99": 44.051,
+        "samples": 374
+      },
+      "measurement_seconds": 5.003366,
+      "memory_end": {
+        "process_peak_rss_mib": 234.265625,
+        "rss_mib": 234.265625
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 234.328125,
+        "rss_mib": 234.328125
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "idle",
+      "slow_frames": [
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.007531,
+          "frame_ms": 44.051,
+          "physics_ticks": 1,
+          "pose_cpu_ms": 3.986,
+          "projectiles": 0,
+          "render_pose_ms": 1.302
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.307187,
+          "frame_ms": 53.497,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 6.281,
+          "projectiles": 0,
+          "render_pose_ms": 0.629
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.434101,
+          "frame_ms": 58.777,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 7.015,
+          "projectiles": 0,
+          "render_pose_ms": 0.649
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.702558,
+          "frame_ms": 135.781,
+          "physics_ticks": 5,
+          "pose_cpu_ms": 11.668,
+          "projectiles": 0,
+          "render_pose_ms": 1.1
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.740929,
+          "frame_ms": 38.371,
+          "physics_ticks": 4,
+          "pose_cpu_ms": 12.269,
+          "projectiles": 0,
+          "render_pose_ms": 0.664
+        }
+      ],
+      "spawn_ms": 767.322
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 10.275,
+        "mean": 7.72652159468439,
+        "p50": 7.747,
+        "p95": 8.922,
+        "p99": 9.767,
+        "samples": 301
+      },
+      "animation_render_ms": {
+        "max": 1.299,
+        "mean": 0.680685185185185,
+        "p50": 0.604,
+        "p95": 1.062,
+        "p99": 1.255,
+        "samples": 162
+      },
+      "characters": 15,
+      "frame_ms": {
+        "max": 55.657,
+        "mean": 30.9407592592592,
+        "p50": 32.429,
+        "p95": 44.188,
+        "p99": 50.235,
+        "samples": 162
+      },
+      "measurement_seconds": 5.015376,
+      "memory_end": {
+        "process_peak_rss_mib": 234.46484375,
+        "rss_mib": 234.46484375
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 234.4296875,
+        "rss_mib": 234.4296875
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "slope",
+      "slow_frames": [
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.134876,
+          "frame_ms": 34.043,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.151,
+          "projectiles": 0,
+          "render_pose_ms": 1.011
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.205528,
+          "frame_ms": 33.554,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 17.688,
+          "projectiles": 0,
+          "render_pose_ms": 0.588
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.308472,
+          "frame_ms": 34.904,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 18.157,
+          "projectiles": 0,
+          "render_pose_ms": 0.59
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.36258,
+          "frame_ms": 33.913,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 17.675,
+          "projectiles": 0,
+          "render_pose_ms": 0.581
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.415132,
+          "frame_ms": 33.931,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 17.27,
+          "projectiles": 0,
+          "render_pose_ms": 0.595
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.449706,
+          "frame_ms": 34.574,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.989,
+          "projectiles": 0,
+          "render_pose_ms": 0.734
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.630983,
+          "frame_ms": 33.421,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.528,
+          "projectiles": 0,
+          "render_pose_ms": 0.568
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.664536,
+          "frame_ms": 33.553,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.644,
+          "projectiles": 0,
+          "render_pose_ms": 0.569
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.697885,
+          "frame_ms": 33.349,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.604,
+          "projectiles": 0,
+          "render_pose_ms": 0.556
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.815839,
+          "frame_ms": 33.707,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.191,
+          "projectiles": 0,
+          "render_pose_ms": 0.585
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.8493,
+          "frame_ms": 33.461,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.387,
+          "projectiles": 0,
+          "render_pose_ms": 0.576
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.915939,
+          "frame_ms": 33.874,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.601,
+          "projectiles": 0,
+          "render_pose_ms": 0.684
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.949893,
+          "frame_ms": 33.954,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.653,
+          "projectiles": 0,
+          "render_pose_ms": 0.727
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.994081,
+          "frame_ms": 44.188,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 19.396,
+          "projectiles": 0,
+          "render_pose_ms": 1.093
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.218073,
+          "frame_ms": 33.354,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.77,
+          "projectiles": 0,
+          "render_pose_ms": 0.997
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.411725,
+          "frame_ms": 33.359,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.058,
+          "projectiles": 0,
+          "render_pose_ms": 0.743
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.548718,
+          "frame_ms": 38.718,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 17.899,
+          "projectiles": 0,
+          "render_pose_ms": 0.776
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.5934,
+          "frame_ms": 44.682,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 19.424,
+          "projectiles": 0,
+          "render_pose_ms": 0.631
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.631482,
+          "frame_ms": 38.082,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 17.594,
+          "projectiles": 0,
+          "render_pose_ms": 0.665
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.681717,
+          "frame_ms": 50.235,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 23.051,
+          "projectiles": 0,
+          "render_pose_ms": 0.641
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.737374,
+          "frame_ms": 55.657,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 28.227,
+          "projectiles": 0,
+          "render_pose_ms": 0.708
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.779771,
+          "frame_ms": 42.397,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 20.086,
+          "projectiles": 0,
+          "render_pose_ms": 0.665
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.824566,
+          "frame_ms": 44.795,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 22.82,
+          "projectiles": 0,
+          "render_pose_ms": 0.641
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.870507,
+          "frame_ms": 45.941,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 23.953,
+          "projectiles": 0,
+          "render_pose_ms": 0.648
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.914744,
+          "frame_ms": 44.237,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 22.905,
+          "projectiles": 0,
+          "render_pose_ms": 0.626
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.98079,
+          "frame_ms": 33.488,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.7,
+          "projectiles": 0,
+          "render_pose_ms": 0.6
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.028305,
+          "frame_ms": 47.515,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 23.371,
+          "projectiles": 0,
+          "render_pose_ms": 0.599
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.061688,
+          "frame_ms": 33.383,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.899,
+          "projectiles": 0,
+          "render_pose_ms": 0.615
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.161056,
+          "frame_ms": 34.731,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 17.704,
+          "projectiles": 0,
+          "render_pose_ms": 0.608
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.402975,
+          "frame_ms": 39.289,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.908,
+          "projectiles": 0,
+          "render_pose_ms": 0.583
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.747839,
+          "frame_ms": 49.872,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.101,
+          "projectiles": 0,
+          "render_pose_ms": 0.587
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.931751,
+          "frame_ms": 33.704,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.102,
+          "projectiles": 0,
+          "render_pose_ms": 0.579
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.965624,
+          "frame_ms": 33.873,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.959,
+          "projectiles": 0,
+          "render_pose_ms": 0.574
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.999309,
+          "frame_ms": 33.685,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.39,
+          "projectiles": 0,
+          "render_pose_ms": 0.604
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.299156,
+          "frame_ms": 33.413,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.058,
+          "projectiles": 0,
+          "render_pose_ms": 0.615
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.33288,
+          "frame_ms": 33.724,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.236,
+          "projectiles": 0,
+          "render_pose_ms": 0.581
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.455198,
+          "frame_ms": 35.253,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.91,
+          "projectiles": 0,
+          "render_pose_ms": 1.046
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.616598,
+          "frame_ms": 34.766,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.513,
+          "projectiles": 0,
+          "render_pose_ms": 0.822
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.736748,
+          "frame_ms": 34.267,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.141,
+          "projectiles": 0,
+          "render_pose_ms": 0.949
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.803537,
+          "frame_ms": 33.651,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.407,
+          "projectiles": 0,
+          "render_pose_ms": 0.901
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.837244,
+          "frame_ms": 33.707,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.448,
+          "projectiles": 0,
+          "render_pose_ms": 0.984
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.957364,
+          "frame_ms": 34.063,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.871,
+          "projectiles": 0,
+          "render_pose_ms": 0.601
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.023493,
+          "frame_ms": 33.511,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.924,
+          "projectiles": 0,
+          "render_pose_ms": 0.613
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.173288,
+          "frame_ms": 33.771,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.165,
+          "projectiles": 0,
+          "render_pose_ms": 0.593
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.206839,
+          "frame_ms": 33.551,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 16.521,
+          "projectiles": 0,
+          "render_pose_ms": 0.637
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.366719,
+          "frame_ms": 33.372,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.41,
+          "projectiles": 0,
+          "render_pose_ms": 0.575
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.550725,
+          "frame_ms": 33.512,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.172,
+          "projectiles": 0,
+          "render_pose_ms": 0.704
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.584137,
+          "frame_ms": 33.412,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 15.196,
+          "projectiles": 0,
+          "render_pose_ms": 0.58
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.617756,
+          "frame_ms": 33.619,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 14.923,
+          "projectiles": 0,
+          "render_pose_ms": 0.646
+        }
+      ],
+      "spawn_ms": 781.548
+    },
+    {
+      "actions_started": 0,
+      "animation_physics_ms": {
+        "max": 21.029,
+        "mean": 11.9656544117647,
+        "p50": 11.753,
+        "p95": 13.589,
+        "p99": 17.955,
+        "samples": 272
+      },
+      "animation_render_ms": {
+        "max": 0.729,
+        "mean": 0.230323529411765,
+        "p50": 0.199,
+        "p95": 0.439,
+        "p99": 0.729,
+        "samples": 34
+      },
+      "characters": 15,
+      "frame_ms": {
+        "max": 187.484,
+        "mean": 146.275029411765,
+        "p50": 142.955,
+        "p95": 177.366,
+        "p99": 187.484,
+        "samples": 34
+      },
+      "measurement_seconds": 5.020635,
+      "memory_end": {
+        "process_peak_rss_mib": 234.53515625,
+        "rss_mib": 234.53515625
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 234.53125,
+        "rss_mib": 234.53125
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "crouch",
+      "slow_frames": [
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.181581,
+          "frame_ms": 134.297,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 88.946,
+          "projectiles": 0,
+          "render_pose_ms": 0.186
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.321137,
+          "frame_ms": 139.556,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 91.358,
+          "projectiles": 0,
+          "render_pose_ms": 0.19
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.461245,
+          "frame_ms": 140.108,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 91.316,
+          "projectiles": 0,
+          "render_pose_ms": 0.18
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.606532,
+          "frame_ms": 145.287,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 95.538,
+          "projectiles": 0,
+          "render_pose_ms": 0.205
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.752952,
+          "frame_ms": 146.42,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 95.656,
+          "projectiles": 0,
+          "render_pose_ms": 0.184
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 0.89436,
+          "frame_ms": 141.408,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 92.353,
+          "projectiles": 0,
+          "render_pose_ms": 0.262
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.037762,
+          "frame_ms": 143.402,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 95.1,
+          "projectiles": 0,
+          "render_pose_ms": 0.178
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.180717,
+          "frame_ms": 142.955,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 94.261,
+          "projectiles": 0,
+          "render_pose_ms": 0.188
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.321903,
+          "frame_ms": 141.186,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 94.234,
+          "projectiles": 0,
+          "render_pose_ms": 0.183
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.463079,
+          "frame_ms": 141.176,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 91.662,
+          "projectiles": 0,
+          "render_pose_ms": 0.205
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.594931,
+          "frame_ms": 131.852,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 86.932,
+          "projectiles": 0,
+          "render_pose_ms": 0.277
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.731005,
+          "frame_ms": 136.074,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 90.818,
+          "projectiles": 0,
+          "render_pose_ms": 0.229
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.870771,
+          "frame_ms": 139.766,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 92.689,
+          "projectiles": 0,
+          "render_pose_ms": 0.195
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.013933,
+          "frame_ms": 143.162,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 93.216,
+          "projectiles": 0,
+          "render_pose_ms": 0.439
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.156779,
+          "frame_ms": 142.846,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 94.787,
+          "projectiles": 0,
+          "render_pose_ms": 0.187
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.299763,
+          "frame_ms": 142.984,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 92.854,
+          "projectiles": 0,
+          "render_pose_ms": 0.205
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.438607,
+          "frame_ms": 138.844,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 90.034,
+          "projectiles": 0,
+          "render_pose_ms": 0.2
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.626091,
+          "frame_ms": 187.484,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 119.214,
+          "projectiles": 0,
+          "render_pose_ms": 0.235
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.803457,
+          "frame_ms": 177.366,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 110.903,
+          "projectiles": 0,
+          "render_pose_ms": 0.214
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 2.965138,
+          "frame_ms": 161.681,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 106.424,
+          "projectiles": 0,
+          "render_pose_ms": 0.729
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.118181,
+          "frame_ms": 153.043,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 99.181,
+          "projectiles": 0,
+          "render_pose_ms": 0.267
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.277753,
+          "frame_ms": 159.572,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 103.857,
+          "projectiles": 0,
+          "render_pose_ms": 0.199
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.427889,
+          "frame_ms": 150.136,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 97.485,
+          "projectiles": 0,
+          "render_pose_ms": 0.258
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.570333,
+          "frame_ms": 142.444,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 94.226,
+          "projectiles": 0,
+          "render_pose_ms": 0.203
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.707354,
+          "frame_ms": 137.021,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 91.053,
+          "projectiles": 0,
+          "render_pose_ms": 0.215
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 3.855053,
+          "frame_ms": 147.699,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 96.581,
+          "projectiles": 0,
+          "render_pose_ms": 0.186
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.001467,
+          "frame_ms": 146.414,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 93.808,
+          "projectiles": 0,
+          "render_pose_ms": 0.306
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.157011,
+          "frame_ms": 155.544,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 102.631,
+          "projectiles": 0,
+          "render_pose_ms": 0.188
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.298818,
+          "frame_ms": 141.807,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 94.585,
+          "projectiles": 0,
+          "render_pose_ms": 0.177
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.445461,
+          "frame_ms": 146.643,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 96.179,
+          "projectiles": 0,
+          "render_pose_ms": 0.183
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.590879,
+          "frame_ms": 145.418,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 95.318,
+          "projectiles": 0,
+          "render_pose_ms": 0.199
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.739082,
+          "frame_ms": 148.203,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 96.357,
+          "projectiles": 0,
+          "render_pose_ms": 0.187
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.878261,
+          "frame_ms": 139.179,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 92.476,
+          "projectiles": 0,
+          "render_pose_ms": 0.19
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 5.020635,
+          "frame_ms": 142.374,
+          "physics_ticks": 8,
+          "pose_cpu_ms": 92.626,
+          "projectiles": 0,
+          "render_pose_ms": 0.202
+        }
+      ],
+      "spawn_ms": 721.209
+    },
+    {
+      "actions_started": 99,
+      "animation_physics_ms": {
+        "max": 5.513,
+        "mean": 3.9773322147651,
+        "p50": 3.94,
+        "p95": 4.632,
+        "p99": 5.241,
+        "samples": 298
+      },
+      "animation_render_ms": {
+        "max": 2.188,
+        "mean": 0.761970000000001,
+        "p50": 0.683,
+        "p95": 1.204,
+        "p99": 1.492,
+        "samples": 300
+      },
+      "characters": 15,
+      "frame_ms": {
+        "max": 67.82,
+        "mean": 16.62263,
+        "p50": 16.051,
+        "p95": 24.578,
+        "p99": 40.418,
+        "samples": 300
+      },
+      "measurement_seconds": 5.001994,
+      "memory_end": {
+        "process_peak_rss_mib": 239.04296875,
+        "rss_mib": 239.04296875
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 238.72265625,
+        "rss_mib": 238.72265625
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 0,
+      "scenario": "combat",
+      "slow_frames": [
+        {
+          "actions_started": 2,
+          "elapsed_seconds": 0.783117,
+          "frame_ms": 54.571,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 6.673,
+          "projectiles": 5,
+          "render_pose_ms": 0.64
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 1.63645,
+          "frame_ms": 40.418,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 7.857,
+          "projectiles": 3,
+          "render_pose_ms": 0.638
+        },
+        {
+          "actions_started": 2,
+          "elapsed_seconds": 2.287911,
+          "frame_ms": 54.097,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 7.031,
+          "projectiles": 5,
+          "render_pose_ms": 0.613
+        },
+        {
+          "actions_started": 1,
+          "elapsed_seconds": 3.688893,
+          "frame_ms": 35.232,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 9.005,
+          "projectiles": 6,
+          "render_pose_ms": 0.671
+        },
+        {
+          "actions_started": 3,
+          "elapsed_seconds": 3.821149,
+          "frame_ms": 67.82,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 11.706,
+          "projectiles": 5,
+          "render_pose_ms": 0.981
+        },
+        {
+          "actions_started": 2,
+          "elapsed_seconds": 3.882244,
+          "frame_ms": 33.97,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 7.912,
+          "projectiles": 3,
+          "render_pose_ms": 0.679
+        }
+      ],
+      "spawn_ms": 725.794
+    },
+    {
+      "actions_started": 15,
+      "animation_physics_ms": {
+        "max": 14.171,
+        "mean": 3.6135016722408,
+        "p50": 1.795,
+        "p95": 9.501,
+        "p99": 11.889,
+        "samples": 299
+      },
+      "animation_render_ms": {
+        "max": 0.091,
+        "mean": 0.000834090909090909,
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.03,
+        "samples": 440
+      },
+      "characters": 15,
+      "frame_ms": {
+        "max": 59.703,
+        "mean": 11.4002545454545,
+        "p50": 11.093,
+        "p95": 25.488,
+        "p99": 44.667,
+        "samples": 440
+      },
+      "measurement_seconds": 5.017352,
+      "memory_end": {
+        "process_peak_rss_mib": 239.46875,
+        "rss_mib": 239.46875
+      },
+      "memory_start": {
+        "process_peak_rss_mib": 239.46875,
+        "rss_mib": 239.46875
+      },
+      "omitted_slow_frames": 0,
+      "recoveries_completed": 16,
+      "scenario": "recovery",
+      "slow_frames": [
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.806682,
+          "frame_ms": 59.703,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 26.814,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 1.848592,
+          "frame_ms": 41.91,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 27.08,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        },
+        {
+          "actions_started": 3,
+          "elapsed_seconds": 2.807975,
+          "frame_ms": 46.406,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 9.804,
+          "projectiles": 0,
+          "render_pose_ms": 0.02
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.740097,
+          "frame_ms": 41.845,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 20.223,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.77979,
+          "frame_ms": 39.693,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 21.791,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.827725,
+          "frame_ms": 47.935,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 30.142,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.86197,
+          "frame_ms": 34.245,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 20.497,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.897697,
+          "frame_ms": 35.727,
+          "physics_ticks": 2,
+          "pose_cpu_ms": 22.047,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 4.942364,
+          "frame_ms": 44.667,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 27.581,
+          "projectiles": 0,
+          "render_pose_ms": 0.0
+        },
+        {
+          "actions_started": 0,
+          "elapsed_seconds": 5.017352,
+          "frame_ms": 45.131,
+          "physics_ticks": 3,
+          "pose_cpu_ms": 27.344,
+          "projectiles": 0,
+          "render_pose_ms": 0.017
+        }
+      ],
+      "spawn_ms": 678.788
+    }
+  ],
+  "spawn": {
+    "first_instance_ms": 51.282,
+    "note": "First and second benchmark instance construction; GameSession preloads player resources and the release launch flag passes through normal startup, so these are warm resource/instance measurements, not cold disk-load claims.",
+    "resource_load_ms": 0.014,
+    "warm_instance_ms": 51.71
+  },
+  "startup_to_ready_ms": 1770.952,
+  "trace_spikes": true,
+  "measurement_validity": {
+    "isolated": true,
+    "conditions": "No other Godot/game/test processes ran during this exported real-GPU matrix. Short read-only source inspections were performed during the run; no test/build processes or production edits."
+  }
+}

@@ -1,0 +1,35 @@
+[gd_resource type="Resource" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://tools/ual_animation_build_manifest.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/third_party/quaternius/UAL1_Standard.glb" id="2"]
+
+[resource]
+script = ExtResource("1")
+source_scene = ExtResource("2")
+locomotion_clips = {
+"idle": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Idle"],
+"walk": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Walk"],
+"jog": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Jog_Fwd"],
+"sprint": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Sprint"],
+"crouch_idle": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Crouch_Idle"],
+"crouch_walk": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Crouch_Fwd"]
+}
+combat_clips = {
+"sword_regular_a": ["res://assets/third_party/quaternius/ual2/UAL2_Standard.glb", "Sword_Regular_A"],
+"sword_regular_b": ["res://assets/third_party/quaternius/ual2/UAL2_Standard.glb", "Sword_Regular_B"],
+"sword_regular_a_rec": ["res://assets/third_party/quaternius/ual2/UAL2_Standard.glb", "Sword_Regular_A_Rec"],
+"sword_regular_b_rec": ["res://assets/third_party/quaternius/ual2/UAL2_Standard.glb", "Sword_Regular_B_Rec"]
+}
+action_clips = {
+"sword_idle": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Sword_Idle"],
+"sword_heavy": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Sword_Attack"],
+"spell_enter": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Spell_Simple_Enter"],
+"spell_idle": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Spell_Simple_Idle"],
+"spell_shoot": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Spell_Simple_Shoot"],
+"spell_exit": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Spell_Simple_Exit"],
+"climb_up_1m_rm": ["res://assets/third_party/quaternius/ual2/UAL2_Standard_RM.glb", "ClimbUp_1m"]
+}
+swimming_clips = {
+"swim_idle": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Swim_Idle"],
+"swim_forward": ["res://assets/third_party/quaternius/UAL1_Standard.glb", "Swim_Fwd"]
+}

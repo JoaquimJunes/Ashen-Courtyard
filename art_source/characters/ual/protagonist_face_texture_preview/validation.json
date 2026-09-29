@@ -1,0 +1,23 @@
+{
+  "input_file_unchanged": true,
+  "saved_file_reopened": true,
+  "surface_shape_preserved": true,
+  "render_triangles_preserved_except_one_stray": true,
+  "skeleton_transforms_modifiers_and_43_actions_preserved": true,
+  "existing_weight_ratios_preserved": 7017,
+  "unweighted_vertices": 0,
+  "nonmanifold_edges": 0,
+  "inconsistent_winding_edges": 0,
+  "zero_area_faces": 0,
+  "flat_shading_preserved": true,
+  "bones": 65,
+  "actions": 43,
+  "armature_objects": 1,
+  "finite_uvs_in_unit_square": true,
+  "collapsed_uv_triangles": 0,
+  "collapsed_uv_polygon_indices": [],
+  "packed_512_texture_matches_existing_player_texture": true,
+  "repaired_face_vertices_follow_head": true,
+  "minimum_repaired_face_motion_metres": 0.034317711284148386,
+  "game_integrated": false
+}

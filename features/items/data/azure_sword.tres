@@ -1,0 +1,21 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Script"]
+[ext_resource type="Resource" path="res://features/items/data/sword_moveset.tres" id="actions"]
+[ext_resource type="Resource" path="res://features/items/data/sword_hands.tres" id="equipment"]
+[ext_resource type="Resource" path="res://features/presentation/data/review_sword.tres" id="visual"]
+[ext_resource type="Resource" path="res://features/items/data/practice_upgrades.tres" id="upgrade"]
+
+
+[resource]
+script = ExtResource("Script")
+id = &"azure_sword"
+display_name = "Azure Sword"
+description = "The starting sword. Light A/B combo and heavy strike."
+category = "melee"
+subtype = &"sword"
+actions = ExtResource("actions")
+equipment = ExtResource("equipment")
+visual = ExtResource("visual")
+upgrades = ExtResource("upgrade")
+

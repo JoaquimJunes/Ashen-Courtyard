@@ -1,0 +1,78 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: left / shoulder -1: walking faces the locked target
+PASS: left / shoulder -1: camera keeps the enemy targeted
+PASS: left / shoulder -1: running faces travel
+PASS: Running retains camera lock
+PASS: Returning to target-facing does not snap
+PASS: Releasing sprint restores target-facing while walking
+PASS: right / shoulder -1: walking faces the locked target
+PASS: right / shoulder -1: camera keeps the enemy targeted
+PASS: right / shoulder -1: running faces travel
+PASS: Running retains camera lock
+PASS: Returning to target-facing does not snap
+PASS: Releasing sprint restores target-facing while walking
+PASS: back / shoulder -1: walking faces the locked target
+PASS: back / shoulder -1: camera keeps the enemy targeted
+PASS: Braking and idle keep facing the enemy
+PASS: Unlocking does not snap the character's body
+PASS: back / shoulder -1: running faces travel
+PASS: Running retains camera lock
+PASS: Returning to target-facing does not snap
+PASS: Releasing sprint restores target-facing while walking
+PASS: forward / shoulder -1: walking faces the locked target
+PASS: forward / shoulder -1: camera keeps the enemy targeted
+PASS: forward / shoulder -1: running faces travel
+PASS: Running retains camera lock
+PASS: Returning to target-facing does not snap
+PASS: Releasing sprint restores target-facing while walking
+PASS: left / shoulder 1: walking faces the locked target
+PASS: left / shoulder 1: camera keeps the enemy targeted
+PASS: left / shoulder 1: running faces travel
+PASS: Running retains camera lock
+PASS: Returning to target-facing does not snap
+PASS: Releasing sprint restores target-facing while walking
+PASS: right / shoulder 1: walking faces the locked target
+PASS: right / shoulder 1: camera keeps the enemy targeted
+PASS: right / shoulder 1: running faces travel
+PASS: Running retains camera lock
+PASS: Returning to target-facing does not snap
+PASS: Releasing sprint restores target-facing while walking
+PASS: back / shoulder 1: walking faces the locked target
+PASS: back / shoulder 1: camera keeps the enemy targeted
+PASS: Braking and idle keep facing the enemy
+PASS: Unlocking does not snap the character's body
+PASS: back / shoulder 1: running faces travel
+PASS: Running retains camera lock
+PASS: Returning to target-facing does not snap
+PASS: Releasing sprint restores target-facing while walking
+PASS: forward / shoulder 1: walking faces the locked target
+PASS: forward / shoulder 1: camera keeps the enemy targeted
+PASS: forward / shoulder 1: running faces travel
+PASS: Running retains camera lock
+PASS: Returning to target-facing does not snap
+PASS: Releasing sprint restores target-facing while walking
+PASS: Moving target initiates a smooth turn
+PASS: Idle follows the moving target
+PASS: Sprint held without movement still faces the enemy
+PASS: Stride cadence eases into sprinting
+PASS: Cadence reaches running speed without changing movement speed
+PASS: Locked sword attack still faces the enemy
+PASS: Locked casting faces the enemy independently of camera smoothing
+PASS: Losing the target releases the camera without rotating the body
+PASS: Camera returns within 0.1 degrees of free look after losing the target
+PASS: 30 Hz: exhausted running request overrides target and explicit intent facing
+PASS: 30 Hz: releasing exhausted running request restores target-facing
+PASS: 60 Hz: exhausted running request overrides target and explicit intent facing
+PASS: 60 Hz: releasing exhausted running request restores target-facing
+PASS: 120 Hz: exhausted running request overrides target and explicit intent facing
+PASS: 120 Hz: releasing exhausted running request restores target-facing
+PASS: Horizontal target overlap retains heading despite movement input
+PASS: Target death releases lock without snapping
+PASS: Target death restores ordinary movement-facing
+PASS: Assigned enemy without lock does not override movement-facing
+PASS: Free airborne movement tracks the target
+PASS: Airborne running intent faces travel without enabling sprint speed
+PASS: Locked sideways dodge starts
+PASS: Committed dodge keeps its facing when the target moves
+LOCK MOVEMENT RESULT: 75 checks, 0 failures

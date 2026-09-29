@@ -1,0 +1,41 @@
+{
+  "geometry_uv_weights_rig_unchanged": true,
+  "matched_properties": [
+    "vertices",
+    "faces",
+    "normals",
+    "smooth",
+    "uvs",
+    "weights",
+    "group_names",
+    "bones",
+    "body_transform",
+    "armature_transform"
+  ],
+  "vertices": 6993,
+  "triangles": 13742,
+  "bones": 65,
+  "texture_size": [
+    512,
+    512
+  ],
+  "filter": "Closest",
+  "displacement": false,
+  "game_integrated": false,
+  "saved_copy_reopened": true,
+  "packed_texture_matches_png": true,
+  "source_pose_retained": "REST",
+  "animation_actions_retained": 43,
+  "visual_review": [
+    "front",
+    "side",
+    "back",
+    "face",
+    "bent elbows and knees"
+  ],
+  "preview_checks_passed": true,
+  "sha256": {
+    "Protagonist_BaseColor_512.png": "700f3e72029d30bb6d32ae5d5ece9cbf7318b9dbfbdef9f8c4ca3ad460f274b2",
+    "Protagonist_texture_preview.blend": "e1f47458aa4b28edf6ffd102561351e1bb66637b65059b0656fe1d88bc51a390"
+  }
+}

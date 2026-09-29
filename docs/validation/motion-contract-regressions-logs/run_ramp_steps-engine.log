@@ -1,0 +1,113 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: walk, 10.0 degree ramp, side -1.0, 0.30 m lip: height limit / landing (position (-57.77958, 0.304976, 43.30294))
+PASS: walk, 10.0 degree ramp, side -1.0, 0.30 m lip: no horizontal boost
+PASS: sprint, 10.0 degree ramp, side -1.0, 0.30 m lip: height limit / landing (position (-56.72218, 0.304684, 43.30485))
+PASS: sprint, 10.0 degree ramp, side -1.0, 0.30 m lip: no horizontal boost
+PASS: walk, 10.0 degree ramp, side -1.0, 0.60 m lip: height limit / landing (position (-57.77996, 0.605127, 41.60088))
+PASS: walk, 10.0 degree ramp, side -1.0, 0.60 m lip: no horizontal boost
+PASS: sprint, 10.0 degree ramp, side -1.0, 0.60 m lip: height limit / landing (position (-56.72231, 0.604825, 41.603))
+PASS: sprint, 10.0 degree ramp, side -1.0, 0.60 m lip: no horizontal boost
+PASS: walk, 10.0 degree ramp, side -1.0, 0.61 m lip: height limit / landing (position (-58.82171, 0.000135, 41.54052))
+PASS: walk, 10.0 degree ramp, side -1.0, 0.61 m lip: no horizontal boost
+PASS: sprint, 10.0 degree ramp, side -1.0, 0.61 m lip: height limit / landing (position (-58.82141, -0.000681, 41.54052))
+PASS: sprint, 10.0 degree ramp, side -1.0, 0.61 m lip: no horizontal boost
+PASS: walk, 10.0 degree ramp, side -1.0, 0.75 m lip: height limit / landing (position (-58.8217, 0.000142, 40.74654))
+PASS: walk, 10.0 degree ramp, side -1.0, 0.75 m lip: no horizontal boost
+PASS: sprint, 10.0 degree ramp, side -1.0, 0.75 m lip: height limit / landing (position (-58.82141, -0.0006, 40.74654))
+PASS: sprint, 10.0 degree ramp, side -1.0, 0.75 m lip: no horizontal boost
+PASS: walk, 10.0 degree ramp, side 1.0, 0.30 m lip: height limit / landing (position (-56.22038, 0.305111, 43.30244))
+PASS: walk, 10.0 degree ramp, side 1.0, 0.30 m lip: no horizontal boost
+PASS: sprint, 10.0 degree ramp, side 1.0, 0.30 m lip: height limit / landing (position (-57.27778, 0.304762, 43.30436))
+PASS: sprint, 10.0 degree ramp, side 1.0, 0.30 m lip: no horizontal boost
+PASS: walk, 10.0 degree ramp, side 1.0, 0.60 m lip: height limit / landing (position (-56.21998, 0.60513, 41.6009))
+PASS: walk, 10.0 degree ramp, side 1.0, 0.60 m lip: no horizontal boost
+PASS: sprint, 10.0 degree ramp, side 1.0, 0.60 m lip: height limit / landing (position (-57.2776, 0.604845, 41.60252))
+PASS: sprint, 10.0 degree ramp, side 1.0, 0.60 m lip: no horizontal boost
+PASS: walk, 10.0 degree ramp, side 1.0, 0.61 m lip: height limit / landing (position (-55.1789, 0.000036, 41.54052))
+PASS: walk, 10.0 degree ramp, side 1.0, 0.61 m lip: no horizontal boost
+PASS: sprint, 10.0 degree ramp, side 1.0, 0.61 m lip: height limit / landing (position (-55.17821, -0.000395, 41.54052))
+PASS: sprint, 10.0 degree ramp, side 1.0, 0.61 m lip: no horizontal boost
+PASS: walk, 10.0 degree ramp, side 1.0, 0.75 m lip: height limit / landing (position (-55.17906, 0.0001, 40.74654))
+PASS: walk, 10.0 degree ramp, side 1.0, 0.75 m lip: no horizontal boost
+PASS: sprint, 10.0 degree ramp, side 1.0, 0.75 m lip: height limit / landing (position (-55.1782, -0.000872, 40.74654))
+PASS: sprint, 10.0 degree ramp, side 1.0, 0.75 m lip: no horizontal boost
+PASS: walk, 20.0 degree ramp, side -1.0, 0.30 m lip: height limit / landing (position (-51.77805, 0.318597, 44.18352))
+PASS: walk, 20.0 degree ramp, side -1.0, 0.30 m lip: no horizontal boost
+PASS: sprint, 20.0 degree ramp, side -1.0, 0.30 m lip: height limit / landing (position (-50.72136, 0.317725, 44.18595))
+PASS: sprint, 20.0 degree ramp, side -1.0, 0.30 m lip: no horizontal boost
+PASS: walk, 20.0 degree ramp, side -1.0, 0.60 m lip: height limit / landing (position (-51.77929, 0.618829, 43.35867))
+PASS: walk, 20.0 degree ramp, side -1.0, 0.60 m lip: no horizontal boost
+PASS: sprint, 20.0 degree ramp, side -1.0, 0.60 m lip: height limit / landing (position (-50.72218, 0.617819, 43.36147))
+PASS: sprint, 20.0 degree ramp, side -1.0, 0.60 m lip: no horizontal boost
+PASS: walk, 20.0 degree ramp, side -1.0, 0.61 m lip: height limit / landing (position (-52.82166, -0.000847, 43.32404))
+PASS: walk, 20.0 degree ramp, side -1.0, 0.61 m lip: no horizontal boost
+PASS: sprint, 20.0 degree ramp, side -1.0, 0.61 m lip: height limit / landing (position (-52.82169, 0.000093, 43.32404))
+PASS: sprint, 20.0 degree ramp, side -1.0, 0.61 m lip: no horizontal boost
+PASS: walk, 20.0 degree ramp, side -1.0, 0.75 m lip: height limit / landing (position (-52.82095, 0.000094, 42.93939))
+PASS: walk, 20.0 degree ramp, side -1.0, 0.75 m lip: no horizontal boost
+PASS: sprint, 20.0 degree ramp, side -1.0, 0.75 m lip: height limit / landing (position (-52.82188, 0.000178, 42.93939))
+PASS: sprint, 20.0 degree ramp, side -1.0, 0.75 m lip: no horizontal boost
+PASS: walk, 20.0 degree ramp, side 1.0, 0.30 m lip: height limit / landing (position (-50.2218, 0.318864, 44.18282))
+PASS: walk, 20.0 degree ramp, side 1.0, 0.30 m lip: no horizontal boost
+PASS: sprint, 20.0 degree ramp, side 1.0, 0.30 m lip: height limit / landing (position (-51.27839, 0.317934, 44.18537))
+PASS: sprint, 20.0 degree ramp, side 1.0, 0.30 m lip: no horizontal boost
+PASS: walk, 20.0 degree ramp, side 1.0, 0.60 m lip: height limit / landing (position (-50.22063, 0.618531, 43.35943))
+PASS: walk, 20.0 degree ramp, side 1.0, 0.60 m lip: no horizontal boost
+PASS: sprint, 20.0 degree ramp, side 1.0, 0.60 m lip: height limit / landing (position (-51.27776, 0.617791, 43.36154))
+PASS: sprint, 20.0 degree ramp, side 1.0, 0.60 m lip: no horizontal boost
+PASS: walk, 20.0 degree ramp, side 1.0, 0.61 m lip: height limit / landing (position (-49.17906, 0.000062, 43.32404))
+PASS: walk, 20.0 degree ramp, side 1.0, 0.61 m lip: no horizontal boost
+PASS: sprint, 20.0 degree ramp, side 1.0, 0.61 m lip: height limit / landing (position (-49.17822, 0.000103, 43.32404))
+PASS: sprint, 20.0 degree ramp, side 1.0, 0.61 m lip: no horizontal boost
+PASS: walk, 20.0 degree ramp, side 1.0, 0.75 m lip: height limit / landing (position (-49.17854, -0.001152, 42.93939))
+PASS: walk, 20.0 degree ramp, side 1.0, 0.75 m lip: no horizontal boost
+PASS: sprint, 20.0 degree ramp, side 1.0, 0.75 m lip: height limit / landing (position (-49.17862, -0.000747, 42.93939))
+PASS: sprint, 20.0 degree ramp, side 1.0, 0.75 m lip: no horizontal boost
+PASS: walk, 30.0 degree ramp, side -1.0, 0.30 m lip: height limit / landing (position (-45.77613, 0.344033, 44.49154))
+PASS: walk, 30.0 degree ramp, side -1.0, 0.30 m lip: no horizontal boost
+PASS: sprint, 30.0 degree ramp, side -1.0, 0.30 m lip: height limit / landing (position (-44.72059, 0.341971, 44.49511))
+PASS: sprint, 30.0 degree ramp, side -1.0, 0.30 m lip: no horizontal boost
+PASS: walk, 30.0 degree ramp, side -1.0, 0.60 m lip: height limit / landing (position (-45.77838, 0.644131, 43.97173))
+PASS: walk, 30.0 degree ramp, side -1.0, 0.60 m lip: no horizontal boost
+PASS: sprint, 30.0 degree ramp, side -1.0, 0.60 m lip: height limit / landing (position (-44.72185, 0.641964, 43.97551))
+PASS: sprint, 30.0 degree ramp, side -1.0, 0.60 m lip: no horizontal boost
+PASS: walk, 30.0 degree ramp, side -1.0, 0.61 m lip: height limit / landing (position (-46.82094, -0.000043, 43.94345))
+PASS: walk, 30.0 degree ramp, side -1.0, 0.61 m lip: no horizontal boost
+PASS: sprint, 30.0 degree ramp, side -1.0, 0.61 m lip: height limit / landing (position (-46.82117, -0.00051, 43.94345))
+PASS: sprint, 30.0 degree ramp, side -1.0, 0.61 m lip: no horizontal boost
+PASS: walk, 30.0 degree ramp, side -1.0, 0.75 m lip: height limit / landing (position (-46.82001, 0.000105, 43.70096))
+PASS: walk, 30.0 degree ramp, side -1.0, 0.75 m lip: no horizontal boost
+PASS: sprint, 30.0 degree ramp, side -1.0, 0.75 m lip: height limit / landing (position (-46.82187, 0.000173, 43.70096))
+PASS: sprint, 30.0 degree ramp, side -1.0, 0.75 m lip: no horizontal boost
+PASS: walk, 30.0 degree ramp, side 1.0, 0.30 m lip: height limit / landing (position (-44.22406, 0.344386, 44.49093))
+PASS: walk, 30.0 degree ramp, side 1.0, 0.30 m lip: no horizontal boost
+PASS: sprint, 30.0 degree ramp, side 1.0, 0.30 m lip: height limit / landing (position (-45.27939, 0.342264, 44.4946))
+PASS: sprint, 30.0 degree ramp, side 1.0, 0.30 m lip: no horizontal boost
+PASS: walk, 30.0 degree ramp, side 1.0, 0.60 m lip: height limit / landing (position (-44.22145, 0.643799, 43.97228))
+PASS: walk, 30.0 degree ramp, side 1.0, 0.60 m lip: no horizontal boost
+PASS: sprint, 30.0 degree ramp, side 1.0, 0.60 m lip: height limit / landing (position (-45.27803, 0.642173, 43.97514))
+PASS: sprint, 30.0 degree ramp, side 1.0, 0.60 m lip: no horizontal boost
+PASS: walk, 30.0 degree ramp, side 1.0, 0.61 m lip: height limit / landing (position (-43.17906, 0.0001, 43.94345))
+PASS: walk, 30.0 degree ramp, side 1.0, 0.61 m lip: no horizontal boost
+PASS: sprint, 30.0 degree ramp, side 1.0, 0.61 m lip: height limit / landing (position (-43.17882, 0.000071, 43.94345))
+PASS: sprint, 30.0 degree ramp, side 1.0, 0.61 m lip: no horizontal boost
+PASS: walk, 30.0 degree ramp, side 1.0, 0.75 m lip: height limit / landing (position (-43.17906, 0.0001, 43.70096))
+PASS: walk, 30.0 degree ramp, side 1.0, 0.75 m lip: no horizontal boost
+PASS: sprint, 30.0 degree ramp, side 1.0, 0.75 m lip: height limit / landing (position (-43.1789, 0.00016, 43.70096))
+PASS: sprint, 30.0 degree ramp, side 1.0, 0.75 m lip: no horizontal boost
+PASS: Oblique walk, 10.0 degree ramp, side -1.0, along -1.0
+PASS: Oblique walk, 10.0 degree ramp, side -1.0, along 1.0
+PASS: Oblique walk, 10.0 degree ramp, side 1.0, along -1.0
+PASS: Oblique walk, 10.0 degree ramp, side 1.0, along 1.0
+PASS: Oblique walk, 20.0 degree ramp, side -1.0, along -1.0
+PASS: Oblique walk, 20.0 degree ramp, side -1.0, along 1.0
+PASS: Oblique walk, 20.0 degree ramp, side 1.0, along -1.0
+PASS: Oblique walk, 20.0 degree ramp, side 1.0, along 1.0
+PASS: Oblique walk, 30.0 degree ramp, side -1.0, along -1.0
+PASS: Oblique walk, 30.0 degree ramp, side -1.0, along 1.0
+PASS: Oblique walk, 30.0 degree ramp, side 1.0, along -1.0
+PASS: Oblique walk, 30.0 degree ramp, side 1.0, along 1.0
+PASS: Ramp ceiling blocks walking without partial lift
+PASS: Ramp reset restores grounded spawn
+RAMP STEPS RESULT: 110 checks, 0 failures

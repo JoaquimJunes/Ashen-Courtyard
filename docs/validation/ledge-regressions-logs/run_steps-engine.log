@@ -1,0 +1,30 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: 0.25 m block, sprint false: height limit respected (position (0.0, 0.250831, -0.519891))
+PASS: Step assist adds no horizontal speed
+PASS: 0.25 m block, sprint true: height limit respected (position (0.0, 0.250834, -2.203354))
+PASS: Step assist adds no horizontal speed
+PASS: 0.50 m block, sprint false: height limit respected (position (0.0, 0.500829, -0.51983))
+PASS: Step assist adds no horizontal speed
+PASS: 0.50 m block, sprint true: height limit respected (position (0.0, 0.500834, -2.20327))
+PASS: Step assist adds no horizontal speed
+PASS: 0.60 m block, sprint false: height limit respected (position (0.0, 0.600841, -0.519728))
+PASS: Step assist adds no horizontal speed
+PASS: 0.60 m block, sprint true: height limit respected (position (0.0, 0.600821, -2.203309))
+PASS: Step assist adds no horizontal speed
+PASS: 0.61 m block, sprint false: height limit respected (position (0.0, -0.000803, 1.321558))
+PASS: Step assist adds no horizontal speed
+PASS: 0.61 m block, sprint true: height limit respected (position (0.0, 0.000237, 1.320299))
+PASS: Step assist adds no horizontal speed
+PASS: 1.00 m block, sprint false: height limit respected (position (0.0, -0.000042, 1.320001))
+PASS: Step assist adds no horizontal speed
+PASS: 1.00 m block, sprint true: height limit respected (position (0.0, 0.000237, 1.320299))
+PASS: Step assist adds no horizontal speed
+PASS: Low ceiling prevents step-up (position (0.0, -0.000459, 1.321617))
+PASS: Diagonal approach can step up (position (-0.686027, 0.600819, 0.515694))
+PASS: Airborne character cannot use step-up to climb
+PASS: Healing cannot acquire automatic climbing
+PASS: Attack movement does not acquire automatic climbing
+PASS: Successive 0.6 m steps can be climbed
+PASS: Station reset clears movement after stepping
+STEPS RESULT: 27 checks, 0 failures

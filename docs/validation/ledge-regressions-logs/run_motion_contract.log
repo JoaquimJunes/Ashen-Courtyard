@@ -1,0 +1,51 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS Shared definitions have independent motion owners and budgets
+PASS 30 Hz policy 0: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 30 Hz policy 1: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 30 Hz policy 2: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 30 Hz: ending the active window or the action cannot zero momentum
+PASS 30 Hz: intentional air braking still works
+PASS 30 Hz: solid wall consumes the requested ground budget
+PASS Removing a ground wall cannot release banked action travel
+PASS 60 Hz policy 0: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 60 Hz policy 1: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 60 Hz policy 2: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 60 Hz: ending the active window or the action cannot zero momentum
+PASS 60 Hz: intentional air braking still works
+PASS 60 Hz: solid wall consumes the requested ground budget
+PASS Removing a ground wall cannot release banked action travel
+PASS 120 Hz policy 0: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 120 Hz policy 1: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 120 Hz policy 2: exhausted ground travel never stops an airborne character
+PASS An unrelated NPC uses atomic costs without affecting a second instance
+PASS Cancellation releases ownership but preserves physical air momentum
+PASS 120 Hz: ending the active window or the action cannot zero momentum
+PASS 120 Hz: intentional air braking still works
+PASS 120 Hz: solid wall consumes the requested ground budget
+PASS Removing a ground wall cannot release banked action travel
+PASS Contact-started action receives no motion/playback time from its predecessor
+PASS Departure policy has live per-instance state
+PASS Teleport clears the stored departure vector
+PASS Reset releases requests, travel and costs together
+PASS Launch invalidates cached floor contact without player-specific states
+PASS Unload releases action and retained-motion ownership
+PASS Simulation and named signal handlers do not create reference cycles
+PASS Production movement obeys the shared simulation/motor boundary: []
+MOTION CONTRACT: 48 checks, 0 failures

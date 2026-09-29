@@ -1,0 +1,142 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Every binding belongs to one category
+PASS: Unique category for forward
+PASS: Unique category for back
+PASS: Unique category for left
+PASS: Unique category for right
+PASS: Unique category for sprint
+PASS: Unique category for dodge
+PASS: Unique category for jump
+PASS: Unique category for crouch
+PASS: Unique category for light
+PASS: Unique category for heavy
+PASS: Unique category for lock
+PASS: Unique category for spell_one
+PASS: Unique category for spell_two
+PASS: Unique category for cast
+PASS: Unique category for heal
+PASS: Unique category for pause
+PASS: Unique category for diagnostics
+PASS: Unique category for retro
+PASS: arena: menu and diagnostics initially hidden
+PASS: arena: closed diagnostics disable visual frame callbacks
+PASS: arena: inspection pauses character simulation
+PASS: arena: only one content page is visible
+PASS: arena: unchanged settings hide Apply
+PASS: arena: editing reveals enabled Apply
+PASS: arena: reverting the edit hides Apply again
+PASS: arena: switching tabs preserves unapplied camera draft
+PASS: arena: category filters rows and empty state
+PASS: arena: category filters rows and empty state
+PASS: arena: category filters rows and empty state
+PASS: arena: category filters rows and empty state
+PASS: arena: Escape prompts before discarding any settings draft
+PASS: arena: warning overlays the settings page
+PASS: arena: popup is compact and fits the viewport
+PASS: arena: keyboard focus stays in popup
+PASS: arena: sidebar cannot bypass the draft guard
+PASS: arena: Resume cannot bypass the draft guard
+PASS: arena: Keep editing retains draft
+PASS: arena: Apply saves camera and stays in editor
+PASS: arena: saving hides Apply again
+PASS: arena: Reset camera stages defaults without applying
+PASS: arena: navigation guards unapplied Reset
+PASS: arena: Discard continues requested navigation
+PASS: arena: event history has bounded lifetime
+PASS: arena: inspector displays latest events
+PASS: arena: diagnostics do not query contacts or mutate gameplay
+PASS: arena: paused inspector needs no live or unchecked visual updates
+PASS: arena: enabling hand overlay starts its updates while paused
+PASS: arena: hidden ancestor stops contact updates
+PASS: arena: showing ancestor resumes enabled contact overlay
+PASS: arena: unchecking hand overlay stops contact updates
+PASS: arena: collision visualization works while paused
+PASS: arena: Back restores previous page and keyboard focus
+PASS: arena: leaving Debug stops geometry callbacks even with capsule checked
+PASS: arena: input capture cannot toggle diagnostics
+PASS: arena: Escape cancels capture without closing settings
+PASS: arena: Controls Apply publishes and stays open
+PASS: arena: Reset affects all categories but not active bindings
+PASS: arena: Display toggle remains a draft
+PASS: arena: Display Apply publishes effects preference
+PASS: arena: Display defaults select PS1 effects
+PASS: arena: failed camera save preserves active values
+PASS: arena: failed display save preserves active effects
+PASS: arena: Apply/Reset fit inside menu
+PASS: arena: closing resumes gameplay
+PASS: arena: diagnostics shortcut shows live overlay during play
+PASS: arena: live text refreshes only while displayed
+PASS: arena: lightweight live text matches inspector state
+PASS: arena: opening inspector stops hidden live text refresh
+PASS: arena: detailed inspection pauses and replaces live overlay
+PASS: arena: resetting diagnostics clears bounded state
+PASS: arena: discarding restores hidden Apply
+PASS: arena: discarding restores hidden Apply
+PASS: arena: discarding restores hidden Apply
+PASS: arena: binding and display edits reveal Apply
+PASS: arena: warning Apply saves all changed tabs then continues navigation
+PASS: arena: failed warning Apply keeps menu open with draft and error
+PASS: arena: successful retry applies then resumes
+PASS: movement_lab: menu and diagnostics initially hidden
+PASS: movement_lab: closed diagnostics disable visual frame callbacks
+PASS: movement_lab: inspection pauses character simulation
+PASS: movement_lab: only one content page is visible
+PASS: movement_lab: unchanged settings hide Apply
+PASS: movement_lab: editing reveals enabled Apply
+PASS: movement_lab: reverting the edit hides Apply again
+PASS: movement_lab: switching tabs preserves unapplied camera draft
+PASS: movement_lab: category filters rows and empty state
+PASS: movement_lab: category filters rows and empty state
+PASS: movement_lab: category filters rows and empty state
+PASS: movement_lab: category filters rows and empty state
+PASS: movement_lab: Escape prompts before discarding any settings draft
+PASS: movement_lab: warning overlays the settings page
+PASS: movement_lab: popup is compact and fits the viewport
+PASS: movement_lab: keyboard focus stays in popup
+PASS: movement_lab: sidebar cannot bypass the draft guard
+PASS: movement_lab: Resume cannot bypass the draft guard
+PASS: movement_lab: Keep editing retains draft
+PASS: movement_lab: Apply saves camera and stays in editor
+PASS: movement_lab: saving hides Apply again
+PASS: movement_lab: Reset camera stages defaults without applying
+PASS: movement_lab: navigation guards unapplied Reset
+PASS: movement_lab: Discard continues requested navigation
+PASS: movement_lab: event history has bounded lifetime
+PASS: movement_lab: inspector displays latest events
+PASS: movement_lab: diagnostics do not query contacts or mutate gameplay
+PASS: movement_lab: paused inspector needs no live or unchecked visual updates
+PASS: movement_lab: enabling hand overlay starts its updates while paused
+PASS: movement_lab: hidden ancestor stops contact updates
+PASS: movement_lab: showing ancestor resumes enabled contact overlay
+PASS: movement_lab: unchecking hand overlay stops contact updates
+PASS: movement_lab: collision visualization works while paused
+PASS: movement_lab: Back restores previous page and keyboard focus
+PASS: movement_lab: leaving Debug stops geometry callbacks even with capsule checked
+PASS: movement_lab: input capture cannot toggle diagnostics
+PASS: movement_lab: Escape cancels capture without closing settings
+PASS: movement_lab: Controls Apply publishes and stays open
+PASS: movement_lab: Reset affects all categories but not active bindings
+PASS: movement_lab: Display toggle remains a draft
+PASS: movement_lab: Display Apply publishes effects preference
+PASS: movement_lab: Display defaults select PS1 effects
+PASS: movement_lab: failed camera save preserves active values
+PASS: movement_lab: failed display save preserves active effects
+PASS: movement_lab: Apply/Reset fit inside menu
+PASS: movement_lab: closing resumes gameplay
+PASS: movement_lab: diagnostics shortcut shows live overlay during play
+PASS: movement_lab: live text refreshes only while displayed
+PASS: movement_lab: lightweight live text matches inspector state
+PASS: movement_lab: opening inspector stops hidden live text refresh
+PASS: movement_lab: detailed inspection pauses and replaces live overlay
+PASS: movement_lab: resetting diagnostics clears bounded state
+PASS: Movement Practice fits in viewport
+PASS: Practice keeps Back visible
+PASS: movement_lab: discarding restores hidden Apply
+PASS: movement_lab: discarding restores hidden Apply
+PASS: movement_lab: discarding restores hidden Apply
+PASS: movement_lab: binding and display edits reveal Apply
+PASS: movement_lab: warning Apply saves all changed tabs then continues navigation
+PASS: movement_lab: failed warning Apply keeps menu open with draft and error
+PASS: movement_lab: successful retry applies then resumes
+MENU RESULT: 139 checks, 0 failures

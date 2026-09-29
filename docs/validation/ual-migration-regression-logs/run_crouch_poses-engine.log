@@ -1,0 +1,113 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: crouch_idle: finite poses and stable idle contacts
+PASS: crouch_idle: armor fits between ground and capsule top (0.029 .. 1.280 m)
+PASS: crouch_idle: knees bend forward
+PASS: crouch_idle: local baked loop enabled without mutating source
+PASS: crouch_walk: finite poses and stable idle contacts
+PASS: crouch_walk: armor fits between ground and capsule top (0.029 .. 1.315 m)
+PASS: crouch_walk: knees bend forward
+PASS: crouch_walk: local baked loop enabled without mutating source
+PASS: Prepare visual transition
+PASS: 30 Hz: collider lowers monotonically
+PASS: 30 Hz: pose remains within lowering clearance
+PASS: 30 Hz: collider lowers monotonically
+PASS: 30 Hz: pose remains within lowering clearance
+PASS: 30 Hz: collider lowers monotonically
+PASS: 30 Hz: pose remains within lowering clearance
+PASS: 30 Hz: collider lowers monotonically
+PASS: 30 Hz: pose remains within lowering clearance
+PASS: 30 Hz: collider lowers monotonically
+PASS: 30 Hz: pose remains within lowering clearance
+PASS: 30 Hz: collider lowers monotonically
+PASS: 30 Hz: pose remains within lowering clearance
+PASS: 30 Hz: collider lowers monotonically
+PASS: 30 Hz: pose remains within lowering clearance
+PASS: 0.20s completes lowering
+PASS: Stand transition validates clearance
+PASS: Standing transition starts from current pose without snap
+PASS: Prepare visual transition
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 60 Hz: collider lowers monotonically
+PASS: 60 Hz: pose remains within lowering clearance
+PASS: 0.20s completes lowering
+PASS: Stand transition validates clearance
+PASS: Standing transition starts from current pose without snap
+PASS: Prepare visual transition
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 120 Hz: collider lowers monotonically
+PASS: 120 Hz: pose remains within lowering clearance
+PASS: 0.20s completes lowering
+PASS: Stand transition validates clearance
+PASS: Standing transition starts from current pose without snap
+CROUCH POSES RESULT: 110 checks, 0 failures

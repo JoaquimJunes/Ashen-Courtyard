@@ -1,0 +1,85 @@
+{
+  "engine": "<USER_HOME>/Desktop/Ashen Courtyard/Godot_v4.6.2-stable_linux.x86_64",
+  "passed": false,
+  "checks": 564,
+  "suites": [
+    {
+      "suite": "run_ground_roll",
+      "seconds": 2.887,
+      "passed": false,
+      "checks": 228,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [
+        "ERROR: 1 RID allocations of type 'P12GodotShape3D' were leaked at exit.",
+        "ERROR: 40 resources still in use at exit (run with --verbose for details)."
+      ],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_lab_forward_dive",
+      "seconds": 2.702,
+      "passed": false,
+      "checks": 43,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [
+        "ERROR: 1 RID allocations of type 'P12GodotShape3D' were leaked at exit.",
+        "ERROR: 40 resources still in use at exit (run with --verbose for details)."
+      ],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_jump",
+      "seconds": 4.642,
+      "passed": false,
+      "checks": 118,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [
+        "ERROR: 1 RID allocations of type 'P12GodotShape3D' were leaked at exit.",
+        "ERROR: 40 resources still in use at exit (run with --verbose for details)."
+      ],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_architecture",
+      "seconds": 1.288,
+      "passed": false,
+      "checks": 32,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [
+        "ERROR: 2 RID allocations of type 'P12GodotShape3D' were leaked at exit.",
+        "ERROR: 40 resources still in use at exit (run with --verbose for details)."
+      ],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ownership",
+      "seconds": 2.404,
+      "passed": false,
+      "checks": 41,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [
+        "ERROR: 2 RID allocations of type 'P12GodotShape3D' were leaked at exit.",
+        "ERROR: 41 resources still in use at exit (run with --verbose for details)."
+      ],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_roll_falling",
+      "seconds": 3.117,
+      "passed": false,
+      "checks": 102,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [
+        "ERROR: 1 RID allocations of type 'P12GodotShape3D' were leaked at exit.",
+        "ERROR: 40 resources still in use at exit (run with --verbose for details)."
+      ],
+      "missing_summary": false
+    }
+  ]
+}

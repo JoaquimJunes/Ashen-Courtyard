@@ -1,0 +1,60 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS Ordinary laboratory remains combat-free by default
+PASS Review menu opens paused and displays the saved dodge binding
+PASS Starting hub practice creates and assigns an explicit target
+PASS Practice profile cannot mutate shared courtyard boss definitions (200.0/10.0, shared 1500.0/36.0)
+PASS Stationary target never attacks on its own
+PASS Optional practice target supports the existing camera lock
+PASS Player melee damages the practice target through shared combat
+PASS Diagnostics report the real action request result
+PASS Station reset restores both characters, targeting and diagnostics
+PASS 30 Hz reaches vulnerable dive phase 0
+PASS 30 Hz phase 0 damage releases movement/pose ownership
+PASS 30 Hz phase 0 interruption recovers to supported movement
+PASS 30 Hz reaches vulnerable dive phase 1
+PASS 30 Hz phase 1 damage releases movement/pose ownership
+PASS 30 Hz phase 1 interruption recovers to supported movement
+PASS 30 Hz reaches vulnerable dive phase 2
+PASS 30 Hz phase 2 damage releases movement/pose ownership
+PASS 30 Hz phase 2 interruption recovers to supported movement
+PASS 30 Hz dive immunity rejects real shared damage
+PASS 30 Hz pause freezes a practice dodge
+PASS 60 Hz reaches vulnerable dive phase 0
+PASS 60 Hz phase 0 damage releases movement/pose ownership
+PASS 60 Hz phase 0 interruption recovers to supported movement
+PASS 60 Hz reaches vulnerable dive phase 1
+PASS 60 Hz phase 1 damage releases movement/pose ownership
+PASS 60 Hz phase 1 interruption recovers to supported movement
+PASS 60 Hz reaches vulnerable dive phase 2
+PASS 60 Hz phase 2 damage releases movement/pose ownership
+PASS 60 Hz phase 2 interruption recovers to supported movement
+PASS 60 Hz dive immunity rejects real shared damage
+PASS 60 Hz pause freezes a practice dodge
+PASS 120 Hz reaches vulnerable dive phase 0
+PASS 120 Hz phase 0 damage releases movement/pose ownership
+PASS 120 Hz phase 0 interruption recovers to supported movement
+PASS 120 Hz reaches vulnerable dive phase 1
+PASS 120 Hz phase 1 damage releases movement/pose ownership
+PASS 120 Hz phase 1 interruption recovers to supported movement
+PASS 120 Hz reaches vulnerable dive phase 2
+PASS 120 Hz phase 2 damage releases movement/pose ownership
+PASS 120 Hz phase 2 interruption recovers to supported movement
+PASS 120 Hz dive immunity rejects real shared damage
+PASS 120 Hz pause freezes a practice dodge
+PASS Timed practice visibly telegraphs before dealing damage
+PASS Timed overhead uses the real attack window and deals 10 damage
+PASS One overhead strike cannot damage repeatedly
+PASS Player death resets the current practice attempt without courtyard end logic
+PASS Defeated target stops acting and offers reset
+PASS Reset restores a defeated target
+PASS Repeated reset 0 clears projectiles, costs and old targets
+PASS Repeated reset 1 clears projectiles, costs and old targets
+PASS Repeated reset 2 clears projectiles, costs and old targets
+PASS Reset resolves pending input and clears its old diagnostic result
+PASS Leaving practice during a dive does not cancel traversal
+PASS Dive keeps its full travel budget across the hub boundary
+PASS Walking out of the hub into an aisle disables and removes practice
+PASS Station navigation removes hub combat
+PASS Entire-lab reset returns to free movement with camera follow
+MOVEMENT PRACTICE: 57 checks, 0 failures

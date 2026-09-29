@@ -1,0 +1,24 @@
+{
+  "engine": "4.6.2.stable.official.71f334935",
+  "success_capture": {
+    "armor_clearance": 0.0898600816726685,
+    "damage": 31.6371128127,
+    "frame": 58,
+    "height": 11.694680306286,
+    "position": "(0.0, 0.000844, -9.035042)",
+    "stamina": 50.0,
+    "state": 3,
+    "timed": true
+  },
+  "failed_capture": {
+    "actor": "(-0.028097, 0.000382, -12.96404)",
+    "camera_center": "(-0.028097, 1.000382, -12.96404)",
+    "damage": 63.2742256254,
+    "frame": 65,
+    "health": 36.7257743746,
+    "root": "(-0.028097, 1.097014, -12.96404)",
+    "status": "control restored",
+    "time": 3.26666666666666
+  },
+  "note": "Native Iris Xe footage; timing/damage values, not a release performance benchmark."
+}

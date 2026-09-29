@@ -1,0 +1,45 @@
+<div id="soul-wisps-motion-reference">
+  <style>
+    #soul-wisps-motion-reference .motion-stage {background:#0c0e15; color:#ded0ef; overflow:hidden;}
+    #soul-wisps-motion-reference canvas {display:block;width:100%;}
+    #soul-wisps-motion-reference .motion-label {padding:12px 16px 0;display:flex;justify-content:space-between;gap:12px;}
+    #soul-wisps-motion-reference .motion-playback {display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:12px 0;}
+    #soul-wisps-motion-reference .motion-scrub {display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center;margin:12px 0;}
+    #soul-wisps-motion-reference .motion-size-label {padding:0 16px;}
+  </style>
+  <div class="viz-controls">
+    <label class="form-label">Sequence
+      <select class="form-select" data-sequence>
+        <option value="empty">Empty → full → spend</option>
+        <option value="ordinary">Ordinary refill</option>
+        <option value="recover">Recover during linger</option>
+      </select>
+    </label>
+    <label class="form-check"><input type="checkbox" class="form-check-input" data-reduced><span class="form-check-label">Reduced motion</span></label>
+  </div>
+  <div class="motion-stage">
+    <div class="motion-label"><span>Strongest · Soul wisps</span><span data-phase aria-live="polite">Empty</span></div>
+    <canvas data-close role="img" aria-label="Animated close-up of the strongest Soul gauge; exterior Soul wisps burst, curl toward the stone and settle."></canvas>
+    <div class="motion-size-label text-small">Gameplay scale</div>
+    <canvas data-small role="img" aria-label="The same Soul animation at gameplay scale."></canvas>
+  </div>
+  <div class="motion-playback">
+    <button type="button" class="btn btn-primary" data-play>Pause</button>
+    <button type="button" class="btn" data-replay>Replay</button>
+    <span class="tabular-nums" data-resource>0 / 300 Soul</span>
+  </div>
+  <div class="motion-scrub">
+    <label for="soul-wisp-seek" class="text-small">Time</label>
+    <input id="soul-wisp-seek" type="range" class="form-range" min="0" max="11.3" step="0.01" value="0" aria-label="Animation time in seconds">
+    <output class="tabular-nums text-small" data-clock>0.00 s</output>
+  </div>
+  <script>
+  // EMBED_TIMELINE
+  </script>
+  <script>
+  // EMBED_DRAWING
+  </script>
+  <script>
+  // EMBED_PLAYER
+  </script>
+</div>

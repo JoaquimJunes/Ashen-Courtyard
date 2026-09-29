@@ -1,0 +1,32 @@
+[gd_scene load_steps=11 format=3]
+[ext_resource type="Script" path="res://scripts/movement_lab.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/lab/hub.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/lab/running.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/lab/jumping.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/lab/crouching.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/lab/climbing.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/lab/swimming.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/lab/pushing.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/lab/throwing.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/lab/flight.tscn" id="10"]
+[node name="MovementLab" type="Node3D"]
+script = ExtResource("1")
+[node name="Stations" type="Node3D" parent="."]
+[node name="Hub" parent="Stations" instance=ExtResource("2")]
+position = Vector3(0, 0, 0)
+[node name="Running" parent="Stations" instance=ExtResource("3")]
+position = Vector3(-44, 0, 38)
+[node name="Jumping" parent="Stations" instance=ExtResource("4")]
+position = Vector3(-44, 0, 0)
+[node name="Crouching" parent="Stations" instance=ExtResource("5")]
+position = Vector3(0, 0, 38)
+[node name="Climbing" parent="Stations" instance=ExtResource("6")]
+position = Vector3(-44, 0, -38)
+[node name="Swimming" parent="Stations" instance=ExtResource("7")]
+position = Vector3(44, 0, -38)
+[node name="Pushing" parent="Stations" instance=ExtResource("8")]
+position = Vector3(44, 0, 38)
+[node name="Throwing" parent="Stations" instance=ExtResource("9")]
+position = Vector3(44, 0, 0)
+[node name="Flight" parent="Stations" instance=ExtResource("10")]
+position = Vector3(0, 0, -38)

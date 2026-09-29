@@ -1,0 +1,84 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS 30 Hz / 0.5 m gap / 0.05 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000832, -4.906482))
+PASS 30 Hz / 0.5 m gap / 0.05 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 30 Hz / 0.5 m gap / 0.35 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000833, -4.740777))
+PASS 30 Hz / 0.5 m gap / 0.35 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 30 Hz / 0.5 m gap / 0.80 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000815, -4.70004))
+PASS 30 Hz / 0.5 m gap / 0.80 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 30 Hz / 0.5 m gap / 1.40 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000843, -4.100042))
+PASS 30 Hz / 0.5 m gap / 1.40 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 30 Hz / 0.6 m gap / 0.05 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000826, -5.00622))
+PASS 30 Hz / 0.6 m gap / 0.05 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 30 Hz / 0.6 m gap / 0.35 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000806, -4.843021))
+PASS 30 Hz / 0.6 m gap / 0.35 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 30 Hz / 0.6 m gap / 0.80 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000825, -4.700039))
+PASS 30 Hz / 0.6 m gap / 0.80 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 30 Hz / 0.6 m gap / 1.40 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000824, -4.100042))
+PASS 30 Hz / 0.6 m gap / 1.40 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 30 Hz / obstacle 0.4 m ahead: clears 0.6 m top ((0.0, 0.600843, -4.284311), arc 0.719)
+PASS 30 Hz / obstacle 0.8 m ahead: clears 0.6 m top ((0.0, 0.600843, -4.685079), arc 0.719)
+PASS 30 Hz / obstacle 1.5 m ahead: clears 0.6 m top ((0.0, 0.600843, -5.38846), arc 0.719)
+PASS 30 Hz / obstacle 2.4 m ahead: clears 0.6 m top ((0.0, 0.600843, -5.500041), arc 0.719)
+PASS 30 Hz: diagonal dive crosses world-aligned 0.6 m edge
+PASS 60 Hz / 0.5 m gap / 0.05 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000816, -4.957555))
+PASS 60 Hz / 0.5 m gap / 0.05 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 60 Hz / 0.5 m gap / 0.35 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.00081, -4.794713))
+PASS 60 Hz / 0.5 m gap / 0.35 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 60 Hz / 0.5 m gap / 0.80 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000815, -4.700044))
+PASS 60 Hz / 0.5 m gap / 0.80 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 60 Hz / 0.5 m gap / 1.40 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000839, -4.100042))
+PASS 60 Hz / 0.5 m gap / 1.40 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 60 Hz / 0.6 m gap / 0.05 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000804, -5.05783))
+PASS 60 Hz / 0.6 m gap / 0.05 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 60 Hz / 0.6 m gap / 0.35 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000826, -4.891874))
+PASS 60 Hz / 0.6 m gap / 0.35 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 60 Hz / 0.6 m gap / 0.80 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000819, -4.700046))
+PASS 60 Hz / 0.6 m gap / 0.80 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 60 Hz / 0.6 m gap / 1.40 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000837, -4.100042))
+PASS 60 Hz / 0.6 m gap / 1.40 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 60 Hz / obstacle 0.4 m ahead: clears 0.6 m top ((0.0, 0.600836, -4.334838), arc 0.720)
+PASS 60 Hz / obstacle 0.8 m ahead: clears 0.6 m top ((0.0, 0.600836, -4.734105), arc 0.720)
+PASS 60 Hz / obstacle 1.5 m ahead: clears 0.6 m top ((0.0, 0.600834, -5.449901), arc 0.720)
+PASS 60 Hz / obstacle 2.4 m ahead: clears 0.6 m top ((0.0, 0.600834, -5.500456), arc 0.720)
+PASS 60 Hz: diagonal dive crosses world-aligned 0.6 m edge
+PASS 120 Hz / 0.5 m gap / 0.05 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000759, -4.961708))
+PASS 120 Hz / 0.5 m gap / 0.05 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 120 Hz / 0.5 m gap / 0.35 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000754, -4.822335))
+PASS 120 Hz / 0.5 m gap / 0.35 m setback: relative arc, real contact, cost and immunity preserved (0.520)
+PASS 120 Hz / 0.5 m gap / 0.80 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000766, -4.700195))
+PASS 120 Hz / 0.5 m gap / 0.80 m setback: relative arc, real contact, cost and immunity preserved (0.520)
+PASS 120 Hz / 0.5 m gap / 1.40 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000766, -4.100191))
+PASS 120 Hz / 0.5 m gap / 1.40 m setback: relative arc, real contact, cost and immunity preserved (0.520)
+PASS 120 Hz / 0.6 m gap / 0.05 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000759, -5.06125))
+PASS 120 Hz / 0.6 m gap / 0.05 m setback: relative arc, real contact, cost and immunity preserved (0.519)
+PASS 120 Hz / 0.6 m gap / 0.35 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000754, -4.921697))
+PASS 120 Hz / 0.6 m gap / 0.35 m setback: relative arc, real contact, cost and immunity preserved (0.520)
+PASS 120 Hz / 0.6 m gap / 0.80 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000766, -4.70019))
+PASS 120 Hz / 0.6 m gap / 0.80 m setback: relative arc, real contact, cost and immunity preserved (0.520)
+PASS 120 Hz / 0.6 m gap / 1.40 m setback: lands on 1 m deck from 0.6 m deck ((0.0, 1.000766, -4.100204))
+PASS 120 Hz / 0.6 m gap / 1.40 m setback: relative arc, real contact, cost and immunity preserved (0.520)
+PASS 120 Hz / obstacle 0.4 m ahead: clears 0.6 m top ((0.0, 0.600743, -4.364779), arc 0.719)
+PASS 120 Hz / obstacle 0.8 m ahead: clears 0.6 m top ((0.0, 0.600739, -4.763343), arc 0.720)
+PASS 120 Hz / obstacle 1.5 m ahead: clears 0.6 m top ((0.0, 0.600739, -5.474362), arc 0.720)
+PASS 120 Hz / obstacle 2.4 m ahead: clears 0.6 m top ((0.0, 0.600754, -5.500239), arc 0.720)
+PASS 120 Hz: diagonal dive crosses world-aligned 0.6 m edge
+PASS Heading 0 degrees: raised-gap dive is independent of world origin
+PASS Heading 45 degrees: raised-gap dive is independent of world origin
+PASS Heading 90 degrees: raised-gap dive is independent of world origin
+PASS Heading 135 degrees: raised-gap dive is independent of world origin
+PASS Heading 180 degrees: raised-gap dive is independent of world origin
+PASS Heading 225 degrees: raised-gap dive is independent of world origin
+PASS Heading 270 degrees: raised-gap dive is independent of world origin
+PASS Heading 315 degrees: raised-gap dive is independent of world origin
+PASS wall: unsuitable landing cannot boost through solid collision
+PASS ceiling: unsuitable landing cannot boost through solid collision
+PASS wall_before_landing: unsuitable landing cannot boost through solid collision
+PASS Obstacle behind player does not raise the forward arc
+PASS Narrow 0.6 m barrier: crosses and returns to lower ground
+PASS Unreachable gap keeps forward dive momentum while falling to the catch floor, without a renewed launch
+PASS lower_landing: keeps shallow arc and lands on actual surface
+PASS level_gap: keeps shallow arc and lands on actual surface
+PASS Two characters share an unchanged definition and choose independent launch arcs
+PASS Reset releases the adaptive plan and action ownership
+DIVE CLEARANCE: 81 checks, 0 failures

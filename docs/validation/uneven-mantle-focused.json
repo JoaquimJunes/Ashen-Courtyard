@@ -1,0 +1,54 @@
+{
+  "engine": "<USER_HOME>/Desktop/Ashen Courtyard/Godot_v4.6.2-stable_linux.x86_64",
+  "passed": false,
+  "checks": 157,
+  "suites": [
+    {
+      "suite": "run_mantle_uneven",
+      "seconds": 1.877,
+      "passed": false,
+      "checks": 83,
+      "failures": 16,
+      "exit_code": 1,
+      "errors": [
+        "ERROR: FAIL: 30 Hz / -0.60 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 30 Hz / -0.25 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 30 Hz / +0.00 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 30 Hz / +0.00 m landing: feet settle on the destination rather than lip height",
+        "ERROR: FAIL: 30 Hz / +0.25 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 30 Hz / +0.60 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 60 Hz / -0.60 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 60 Hz / -0.25 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 60 Hz / +0.00 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 60 Hz / +0.00 m landing: feet settle on the destination rather than lip height",
+        "ERROR: FAIL: 60 Hz / +0.25 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 60 Hz / +0.60 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 120 Hz / -0.60 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 120 Hz / +0.00 m landing: feet settle on the destination rather than lip height",
+        "ERROR: FAIL: 120 Hz / +0.25 m landing: pull-up finishes standing on real support (completed)",
+        "ERROR: FAIL: 120 Hz / +0.60 m landing: pull-up finishes standing on real support (completed)"
+      ],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_probe",
+      "seconds": 0.858,
+      "passed": true,
+      "checks": 24,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_mantle",
+      "seconds": 1.195,
+      "passed": true,
+      "checks": 50,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    }
+  ]
+}

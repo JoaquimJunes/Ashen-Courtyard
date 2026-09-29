@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/abilities/jump_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+requires_standing = true
+id = &"jump"
+combat_action = false
+stamina_cost = 15.0
+active_seconds = 0.10
+input_buffer_seconds = 0.12
+mode_exit_policy = 1
+height = 1.2
+

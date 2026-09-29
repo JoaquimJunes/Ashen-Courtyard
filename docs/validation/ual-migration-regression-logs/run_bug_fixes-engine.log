@@ -1,0 +1,37 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: movement_lab: disabled attack rejects immediately
+PASS: movement_lab: early rejection emits exactly once with the returned result
+PASS: movement_lab: debug history receives the rejection reason
+PASS: movement_lab: rejected action preserves an existing buffered request
+PASS: movement_lab: rejection spends no resources
+PASS: movement_lab: unknown actions also notify once
+PASS: movement_lab: subsequent cancellation does not re-emit rejected actions
+PASS: movement_lab: inspector captures initial camera FOV
+PASS: movement_lab: Back refreshes inspector after applying camera settings
+PASS: movement_lab: refreshed inspector restores previous keyboard focus
+PASS: movement_lab: real F8 input updates effects and visible checkbox
+PASS: movement_lab: shortcut creates no phantom unsaved draft
+PASS: movement_lab: Back after F8 shows no false warning
+PASS: movement_lab: F8 syncs hidden Display tab without discarding Camera edits
+PASS: movement_lab: reopened Display tab reflects shortcut
+PASS: movement_lab: shortcut matching an existing draft clears stale Apply state
+PASS: movement_lab: closed editor observes effects changes without per-frame polling
+PASS: arena: disabled attack rejects immediately
+PASS: arena: early rejection emits exactly once with the returned result
+PASS: arena: debug history receives the rejection reason
+PASS: arena: rejected action preserves an existing buffered request
+PASS: arena: rejection spends no resources
+PASS: arena: unknown actions also notify once
+PASS: arena: subsequent cancellation does not re-emit rejected actions
+PASS: arena: inspector captures initial camera FOV
+PASS: arena: Back refreshes inspector after applying camera settings
+PASS: arena: refreshed inspector restores previous keyboard focus
+PASS: arena: real F8 input updates effects and visible checkbox
+PASS: arena: shortcut creates no phantom unsaved draft
+PASS: arena: Back after F8 shows no false warning
+PASS: arena: F8 syncs hidden Display tab without discarding Camera edits
+PASS: arena: reopened Display tab reflects shortcut
+PASS: arena: shortcut matching an existing draft clears stale Apply state
+PASS: arena: closed editor observes effects changes without per-frame polling
+BUG FIXES RESULT: 34 checks, 0 failures

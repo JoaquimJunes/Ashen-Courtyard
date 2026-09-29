@@ -1,0 +1,17 @@
+{
+  "name": "ashen-courtyard-soulbound-hud-preview",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Editable Soulbound HUD visual preview; not connected to Godot gameplay.",
+  "scripts": {
+    "build": "python3 tools/build_preview.py",
+    "test": "node tests/soul-controller.test.cjs && node tests/mana-evolution.test.cjs",
+    "test:browser": "node tests/soul-preview.test.cjs && node tests/mana-evolution-preview.test.cjs && node tests/standalone.test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

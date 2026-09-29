@@ -1,0 +1,92 @@
+[gd_resource type="Resource" format=3 uid="uid://de0nylnk88mgq"]
+
+[ext_resource type="Script" uid="uid://bx38gmti2ufi2" path="res://features/reactions/ragdoll_definition.gd" id="1"]
+[ext_resource type="Script" uid="uid://c1h5abxn2nvoq" path="res://features/reactions/ragdoll_part.gd" id="2"]
+[ext_resource type="Resource" uid="uid://b2i1cqi5nbt22" path="res://features/presentation/ual_get_up.tres" id="3"]
+
+[sub_resource type="Resource" id="part_0"]
+script = ExtResource("2")
+bone_name = &"pelvis"
+length = 0.53
+radius = 0
+box_size = Vector3(0.48, 0.6, 0.36)
+mass = 16.0
+joint_type = 0
+
+[sub_resource type="Resource" id="part_1"]
+script = ExtResource("2")
+bone_name = &"Head"
+length = 0.23
+radius = 0.13
+
+[sub_resource type="Resource" id="part_2"]
+script = ExtResource("2")
+bone_name = &"upperarm_l"
+length = 0.27444
+radius = 0.095
+hinge_axis = Vector3(-1, 0, 0)
+swing_span = 60.0
+
+[sub_resource type="Resource" id="part_3"]
+script = ExtResource("2")
+bone_name = &"lowerarm_l"
+length = 0.27264
+radius = 0.095
+joint_type = 3
+hinge_axis = Vector3(-1, 0, 0)
+swing_span = 60.0
+
+[sub_resource type="Resource" id="part_4"]
+script = ExtResource("2")
+bone_name = &"upperarm_r"
+length = 0.27444
+radius = 0.095
+hinge_axis = Vector3(-1, 0, 0)
+swing_span = 60.0
+
+[sub_resource type="Resource" id="part_5"]
+script = ExtResource("2")
+bone_name = &"lowerarm_r"
+length = 0.27264
+radius = 0.095
+joint_type = 3
+hinge_axis = Vector3(-1, 0, 0)
+swing_span = 60.0
+
+[sub_resource type="Resource" id="part_6"]
+script = ExtResource("2")
+bone_name = &"thigh_l"
+length = 0.40031
+radius = 0.13
+mass = 5.0
+
+[sub_resource type="Resource" id="part_7"]
+script = ExtResource("2")
+bone_name = &"calf_l"
+length = 0.42948
+radius = 0.11
+mass = 5.0
+joint_type = 3
+
+[sub_resource type="Resource" id="part_8"]
+script = ExtResource("2")
+bone_name = &"thigh_r"
+length = 0.40031
+radius = 0.13
+mass = 5.0
+
+[sub_resource type="Resource" id="part_9"]
+script = ExtResource("2")
+bone_name = &"calf_r"
+length = 0.42948
+radius = 0.11
+mass = 5.0
+joint_type = 3
+
+[resource]
+script = ExtResource("1")
+anchor_bone = &"pelvis"
+parts = Array[ExtResource("2")]([SubResource("part_0"), SubResource("part_1"), SubResource("part_2"), SubResource("part_3"), SubResource("part_4"), SubResource("part_5"), SubResource("part_6"), SubResource("part_7"), SubResource("part_8"), SubResource("part_9")])
+get_up_pose = ExtResource("3")
+recovery_front_axis = Vector3(0, 0.249681, 0.968328)
+recovery_head_axis = Vector3(0, 0.968328, -0.249681)

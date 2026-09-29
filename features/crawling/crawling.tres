@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/crawling/crawl_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+hold_seconds = 0.5
+speed = 1.0
+radius = 0.43
+length = 1.9
+center = Vector3(0,0.43,0)
+max_step = 0.02
+blend_seconds = 0.25

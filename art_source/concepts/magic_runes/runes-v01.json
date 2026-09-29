@@ -1,0 +1,619 @@
+{
+  "version": 1,
+  "status": "Meaning-to-shape mapping approved; dictionary drawings awaiting review",
+  "reference": "../../ui/soulbound_hud/concepts/evolution-partial-closeup.png",
+  "runes": [
+    {
+      "id": "soul",
+      "index": 1,
+      "name": "Soul",
+      "group": "Essence",
+      "meaning": "Spiritual presence and magical substance.",
+      "definition_lines": [
+        "Spiritual presence and",
+        "magical substance."
+      ],
+      "location": "Top crown",
+      "strokes": [
+        [
+          [
+            -12,
+            -30
+          ],
+          [
+            23,
+            -30
+          ],
+          [
+            15,
+            -9
+          ],
+          [
+            25,
+            -2
+          ],
+          [
+            -9,
+            20
+          ]
+        ],
+        [
+          [
+            1,
+            -28
+          ],
+          [
+            0,
+            36
+          ]
+        ]
+      ],
+      "reference_crop": [
+        406,
+        101,
+        62,
+        88
+      ],
+      "provenance": {
+        "method": "Optical transcription of painted reference",
+        "file": "art_source/ui/soulbound_hud/concepts/evolution-partial-closeup.png",
+        "note": "Recognition-preserving trace; not a recovered original vector. Compare against source crop during review."
+      }
+    },
+    {
+      "id": "flesh",
+      "index": 2,
+      "name": "Flesh",
+      "group": "Essence",
+      "meaning": "The living physical body.",
+      "definition_lines": [
+        "The living physical body."
+      ],
+      "location": "Lower-right rim",
+      "strokes": [
+        [
+          [
+            -5,
+            -8
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            6,
+            -7
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            -9
+          ]
+        ]
+      ],
+      "reference_crop": [
+        559,
+        358,
+        45,
+        57
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/src/mana-evolution-renderer.js",
+        "array": "evolutionRunePaths",
+        "index": 2
+      }
+    },
+    {
+      "id": "stone",
+      "index": 3,
+      "name": "Stone",
+      "group": "Essence",
+      "meaning": "Mineral matter and enduring form.",
+      "definition_lines": [
+        "Mineral matter and",
+        "enduring form."
+      ],
+      "location": "Right crystal glyph",
+      "strokes": [
+        [
+          [
+            -4,
+            -7
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            -4,
+            7
+          ],
+          [
+            -4,
+            -7
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "reference_crop": [
+        470,
+        245,
+        39,
+        49
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/src/mana-evolution-renderer.js",
+        "array": "evolutionRunePaths",
+        "index": 6
+      }
+    },
+    {
+      "id": "draw",
+      "index": 4,
+      "name": "Draw",
+      "group": "Action",
+      "meaning": "Bring something toward a destination.",
+      "definition_lines": [
+        "Bring something toward",
+        "a destination."
+      ],
+      "location": "Left crystal glyph",
+      "strokes": [
+        [
+          [
+            -6,
+            1
+          ],
+          [
+            4,
+            -7
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            -6,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "reference_crop": [
+        352,
+        248,
+        38,
+        49
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/src/mana-evolution-renderer.js",
+        "array": "evolutionRunePaths",
+        "index": 4
+      }
+    },
+    {
+      "id": "bind",
+      "index": 5,
+      "name": "Bind",
+      "group": "Action",
+      "meaning": "Establish and maintain a connection.",
+      "definition_lines": [
+        "Establish and maintain",
+        "a connection."
+      ],
+      "location": "Upper-right rim",
+      "strokes": [
+        [
+          [
+            -4,
+            9
+          ],
+          [
+            -4,
+            -9
+          ],
+          [
+            5,
+            -3
+          ],
+          [
+            -4,
+            1
+          ],
+          [
+            5,
+            8
+          ]
+        ]
+      ],
+      "reference_crop": [
+        531,
+        219,
+        44,
+        57
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/src/mana-evolution-renderer.js",
+        "array": "evolutionRunePaths",
+        "index": 1
+      }
+    },
+    {
+      "id": "transform",
+      "index": 6,
+      "name": "Transform",
+      "group": "Action",
+      "meaning": "Change a substance or state.",
+      "definition_lines": [
+        "Change a substance",
+        "or state."
+      ],
+      "location": "Upper-left rim",
+      "strokes": [
+        [
+          [
+            -5,
+            7
+          ],
+          [
+            1,
+            -9
+          ],
+          [
+            6,
+            -2
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            4,
+            7
+          ]
+        ]
+      ],
+      "reference_crop": [
+        326,
+        185,
+        50,
+        58
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/src/mana-evolution-renderer.js",
+        "array": "evolutionRunePaths",
+        "index": 0
+      }
+    },
+    {
+      "id": "release",
+      "index": 7,
+      "name": "Release",
+      "group": "Action",
+      "meaning": "Allow something contained to pass outward.",
+      "definition_lines": [
+        "Allow something contained",
+        "to pass outward."
+      ],
+      "location": "Center crystal glyph",
+      "strokes": [
+        [
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            -9
+          ],
+          [
+            -5,
+            -3
+          ],
+          [
+            5,
+            -3
+          ],
+          [
+            0,
+            -9
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      ],
+      "reference_crop": [
+        410,
+        224,
+        48,
+        62
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/src/mana-evolution-renderer.js",
+        "array": "evolutionRunePaths",
+        "index": 5
+      }
+    },
+    {
+      "id": "sever",
+      "index": 8,
+      "name": "Sever",
+      "group": "Action",
+      "meaning": "Break an existing connection.",
+      "definition_lines": [
+        "Break an existing",
+        "connection."
+      ],
+      "location": "Rightmost filled reserve",
+      "strokes": [
+        [
+          [
+            -1,
+            -8
+          ],
+          [
+            -1,
+            8
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            5,
+            -5
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      ],
+      "reference_crop": [
+        407,
+        527,
+        47,
+        60
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/soulbound-crystal-hud-preview.html",
+        "array": "referenceReserveRunes",
+        "index": 2
+      }
+    },
+    {
+      "id": "vessel",
+      "index": 9,
+      "name": "Vessel",
+      "group": "Structure",
+      "meaning": "Receive and hold.",
+      "definition_lines": [
+        "Receive and hold."
+      ],
+      "location": "Middle filled reserve",
+      "strokes": [
+        [
+          [
+            -2,
+            -9
+          ],
+          [
+            -2,
+            8
+          ],
+          [
+            -2,
+            0
+          ],
+          [
+            5,
+            -5
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            -2,
+            4
+          ]
+        ]
+      ],
+      "reference_crop": [
+        321,
+        494,
+        44,
+        60
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/soulbound-crystal-hud-preview.html",
+        "array": "referenceReserveRunes",
+        "index": 1
+      }
+    },
+    {
+      "id": "path",
+      "index": 10,
+      "name": "Path",
+      "group": "Structure",
+      "meaning": "Define a permitted route.",
+      "definition_lines": [
+        "Define a permitted route."
+      ],
+      "location": "Leftmost filled reserve",
+      "strokes": [
+        [
+          [
+            0,
+            -8
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            -5,
+            5
+          ],
+          [
+            4,
+            -3
+          ],
+          [
+            0,
+            -1
+          ]
+        ]
+      ],
+      "reference_crop": [
+        250,
+        433,
+        49,
+        63
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/soulbound-crystal-hud-preview.html",
+        "array": "referenceReserveRunes",
+        "index": 0
+      }
+    },
+    {
+      "id": "boundary",
+      "index": 11,
+      "name": "Boundary",
+      "group": "Structure",
+      "meaning": "Limit an effect’s reach.",
+      "definition_lines": [
+        "Limit an effect’s reach."
+      ],
+      "location": "Lower-left rim",
+      "strokes": [
+        [
+          [
+            -5,
+            4
+          ],
+          [
+            5,
+            -5
+          ],
+          [
+            0,
+            -9
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      ],
+      "reference_crop": [
+        274,
+        353,
+        42,
+        52
+      ],
+      "provenance": {
+        "method": "Imported existing drawing coordinates",
+        "file": "art_source/ui/soulbound_hud/src/mana-evolution-renderer.js",
+        "array": "evolutionRunePaths",
+        "index": 3
+      }
+    },
+    {
+      "id": "anchor",
+      "index": 12,
+      "name": "Anchor",
+      "group": "Structure",
+      "meaning": "Attach an effect to a person, object, or place.",
+      "definition_lines": [
+        "Attach an effect to a",
+        "person, object, or place."
+      ],
+      "location": "Left crown",
+      "strokes": [
+        [
+          [
+            -5,
+            -51
+          ],
+          [
+            0,
+            -43
+          ],
+          [
+            11,
+            61
+          ]
+        ],
+        [
+          [
+            -20,
+            -12
+          ],
+          [
+            21,
+            -46
+          ]
+        ],
+        [
+          [
+            -4,
+            9
+          ],
+          [
+            21,
+            -20
+          ]
+        ]
+      ],
+      "reference_crop": [
+        216,
+        226,
+        65,
+        125
+      ],
+      "provenance": {
+        "method": "Optical transcription of painted reference",
+        "file": "art_source/ui/soulbound_hud/concepts/evolution-partial-closeup.png",
+        "note": "Recognition-preserving trace; not a recovered original vector. Compare against source crop during review."
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://tools/character_asset_import.gd" id="1_s77qg"]
+
+[resource]
+script = ExtResource("1_s77qg")
+source_path = "res://art_source/import_fixtures/body_reference.glb"
+kind = "body"
+output_path = "res://.artifacts/import_examples/body_reference.res"
+skeleton_path = NodePath("Skeleton3D")
+mesh_regions = {
+&"calf_l": NodePath("Skeleton3D/region_calf_l"),
+&"calf_r": NodePath("Skeleton3D/region_calf_r"),
+&"foot_l": NodePath("Skeleton3D/region_foot_l"),
+&"foot_r": NodePath("Skeleton3D/region_foot_r"),
+&"forearm_l": NodePath("Skeleton3D/region_forearm_l"),
+&"forearm_r": NodePath("Skeleton3D/region_forearm_r"),
+&"hand_l": NodePath("Skeleton3D/region_hand_l"),
+&"hand_r": NodePath("Skeleton3D/region_hand_r"),
+&"head": NodePath("Skeleton3D/region_head"),
+&"pelvis": NodePath("Skeleton3D/region_pelvis"),
+&"thigh_l": NodePath("Skeleton3D/region_thigh_l"),
+&"thigh_r": NodePath("Skeleton3D/region_thigh_r"),
+&"torso": NodePath("Skeleton3D/region_torso"),
+&"upperarm_l": NodePath("Skeleton3D/region_upperarm_l"),
+&"upperarm_r": NodePath("Skeleton3D/region_upperarm_r")
+}
+provenance = {
+"generator": "res://tools/build_character_import_fixtures.gd",
+"purpose": "Existing fitting-fixture roundtrip, not final art; geometry and materials unchanged",
+"reference_resource": "res://assets/models/ual/mannequin_body.res"
+}

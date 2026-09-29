@@ -1,0 +1,62 @@
+[
+  {
+    "view": "front",
+    "template_bbox": [
+      42,
+      70,
+      981,
+      946
+    ],
+    "paint_bbox": [
+      42,
+      67,
+      982,
+      952
+    ]
+  },
+  {
+    "view": "back",
+    "template_bbox": [
+      42,
+      70,
+      980,
+      944
+    ],
+    "paint_bbox": [
+      42,
+      67,
+      982,
+      952
+    ]
+  },
+  {
+    "view": "face",
+    "template_bbox": [
+      0,
+      133,
+      1023,
+      1023
+    ],
+    "paint_bbox": [
+      0,
+      77,
+      1023,
+      1023
+    ]
+  },
+  {
+    "view": "head_back",
+    "template_bbox": [
+      0,
+      133,
+      1023,
+      1023
+    ],
+    "paint_bbox": [
+      0,
+      77,
+      1023,
+      1023
+    ]
+  }
+]

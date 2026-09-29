@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/abilities/boss_attack_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"practice_overhead"
+variant = &"boss_attack"
+pattern = 1
+windup = 1.25
+active_seconds = 0.24
+recovery = 1.35
+damage = 10.0
+reach = 3.3
+interrupt_on_damage = false

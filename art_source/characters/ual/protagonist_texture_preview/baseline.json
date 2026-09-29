@@ -1,0 +1,17 @@
+{
+  "signatures": {
+    "vertices": "5a83f888588c6008ade590fef03cdcbd1c2391a8f9fb77ef58f49cadba55f5a9",
+    "faces": "093c32bfb21f1115b80894bb465651f6d1f070d60ce5def58d8fa4b31d68a1ea",
+    "normals": "75f5ec827556ff9dcc7cfd1e72cc9118f48e235ad99d1117265c00c39aa3a766",
+    "smooth": "176998dbf540949d6ffa5bcb1af23a93c34232fd54fd21b9e95bc82d3a3e5f10",
+    "uvs": "9396f59d7611bfadcb14e18d7110fe5f44eb1d82362c61e4a7cfa36f0c9b4c4c",
+    "weights": "87bd9c0cf14d1e2ecb6914a9b46ea96ffbca385863da949d9293512fc1982788",
+    "group_names": "27fcdc7419392207bbf2dad2951608084456b4104cc2d303d8a06e3f9be1f4b2",
+    "bones": "e636eee0c5fe0b38cba508aba4d332c3e7256bd696539b0ebfb6cc3a66e1c783",
+    "body_transform": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1",
+    "armature_transform": "eba91ea447c2a18c1510229bb460a99bcd030ed6bde4091c466992e0dbafb3d1"
+  },
+  "vertices": 6993,
+  "triangles": 13742,
+  "bones": 65
+}

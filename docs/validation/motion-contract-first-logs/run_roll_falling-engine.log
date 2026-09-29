@@ -1,0 +1,110 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 30 Hz (-1.0, 0.0, 0.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 30 Hz (1.0, 0.0, 0.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 30 Hz (0.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 30 Hz (-1.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 30 Hz (1.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 30 Hz: late edge preserves braking speed instead of accelerating
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 30 Hz: wall blocks the falling roll and consumes requested distance
+PASS: Removing an airborne obstruction resumes only the retained speed
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 30 Hz: timed landing from a side roll still replaces ownership and pays once
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 60 Hz (-1.0, 0.0, 0.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 60 Hz (1.0, 0.0, 0.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 60 Hz (0.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 60 Hz (-1.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 60 Hz (1.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 60 Hz: late edge preserves braking speed instead of accelerating
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 60 Hz: wall blocks the falling roll and consumes requested distance
+PASS: Removing an airborne obstruction resumes only the retained speed
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 60 Hz: timed landing from a side roll still replaces ownership and pays once
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 120 Hz (-1.0, 0.0, 0.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 120 Hz (1.0, 0.0, 0.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 120 Hz (0.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 120 Hz (-1.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 120 Hz (1.0, 0.0, 1.0): exercises a fall longer than the roll's old motion limit
+PASS: Side/back speed survives both distance exhaustion and 0.70 s; fixed heading
+PASS: Only ground playback/braking pause; cost stays once and immunity expires
+PASS: Heavy contact still uses the existing landing response and releases the roll
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 120 Hz: late edge preserves braking speed instead of accelerating
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 120 Hz: wall blocks the falling roll and consumes requested distance
+PASS: Removing an airborne obstruction resumes only the retained speed
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: 120 Hz: timed landing from a side roll still replaces ownership and pays once
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: Pause freezes falling roll and retained momentum
+PASS: Accepted falling hit hands off to ragdoll and releases stored roll momentum
+PASS: Reset clears falling-roll state and motor velocity
+PASS: Side/back roll enters through the shared action lifecycle
+PASS: Unloading releases falling-roll ownership
+ROLL FALLING: 102 checks, 0 failures
+ERROR: 1 RID allocations of type 'P12GodotShape3D' were leaked at exit.
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2641)
+ERROR: 40 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:810)

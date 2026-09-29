@@ -1,0 +1,12 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Prepare real pose sequence
+PASS: Hand contact remains reachable through lift (0.021 m error)
+PASS: Armor avoids deep wall clipping (0.000 m maximum)
+PASS: Prepare real pose sequence
+PASS: Hand contact remains reachable through lift (0.021 m error)
+PASS: Armor avoids deep wall clipping (0.000 m maximum)
+PASS: Prepare real pose sequence
+PASS: Hand contact remains reachable through lift (0.021 m error)
+PASS: Armor avoids deep wall clipping (0.000 m maximum)
+LEDGE POSES: 9 checks, 0 failures

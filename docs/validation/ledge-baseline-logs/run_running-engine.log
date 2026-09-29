@@ -1,0 +1,29 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: jog uses its dedicated clip
+PASS: jog flat-ground skin clearance 0.014 m
+PASS: Animation does not increase character speed
+PASS: sprint uses its dedicated clip
+PASS: sprint flat-ground skin clearance 0.014 m
+PASS: Animation does not increase character speed
+PASS: 10-degree ramp drives slope-aware pose
+PASS: 10-degree ramp skin clearance 0.009 m
+PASS: Ramp leg solver remains finite
+PASS: 20-degree ramp drives slope-aware pose
+PASS: 20-degree ramp skin clearance -0.005 m
+PASS: Ramp leg solver remains finite
+PASS: 30-degree ramp drives slope-aware pose
+PASS: 30-degree ramp skin clearance -0.029 m
+PASS: Ramp leg solver remains finite
+PASS: Descending reverses the uphill lean
+PASS: Sharp left turn leans into the turn
+PASS: S-turn reverses bank instead of retaining the previous lean
+PASS: Turn lean remains within its configured limit
+PASS: Repeated S-turns preserve ground clearance (0.014 m)
+PASS: Stopping settles to a neutral pose
+PASS: Stopped character returns to idle
+PASS: Pause freezes the running pose
+PASS: Station reset clears planted feet and turn history
+PASS: Dodge takes full control of the pose
+PASS: Attacking suspends running corrections
+RUNNING RESULT: 26 checks, 0 failures

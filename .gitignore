@@ -1,0 +1,10 @@
+.godot/
+.artifacts/
+__pycache__/
+*.py[cod]
+
+# Reproducible Art Book inspection copies, never game assets.
+docs/tracker/previews/
+
+# Rebuildable project-analysis caches.
+graphify-out/cache/

@@ -1,0 +1,9 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="PackedScene" path="res://scenes/movement_lab.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/models/ual_mannequin.tscn" id="2"]
+[ext_resource type="Script" path="res://features/laboratory/ual_validation.gd" id="3"]
+[node name="UALValidation" instance=ExtResource("1")]
+player_visual = ExtResource("2")
+[node name="AppearanceReview" type="CanvasLayer" parent="."]
+layer = 20
+script = ExtResource("3")

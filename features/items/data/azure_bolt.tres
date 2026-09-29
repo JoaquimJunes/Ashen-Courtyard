@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Script"]
+[ext_resource type="Resource" path="res://features/items/data/bolt_actions.tres" id="actions"]
+
+
+[resource]
+script = ExtResource("Script")
+id = &"azure_bolt"
+display_name = "Azure Bolt"
+description = "A mana-powered projectile that stops at world geometry."
+category = "magic"
+subtype = &"projectile"
+actions = ExtResource("actions")
+

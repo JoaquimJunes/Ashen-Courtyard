@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://assets/third_party/fullplate_knight/knight_complete.glb" id="1"]
+[ext_resource type="Script" path="res://scripts/psx_knight.gd" id="2"]
+[node name="PSXKnight" type="Node3D"]
+script = ExtResource("2")
+[node name="Imported" parent="." instance=ExtResource("1")]
+rotation = Vector3(0,3.14159265,0)
+[node name="WeaponPivot" type="Node3D" parent="."]

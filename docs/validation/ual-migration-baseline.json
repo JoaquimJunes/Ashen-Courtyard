@@ -1,0 +1,537 @@
+{
+  "engine": "<USER_HOME>/Desktop/Ashen Courtyard/Godot_v4.6.2-stable_linux.x86_64",
+  "passed": true,
+  "checks": 3125,
+  "suites": [
+    {
+      "suite": "run",
+      "seconds": 2.29,
+      "passed": true,
+      "checks": 62,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_architecture",
+      "seconds": 1.646,
+      "passed": true,
+      "checks": 32,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_bug_fixes",
+      "seconds": 1.316,
+      "passed": true,
+      "checks": 34,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_camera",
+      "seconds": 1.31,
+      "passed": true,
+      "checks": 34,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_camera_fast",
+      "seconds": 2.056,
+      "passed": true,
+      "checks": 109,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_cast_lifecycle",
+      "seconds": 1.414,
+      "passed": true,
+      "checks": 15,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_cliff_dive",
+      "seconds": 2.232,
+      "passed": true,
+      "checks": 45,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_combat_boundaries",
+      "seconds": 0.636,
+      "passed": true,
+      "checks": 20,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_combatant_composition",
+      "seconds": 0.743,
+      "passed": true,
+      "checks": 16,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_crouch",
+      "seconds": 7.665,
+      "passed": true,
+      "checks": 161,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_crouch_poses",
+      "seconds": 1.134,
+      "passed": true,
+      "checks": 110,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_dive_clearance",
+      "seconds": 11.477,
+      "passed": true,
+      "checks": 81,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_dive_preparation",
+      "seconds": 1.653,
+      "passed": true,
+      "checks": 24,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_dodge_consistency",
+      "seconds": 9.51,
+      "passed": true,
+      "checks": 297,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_dodge_lab",
+      "seconds": 2.731,
+      "passed": true,
+      "checks": 23,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_dodge_poses",
+      "seconds": 1.701,
+      "passed": true,
+      "checks": 8,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_dodge_preview",
+      "seconds": 2.261,
+      "passed": true,
+      "checks": 37,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_get_up",
+      "seconds": 3.043,
+      "passed": true,
+      "checks": 92,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ground_roll",
+      "seconds": 3.856,
+      "passed": true,
+      "checks": 228,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_jump",
+      "seconds": 4.595,
+      "passed": true,
+      "checks": 118,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_jump_integration",
+      "seconds": 3.127,
+      "passed": true,
+      "checks": 35,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_keybindings",
+      "seconds": 1.793,
+      "passed": true,
+      "checks": 44,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_lab",
+      "seconds": 3.117,
+      "passed": true,
+      "checks": 72,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_lab_forward_dive",
+      "seconds": 3.083,
+      "passed": true,
+      "checks": 43,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_landing_roll",
+      "seconds": 5.881,
+      "passed": true,
+      "checks": 112,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_approach",
+      "seconds": 2.448,
+      "passed": true,
+      "checks": 29,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_height",
+      "seconds": 3.373,
+      "passed": true,
+      "checks": 63,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_lifecycle",
+      "seconds": 3.375,
+      "passed": true,
+      "checks": 51,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_poses",
+      "seconds": 1.507,
+      "passed": true,
+      "checks": 9,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_probe",
+      "seconds": 1.147,
+      "passed": true,
+      "checks": 24,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_lock_movement",
+      "seconds": 3.65,
+      "passed": true,
+      "checks": 75,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_mantle",
+      "seconds": 2.341,
+      "passed": true,
+      "checks": 50,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_mantle_uneven",
+      "seconds": 2.911,
+      "passed": true,
+      "checks": 98,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_menu",
+      "seconds": 1.874,
+      "passed": true,
+      "checks": 139,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_momentum",
+      "seconds": 1.777,
+      "passed": true,
+      "checks": 39,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_motion_boss",
+      "seconds": 1.124,
+      "passed": true,
+      "checks": 21,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_motion_contract",
+      "seconds": 1.239,
+      "passed": true,
+      "checks": 48,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_movement_input",
+      "seconds": 2.619,
+      "passed": true,
+      "checks": 21,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_movement_practice",
+      "seconds": 3.554,
+      "passed": true,
+      "checks": 57,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ownership",
+      "seconds": 1.622,
+      "passed": true,
+      "checks": 41,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ragdoll",
+      "seconds": 2.907,
+      "passed": true,
+      "checks": 50,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ramp_steps",
+      "seconds": 5.23,
+      "passed": true,
+      "checks": 110,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_request_contracts",
+      "seconds": 1.065,
+      "passed": true,
+      "checks": 19,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_resource_policy",
+      "seconds": 1.039,
+      "passed": true,
+      "checks": 6,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_roll_falling",
+      "seconds": 2.815,
+      "passed": true,
+      "checks": 102,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_rolls",
+      "seconds": 2.541,
+      "passed": true,
+      "checks": 28,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_running",
+      "seconds": 2.059,
+      "passed": true,
+      "checks": 26,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_shimmy",
+      "seconds": 4.768,
+      "passed": true,
+      "checks": 48,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_shimmy_poses",
+      "seconds": 4.208,
+      "passed": true,
+      "checks": 18,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_shimmy_safety",
+      "seconds": 6.569,
+      "passed": true,
+      "checks": 48,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_steps",
+      "seconds": 3.372,
+      "passed": true,
+      "checks": 27,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ui_optimizations",
+      "seconds": 1.807,
+      "passed": true,
+      "checks": 16,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_world_combat_context",
+      "seconds": 1.433,
+      "passed": true,
+      "checks": 10,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    }
+  ]
+}

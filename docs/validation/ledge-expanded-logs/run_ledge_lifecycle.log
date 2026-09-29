@@ -1,0 +1,47 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Prepare phase 0 reset
+PASS: Reach pull-up phase 0
+PASS: Reset clears phase, attachment, posture, pose and costs
+PASS: Prepare phase 1 reset
+PASS: Reach pull-up phase 1
+PASS: Reset clears phase, attachment, posture, pose and costs
+PASS: Prepare phase 2 reset
+PASS: Reach pull-up phase 2
+PASS: Reset clears phase, attachment, posture, pose and costs
+PASS: Prepare phase 3 reset
+PASS: Reach pull-up phase 3
+PASS: Reset clears phase, attachment, posture, pose and costs
+PASS: Prepare pause
+PASS: Pause freezes supported hang
+PASS: Camera orbit preserves grip and body facing
+PASS: Camera orbit preserves grip and body facing
+PASS: Camera orbit preserves grip and body facing
+PASS: Camera orbit preserves grip and body facing
+PASS: Hanging hand l matches geometry (0.000 m)
+PASS: Hanging hand r matches geometry (0.000 m)
+PASS: Definitions shared; candidates/attachments per character
+PASS: Hanging does not shrink or charge second actor
+PASS: Moving held static surface releases into gravity
+PASS: Prepare deleted surface
+PASS: Deleting support releases without automatic recatch
+PASS: Prepare unexpected path obstacle
+PASS: Begin committed lift
+PASS: Obstacle inserted during lift cannot be crossed or leave ownership stuck
+PASS: Prepare death/unload
+PASS: Lethal attached hit releases and resolves pending let-go
+PASS: Prepare unloading held character
+PASS: Unloading releases all attachment/action ownership
+PASS: Ledge course 0 starts grounded with normal lab policy
+PASS: Real lab fixture permits pull-up
+PASS: Lab reset clears traversal
+PASS: Ledge course 1 starts grounded with normal lab policy
+PASS: Real lab fixture permits pull-up
+PASS: Lab reset clears traversal
+PASS: Ledge course 2 starts grounded with normal lab policy
+PASS: Real lab ceiling blocks paid pull-up but permits hanging
+PASS: Lab reset clears traversal
+PASS: Ledge course 3 starts grounded with normal lab policy
+PASS: Excluded lab geometry cannot be grabbed
+PASS: Lab reset clears traversal
+LEDGE LIFECYCLE: 44 checks, 0 failures

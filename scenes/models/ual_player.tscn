@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/models/ual_mannequin.tscn" id="1"]
+[ext_resource type="Resource" path="res://features/presentation/data/player_equipment_loadout.tres" id="2"]
+
+[node name="UALPlayer" instance=ExtResource("1")]
+equipment_loadout = ExtResource("2")
+gameplay_equipment = true

@@ -1,0 +1,96 @@
+{
+  "running": [
+    {
+      "id": "running:existing-motion",
+      "text": "Existing acceleration/stopping, diagonal/S-turn speed, full-reversal braking and independent lock-on body rotation stay passing",
+      "done": false,
+      "source": "docs/MOVEMENT_01_RUNNING_DODGING.md"
+    }
+  ],
+  "crawling": [
+    {
+      "id": "crawling:acceptance-route",
+      "text": "hold C → crawl → cross the 0.90 m lane → stop → reverse through it → attempt to rise under the roof → exit → tap to crouch → tap to stand.",
+      "done": false,
+      "source": "docs/CRAWLING.md"
+    },
+    {
+      "id": "crawling:shoulders-and-water",
+      "text": "Repeat on both shoulders, then enter the swimming pool and verify breath and restoration.",
+      "done": false,
+      "source": "docs/CRAWLING.md"
+    }
+  ],
+  "surface-swimming": [
+    {
+      "id": "surface-swimming:camera-relative",
+      "text": "WASD swims relative to the camera. At the surface movement stays level; underwater it follows camera pitch as well as yaw.",
+      "done": false,
+      "source": "docs/SWIMMING.md"
+    },
+    {
+      "id": "surface-swimming:ledge-exit",
+      "text": "Swim toward a safe ledge to grab and pull up. Once attached, the existing hang, sideways movement, forward pull-up, and dodge-to-release controls apply.",
+      "done": false,
+      "source": "docs/SWIMMING.md"
+    }
+  ],
+  "underwater-swimming": [
+    {
+      "id": "underwater-swimming:hold-depth",
+      "text": "Releasing movement holds depth after a short deceleration.",
+      "done": false,
+      "source": "docs/SWIMMING.md"
+    }
+  ],
+  "boss-climbing": [
+    {
+      "id": "boss-climbing:attachment",
+      "text": "Moving attachments follow translation, rotation and articulation, with at most 2 cm drift over 30 seconds and inherited release velocity applied once.",
+      "done": false,
+      "source": "docs/BOSS_CLIMBING_PLAN.md"
+    },
+    {
+      "id": "boss-climbing:traversal",
+      "text": "Traverse marked curves, animated joints and fully inverted undersides; leap and regrab, with unmarked or blocked routes stopping safely.",
+      "done": false,
+      "source": "docs/BOSS_CLIMBING_PLAN.md"
+    },
+    {
+      "id": "boss-climbing:collision",
+      "text": "Validate carry, rotation, posture, initial overlap and standing against world geometry and other boss limbs without penetration or unsafe capsule expansion.",
+      "done": false,
+      "source": "docs/BOSS_CLIMBING_PLAN.md"
+    },
+    {
+      "id": "boss-climbing:presentation",
+      "text": "Keep planted hands within 3 cm of accepted contacts, preserve shoulder continuity and bone lengths, and sample hitboxes and mouth-based breath from completed poses.",
+      "done": false,
+      "source": "docs/BOSS_CLIMBING_PLAN.md"
+    },
+    {
+      "id": "boss-climbing:resources-combat",
+      "text": "Verify shared stamina, supported recovery, bracing, charged weak-point stabs and single damage application at 30/60/120 Hz, within 0.5 stamina across equivalent runs.",
+      "done": false,
+      "source": "docs/BOSS_CLIMBING_PLAN.md"
+    },
+    {
+      "id": "boss-climbing:lifecycle",
+      "text": "Verify remapped controls, grip toggle, both shoulder cameras, independent render rates, pause, reset, teleport, death, unload, falling, water entry and two independent characters.",
+      "done": false,
+      "source": "docs/BOSS_CLIMBING_PLAN.md"
+    },
+    {
+      "id": "boss-climbing:hands-on-route",
+      "text": "Complete the hands-on route: approach → grab moving leg → cross joint → hang upside down → leap/regrab → rest → brace → charge/stab → release/land.",
+      "done": false,
+      "source": "docs/BOSS_CLIMBING_PLAN.md"
+    },
+    {
+      "id": "boss-climbing:validation-delivery",
+      "text": "Pass focused tests, the full regression runner, clean release/export and smoke checks; record profiling and update movement documentation and the context graph.",
+      "done": false,
+      "source": "docs/BOSS_CLIMBING_PLAN.md"
+    }
+  ]
+}

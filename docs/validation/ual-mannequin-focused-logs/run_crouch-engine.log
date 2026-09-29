@@ -1,0 +1,164 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: 30 Hz: crouch accepted through action lifecycle
+PASS: 30 Hz: lowered collider persists without automatic stand
+PASS: Crouch releases action slot
+PASS: Crouch costs no stamina
+PASS: 30 Hz: crouch speed is 2m/s
+PASS: Crouching faces locked target
+PASS: Diagonal crouch has no speed bonus
+PASS: Blocked standing leaves crouch active
+PASS: light blocked before resource spending
+PASS: heavy blocked before resource spending
+PASS: cast blocked before resource spending
+PASS: heal blocked before resource spending
+PASS: jump blocked before resource spending
+PASS: dodge blocked before resource spending
+PASS: Blocked sprint stays crouched without stamina drain
+PASS: Removing ceiling does not retry a discarded stand request
+PASS: Fresh press stands when clear
+PASS: Standing restores original capsule
+PASS: Prepare crouch for light
+PASS: light stands before action starts
+PASS: Prepare crouch for heavy
+PASS: heavy stands before action starts
+PASS: Prepare crouch for cast
+PASS: cast stands before action starts
+PASS: Prepare crouch for heal
+PASS: heal stands before action starts
+PASS: Prepare crouch for jump
+PASS: jump stands before action starts
+PASS: Prepare crouch for dodge
+PASS: dodge stands before action starts
+PASS: Sprint exits crouch when clear
+PASS: Unaffordable action preserves crouch
+PASS: Grounded crouching permits stamina regeneration
+PASS: Pause freezes crouch playback
+PASS: Crouch on elevated platform
+PASS: Departure retains crouched posture
+PASS: Impact measurement includes crouched fall
+PASS: Soft fall returns crouched; heavy fall restores standing when clear
+PASS: Existing landing commitment preserved
+PASS: Crouch on elevated platform
+PASS: Departure retains crouched posture
+PASS: Impact measurement includes crouched fall
+PASS: Soft fall returns crouched; heavy fall restores standing when clear
+PASS: Existing landing commitment preserved
+PASS: Reset clears posture and action ownership
+PASS: 60 Hz: crouch accepted through action lifecycle
+PASS: 60 Hz: lowered collider persists without automatic stand
+PASS: Crouch releases action slot
+PASS: Crouch costs no stamina
+PASS: 60 Hz: crouch speed is 2m/s
+PASS: Crouching faces locked target
+PASS: Diagonal crouch has no speed bonus
+PASS: Blocked standing leaves crouch active
+PASS: light blocked before resource spending
+PASS: heavy blocked before resource spending
+PASS: cast blocked before resource spending
+PASS: heal blocked before resource spending
+PASS: jump blocked before resource spending
+PASS: dodge blocked before resource spending
+PASS: Blocked sprint stays crouched without stamina drain
+PASS: Removing ceiling does not retry a discarded stand request
+PASS: Fresh press stands when clear
+PASS: Standing restores original capsule
+PASS: Prepare crouch for light
+PASS: light stands before action starts
+PASS: Prepare crouch for heavy
+PASS: heavy stands before action starts
+PASS: Prepare crouch for cast
+PASS: cast stands before action starts
+PASS: Prepare crouch for heal
+PASS: heal stands before action starts
+PASS: Prepare crouch for jump
+PASS: jump stands before action starts
+PASS: Prepare crouch for dodge
+PASS: dodge stands before action starts
+PASS: Sprint exits crouch when clear
+PASS: Unaffordable action preserves crouch
+PASS: Grounded crouching permits stamina regeneration
+PASS: Pause freezes crouch playback
+PASS: Crouch on elevated platform
+PASS: Departure retains crouched posture
+PASS: Impact measurement includes crouched fall
+PASS: Soft fall returns crouched; heavy fall restores standing when clear
+PASS: Existing landing commitment preserved
+PASS: Crouch on elevated platform
+PASS: Departure retains crouched posture
+PASS: Impact measurement includes crouched fall
+PASS: Soft fall returns crouched; heavy fall restores standing when clear
+PASS: Existing landing commitment preserved
+PASS: Reset clears posture and action ownership
+PASS: 120 Hz: crouch accepted through action lifecycle
+PASS: 120 Hz: lowered collider persists without automatic stand
+PASS: Crouch releases action slot
+PASS: Crouch costs no stamina
+PASS: 120 Hz: crouch speed is 2m/s
+PASS: Crouching faces locked target
+PASS: Diagonal crouch has no speed bonus
+PASS: Blocked standing leaves crouch active
+PASS: light blocked before resource spending
+PASS: heavy blocked before resource spending
+PASS: cast blocked before resource spending
+PASS: heal blocked before resource spending
+PASS: jump blocked before resource spending
+PASS: dodge blocked before resource spending
+PASS: Blocked sprint stays crouched without stamina drain
+PASS: Removing ceiling does not retry a discarded stand request
+PASS: Fresh press stands when clear
+PASS: Standing restores original capsule
+PASS: Prepare crouch for light
+PASS: light stands before action starts
+PASS: Prepare crouch for heavy
+PASS: heavy stands before action starts
+PASS: Prepare crouch for cast
+PASS: cast stands before action starts
+PASS: Prepare crouch for heal
+PASS: heal stands before action starts
+PASS: Prepare crouch for jump
+PASS: jump stands before action starts
+PASS: Prepare crouch for dodge
+PASS: dodge stands before action starts
+PASS: Sprint exits crouch when clear
+PASS: Unaffordable action preserves crouch
+PASS: Grounded crouching permits stamina regeneration
+PASS: Pause freezes crouch playback
+PASS: Crouch on elevated platform
+PASS: Departure retains crouched posture
+PASS: Impact measurement includes crouched fall
+PASS: Soft fall returns crouched; heavy fall restores standing when clear
+PASS: Existing landing commitment preserved
+PASS: Crouch on elevated platform
+PASS: Departure retains crouched posture
+PASS: Impact measurement includes crouched fall
+PASS: Soft fall returns crouched; heavy fall restores standing when clear
+PASS: Existing landing commitment preserved
+PASS: Reset clears posture and action ownership
+PASS: Shared definition preserves instance-local stance and collision
+PASS: Descending crouched hit enters ragdoll
+PASS: Ragdoll releases persistent crouch ownership
+PASS: Surviving crouched fall recovers standing
+PASS: Grounded damage keeps safe crouch collider during hurt
+PASS: Hurt commitment rejects posture changes
+PASS: New binding preserves existing C assignment
+PASS: Test Grounds uses same crouch implementation without combat
+PASS: Disabled lab combat leaves stance unchanged
+PASS: Repeated lab reset restores standing
+PASS: Repeated lab reset restores standing
+PASS: Repeated lab reset restores standing
+PASS: Shoulder -1: real movement enters 1.5m tunnel
+PASS: Tunnel blocks standing
+PASS: Shoulder -1 / height 1.20: camera remains clear of tunnel geometry
+PASS: Shoulder -1 / height 1.65: camera remains clear of tunnel geometry
+PASS: Shoulder -1 / height 2.20: camera remains clear of tunnel geometry
+PASS: Walk out still crouched, then stand with fresh press
+PASS: Shoulder 1: real movement enters 1.5m tunnel
+PASS: Tunnel blocks standing
+PASS: Shoulder 1 / height 1.20: camera remains clear of tunnel geometry
+PASS: Shoulder 1 / height 1.65: camera remains clear of tunnel geometry
+PASS: Shoulder 1 / height 2.20: camera remains clear of tunnel geometry
+PASS: Walk out still crouched, then stand with fresh press
+PASS: Lower unfinished crawl tunnel remains blocked
+PASS: Lower unfinished crawl tunnel remains blocked
+CROUCH RESULT: 161 checks, 0 failures

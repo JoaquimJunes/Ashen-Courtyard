@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/presentation/equipment_visual_definition.gd" id="1_nciup"]
+
+[resource]
+script = ExtResource("1_nciup")
+id = &"bow"
+display_name = "Bow position marker · asset pending"
+placeholder_label = "BOW POSITION
+asset pending"
+held_socket = &"left_hand"
+stowed_socket = &"back_bow"
+occupied_hands = Array[StringName]([&"left_hand", &"right_hand"])

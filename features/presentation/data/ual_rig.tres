@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://features/presentation/character_rig.gd" id="1"]
+[ext_resource type="Resource" path="res://features/reactions/ual_ragdoll.tres" id="2"]
+[ext_resource type="Resource" path="res://features/presentation/data/equipment_sockets/right_hand.tres" id="3"]
+[ext_resource type="Resource" path="res://features/presentation/data/equipment_sockets/left_hand.tres" id="4"]
+[ext_resource type="Resource" path="res://features/presentation/data/equipment_sockets/left_hip.tres" id="5"]
+[ext_resource type="Resource" path="res://features/presentation/data/equipment_sockets/back_shield.tres" id="6"]
+[ext_resource type="Resource" path="res://features/presentation/data/equipment_sockets/back_bow.tres" id="7"]
+
+[ext_resource type="Resource" path="res://features/combat/ual_hitboxes.tres" id="hitboxes"]
+
+[resource]
+script = ExtResource("1")
+identifier = &"ual1_65_v1"
+roles = {
+"Body": "pelvis", "UpperBody": "spine_01", "Torso": "spine_02", "Back": "spine_03", "Head": "Head",
+"UpperArm.l": "upperarm_l", "LowerArm.l": "lowerarm_l", "Hand.l": "hand_l",
+"UpperArm.r": "upperarm_r", "LowerArm.r": "lowerarm_r", "Hand.r": "hand_r",
+"UpperLeg.l": "thigh_l", "LowerLeg.l": "calf_l", "Foot.l": "foot_l",
+"UpperLeg.r": "thigh_r", "LowerLeg.r": "calf_r", "Foot.r": "foot_r"
+}
+visual_scale = 0.96
+traversal_offset = Vector3(0, 0, 0.08)
+grip_offset = Vector2(0.015, 0.015)
+standing_height = 0.9
+ragdoll_definition = ExtResource("2")
+socket_definitions = Array[Resource]([ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7")])
+
+hitbox_profile = ExtResource("hitboxes")

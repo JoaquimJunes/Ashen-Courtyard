@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "key": "painted-soul-wisps-v1-frames",
+      "title": "Painted Soul wisps \u2014 animation frames",
+      "description": "The existing 600 transparent frames of the documented 60 fps animation.",
+      "numbered_members": {
+        "prefix": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/frames/soul-",
+        "suffix": ".png",
+        "start": 0,
+        "count": 600,
+        "digits": 4
+      },
+      "member_types": [
+        "Images",
+        "Animations"
+      ],
+      "cover": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/frames/soul-0176.png",
+      "preview_member": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/frames/soul-0000.png",
+      "sources": [
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/README.md",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/encoding.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/README.md",
+          "contains": "`soul-0000.png` through `soul-0599.png`"
+        },
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/encoding.json",
+          "contains": "\"frames\": 600"
+        }
+      ]
+    },
+    {
+      "key": "firefly-soul-wisps-v1-keyframes",
+      "title": "Firefly Soul wisps \u2014 five keyframes",
+      "description": "The five existing upload images: Empty, Burst, Gather, Settled A and Settled B. These are reference stills.",
+      "members": [
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/images/01-empty.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/images/02-burst.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/images/03-gather.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/images/04-settled-a.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/images/05-settled-b.png"
+      ],
+      "cover": "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/images/02-burst.png",
+      "sources": [
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/README.md",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/manifest.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/README.md",
+          "contains": "All five upload PNGs are **1280\u00d7720, opaque RGB black**"
+        }
+      ]
+    },
+    {
+      "key": "firefly-soul-wisps-v1-review",
+      "title": "Firefly Soul wisps \u2014 alignment and occlusion review",
+      "description": "The existing alignment sheet, fixed HUD plate and four aligned/occluded pose pairs. Static placement checks only.",
+      "members": [
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/alignment-sheet.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/fixed-hud-alignment-base.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/02-burst-aligned.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/02-burst-occluded.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/03-gather-aligned.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/03-gather-occluded.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/04-settled-a-aligned.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/04-settled-a-occluded.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/05-settled-b-aligned.png",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/review/05-settled-b-occluded.png"
+      ],
+      "cover": "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/alignment-sheet.png",
+      "sources": [
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/README.md",
+        "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/source/prepare-pack.cjs"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/README.md",
+          "contains": "[Alignment sheet](alignment-sheet.png): one fixed crop of panel 08"
+        },
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/source/prepare-pack.cjs",
+          "contains": "const ids = ['02-burst','03-gather','04-settled-a','05-settled-b'];"
+        },
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/source/prepare-pack.cjs",
+          "contains": "at('review/'+id+'-aligned.png')"
+        },
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/firefly-soul-wisps-v1/source/prepare-pack.cjs",
+          "contains": "at('review/'+id+'-occluded.png')"
+        }
+      ]
+    },
+    {
+      "key": "painted-soul-wisps-v1-review",
+      "title": "Painted Soul wisps \u2014 review poses",
+      "description": "The eight existing review stills, ordered from empty and refill through burst, gather, settled, linger, dissolve and below full.",
+      "members": [
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/empty-dark.png",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/refill-dark.png",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/burst-dark.png",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/gather-dark.png",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/settled-dark.png",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/linger-dark.png",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/dissolve-dark.png",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/below-full-dark.png"
+      ],
+      "cover": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/burst-dark.png",
+      "sources": [
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/README.md",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/keyframes.json",
+        "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/source/export.cjs"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/README.md",
+          "contains": "The original 28 protected HUD source/export files retain their pre-work hashes."
+        },
+        {
+          "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/source/export.cjs",
+          "contains": "const times={empty:0,refill:1.9,burst:2.94,gather:3.35,settled:5.4,linger:7.4,dissolve:8.4,'below-full':9.2}"
+        }
+      ]
+    },
+    {
+      "key": "mana-evolution-review",
+      "title": "Mana evolution \u2014 concept and review",
+      "description": "The existing strongest-form concept, six-form comparison, close-up, gameplay-size and partial-fill review images.",
+      "members": [
+        "art_source/ui/soulbound_hud/concepts/strongest-mana-v1.png",
+        "art_source/ui/soulbound_hud/concepts/evolution-six-stage-strip.png",
+        "art_source/ui/soulbound_hud/concepts/evolution-strongest-closeup.png",
+        "art_source/ui/soulbound_hud/concepts/evolution-strongest-gameplay.png",
+        "art_source/ui/soulbound_hud/concepts/evolution-partial-closeup.png"
+      ],
+      "cover": "art_source/ui/soulbound_hud/concepts/evolution-six-stage-strip.png",
+      "sources": [
+        "art_source/ui/soulbound_hud/docs/MANA_EVOLUTION.md",
+        "art_source/ui/soulbound_hud/tests/mana-evolution-preview.test.cjs"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/ui/soulbound_hud/docs/MANA_EVOLUTION.md",
+          "contains": "[six-stage comparison strip](../concepts/evolution-six-stage-strip.png)"
+        },
+        {
+          "path": "art_source/ui/soulbound_hud/tests/mana-evolution-preview.test.cjs",
+          "contains": "evolution-strongest-closeup.png"
+        },
+        {
+          "path": "art_source/ui/soulbound_hud/tests/mana-evolution-preview.test.cjs",
+          "contains": "evolution-strongest-gameplay.png"
+        },
+        {
+          "path": "art_source/ui/soulbound_hud/tests/mana-evolution-preview.test.cjs",
+          "contains": "evolution-partial-closeup.png"
+        }
+      ]
+    },
+    {
+      "key": "stone-arm-life-progression-approved-v03",
+      "title": "Stone arm \u2014 approved six life stages",
+      "description": "Neth\u2019s approved six-image sequence: Fractured, Binding, Reinforced, Consolidated, Fortified, Unbroken. Static concepts; game integration deferred.",
+      "members": [
+        "art_source/characters/ual/awakening_concepts/life_progression/stage-0-fractured-v03.png",
+        "art_source/characters/ual/awakening_concepts/life_progression/stage-1-binding-v03.png",
+        "art_source/characters/ual/awakening_concepts/life_progression/stage-2-reinforced-v03.png",
+        "art_source/characters/ual/awakening_concepts/life_progression/stage-3-consolidated-v03.png",
+        "art_source/characters/ual/awakening_concepts/life_progression/stage-4-fortified-v03.png",
+        "art_source/characters/ual/awakening_concepts/life_progression/stage-5-unbroken-v03.png"
+      ],
+      "cover": "art_source/characters/ual/awakening_concepts/life_progression/stage-0-fractured-v03.png",
+      "sources": [
+        "art_source/characters/ual/awakening_concepts/life_progression/README.md",
+        "art_source/characters/ual/awakening_concepts/life_progression/generation_manifest-v03.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/characters/ual/awakening_concepts/life_progression/README.md",
+          "contains": "Concept approved by Neth"
+        }
+      ]
+    },
+    {
+      "key": "protagonist-travelling-clothing-exploration-v01",
+      "title": "Protagonist clothing \u2014 B Road Pilgrim selected",
+      "description": "Neth approved B \u2014 Road Pilgrim as the clothing direction. A/C remain archived explorations. New palette/style variants await clarification; game integration deferred.",
+      "members": [
+        "art_source/characters/ual/clothing_concepts/first_travelling_outfit/direction-a-v01.png",
+        "art_source/characters/ual/clothing_concepts/first_travelling_outfit/direction-b-v01.png",
+        "art_source/characters/ual/clothing_concepts/first_travelling_outfit/direction-c-v01.png"
+      ],
+      "cover": "art_source/characters/ual/clothing_concepts/first_travelling_outfit/direction-b-v01.png",
+      "sources": [
+        "art_source/characters/ual/clothing_concepts/first_travelling_outfit/README.md",
+        "art_source/characters/ual/clothing_concepts/first_travelling_outfit/generation_manifest-v01.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/characters/ual/clothing_concepts/first_travelling_outfit/README.md",
+          "contains": "B \u2014 Road Pilgrim approved as the clothing direction"
+        }
+      ]
+    },
+    {
+      "key": "road-pilgrim-palette-style-exploration-v01",
+      "title": "Road Pilgrim \u2014 A Ceremonial Pilgrim approved",
+      "description": "Approved clothing concept: faded burgundy and bone ceremonial Road Pilgrim. Olive and slate-blue alternatives archived. Three-view static studies; game integration deferred.",
+      "members": [
+        "art_source/characters/ual/clothing_concepts/road_pilgrim_variations/direction-a-v01.png",
+        "art_source/characters/ual/clothing_concepts/road_pilgrim_variations/direction-b-v01.png",
+        "art_source/characters/ual/clothing_concepts/road_pilgrim_variations/direction-c-v01.png"
+      ],
+      "cover": "art_source/characters/ual/clothing_concepts/road_pilgrim_variations/direction-a-v01.png",
+      "sources": [
+        "art_source/characters/ual/clothing_concepts/road_pilgrim_variations/README.md",
+        "art_source/characters/ual/clothing_concepts/road_pilgrim_variations/generation_manifest-v01.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/characters/ual/clothing_concepts/road_pilgrim_variations/README.md",
+          "contains": "A \u2014 Ceremonial Pilgrim approved by Neth"
+        }
+      ]
+    },
+    {
+      "key": "magic-rune-dictionary-v01",
+      "title": "The Twelve Runes \u2014 dictionary v01 (visual review)",
+      "description": "Approved meaning-to-shape mapping; clean glyph drawings await review. One static dictionary sheet with twelve symbols and mana-gauge source crops.",
+      "members": [
+        "art_source/concepts/magic_runes/rune-dictionary-v01.png"
+      ],
+      "cover": "art_source/concepts/magic_runes/rune-dictionary-v01.png",
+      "sources": [
+        "art_source/concepts/magic_runes/README.md",
+        "art_source/concepts/magic_runes/brief.md",
+        "art_source/concepts/magic_runes/runes-v01.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/concepts/magic_runes/README.md",
+          "contains": "Meaning-to-shape mapping approved by Neth"
+        }
+      ]
+    },
+    {
+      "key": "magic-rune-style-exploration-v01",
+      "title": "Magic runes \u2014 A Ancient Chisel approved",
+      "description": "Approved Ancient Chisel treatment: deep angular cuts, charcoal stone, violet light and visible low-poly geometry. B/C archived; game integration deferred.",
+      "members": [
+        "art_source/concepts/magic_runes/style_exploration/direction-a-v01.png",
+        "art_source/concepts/magic_runes/style_exploration/direction-b-v01.png",
+        "art_source/concepts/magic_runes/style_exploration/direction-c-v01.png"
+      ],
+      "cover": "art_source/concepts/magic_runes/style_exploration/direction-a-v01.png",
+      "sources": [
+        "art_source/concepts/magic_runes/style_exploration/README.md",
+        "art_source/concepts/magic_runes/style_exploration/generation_manifest-v01.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/concepts/magic_runes/style_exploration/README.md",
+          "contains": "A \u2014 Ancient Chisel approved by Neth"
+        }
+      ]
+    },
+    {
+      "key": "magic-circle-paired-exploration-v01",
+      "title": "Magic circles \u2014 A approved",
+      "description": "A \u2014 Hovering approved as the visual reference for further experiments. B/C archived alternatives. Paired carved and projected circles with low-poly environments and carved and blood-drawn runes. Historical glyph fidelity notes preserved.",
+      "members": [
+        "art_source/concepts/magic_runes/circle_exploration/direction-a-v01.png",
+        "art_source/concepts/magic_runes/circle_exploration/direction-b-v01.png",
+        "art_source/concepts/magic_runes/circle_exploration/direction-c-v01.png"
+      ],
+      "cover": "art_source/concepts/magic_runes/circle_exploration/direction-a-v01.png",
+      "sources": [
+        "art_source/concepts/magic_runes/circle_exploration/README.md",
+        "art_source/concepts/magic_runes/circle_exploration/generation_manifest-v01.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/concepts/magic_runes/circle_exploration/README.md",
+          "contains": "A \u2014 Hovering approved as the visual direction."
+        }
+      ]
+    },
+    {
+      "key": "magic-circle-geometry-exploration-v01",
+      "title": "Magic circle geometry A1/A2/A3 \u2014 awaiting review",
+      "description": "Three white-canvas explorations derived from approved A: triangle, pentagram and asymmetric network. Blood inscriptions deferred. Ring geometry, glyph positions and projection angles require review.",
+      "members": [
+        "art_source/concepts/magic_runes/circle_geometry_exploration/a1-v01.png",
+        "art_source/concepts/magic_runes/circle_geometry_exploration/a2-v01.png",
+        "art_source/concepts/magic_runes/circle_geometry_exploration/a3-v01.png"
+      ],
+      "cover": "art_source/concepts/magic_runes/circle_geometry_exploration/a1-v01.png",
+      "sources": [
+        "art_source/concepts/magic_runes/circle_geometry_exploration/README.md",
+        "art_source/concepts/magic_runes/circle_geometry_exploration/generation_manifest-v01.json"
+      ],
+      "evidence": [
+        {
+          "path": "art_source/concepts/magic_runes/circle_geometry_exploration/README.md",
+          "contains": "Explorations awaiting review."
+        }
+      ]
+    }
+  ]
+}

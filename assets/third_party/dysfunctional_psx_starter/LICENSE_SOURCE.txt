@@ -1,0 +1,10 @@
+Publisher: https://dysfunctional-games.itch.io/psx-starter-kit
+Retrieved 2026-09-24. Full publisher page retained under source/.
+
+License (publisher text):
+Permission to Use Commercially in Game Projects
+Not permitted to resell as your own work or for profit
+Not permitted to be used in an AI Generation Tool (3DFY.ai etc.)
+Not permitted for use in any NFT product
+Not permitted for use in any Crypto Project
+Credit is appreciated, I always love to see what everyone is working on

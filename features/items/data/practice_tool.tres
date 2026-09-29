@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Script"]
+[ext_resource type="Resource" path="res://features/items/data/reusable_heal_actions.tres" id="actions"]
+
+
+[resource]
+script = ExtResource("Script")
+id = &"practice_tool"
+display_name = "Charm — reusable test"
+description = "Test reusable item using the existing healing action. No quantity is consumed."
+category = "gadget"
+subtype = &"tool"
+actions = ExtResource("actions")
+

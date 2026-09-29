@@ -1,0 +1,15 @@
+Publisher description and license statement captured 2026-09-24 UTC.
+Source: https://kenney-assets.itch.io/retro-medieval-kit
+
+Retro Medieval Kit
+This package includes 100 models done in a retro early-3D style including low resolution textures. Find more similar styled assets in the
+Retro 3D Graphics Collection
+.
+Features:
+Over 100 models
+In OBJ, FBX, and glTF file formats
+Works with Godot, Unity, Unreal Engine and more
+Including textures
+License:
+CC0 1.0 Universal
+. You're allowed to use these game assets in any project including commercial ones. There's no need to ask permission before using these and giving attribution is not required (but is appreciated!)

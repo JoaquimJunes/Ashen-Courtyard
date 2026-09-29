@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/presentation/equipment_loadout_definition.gd" id="1"]
+[ext_resource type="Resource" path="res://features/presentation/data/review_sword.tres" id="2"]
+[ext_resource type="Resource" path="res://features/presentation/data/review_shield.tres" id="3"]
+[ext_resource type="Resource" path="res://features/presentation/data/review_bow.tres" id="4"]
+
+[resource]
+script = ExtResource("1")
+items = Array[Resource]([ExtResource("2"), ExtResource("3"), ExtResource("4")])
+layouts = {
+&"all_stowed": [],
+&"bow": [&"bow"],
+&"sword_shield": [&"sword", &"shield"]
+}
+initial_layout = &"sword_shield"

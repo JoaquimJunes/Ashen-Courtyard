@@ -1,0 +1,153 @@
+[gd_resource type="Resource" format=3 uid="uid://b2i1cqi5nbt22"]
+
+[ext_resource type="Script" uid="uid://bbr7bj8kk2f3y" path="res://features/presentation/get_up_definition.gd" id="1"]
+[ext_resource type="Script" uid="uid://s1wdg2u6jsd" path="res://features/presentation/get_up_keyframe.gd" id="2"]
+
+[sub_resource type="Resource" id="prone"]
+script = ExtResource("2")
+pelvis = Vector3(0, 0.246, 0)
+torso_degrees = Vector3(-85, 0, 0)
+left_foot = Vector3(-0.1148, 0.296, 0.8036)
+right_foot = Vector3(0.1148, 0.296, 0.8036)
+left_hand = Vector3(-0.2624, 0.0451, -0.3608)
+right_hand = Vector3(0.3034, 0.2296, -0.3116)
+knee_pole = Vector3(0, -1, 0)
+left_foot_pitch = -70
+right_foot_pitch = -70
+
+[sub_resource type="Resource" id="brace"]
+script = ExtResource("2")
+time = 0.16
+pelvis = Vector3(0, 0.3198, 0.0328)
+torso_degrees = Vector3(-80, 0, 0)
+left_foot = Vector3(-0.1476, 0.2714, 0.697)
+right_foot = Vector3(0.123, 0.2714, 0.697)
+left_hand = Vector3(-0.2624, 0.0451, -0.3608)
+right_hand = Vector3(0.3116, 0.2788, -0.287)
+knee_pole = Vector3(0, -1, -0.3)
+knees_out = 0.8
+left_foot_pitch = -60
+right_foot_pitch = -60
+
+[sub_resource type="Resource" id="draw"]
+script = ExtResource("2")
+time = 0.31
+pelvis = Vector3(0, 0.3854, 0.0533)
+torso_degrees = Vector3(-85, 0, 0)
+left_foot = Vector3(-0.164, 0.2304, 0.041)
+right_foot = Vector3(0.123, 0.3944, 0.6396)
+left_hand = Vector3(-0.2624, 0.0451, -0.3608)
+right_hand = Vector3(0.3034, 0.328, -0.2952)
+knees_out = 0.8
+left_foot_pitch = -10
+right_foot_pitch = -70
+
+[sub_resource type="Resource" id="plant"]
+script = ExtResource("2")
+time = 0.38
+pelvis = Vector3(0, 0.4428, 0.0656)
+torso_degrees = Vector3(-65, 0, 0)
+left_foot = Vector3(-0.164, 0.1115, -0.2952)
+right_foot = Vector3(0.123, 0.1976, 0.3116)
+left_hand = Vector3(-0.2624, 0.1804, -0.3608)
+right_hand = Vector3(0.3034, 0.4346, -0.3034)
+knees_out = 0.8
+right_foot_pitch = -35
+
+[sub_resource type="Resource" id="kneel"]
+script = ExtResource("2")
+time = 0.54
+pelvis = Vector3(0, 0.5494, 0.041)
+torso_degrees = Vector3(-34, 0, 0)
+left_foot = Vector3(-0.164, 0.1115, -0.2952)
+right_foot = Vector3(0.123, 0.173, 0.2706)
+left_hand = Vector3(-0.246, 0.451, -0.3198)
+right_hand = Vector3(0.328, 0.5822, -0.2214)
+knees_out = 0.4
+right_foot_pitch = -20
+
+[sub_resource type="Resource" id="rise"]
+script = ExtResource("2")
+time = 0.74
+pelvis = Vector3(0, 0.7872, -0.0574)
+torso_degrees = Vector3(-16, 0, 0)
+left_foot = Vector3(-0.164, 0.1115, -0.2952)
+right_foot = Vector3(0.123, 0.2386, 0.0738)
+left_hand = Vector3(-0.246, 0.6724, -0.2542)
+right_hand = Vector3(0.3034, 0.7708, -0.1066)
+knees_out = 0.1
+right_foot_pitch = -10
+
+[sub_resource type="Resource" id="step"]
+script = ExtResource("2")
+time = 0.88
+pelvis = Vector3(0, 0.8774, 0)
+torso_degrees = Vector3(-4, 0, 0)
+left_foot = Vector3(-0.1148, 0.214, -0.1312)
+right_foot = Vector3(0.06068, 0.132, 0.03034)
+left_hand = Vector3(-0.2378, 0.82, -0.0656)
+right_hand = Vector3(0.246, 0.8528, -0.0164)
+
+[sub_resource type="Resource" id="stand"]
+script = ExtResource("2")
+time = 1
+pelvis = Vector3(0, 0.899237, 0)
+left_foot = Vector3(-0.06068, 0.116666, 0.03034)
+right_foot = Vector3(0.06068, 0.116666, 0.03034)
+left_hand = Vector3(-0.22632, 0.84214, -0.01886)
+right_hand = Vector3(0.23124, 0.8528, -0.01394)
+
+[sub_resource type="Resource" id="supine"]
+script = ExtResource("2")
+pelvis = Vector3(0, 0.2296, 0)
+torso_degrees = Vector3(82, 0, 0)
+left_foot = Vector3(-0.1148, 0.1812, -0.7872)
+right_foot = Vector3(0.1148, 0.1812, -0.7872)
+left_hand = Vector3(-0.2624, 0.1394, 0.3198)
+right_hand = Vector3(0.3198, 0.2214, 0.2788)
+knee_pole = Vector3(0, 1, 0)
+left_foot_pitch = 65
+right_foot_pitch = 65
+
+[sub_resource type="Resource" id="side"]
+script = ExtResource("2")
+time = 0.23
+pelvis = Vector3(-0.0246, 0.2624, 0.0246)
+torso_degrees = Vector3(48, 0, 65)
+left_foot = Vector3(-0.205, 0.214, -0.492)
+right_foot = Vector3(0.2214, 0.3124, -0.451)
+left_hand = Vector3(-0.3034, 0.0451, -0.0656)
+right_hand = Vector3(0.2788, 0.369, -0.082)
+knee_pole = Vector3(0, 1, -0.5)
+left_foot_pitch = 20
+right_foot_pitch = 25
+
+[sub_resource type="Resource" id="side_hold"]
+script = ExtResource("2")
+time = 0.32
+pelvis = Vector3(-0.0082, 0.328, 0.0492)
+torso_degrees = Vector3(10, 0, 60)
+left_foot = Vector3(-0.1886, 0.1402, -0.3772)
+right_foot = Vector3(0.1476, 0.255, -0.205)
+left_hand = Vector3(-0.3034, 0.0451, -0.0656)
+right_hand = Vector3(0.2952, 0.41, -0.164)
+knees_out = 0.8
+left_foot_pitch = 10
+right_foot_pitch = 20
+
+[sub_resource type="Resource" id="turn"]
+script = ExtResource("2")
+time = 0.44
+pelvis = Vector3(0, 0.4264, 0.0656)
+torso_degrees = Vector3(-55, 0, 12)
+left_foot = Vector3(-0.164, 0.1115, -0.2952)
+right_foot = Vector3(0.123, 0.1976, 0.3116)
+left_hand = Vector3(-0.2624, 0.1804, -0.3608)
+right_hand = Vector3(0.3034, 0.4346, -0.3034)
+knees_out = 0.8
+right_foot_pitch = -35
+
+[resource]
+script = ExtResource("1")
+face_down = Array[ExtResource("2")]([SubResource("prone"), SubResource("brace"), SubResource("draw"), SubResource("plant"), SubResource("kneel"), SubResource("rise"), SubResource("step"), SubResource("stand")])
+face_up = Array[ExtResource("2")]([SubResource("supine"), SubResource("side"), SubResource("side_hold"), SubResource("turn"), SubResource("kneel"), SubResource("rise"), SubResource("step"), SubResource("stand")])

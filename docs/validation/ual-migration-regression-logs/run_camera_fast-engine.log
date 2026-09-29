@@ -1,0 +1,112 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 30 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Ground collision stays solid during fast orbit: 30 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Camera catches up after stopping input: 30 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 60 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Ground collision stays solid during fast orbit: 60 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Camera catches up after stopping input: 60 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder -1 / smoothing 0.00 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder -1 / smoothing 0.00 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder -1 / smoothing 0.12 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder -1 / smoothing 0.12 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder -1 / smoothing 0.35 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder -1 / smoothing 0.35 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder 1 / smoothing 0.00 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder 1 / smoothing 0.00 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder 1 / smoothing 0.12 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder 1 / smoothing 0.12 / direction 1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder 1 / smoothing 0.35 / direction -1
+PASS: Fast grounded orbit never reverses or snaps: 120 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Ground collision stays solid during fast orbit: 120 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Camera catches up after stopping input: 120 Hz / shoulder 1 / smoothing 0.35 / direction 1
+PASS: Rapid orbit keeps wall and ground collision
+FAST CAMERA RESULT: 109 checks, 0 failures

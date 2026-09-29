@@ -1,0 +1,36 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Right shoulder places the camera beside the character
+PASS: Left shoulder changes composition without turning the character
+PASS: Invalid camera ranges are clamped
+PASS: Non-finite camera values are rejected
+PASS: Follow eases toward movement rather than snapping
+PASS: Zero smoothing provides immediate follow
+PASS: Camera stays inside boundary (1.0, 0.0, 0.0) on shoulder -1
+PASS: Camera stays inside boundary (-1.0, 0.0, 0.0) on shoulder -1
+PASS: Camera stays inside boundary (0.0, 0.0, -1.0) on shoulder -1
+PASS: Camera stays inside boundary (0.0, 0.0, 1.0) on shoulder -1
+PASS: Camera stays inside boundary (1.0, 0.0, 1.0) on shoulder -1
+PASS: Camera stays inside boundary (-1.0, 0.0, 1.0) on shoulder -1
+PASS: Camera stays inside boundary (1.0, 0.0, -1.0) on shoulder -1
+PASS: Camera stays inside boundary (-1.0, 0.0, -1.0) on shoulder -1
+PASS: Sideways shoulder sweep prevents wall clipping (-1)
+PASS: Camera stays inside boundary (1.0, 0.0, 0.0) on shoulder 1
+PASS: Camera stays inside boundary (-1.0, 0.0, 0.0) on shoulder 1
+PASS: Camera stays inside boundary (0.0, 0.0, -1.0) on shoulder 1
+PASS: Camera stays inside boundary (0.0, 0.0, 1.0) on shoulder 1
+PASS: Camera stays inside boundary (1.0, 0.0, 1.0) on shoulder 1
+PASS: Camera stays inside boundary (-1.0, 0.0, 1.0) on shoulder 1
+PASS: Camera stays inside boundary (1.0, 0.0, -1.0) on shoulder 1
+PASS: Camera stays inside boundary (-1.0, 0.0, -1.0) on shoulder 1
+PASS: Sideways shoulder sweep prevents wall clipping (1)
+PASS: Lock-on centers the target with an offset camera
+PASS: Losing a target returns smoothly to free look
+PASS: Camera options remain inside the paused encounter
+PASS: Settings preview updates while gameplay is paused
+PASS: Save and back returns to pause, without resuming
+PASS: Saved options survive a fresh configuration load
+PASS: Sensitivity and inverted mouse look affect free camera input
+PASS: Encounter retry retains camera preferences
+PASS: Options close correctly from the death screen
+CAMERA RESULT: 33 checks, 0 failures

@@ -1,0 +1,18 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS Spell starts through the shared action lifecycle
+PASS Nonlethal burst releases exactly once
+PASS Burst spends its mana only once
+PASS Nonlethal burst keeps recovery ownership
+PASS Normal cast recovery finishes
+PASS Spell starts through the shared action lifecycle
+PASS Lethal player burst completes the real victory flow
+PASS Victory cancellation releases cast ownership
+PASS Spell starts through the shared action lifecycle
+PASS Lethal Warden burst completes the real defeat flow
+PASS Encounter freeze releases Warden spell ownership
+PASS Spell starts through the shared action lifecycle
+PASS Damage callback can start a replacement cast
+PASS Same-definition replacement retains its own clock and release state
+PASS Replacement cannot release before its own windup
+CAST LIFECYCLE: 15 checks, 0 failures

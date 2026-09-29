@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_equipment_profile.gd" id="Script"]
+
+
+[resource]
+script = ExtResource("Script")
+slot = &"primary"
+two_handed = true

@@ -1,0 +1,67 @@
+{
+  "engine": "<USER_HOME>/Desktop/Ashen Courtyard/Godot_v4.6.2-stable_linux.x86_64",
+  "passed": true,
+  "checks": 315,
+  "suites": [
+    {
+      "suite": "run_mantle_uneven",
+      "seconds": 1.651,
+      "passed": true,
+      "checks": 98,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_lifecycle",
+      "seconds": 1.93,
+      "passed": true,
+      "checks": 49,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_height",
+      "seconds": 1.75,
+      "passed": true,
+      "checks": 63,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_ledge_poses",
+      "seconds": 0.817,
+      "passed": true,
+      "checks": 9,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_shimmy_safety",
+      "seconds": 3.064,
+      "passed": true,
+      "checks": 48,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    },
+    {
+      "suite": "run_shimmy",
+      "seconds": 2.416,
+      "passed": true,
+      "checks": 48,
+      "failures": 0,
+      "exit_code": 0,
+      "errors": [],
+      "missing_summary": false
+    }
+  ]
+}

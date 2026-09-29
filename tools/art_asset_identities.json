@@ -1,0 +1,779 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "art:2ea257deced0d200f88868cd",
+      "original_path": "art_source/mixamo/crawling_ual.glb",
+      "path": "art_source/mixamo/anim_ual_crawl_retarget_reviewed_v01.glb",
+      "aliases": [
+        "art_source/mixamo/crawling_ual.glb"
+      ],
+      "source_sha256": "fed5b2d16c27e5f2408d0e7709b993409045753ec37b28194f840b006a385ce0"
+    },
+    {
+      "id": "art:6e9bb82a8f0ef43aaffe7caf",
+      "original_path": "assets/animations/Mixamo/Being Strangled.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_being_strangled_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Being Strangled.fbx"
+      ],
+      "source_sha256": "c35c19ee75d89d1da8f39acb63a4585d0951dc4704c248f02c95c53d9f7a78f1"
+    },
+    {
+      "id": "art:b15c4d409cab207c3be8e4d5",
+      "original_path": "assets/animations/Mixamo/Braced Hang Drop.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_drop_to_lower_hold_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Braced Hang Drop.fbx"
+      ],
+      "source_sha256": "f3e9438cdd91308edf1fc0586fd1ca09f6f14d38e6e4b53e0ab761a7aeb38229"
+    },
+    {
+      "id": "art:a706266574acdf92648f39ad",
+      "original_path": "assets/animations/Mixamo/Braced Hang Fall.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_drop_to_landing_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Braced Hang Fall.fbx"
+      ],
+      "source_sha256": "7fd1a2d4a470557bd6ef7c37280bedefffb3d640b2fb5ea096723cedc2a02094"
+    },
+    {
+      "id": "art:cceec0cfa4f7b12f429f8285",
+      "original_path": "assets/animations/Mixamo/Braced Hang Hop Left.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_hop_left_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Braced Hang Hop Left.fbx"
+      ],
+      "source_sha256": "eeb507657bba02bb6054d00ddd1e851021da526299c4b96a57c6ff70543af7f3"
+    },
+    {
+      "id": "art:5f03ece1c7ca3e5c5135832a",
+      "original_path": "assets/animations/Mixamo/Braced Hang Hop Right.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_hop_right_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Braced Hang Hop Right.fbx"
+      ],
+      "source_sha256": "17c14b5fd9cdf89ecf0e3d2733b05fcd24a7ff89653fd2e2b519fced286176e7"
+    },
+    {
+      "id": "art:6c1987dc1739308057e3801a",
+      "original_path": "assets/animations/Mixamo/Braced Hang Hop Up.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_hop_up_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Braced Hang Hop Up.fbx"
+      ],
+      "source_sha256": "bbfde61101db3d006324e9068cbbbe835940d7109fdbef2301fe69b29859a298"
+    },
+    {
+      "id": "art:430befe169394b6adb808968",
+      "original_path": "assets/animations/Mixamo/Braced Hang Shimmy Left.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_shimmy_left_inplace_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Braced Hang Shimmy Left.fbx"
+      ],
+      "source_sha256": "dcfc95ffca184542c85083707ae0f89108db4efdce3593f8cd010acbbdbf642e"
+    },
+    {
+      "id": "art:c75ae4919464297ee27c46bf",
+      "original_path": "assets/animations/Mixamo/Braced Hang Shimmy Right.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_shimmy_right_inplace_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Braced Hang Shimmy Right.fbx"
+      ],
+      "source_sha256": "75e7ac7a15c4f2b7c78aa30147d2d9ea0587a7a901aea2ae62e667bf89bd87de"
+    },
+    {
+      "id": "art:92b68319ea6dafbc2e8bfddf",
+      "original_path": "assets/animations/Mixamo/Braced Hang To Crouch.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_to_mantle_to_crouch_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Braced Hang To Crouch.fbx"
+      ],
+      "source_sha256": "a1d07eddf93cee82aa1706a932e3e1b94ffffae8d61901066c0330f98842ae17"
+    },
+    {
+      "id": "art:ff65138afb5f5e6693bf26d8",
+      "original_path": "assets/animations/Mixamo/Climbing Down Wall.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_climbing_down_wall_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Climbing Down Wall.fbx"
+      ],
+      "source_sha256": "fdce552b3b592e883ef3398be8c9c188aa57a802bae9e218f0776c2c715a89b7"
+    },
+    {
+      "id": "art:f344f8ca8afdaaf755228f93",
+      "original_path": "assets/animations/Mixamo/Climbing Down.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_climbing_down_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Climbing Down.fbx"
+      ],
+      "source_sha256": "06f890c8b15d5c8506d816fe29c56e6c363d055cd804203c3b69a27d0b54359e"
+    },
+    {
+      "id": "art:512073002387742e6de4c141",
+      "original_path": "assets/animations/Mixamo/Climbing Up Wall.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_climbing_up_wall_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Climbing Up Wall.fbx"
+      ],
+      "source_sha256": "4ec1b7d0e8601567b66b8d3af0a0ae8fe519ef9e935f5eb24889f6ad15ddda28"
+    },
+    {
+      "id": "art:8dadbb14887cc54de4c7bb8c",
+      "original_path": "assets/animations/Mixamo/Crawling.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_crawling_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Crawling.fbx"
+      ],
+      "source_sha256": "c9d06ce44b709040ade754ed61910516316cc42ff3cef262097cf6a7d8d4699a"
+    },
+    {
+      "id": "art:b1fb43d039d735b3bac1af55",
+      "original_path": "assets/animations/Mixamo/Crouch Walk Back.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_crouch_walk_back_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Crouch Walk Back.fbx"
+      ],
+      "source_sha256": "81c1fb84d2ee7f8abfd3cef654c45bfd63b75f5554aa8e933a959d6661d0eac1"
+    },
+    {
+      "id": "art:ca1ef1de7889d9944f780ebd",
+      "original_path": "assets/animations/Mixamo/Crouch Walk Left.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_crouch_walk_left_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Crouch Walk Left.fbx"
+      ],
+      "source_sha256": "fb7fbe2f4bfe39da54ff9e9ec86f1d5960e802d41a60831ad502f47d85c0a57a"
+    },
+    {
+      "id": "art:098586863df177a5fa6e9087",
+      "original_path": "assets/animations/Mixamo/Dying.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_dying_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Dying.fbx"
+      ],
+      "source_sha256": "d82ed9041f6e4d8ee75faccb7aa663673d18822e9402471ea7bf3fea5f93393e"
+    },
+    {
+      "id": "art:10fbc24bd57c99f6afe59bcb",
+      "original_path": "assets/animations/Mixamo/Falling Flat Impact.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_falling_flat_impact_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Falling Flat Impact.fbx"
+      ],
+      "source_sha256": "2d9a84eb80634011936fba94d5aa20d22782edacd4189d274dadb939ee79fcbb"
+    },
+    {
+      "id": "art:fb4d5653e284d2e342cdcaed",
+      "original_path": "assets/animations/Mixamo/Falling Idle.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_falling_idle_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Falling Idle.fbx"
+      ],
+      "source_sha256": "ae8e06bc46a03142186589f8e117635fd3da317c6ef595f3a05f3c66c7ebb5b8"
+    },
+    {
+      "id": "art:481f8f03dbb839778b7439ff",
+      "original_path": "assets/animations/Mixamo/Falling To Landing.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_falling_to_landing_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Falling To Landing.fbx"
+      ],
+      "source_sha256": "63276206e8b2cad9460244ab03ba464c4e15fc29255e07fd350c1fee5d383156"
+    },
+    {
+      "id": "art:8dd2c8c345c8ce085d2d4343",
+      "original_path": "assets/animations/Mixamo/Falling to Braced Hang.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_airborne_to_braced_hang_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Falling to Braced Hang.fbx"
+      ],
+      "source_sha256": "716ad0da097ea6355928e009af822e4f63e0d3847b19ac22ca6cc7686241b643"
+    },
+    {
+      "id": "art:2286bc71ceb6d2387ba85cf8",
+      "original_path": "assets/animations/Mixamo/Fight Idle.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_fight_idle_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Fight Idle.fbx"
+      ],
+      "source_sha256": "fbaaaf45149f80a88b66acc3f8c1f4e93e9dededd93834920ee666efebb6ce0d"
+    },
+    {
+      "id": "art:da456a41e5707c3c7822ecf0",
+      "original_path": "assets/animations/Mixamo/Free Fall.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_free_fall_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Free Fall.fbx"
+      ],
+      "source_sha256": "59a8ddf1009f83e5688cf249a31fd3d33131732fc41e6ef4f83aa938aba552ab"
+    },
+    {
+      "id": "art:e13088953190622d8961407a",
+      "original_path": "assets/animations/Mixamo/Free Hang Hop Left.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_free_hang_hop_left_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Free Hang Hop Left.fbx"
+      ],
+      "source_sha256": "63e8922c8a96d3b45985471dcf230469293dd0a93388a93dada92d734217d018"
+    },
+    {
+      "id": "art:6c71d6e87433a7668daeae6e",
+      "original_path": "assets/animations/Mixamo/Free Hang Hop Right.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_free_hang_hop_right_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Free Hang Hop Right.fbx"
+      ],
+      "source_sha256": "b301d09326049cfc7985c913a069ae8766bfb38ab76f2aceac1f80974133b113"
+    },
+    {
+      "id": "art:31f8a96c847bc403caf501ef",
+      "original_path": "assets/animations/Mixamo/Free Hang Left Shimmy.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_free_hang_shimmy_left_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Free Hang Left Shimmy.fbx"
+      ],
+      "source_sha256": "6fc27da42857d8a0d1ff913b78a20a0c7bbe9262cbc0b17fdbcb77be041a6509"
+    },
+    {
+      "id": "art:158ce791348dd5a43d5c52aa",
+      "original_path": "assets/animations/Mixamo/Free Hang Right Shimmy.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_free_hang_shimmy_right_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Free Hang Right Shimmy.fbx"
+      ],
+      "source_sha256": "0c8cac17ed28a6fb8d33aaed1000d1a9d217a4dec7e45f2c1d83113c9d5e830d"
+    },
+    {
+      "id": "art:a65e6d612faadd14021797e2",
+      "original_path": "assets/animations/Mixamo/Freehang Climb.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_free_hang_to_mantle_to_standing_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Freehang Climb.fbx"
+      ],
+      "source_sha256": "f0aa93d4df94663cb14ab77f61b8f47b5e41454ed5bd7204904b26b28a73292b"
+    },
+    {
+      "id": "art:ba93e330d812c2ec3df50b01",
+      "original_path": "assets/animations/Mixamo/Hanging Idle.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_free_hang_idle_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Hanging Idle.fbx"
+      ],
+      "source_sha256": "7e1be342c93ab82275d7b34edd249b0bae04f15738a5fdd2b59bd398cc42befc"
+    },
+    {
+      "id": "art:56d329613f8b9470ce55a2c8",
+      "original_path": "assets/animations/Mixamo/Hanging.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_hanging_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Hanging.fbx"
+      ],
+      "source_sha256": "811177e82e9a7976fd1dab3fa51acc317240e29c0176652654a66d5faedd7e0b"
+    },
+    {
+      "id": "art:e489ba997265c657db9e2103",
+      "original_path": "assets/animations/Mixamo/Hard Landing.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_hard_landing_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Hard Landing.fbx"
+      ],
+      "source_sha256": "fd6880d36e368b849d431338c9a3a8c2670c90cbca4efa0fec304fde3908a790"
+    },
+    {
+      "id": "art:9e916f7d412d94f68e33b1b3",
+      "original_path": "assets/animations/Mixamo/Jump From Wall.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_braced_hang_wall_jump_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Jump From Wall.fbx"
+      ],
+      "source_sha256": "0a5fe8f1fd019bf9ff221f9fe9e79975d490fddb01caa112b9de14f92e29ed7c"
+    },
+    {
+      "id": "art:bc0b1d272b87455c75a041b3",
+      "original_path": "assets/animations/Mixamo/Jump To Hang.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_jump_to_free_hang_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Jump To Hang.fbx"
+      ],
+      "source_sha256": "2ee56ea961b042f726a3b17781182d32fce4a9ec11e9bf8a35cd903de7194495"
+    },
+    {
+      "id": "art:d8fa4804cba67f17faf7b862",
+      "original_path": "assets/animations/Mixamo/Jumping To Hanging.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_jump_to_braced_hang_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Jumping To Hanging.fbx"
+      ],
+      "source_sha256": "b328b9069b854716546f41db25228cd21bc5436be11a392a64aa73a63cefa0bd"
+    },
+    {
+      "id": "art:a5a498619af1bc93a4221d6c",
+      "original_path": "assets/animations/Mixamo/Jumping Up.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_jumping_up_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Jumping Up.fbx"
+      ],
+      "source_sha256": "5c212330279773aa9ccc995fbb12791053b88d3b1b547093b01ad43b7cf5573d"
+    },
+    {
+      "id": "art:dda1206b53c23624cb434645",
+      "original_path": "assets/animations/Mixamo/Low Crawl.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_low_crawl_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Low Crawl.fbx"
+      ],
+      "source_sha256": "3daa682822bf679cc2ea647d458b5c7efa845292fa4a5de173f787feb2bdd1da"
+    },
+    {
+      "id": "art:b33ee2f37bd2b83112cfbc2e",
+      "original_path": "assets/animations/Mixamo/Mutant Roaring.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_mutant_roaring_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Mutant Roaring.fbx"
+      ],
+      "source_sha256": "d0298b396f920e55e0654b5a8d392704dbaab7f86ce65dc6ab25d199857b47ad"
+    },
+    {
+      "id": "art:917578397295bfba7c8afd91",
+      "original_path": "assets/animations/Mixamo/Mutant Swiping.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_mutant_swiping_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Mutant Swiping.fbx"
+      ],
+      "source_sha256": "f25e15005e46ddee56cd36b2b83776f7ea3ebc151cc408d39c07ffc24b42c497"
+    },
+    {
+      "id": "art:4f2e3522bb7315a779c5b6a4",
+      "original_path": "assets/animations/Mixamo/Rope Climb.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_rope_climb_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Rope Climb.fbx"
+      ],
+      "source_sha256": "b358b1fc03d67939b4971667c901faabc68b98134bf861240d85803453f49321"
+    },
+    {
+      "id": "art:2b416a872b3f3d8a469127d6",
+      "original_path": "assets/animations/Mixamo/Run With Sword.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_run_with_sword_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Run With Sword.fbx"
+      ],
+      "source_sha256": "15094d0086ed801708341ecad5fbf848e8472ffae4feaf63074e5ef77809d580"
+    },
+    {
+      "id": "art:9ff7e66e9e51f2d596e69686",
+      "original_path": "assets/animations/Mixamo/Running Jump.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_running_jump_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Running Jump.fbx"
+      ],
+      "source_sha256": "39c8647bb03dcad01e0231569c476d46c19ce7efdd623973752374665a8c5808"
+    },
+    {
+      "id": "art:8be1734a300da33842ceab9a",
+      "original_path": "assets/animations/Mixamo/Sheathing Sword.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_sheathing_sword_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Sheathing Sword.fbx"
+      ],
+      "source_sha256": "3aab66ab42962e424bcdab3b8f4b10955a0cdb11ebe9d29706d489a2b95429d2"
+    },
+    {
+      "id": "art:5d2d0ebf70498e2b980bb8d0",
+      "original_path": "assets/animations/Mixamo/Sprint To Wall Climb.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_sprint_to_mantle_to_crouch_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Sprint To Wall Climb.fbx"
+      ],
+      "source_sha256": "891b0ddc372e6fe803543e3b53becb620a2871dc9309fb0203be177c68a0c678"
+    },
+    {
+      "id": "art:af05cd9b429fb37717eeaa2c",
+      "original_path": "assets/animations/Mixamo/Standing Aim Overdraw.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_aim_overdraw_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Aim Overdraw.fbx"
+      ],
+      "source_sha256": "cada2ca6de311ab82fd984ffc35a4d1aa51dd66cff971781d18a24b892681348"
+    },
+    {
+      "id": "art:1207d9d4dfef231bafae340b",
+      "original_path": "assets/animations/Mixamo/Standing Aim Recoil.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_aim_recoil_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Aim Recoil.fbx"
+      ],
+      "source_sha256": "058eb6abf22001d80a85ea1ff1638d6e3efbe43e9c8a95074acce0a0599927ae"
+    },
+    {
+      "id": "art:9a4869460a77ad45b1b54cd6",
+      "original_path": "assets/animations/Mixamo/Standing Aim Walk Back.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_aim_walk_back_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Aim Walk Back.fbx"
+      ],
+      "source_sha256": "acb24739ec1505324cffbd6cba0e6605bf4d94d42b9c8d4afce3e74cc9375121"
+    },
+    {
+      "id": "art:ef848e9dc43ea211b0d0dff9",
+      "original_path": "assets/animations/Mixamo/Standing Aim Walk Left.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_aim_walk_left_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Aim Walk Left.fbx"
+      ],
+      "source_sha256": "340c2e9bd9d52323c0a5770afbba392511baa27a2cc3f4d36946c76c3a88d316"
+    },
+    {
+      "id": "art:04f59a46a6d4bef46307cef7",
+      "original_path": "assets/animations/Mixamo/Standing Aim Walk Right.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_aim_walk_right_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Aim Walk Right.fbx"
+      ],
+      "source_sha256": "21589dade27105021082f2919e7f3226f85cf9e9b60acc7e22ca1b218b331162"
+    },
+    {
+      "id": "art:e37742d3519f0a7fc95e11ef",
+      "original_path": "assets/animations/Mixamo/Standing Disarm Bow.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_disarm_bow_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Disarm Bow.fbx"
+      ],
+      "source_sha256": "ba60b2c192dcc4635f17573b4df6fce00d206a45665b7710051e701c615b41d8"
+    },
+    {
+      "id": "art:ed687660f901149107d071e4",
+      "original_path": "assets/animations/Mixamo/Standing Draw Arrow.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_draw_arrow_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Draw Arrow.fbx"
+      ],
+      "source_sha256": "19fc835c976589618e652ebf4c4805a5769984190b8af7388fe5d3769b62104e"
+    },
+    {
+      "id": "art:2821735d3c2d4c647d38511f",
+      "original_path": "assets/animations/Mixamo/Standing Melee Attack Horizontal.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_melee_attack_horizontal_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Melee Attack Horizontal.fbx"
+      ],
+      "source_sha256": "ed4e95e79af2868a3aebf0dd167ffd5f0065e0d86e1e59071460fac86153d1e4"
+    },
+    {
+      "id": "art:8c7043ffdcc56d4dbc34f0ae",
+      "original_path": "assets/animations/Mixamo/Standing Run Right.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_standing_run_right_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Standing Run Right.fbx"
+      ],
+      "source_sha256": "e2c15e83632a93878525163c01996ca85b9afe92822794fed986273bf53969cd"
+    },
+    {
+      "id": "art:7ba40864523640eb00367781",
+      "original_path": "assets/animations/Mixamo/Stunned.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_stunned_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Stunned.fbx"
+      ],
+      "source_sha256": "68b4607aa6bf13699a4402dc6f8b86ab7c29763afab762ca6586bcbc565c601a"
+    },
+    {
+      "id": "art:5cb3c3916dafa2d5fb73ecb1",
+      "original_path": "assets/animations/Mixamo/Two Hand Spell Casting.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_two_hand_spell_casting_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Two Hand Spell Casting.fbx"
+      ],
+      "source_sha256": "2290b2ab736eb2db7ee4a4b0e5569ad80e068bc70a4d82931a8f7694bd5e8868"
+    },
+    {
+      "id": "art:cb09bb28ae6e96b3d22340fc",
+      "original_path": "assets/animations/Mixamo/Unarmed Equip Underarm.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_unarmed_equip_underarm_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Unarmed Equip Underarm.fbx"
+      ],
+      "source_sha256": "24361844c320628d9e183b7e91fc8b6978a304b7586b44dfd60e99ced55f5d7f"
+    },
+    {
+      "id": "art:db09c97c3a49b5878d931572",
+      "original_path": "assets/animations/Mixamo/Withdrawing Sword.fbx",
+      "path": "assets/animations/Mixamo/anim_mixamo_withdrawing_sword_v01.fbx",
+      "aliases": [
+        "assets/animations/Mixamo/Withdrawing Sword.fbx"
+      ],
+      "source_sha256": "8cafea8336e29815a8bdb7f23787426a9eee917a334004241c6227f11efba47d"
+    },
+    {
+      "id": "art:d4afd32d8a7a05d14ca747cd",
+      "original_path": "assets/animations/crouch_idle.tres",
+      "path": "assets/animations/anim_legacy_knight_crouch_idle_v01.tres",
+      "aliases": [
+        "assets/animations/crouch_idle.tres"
+      ],
+      "source_sha256": "cc7a46b821cec4b7c3495d841209b6de7ffeeaa594a3fc563886892421ecc563"
+    },
+    {
+      "id": "art:abce2083e7cd8df5b11a96b7",
+      "original_path": "assets/animations/crouch_walk.tres",
+      "path": "assets/animations/anim_legacy_knight_crouch_walk_v01.tres",
+      "aliases": [
+        "assets/animations/crouch_walk.tres"
+      ],
+      "source_sha256": "424a67452e714da01b8c5b84c89bb672a4392b934196d4784c144f280bdb27e6"
+    },
+    {
+      "id": "art:f5190b060befaf4b87a5fcd7",
+      "original_path": "assets/animations/jog.tres",
+      "path": "assets/animations/anim_legacy_knight_jog_v01.tres",
+      "aliases": [
+        "assets/animations/jog.tres"
+      ],
+      "source_sha256": "29d655cff19e8d4eabc85e6a1bc0156d554f7d8151bc60dbef2d9a65321548d0"
+    },
+    {
+      "id": "art:546c03bc1dc725ce02e773ea",
+      "original_path": "assets/animations/jump_air.tres",
+      "path": "assets/animations/anim_legacy_knight_jump_air_v01.tres",
+      "aliases": [
+        "assets/animations/jump_air.tres"
+      ],
+      "source_sha256": "2dee56ce88b46fd6429432039aa8547a291571c65b8e5f2ee56deaa1e3baee4f"
+    },
+    {
+      "id": "art:e5f0d0ed2f239cab386863e3",
+      "original_path": "assets/animations/jump_land.tres",
+      "path": "assets/animations/anim_legacy_knight_jump_land_v01.tres",
+      "aliases": [
+        "assets/animations/jump_land.tres"
+      ],
+      "source_sha256": "85e0d93cc3bd71c53f923a340cd295bf4c1855f1972a540324d33c246e3b5696"
+    },
+    {
+      "id": "art:11d4d94ffdd24e5e1216d423",
+      "original_path": "assets/animations/jump_start.tres",
+      "path": "assets/animations/anim_legacy_knight_jump_start_v01.tres",
+      "aliases": [
+        "assets/animations/jump_start.tres"
+      ],
+      "source_sha256": "2a6060789d01b02c9ab457af38e7a2223e90cfcc578ee4b72c5e8ae65b15ee8c"
+    },
+    {
+      "id": "art:c8b0eb9eb7a0d8e5e20554fa",
+      "original_path": "assets/animations/roll_back.tres",
+      "path": "assets/animations/anim_legacy_knight_roll_back_v01.tres",
+      "aliases": [
+        "assets/animations/roll_back.tres"
+      ],
+      "source_sha256": "0d8bb24961217b1b53f9acdaff1da9cbe64243756528b21f8a812e5de75fcd08"
+    },
+    {
+      "id": "art:6d5a33b640991a4d0f29ccf9",
+      "original_path": "assets/animations/roll_forward.tres",
+      "path": "assets/animations/anim_legacy_knight_roll_forward_v01.tres",
+      "aliases": [
+        "assets/animations/roll_forward.tres"
+      ],
+      "source_sha256": "c2744bc67b0a84bfb3f6376eaf8b948834fb976c7e18c5c13dc8054dae58204c"
+    },
+    {
+      "id": "art:637b4f64126bbfe6bb2df7bc",
+      "original_path": "assets/animations/roll_left.tres",
+      "path": "assets/animations/anim_legacy_knight_roll_left_v01.tres",
+      "aliases": [
+        "assets/animations/roll_left.tres"
+      ],
+      "source_sha256": "62ba6be76cd8db2a78fb1d3a7c484637a2f7a9b91e41ad543c3534d276dd6d96"
+    },
+    {
+      "id": "art:2b04490dae6bff4538c6e490",
+      "original_path": "assets/animations/roll_right.tres",
+      "path": "assets/animations/anim_legacy_knight_roll_right_v01.tres",
+      "aliases": [
+        "assets/animations/roll_right.tres"
+      ],
+      "source_sha256": "13838a49980ed77a2fda589b807df4c06c3eacdb837629b14ad0178e3bca37dd"
+    },
+    {
+      "id": "art:9e746186ee8843b4ef068157",
+      "original_path": "assets/animations/sprint.tres",
+      "path": "assets/animations/anim_legacy_knight_sprint_v01.tres",
+      "aliases": [
+        "assets/animations/sprint.tres"
+      ],
+      "source_sha256": "ca332ffbc01dd907bb21778606325ee26ac62658b70bc2159d19848d44c44712"
+    },
+    {
+      "id": "art:b62f430ba8c21270d8fb8292",
+      "original_path": "assets/animations/ual/crouch_idle.tres",
+      "path": "assets/animations/ual/anim_ual_crouch_idle_v01.tres",
+      "aliases": [
+        "assets/animations/ual/crouch_idle.tres"
+      ],
+      "source_sha256": "f2773dce578a6720defe62824ff3be5d5cb3f57cd71b486b1dc99451fe4082ec"
+    },
+    {
+      "id": "art:0bb6cbfe7281b1e72a9ba865",
+      "original_path": "assets/animations/ual/crouch_walk.tres",
+      "path": "assets/animations/ual/anim_ual_crouch_walk_v01.tres",
+      "aliases": [
+        "assets/animations/ual/crouch_walk.tres"
+      ],
+      "source_sha256": "aadbc7271506c01c6a9b6a2d2ee9e1017d5a261a6c794309ae29ba259df35392"
+    },
+    {
+      "id": "art:0c5cfc58b4247f8a00c36561",
+      "original_path": "assets/animations/ual/idle.tres",
+      "path": "assets/animations/ual/anim_ual_idle_v01.tres",
+      "aliases": [
+        "assets/animations/ual/idle.tres"
+      ],
+      "source_sha256": "21fce3ace0ad26aa7fd0cbbed9761c1f709411c578ab01ab3f031721bc2eb15f"
+    },
+    {
+      "id": "art:ef98d88d151a5243e73ac6fe",
+      "original_path": "assets/animations/ual/jog.tres",
+      "path": "assets/animations/ual/anim_ual_jog_v01.tres",
+      "aliases": [
+        "assets/animations/ual/jog.tres"
+      ],
+      "source_sha256": "b41794868252abba10dee61d745365fa3c88b7a65c5adeed231ede27baa61462"
+    },
+    {
+      "id": "art:3a98382613015d010f2a90a1",
+      "original_path": "assets/animations/ual/jump_air.tres",
+      "path": "assets/animations/ual/anim_ual_jump_air_v01.tres",
+      "aliases": [
+        "assets/animations/ual/jump_air.tres"
+      ],
+      "source_sha256": "eaaa831e3de2e649f5389843c2e17d07b2286ef9a91682695d9c0d80cf0b6cb9"
+    },
+    {
+      "id": "art:5f5e25c54839d6d1d50f8230",
+      "original_path": "assets/animations/ual/jump_land.tres",
+      "path": "assets/animations/ual/anim_ual_jump_land_v01.tres",
+      "aliases": [
+        "assets/animations/ual/jump_land.tres"
+      ],
+      "source_sha256": "c66ad64e2dfc66e94ef9e05be9435487a2c3e63f566d30692ad90d5ac25cd536"
+    },
+    {
+      "id": "art:573654b9e22c4be0f6d52c4f",
+      "original_path": "assets/animations/ual/jump_start.tres",
+      "path": "assets/animations/ual/anim_ual_jump_start_v01.tres",
+      "aliases": [
+        "assets/animations/ual/jump_start.tres"
+      ],
+      "source_sha256": "003c99b0cb0aebf099674d9c60f9df5c89135591219072cdf62f9416ed1cd131"
+    },
+    {
+      "id": "art:04ee3cdc567f75890d5a017a",
+      "original_path": "assets/animations/ual/mixamo_crawling.tres",
+      "path": "assets/animations/ual/anim_ual_mixamo_crawling_library_v01.tres",
+      "aliases": [
+        "assets/animations/ual/mixamo_crawling.tres"
+      ],
+      "source_sha256": "b8157bc91b04886d78e864ef6fdcc476c64aa289636ad65053d9a444a2f6d724"
+    },
+    {
+      "id": "art:deaf472ff79d05dbb78c57c6",
+      "original_path": "assets/animations/ual/native_actions.tres",
+      "path": "assets/animations/ual/anim_ual_native_actions_library_v01.tres",
+      "aliases": [
+        "assets/animations/ual/native_actions.tres"
+      ],
+      "source_sha256": "0941796a17098626470d599ddb2055313fb177beb7a9b0565d4af6d3cbeb47f9"
+    },
+    {
+      "id": "art:63f8e035184d13b56a8dfe8f",
+      "original_path": "assets/animations/ual/native_combat.tres",
+      "path": "assets/animations/ual/anim_ual_native_combat_library_v01.tres",
+      "aliases": [
+        "assets/animations/ual/native_combat.tres"
+      ],
+      "source_sha256": "434319b5394c2f78b1dc0a83f015d085b04fe34eb5a3f436f7286402d0d108ec"
+    },
+    {
+      "id": "art:92f8c492d023af8d88615514",
+      "original_path": "assets/animations/ual/native_locomotion.tres",
+      "path": "assets/animations/ual/anim_ual_native_locomotion_library_v01.tres",
+      "aliases": [
+        "assets/animations/ual/native_locomotion.tres"
+      ],
+      "source_sha256": "4d05390ed72452f2a756cd4d9b45d53e5fb82d73f860b8441afad684b3d803ad"
+    },
+    {
+      "id": "art:a036273fca009ba101a17c0f",
+      "original_path": "assets/animations/ual/native_swimming.tres",
+      "path": "assets/animations/ual/anim_ual_native_swimming_library_v01.tres",
+      "aliases": [
+        "assets/animations/ual/native_swimming.tres"
+      ],
+      "source_sha256": "f6f307b785d48014048a904c05e7d3be5dba33e2ee0af66f11428263bb7d3abe"
+    },
+    {
+      "id": "art:9aec3a9f1883806d2609d14c",
+      "original_path": "assets/animations/ual/roll_back.tres",
+      "path": "assets/animations/ual/anim_ual_roll_back_v01.tres",
+      "aliases": [
+        "assets/animations/ual/roll_back.tres"
+      ],
+      "source_sha256": "ce64be3631f6fa7d3ed33279818a44b32484622ae3089e749987181aa25ba4f7"
+    },
+    {
+      "id": "art:d6fcc02d63cb17afe15679dc",
+      "original_path": "assets/animations/ual/roll_forward.tres",
+      "path": "assets/animations/ual/anim_ual_roll_forward_v01.tres",
+      "aliases": [
+        "assets/animations/ual/roll_forward.tres"
+      ],
+      "source_sha256": "91d7644898c398651ea61461646a5447af2bc226c7d345a416ad84a38b4578f3"
+    },
+    {
+      "id": "art:c2caaace530d378896ddd778",
+      "original_path": "assets/animations/ual/roll_left.tres",
+      "path": "assets/animations/ual/anim_ual_roll_left_v01.tres",
+      "aliases": [
+        "assets/animations/ual/roll_left.tres"
+      ],
+      "source_sha256": "6d36ca5760dab42474e511ed1a500c5b74fccd6b65766cb1bf2483edf6bb5a21"
+    },
+    {
+      "id": "art:1da21b82f39614def5e92f21",
+      "original_path": "assets/animations/ual/roll_right.tres",
+      "path": "assets/animations/ual/anim_ual_roll_right_v01.tres",
+      "aliases": [
+        "assets/animations/ual/roll_right.tres"
+      ],
+      "source_sha256": "44a196d521fc3d02b3ed98ef8b2bab85c61efdedabd91e809ad8cfead839bb62"
+    },
+    {
+      "id": "art:bd4ce04f1a8e87f2d5d76b49",
+      "original_path": "assets/animations/ual/sprint.tres",
+      "path": "assets/animations/ual/anim_ual_sprint_v01.tres",
+      "aliases": [
+        "assets/animations/ual/sprint.tres"
+      ],
+      "source_sha256": "edf234e32546a945be0caf38d23ea6ce67dfb088d61b96c259006491694ce0d0"
+    },
+    {
+      "id": "art:e42ea5ff9e67098a2a6d88d6",
+      "original_path": "assets/animations/ual/temporary_actions.tres",
+      "path": "assets/animations/ual/anim_ual_temporary_actions_library_v01.tres",
+      "aliases": [
+        "assets/animations/ual/temporary_actions.tres"
+      ],
+      "source_sha256": "f03e638ea9609d085aa6ae1013b28a3b497d8686fe27a6a9a3c6ceadb737b463"
+    },
+    {
+      "id": "art:3f0f9b7b0e59d4e36c7b657a",
+      "original_path": "assets/animations/ual/walk.tres",
+      "path": "assets/animations/ual/anim_ual_walk_v01.tres",
+      "aliases": [
+        "assets/animations/ual/walk.tres"
+      ],
+      "source_sha256": "5c3188df8bed80110b4bd492e91e1bee4a999ca589dee9d835d5b02d0f086627"
+    }
+  ]
+}

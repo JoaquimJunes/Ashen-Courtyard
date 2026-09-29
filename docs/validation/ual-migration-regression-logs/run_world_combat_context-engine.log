@@ -1,0 +1,13 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS Standalone characters share a containing-world context
+PASS Explicit world registration reuses a context created during child assembly
+PASS Released projectile is parented to the world
+PASS Caster removal preserves projectile and combat context
+PASS Released projectile continues moving without its caster
+PASS Projectile still deals damage after caster removal
+PASS World unload cleans up remaining projectiles and services
+PASS Injected combat context is preserved
+PASS Root-character preview teardown leaves no viewport-owned context or projectile
+PASS World unload before deferred insertion does not leak its pending context
+WORLD COMBAT CONTEXT: 10 checks, 0 failures

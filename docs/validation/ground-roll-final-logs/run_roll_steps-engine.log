@@ -1,0 +1,81 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Grounded hop starts at 30 Hz
+PASS: One stamina charge per hop at 30 Hz
+PASS: Hop peaks at 0.6 m at 30 Hz (0.6002 m)
+PASS: Hop lands back on the floor at 30 Hz
+PASS: Existing immunity/recovery timing at 30 Hz
+PASS: Grounded hop starts at 60 Hz
+PASS: One stamina charge per hop at 60 Hz
+PASS: Hop peaks at 0.6 m at 60 Hz (0.6002 m)
+PASS: Hop lands back on the floor at 60 Hz
+PASS: Existing immunity/recovery timing at 60 Hz
+PASS: Grounded hop starts at 120 Hz
+PASS: One stamina charge per hop at 120 Hz
+PASS: Hop peaks at 0.6 m at 120 Hz (0.5995 m)
+PASS: Hop lands back on the floor at 120 Hz
+PASS: Existing immunity/recovery timing at 120 Hz
+PASS: Directional hop starts: ["forward"]
+PASS: Legacy forward capsule is elevated: ["forward"]
+PASS: Cannot relaunch a committed hop
+PASS: Directional roll retains travel distance: 4.340 m
+PASS: Directional hop lands and recovers
+PASS: Directional hop starts: ["back"]
+PASS: Side/back capsule stays grounded: ["back"]
+PASS: Cannot relaunch a committed hop
+PASS: Directional roll retains travel distance: 4.340 m
+PASS: Directional hop lands and recovers
+PASS: Directional hop starts: ["left"]
+PASS: Side/back capsule stays grounded: ["left"]
+PASS: Cannot relaunch a committed hop
+PASS: Directional roll retains travel distance: 4.340 m
+PASS: Directional hop lands and recovers
+PASS: Directional hop starts: ["right"]
+PASS: Side/back capsule stays grounded: ["right"]
+PASS: Cannot relaunch a committed hop
+PASS: Directional roll retains travel distance: 4.340 m
+PASS: Directional hop lands and recovers
+PASS: Directional hop starts: ["forward", "left"]
+PASS: Legacy forward capsule is elevated: ["forward", "left"]
+PASS: Cannot relaunch a committed hop
+PASS: Directional roll retains travel distance: 4.340 m
+PASS: Directional hop lands and recovers
+PASS: Directional hop starts: ["forward", "right"]
+PASS: Legacy forward capsule is elevated: ["forward", "right"]
+PASS: Cannot relaunch a committed hop
+PASS: Directional roll retains travel distance: 4.340 m
+PASS: Directional hop lands and recovers
+PASS: Directional hop starts: ["back", "left"]
+PASS: Side/back capsule stays grounded: ["back", "left"]
+PASS: Cannot relaunch a committed hop
+PASS: Directional roll retains travel distance: 4.340 m
+PASS: Directional hop lands and recovers
+PASS: Directional hop starts: ["back", "right"]
+PASS: Side/back capsule stays grounded: ["back", "right"]
+PASS: Cannot relaunch a committed hop
+PASS: Directional roll retains travel distance: 4.340 m
+PASS: Directional hop lands and recovers
+PASS: Obstacle 0.25 m: physical hop clearance (position (0.0, 0.250834, -4.340356))
+PASS: Obstacle 0.40 m: physical hop clearance (position (0.0, 0.400833, -4.340355))
+PASS: Obstacle 0.60 m: physical hop clearance (position (0.0, 0.60082, -4.00862))
+PASS: Obstacle 1.00 m: physical hop clearance (position (0.0, -0.002282, -1.379759))
+PASS: Gap 0.5 m: landing / fall (position (0.0, 4.000829, -3.890355))
+PASS: Gap 1.0 m: landing / fall (position (0.0, 4.000831, -3.890357))
+PASS: Gap 2.0 m: landing / fall (position (0.0, 4.000826, -3.890356))
+PASS: Gap 3.0 m: landing / fall (position (0.0, 4.000834, -3.890356))
+PASS: Gap 5.0 m: landing / fall (position (0.0, -11.23398, -3.890355))
+PASS: Oversized gap has no invisible landing floor
+PASS: Cannot gain height or spend stamina with an airborne dodge
+PASS: Low ceiling cuts the hop short without capsule penetration
+PASS: Solid wall blocks the airborne dodge
+PASS: Insufficient stamina cannot launch a hop
+PASS: Pause freezes the physical hop and action timer
+PASS: Resume completes the landing and recovery
+PASS: Interrupted roll still falls and lands under gravity
+PASS: Reset clears hop velocity, pose and immunity: 0
+PASS: Reset leaves no delayed lift: 0
+PASS: Reset clears hop velocity, pose and immunity: 1
+PASS: Reset leaves no delayed lift: 1
+PASS: Reset clears hop velocity, pose and immunity: 2
+PASS: Reset leaves no delayed lift: 2
+ROLL HOP RESULT: 78 checks, 0 failures

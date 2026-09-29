@@ -1,0 +1,15 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="PackedScene" path="res://assets/models/ual/runtime_rig.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/ual_mannequin.gd" id="2"]
+[ext_resource type="Resource" path="res://features/presentation/data/ual_rig.tres" id="3"]
+[ext_resource type="Resource" path="res://features/presentation/data/ual_animation_profile.tres" id="4"]
+[ext_resource type="Resource" path="res://features/presentation/data/review_equipment_loadout.tres" id="5"]
+[node name="UALMannequin" type="Node3D"]
+script = ExtResource("2")
+rig = ExtResource("3")
+animation_profile = ExtResource("4")
+equipment_loadout = ExtResource("5")
+[node name="Imported" parent="." instance=ExtResource("1")]
+rotation = Vector3(0,3.14159265,0)
+scale = Vector3(0.96,0.96,0.96)
+[node name="WeaponPivot" type="Node3D" parent="."]

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Script"]
+[ext_resource type="Resource" path="res://features/items/data/shield_hands.tres" id="equipment"]
+[ext_resource type="Resource" path="res://features/presentation/data/review_shield.tres" id="visual"]
+
+
+[resource]
+script = ExtResource("Script")
+id = &"review_shield"
+display_name = "Shield — equipment test"
+description = "Hand and stowing fixture. Blocking and bashing are not implemented."
+category = "shield"
+subtype = &"wooden"
+equipment = ExtResource("equipment")
+visual = ExtResource("visual")
+

@@ -1,0 +1,149 @@
+			~​PSX Starter Kit~
+
+	This collection strives to be a community driven resource
+ 	for developers who need PSX style low-poly models for video
+	    games with authentic texturing and vertex shading.
+
+			-Assets in Pack-
+
+​			     ~Props~
+
+	​
+​	P-1.Wood Chair				​Tri's  232	​​Tex 256x​
+	P-2.Apple				Tri's  147	Tex 256x	
+	P-3.Double Bed				Tri's  146	Tex 256x
+	P-4.Xmas Tree				Tri's  274	Tex 256x
+	P-5.Coffee Polybucks			Tri's  80	Tex 256x
+	P-6.Angelic-Demon Statue (Legend)	Tri's  526	Tex 256x
+	P-7.Fence Wood Straight			Tri's  152	Tex 256x
+	P-8.Fence Wood Connect			Tri's  128	Tex 256x
+	P-9.Fence Wood Corner			Tri's  256	Tex 256x
+	P-10.Grave Fence Straight		Tri's  26	Tex 256x
+	P-11.Grave Fence Straight-End		Tri's  26	Tex 256x
+	P-12.Grave Fence Join			Tri's  20	Tex 256x
+	P-12.Grave Fence Corner			Tri's  18	Tex 256x
+	P-13.Stonewall Straight			Tri's  34	Tex 256x
+	P-14.Stonewall Straight-End		Tri's  134	Tex 256x
+	P-15.Stonewall Corner			Tri's  106	Tex 256x
+
+
+			     ~Characters~
+
+	CA-0.Baconleaf(Legend)		Chibi		Tri's  443	Tex 256x     !!1st Ever Supporter!!
+	CB-0.AetherealGames(Legend) 	Realistic 	Tris's 1604	Tex 256x     !!Special Supporter Aethereal Games!!
+
+	                ~Customization Items~
+
+			-Chibi-
+	CA-1.MaleShirt01	Tri's 168	Tex 256x
+	CA-2.MalePants01	Tri's 120	Tex 256x
+	CA-3.MaleFace01		Tri's 58	Tex 256x
+	CA-4.MaleHair01		Tri's 97	Tex 256x
+	CA-5.Medal(Legend)    	Tri's 32	Tex 256x
+	CA-6.Xmas Hat		Tri's 88	Tex 256x
+
+			-Realistic-
+	CB-1.MaleTop01		Tri's 805	Tex 256x
+	CB-2.MaleLegs01		Tri's 503	Tex 256x
+	CB-3.MaleFace01		Tri's 296	Tex 256x
+	CB-4.MaleFace02		Tri's 300	Tex 256x
+
+
+
+			     ~Weapon~
+
+
+	W-1.Glock17	​	Tri's  166	​Tex 256x​
+	W-2.Katana		Tri's  56	Tex 256x
+	W-3.Claymore		Tri's  240	Tex 256x
+	W-4.Flintlock		Tri's  532	Tex 256x
+	W-5.BaseballBat		Tri's  180 	Tex 256x
+
+
+			  ~Tools~
+
+	T-1.Axe 	​​		Tri's  108​	​​Tex 256x
+	T-2.Spade 	​​		Tri's  136​	​​Tex 256x
+	T-3.Flashlight 			Tri's  192	Tex 256x
+	T-4.FlashLight ChestClip 	Tri's  280	Tex 256x
+	T-5.Flashlight GunAttachment	Tri's  96	Tex 256x
+
+	-
+	Total Assets: 37
+	-
+
+
+			    -Notes- 
+
+	I plan to add to the collection at least once a month.
+
+	​Any suggestions for new assets are welcome and encouraged.
+
+​	If issues are found with any of the assets, or you feel 
+	like you could have some input please suggest it in the 
+			comments or threads.
+
+			      -Update 1- (0.1)
+
+		- Added Glock17, Wood Chair & Axe
+
+		~ Yay First Update! Thanks for downloading! <3 ~
+
+			      -Update 2- (0.2)
+
+		- Added Apple
+		- Added Double Bed
+
+			      -Update 3- (0.3) Xmas Update!
+
+		- Added Xmas Tree
+		- Added Xmas Hat
+		- Added Coffee Polybucks
+		- Added Medal 1st Supporter
+		- Added Baconleaf (1st Ever Supporter & Legend! Baconleaf) 
+
+		~ Merry X-mas everybody, and special thanks to "Baconleaf"
+		  the first patreon of this asset pack.
+
+				-Update 4- (0.4)
+				!Builders Update!
+
+		- Added Angelic Demon Statue (Legend and 2nd ever Supporter! SAEION GAMES) Everybody go check out his games, he's a cool dude that makes vibey as hell games.
+		- Added Wood Fence Straight
+		- Added Wood Fence Connect
+		- Added Wood Fence Corner
+		- Added Grave Fence Straight		
+		- Added Grave Fence Straight-End		
+		- Added Grave Fence Join		
+		- Added Grave Fence Corner
+		- Added Stonewall Straight		
+		- Added Stonewall Straight-End	
+		- Added Stonewall Corner
+		
+		~ Yay we hit 25 items in the asset pack and over 100 downloads, thanks so much everybody. :)		
+
+				-Update 5- (0.5)
+				!Weapons Update!
+
+		-Added Modular Realistic Male (Commissioned by Aethereal Games and he was nice enough to share it with the community)
+		+MaleFace_01
+		+MaleFace_02(Bearded Scar)
+		+MaleTop_01
+		+MaleLegs_01
+		-Added Flashlight (Donation by Aethereal Games)
+		-Added FlashLight ChestClip (Donation by Aethereal Games)
+		-Added Flashlight Gun Attachment (Donation by Aethereal Games)
+		-Added Claymore
+		-Added Baseball Bat
+		-Added Katana
+		-Added Flintlock
+		-Added Spade
+
+		~Special Shout Out to Aethereal Games for comissioning a character from me privately and choosing to share
+		 it with the community. Check him out on Twitter   @Aethereal_Chaos 
+		~ We're almost at 200 downoads and over 1500 views, thanks as always for the support.
+		
+		
+
+	
+		

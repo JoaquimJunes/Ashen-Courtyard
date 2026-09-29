@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/laboratory/movement_practice.gd" id="1"]
+[node name="MovementPractice" type="Node3D"]
+script = ExtResource("1")
+[node name="PlayerStart" type="Marker3D" parent="."]
+position = Vector3(0, 0.02, 1)
+[node name="TargetStart" type="Marker3D" parent="."]
+position = Vector3(0, 0.02, -2)
+rotation = Vector3(0, 3.1415927, 0)
+[node name="Sign" type="Label3D" parent="."]
+position = Vector3(0, 3.8, -2)
+billboard = 1
+font_size = 36
+pixel_size = 0.006
+outline_size = 8
+visible = false

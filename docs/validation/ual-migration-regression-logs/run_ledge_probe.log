@@ -1,0 +1,27 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: 30 Hz probe resolves handhold and standing route
+PASS: Lip height and two hand supports match geometry
+PASS: Probe never moves body
+PASS: 60 Hz probe resolves handhold and standing route
+PASS: Lip height and two hand supports match geometry
+PASS: Probe never moves body
+PASS: 120 Hz probe resolves handhold and standing route
+PASS: Lip height and two hand supports match geometry
+PASS: Probe never moves body
+PASS: Low top ceiling allows hang but rejects standing
+PASS: Removing obstruction revalidates same handhold
+PASS: Thin rail can hold hands but cannot support standing capsule
+PASS: Narrow pillar rejects unsupported second hand
+PASS: Tall unreachable wall cannot attract the character
+PASS: Authored exclusion overrides geometric eligibility
+PASS: Parent-level exclusion is reusable for structures
+PASS: Diagonal approach inside cone is accepted
+PASS: Sideways approach outside cone is rejected
+PASS: Surface motion invalidates static-only attachment
+PASS: Deleted surface invalidates weak reference safely
+PASS: Modular wall/top colliders form one valid candidate
+PASS: Rotated surfaces retain local grip/route directions
+PASS: Gameplay grasp dimensions reject unreachable arm targets
+PASS: An old query cannot acquire a new attachment
+LEDGE PROBE: 24 checks, 0 failures

@@ -1,0 +1,75 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Nine reusable modules load, including the hub
+PASS: Lab character runs independently without a boss
+PASS: Default Run Project scene remains the boss courtyard
+PASS: Lab rejects light without spending resources
+PASS: Lab does not buffer combat input light
+PASS: Lab rejects heavy without spending resources
+PASS: Lab does not buffer combat input heavy
+PASS: Lab rejects cast without spending resources
+PASS: Lab does not buffer combat input cast
+PASS: Lab rejects heal without spending resources
+PASS: Lab does not buffer combat input heal
+PASS: Lab damage cannot trigger encounter-specific effects
+PASS: Existing dodge remains available
+PASS: Reset interrupts and clears a dodge
+PASS: Walking route to station 00 has floor and full standing clearance
+PASS: Station 00 spawn settles safely on the floor
+PASS: Station 00 teleport resets camera follow
+PASS: Walking route to station 01 has floor and full standing clearance
+PASS: Station 01 spawn settles safely on the floor
+PASS: Station 01 teleport resets camera follow
+PASS: Walking route to station 02 has floor and full standing clearance
+PASS: Station 02 spawn settles safely on the floor
+PASS: Station 02 teleport resets camera follow
+PASS: Walking route to station 03 has floor and full standing clearance
+PASS: Station 03 spawn settles safely on the floor
+PASS: Station 03 teleport resets camera follow
+PASS: Walking route to station 04 has floor and full standing clearance
+PASS: Station 04 spawn settles safely on the floor
+PASS: Station 04 teleport resets camera follow
+PASS: Walking route to station 05 has floor and full standing clearance
+PASS: Station 05 spawn settles safely on the floor
+PASS: Station 05 teleport resets camera follow
+PASS: Walking route to station 06 has floor and full standing clearance
+PASS: Station 06 spawn settles safely on the floor
+PASS: Station 06 teleport resets camera follow
+PASS: Walking route to station 07 has floor and full standing clearance
+PASS: Station 07 spawn settles safely on the floor
+PASS: Station 07 teleport resets camera follow
+PASS: Walking route to station 08 has floor and full standing clearance
+PASS: Station 08 spawn settles safely on the floor
+PASS: Station 08 teleport resets camera follow
+PASS: Ramp 0 has an upward-facing walkable collision surface
+PASS: Existing character walks up ramp 0 without new mechanics
+PASS: Ramp 1 has an upward-facing walkable collision surface
+PASS: Existing character walks up ramp 1 without new mechanics
+PASS: Ramp 2 has an upward-facing walkable collision surface
+PASS: Existing character walks up ramp 2 without new mechanics
+PASS: Walking enters and activates the crouching station
+PASS: Station reset restores displaced test objects
+PASS: Station reset restores all player resources
+PASS: Station reset clears pending actions, damage history, and velocity
+PASS: Entire-lab reset restores every object and returns to the hub
+PASS: Entering inactive water safely resets to the swimming entrance
+PASS: Falling into a jumping gap resets to its entrance
+PASS: Out-of-bounds fall recovers the active station
+PASS: Repeated resets retain exactly one character
+PASS: Raised-gap lane 0 start deck is accessible by ordinary walking
+PASS: Raised-gap lane 0 completes a playable dive onto the 1 m platform
+PASS: Raised-gap lane 0 catch floor resets to station entrance
+PASS: Raised-gap lane 1 start deck is accessible by ordinary walking
+PASS: Raised-gap lane 1 completes a playable dive onto the 1 m platform
+PASS: Raised-gap lane 1 catch floor resets to station entrance
+PASS: Lab menu pauses the character
+PASS: Shared camera options preview while the lab is paused
+PASS: Lab menu resumes the character
+PASS: F3 toggles live diagnostics
+PASS: F8 toggles the lab's PS1 screen effects
+PASS: Climbing wall retracts camera on shoulder -1
+PASS: Crouch tunnel retracts camera on shoulder -1
+PASS: Climbing wall retracts camera on shoulder 1
+PASS: Crouch tunnel retracts camera on shoulder 1
+PASS: Return to courtyard restores the normal combat encounter
+LAB RESULT: 72 checks, 0 failures

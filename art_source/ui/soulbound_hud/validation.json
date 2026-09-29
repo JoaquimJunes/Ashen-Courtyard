@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-28",
+  "scope": "Approved six-stage mana evolution in the browser preview; Godot integration deferred",
+  "source_sha256": "963e8468e2aebfc1f1df06aae535ae60e51245afeb1995b2aa72a51e0835cc67",
+  "export_sha256": "77fbea9a85d904fa3af256c3027edade5d73e908c4eb19418df458434ca5ec9e",
+  "model_sha256": "0db850d3edcc1ce592b6b3f25dfec748012b23928e32b6f55588d977db3eccbb",
+  "renderer_sha256": "f8b782ac2ab98b60b38274b046d7f322920ce628d1eb3074d34b036d44fcde13",
+  "checks": {
+    "soul_controller_scenarios": 20,
+    "mana_evolution_scenarios": 16,
+    "soul_browser_interactions": 20,
+    "evolution_browser_interactions": 22,
+    "browser_layouts_density_motion_visuals": "passed",
+    "standalone_offline_network_requests": 0,
+    "standalone_controls_and_source_parity": "passed",
+    "documentation_links": "passed",
+    "graph_builder_tests": 10,
+    "graph_dangling_edges": 0,
+    "graph_duplicate_file_paths": 0
+  },
+  "visual_review": [
+    "strongest full/partial/gameplay",
+    "six equally filled forms",
+    "light and dark backgrounds",
+    "crystal lighting over glyphs and Soul",
+    "unchanged heart frame",
+    "readable rim runes and padded aura"
+  ],
+  "graph": {
+    "nodes": 2962,
+    "edges": 6116,
+    "files": 571
+  },
+  "graph_note": "HUD semantic context refreshed; 11 older broader/unrelated document summaries remain stale and are omitted. Current structural and heading evidence is indexed."
+}

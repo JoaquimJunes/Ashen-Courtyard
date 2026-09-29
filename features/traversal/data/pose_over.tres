@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/traversal/mantle_pose.gd" id="1"]
+[resource]
+script = ExtResource("1")
+pelvis = Vector3(0,0.64,0)
+pitch = -35.0
+left_foot = Vector3(-0.13,0.40,-0.15)
+right_foot = Vector3(0.13,0.42,0.30)
+knees_out = 0.0
+knee_up = 0.8
+knee_forward = 0.0

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/lab_station.gd" id="1"]
+[node name="Hub" type="Node3D"]
+script = ExtResource("1")
+station_id = 0
+entrance = Vector3(0, 0.05, 10)
+entrance_yaw = 0

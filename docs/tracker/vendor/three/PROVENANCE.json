@@ -1,0 +1,16 @@
+{
+  "package": "three",
+  "version": "0.180.0",
+  "source": "https://registry.npmjs.org/three/-/three-0.180.0.tgz",
+  "sha1": "b930cabfb524f6d36bf63e874b4d866888b50487",
+  "integrity": "sha512-o+qycAMZrh+TsE01GqWUxUIKR1AL0S8pq7zDkYOQw8GqfX8b8VoCKYUoHbhiX5j+7hr8XsuHDVU6+gkQJQKg9w==",
+  "files": [
+    "build/three.core.js",
+    "build/three.module.js",
+    "examples/jsm/loaders/GLTFLoader.js",
+    "examples/jsm/controls/OrbitControls.js",
+    "examples/jsm/utils/BufferGeometryUtils.js",
+    "LICENSE",
+    "package.json"
+  ]
+}

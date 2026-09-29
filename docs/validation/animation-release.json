@@ -1,0 +1,837 @@
+{
+	"configuration": {
+		"cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+		"debug_build": false,
+		"display_server": "X11",
+		"godot_version": "4.6.2-stable (official)",
+		"headless_smoke_only": false,
+		"logical_processors": 8,
+		"measurement_seconds": 5.0,
+		"physics_hz": 60,
+		"render_cap": 0,
+		"rendering_method": "gl_compatibility",
+		"resolution": [
+			1280,
+			720
+		],
+		"video_adapter": "Mesa Intel(R) Iris(R) Xe Graphics (TGL GT2)",
+		"vsync": 0,
+		"warmup_seconds": 3.0
+	},
+	"notes": [
+		"Whole-frame values are uncapped wall-clock frame intervals; run an exported release on the real GPU without concurrent tests.",
+		"Physics animation CPU is summed once per character physics completion; render CPU is summed once per displayed frame.",
+		"Scenarios include production motor/action/IK/equipment costs, shadows and spell effects; individual player camera and HUD processing is disabled.",
+		"RSS is sampled at each measurement boundary; peak RSS is process-wide Linux VmHWM.",
+		"startup_to_ready_ms includes the ordinary game bootstrap before the opt-in benchmark scene; spawn values use already loaded resources."
+	],
+	"results": [
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 1.948,
+				"mean": 0.43546,
+				"p50": 0.374,
+				"p95": 0.836,
+				"p99": 1.361,
+				"samples": 300
+			},
+			"animation_render_ms": {
+				"max": 0.573,
+				"mean": 0.107042134831461,
+				"p50": 0.09,
+				"p95": 0.251,
+				"p99": 0.369,
+				"samples": 1780
+			},
+			"characters": 1,
+			"frame_ms": {
+				"max": 6.777,
+				"mean": 2.80753258426966,
+				"p50": 2.377,
+				"p95": 5.545,
+				"p99": 6.108,
+				"samples": 1780
+			},
+			"measurement_seconds": 5.001004,
+			"memory_end": {
+				"process_peak_rss_mib": 208.8046875,
+				"rss_mib": 208.8046875
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 208.76953125,
+				"rss_mib": 208.76953125
+			},
+			"recoveries_completed": 0,
+			"scenario": "idle",
+			"spawn_ms": 73.886
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 4.854,
+				"mean": 1.50876744186047,
+				"p50": 1.272,
+				"p95": 3.438,
+				"p99": 4.276,
+				"samples": 301
+			},
+			"animation_render_ms": {
+				"max": 0.532,
+				"mean": 0.150455642299503,
+				"p50": 0.131,
+				"p95": 0.298,
+				"p99": 0.423,
+				"samples": 1409
+			},
+			"characters": 1,
+			"frame_ms": {
+				"max": 8.56,
+				"mean": 3.54922143364088,
+				"p50": 3.027,
+				"p95": 6.87,
+				"p99": 7.721,
+				"samples": 1409
+			},
+			"measurement_seconds": 5.003094,
+			"memory_end": {
+				"process_peak_rss_mib": 211.8359375,
+				"rss_mib": 211.8359375
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 211.8359375,
+				"rss_mib": 211.8359375
+			},
+			"recoveries_completed": 0,
+			"scenario": "slope",
+			"spawn_ms": 72.166
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 5.499,
+				"mean": 2.89308361204013,
+				"p50": 2.77,
+				"p95": 3.512,
+				"p99": 5.44,
+				"samples": 299
+			},
+			"animation_render_ms": {
+				"max": 0.297,
+				"mean": 0.0614670558798999,
+				"p50": 0.044,
+				"p95": 0.15,
+				"p99": 0.209,
+				"samples": 1199
+			},
+			"characters": 1,
+			"frame_ms": {
+				"max": 10.75,
+				"mean": 4.16764720600501,
+				"p50": 3.109,
+				"p95": 8.263,
+				"p99": 9.385,
+				"samples": 1199
+			},
+			"measurement_seconds": 5.000936,
+			"memory_end": {
+				"process_peak_rss_mib": 211.86328125,
+				"rss_mib": 211.86328125
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 211.86328125,
+				"rss_mib": 211.86328125
+			},
+			"recoveries_completed": 0,
+			"scenario": "crouch",
+			"spawn_ms": 165.213
+		},
+		{
+			"actions_started": 6,
+			"animation_physics_ms": {
+				"max": 1.36,
+				"mean": 0.52455033557047,
+				"p50": 0.488,
+				"p95": 0.772,
+				"p99": 1.306,
+				"samples": 298
+			},
+			"animation_render_ms": {
+				"max": 0.547,
+				"mean": 0.145793365583967,
+				"p50": 0.122,
+				"p95": 0.309,
+				"p99": 0.425,
+				"samples": 1447
+			},
+			"characters": 1,
+			"frame_ms": {
+				"max": 59.989,
+				"mean": 3.42389080856946,
+				"p50": 3.32,
+				"p95": 5.106,
+				"p99": 6.853,
+				"samples": 1447
+			},
+			"measurement_seconds": 5.002,
+			"memory_end": {
+				"process_peak_rss_mib": 218.59375,
+				"rss_mib": 218.59375
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 218.54296875,
+				"rss_mib": 218.54296875
+			},
+			"recoveries_completed": 0,
+			"scenario": "combat",
+			"spawn_ms": 116.823
+		},
+		{
+			"actions_started": 1,
+			"animation_physics_ms": {
+				"max": 4.123,
+				"mean": 1.26834333333333,
+				"p50": 0.071,
+				"p95": 3.647,
+				"p99": 4.015,
+				"samples": 300
+			},
+			"animation_render_ms": {
+				"max": 0.051,
+				"mean": 0.000131700860357379,
+				"p50": 0.0,
+				"p95": 0.0,
+				"p99": 0.0,
+				"samples": 1511
+			},
+			"characters": 1,
+			"frame_ms": {
+				"max": 9.428,
+				"mean": 3.30811449371277,
+				"p50": 3.098,
+				"p95": 6.288,
+				"p99": 7.301,
+				"samples": 1511
+			},
+			"measurement_seconds": 5.001021,
+			"memory_end": {
+				"process_peak_rss_mib": 218.59765625,
+				"rss_mib": 218.59765625
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 218.59765625,
+				"rss_mib": 218.59765625
+			},
+			"recoveries_completed": 1,
+			"scenario": "recovery",
+			"spawn_ms": 154.262
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 4.623,
+				"mean": 1.20907,
+				"p50": 1.103,
+				"p95": 1.859,
+				"p99": 2.431,
+				"samples": 300
+			},
+			"animation_render_ms": {
+				"max": 1.069,
+				"mean": 0.403218718209563,
+				"p50": 0.371,
+				"p95": 0.713,
+				"p99": 0.949,
+				"samples": 983
+			},
+			"characters": 5,
+			"frame_ms": {
+				"max": 11.19,
+				"mean": 5.08968463886063,
+				"p50": 4.558,
+				"p95": 9.044,
+				"p99": 9.784,
+				"samples": 983
+			},
+			"measurement_seconds": 5.004167,
+			"memory_end": {
+				"process_peak_rss_mib": 218.65234375,
+				"rss_mib": 218.65234375
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 218.65234375,
+				"rss_mib": 218.65234375
+			},
+			"recoveries_completed": 0,
+			"scenario": "idle",
+			"spawn_ms": 550.365
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 8.071,
+				"mean": 3.99953846153846,
+				"p50": 3.535,
+				"p95": 6.849,
+				"p99": 7.976,
+				"samples": 299
+			},
+			"animation_render_ms": {
+				"max": 1.081,
+				"mean": 0.336197496522949,
+				"p50": 0.264,
+				"p95": 0.654,
+				"p99": 0.89,
+				"samples": 719
+			},
+			"characters": 5,
+			"frame_ms": {
+				"max": 16.809,
+				"mean": 6.9490876216968,
+				"p50": 5.17,
+				"p95": 14.182,
+				"p99": 15.677,
+				"samples": 719
+			},
+			"measurement_seconds": 5.003277,
+			"memory_end": {
+				"process_peak_rss_mib": 218.73046875,
+				"rss_mib": 218.73046875
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 218.73046875,
+				"rss_mib": 218.73046875
+			},
+			"recoveries_completed": 0,
+			"scenario": "slope",
+			"spawn_ms": 521.72
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 30.426,
+				"mean": 11.2983545150502,
+				"p50": 10.983,
+				"p95": 12.556,
+				"p99": 21.357,
+				"samples": 299
+			},
+			"animation_render_ms": {
+				"max": 0.212,
+				"mean": 0.0801616541353384,
+				"p50": 0.064,
+				"p95": 0.167,
+				"p99": 0.202,
+				"samples": 266
+			},
+			"characters": 5,
+			"frame_ms": {
+				"max": 99.152,
+				"mean": 18.7978533834586,
+				"p50": 15.952,
+				"p95": 33.358,
+				"p99": 90.398,
+				"samples": 266
+			},
+			"measurement_seconds": 5.007681,
+			"memory_end": {
+				"process_peak_rss_mib": 218.765625,
+				"rss_mib": 218.765625
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 218.765625,
+				"rss_mib": 218.765625
+			},
+			"recoveries_completed": 0,
+			"scenario": "crouch",
+			"spawn_ms": 444.309
+		},
+		{
+			"actions_started": 30,
+			"animation_physics_ms": {
+				"max": 3.353,
+				"mean": 1.94471666666667,
+				"p50": 1.793,
+				"p95": 2.855,
+				"p99": 3.118,
+				"samples": 300
+			},
+			"animation_render_ms": {
+				"max": 0.903,
+				"mean": 0.392964241676942,
+				"p50": 0.355,
+				"p95": 0.669,
+				"p99": 0.823,
+				"samples": 811
+			},
+			"characters": 5,
+			"frame_ms": {
+				"max": 71.502,
+				"mean": 6.16274969173859,
+				"p50": 4.498,
+				"p95": 11.291,
+				"p99": 15.16,
+				"samples": 811
+			},
+			"measurement_seconds": 5.002091,
+			"memory_end": {
+				"process_peak_rss_mib": 222.1015625,
+				"rss_mib": 222.1015625
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 221.86328125,
+				"rss_mib": 221.86328125
+			},
+			"recoveries_completed": 0,
+			"scenario": "combat",
+			"spawn_ms": 431.731
+		},
+		{
+			"actions_started": 6,
+			"animation_physics_ms": {
+				"max": 12.085,
+				"mean": 4.33463210702341,
+				"p50": 4.96,
+				"p95": 10.12,
+				"p99": 11.25,
+				"samples": 299
+			},
+			"animation_render_ms": {
+				"max": 0.151,
+				"mean": 0.000702394526795895,
+				"p50": 0.0,
+				"p95": 0.0,
+				"p99": 0.024,
+				"samples": 877
+			},
+			"characters": 5,
+			"frame_ms": {
+				"max": 36.604,
+				"mean": 5.70500570125427,
+				"p50": 3.72,
+				"p95": 14.42,
+				"p99": 17.586,
+				"samples": 877
+			},
+			"measurement_seconds": 5.005154,
+			"memory_end": {
+				"process_peak_rss_mib": 222.12109375,
+				"rss_mib": 222.12109375
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 222.109375,
+				"rss_mib": 222.109375
+			},
+			"recoveries_completed": 7,
+			"scenario": "recovery",
+			"spawn_ms": 528.938
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 8.168,
+				"mean": 2.10428,
+				"p50": 1.98,
+				"p95": 2.679,
+				"p99": 3.17,
+				"samples": 300
+			},
+			"animation_render_ms": {
+				"max": 2.086,
+				"mean": 0.677737676056338,
+				"p50": 0.611,
+				"p95": 1.061,
+				"p99": 1.37,
+				"samples": 568
+			},
+			"characters": 10,
+			"frame_ms": {
+				"max": 50.902,
+				"mean": 8.80584859154929,
+				"p50": 10.313,
+				"p95": 13.6,
+				"p99": 17.197,
+				"samples": 568
+			},
+			"measurement_seconds": 5.002695,
+			"memory_end": {
+				"process_peak_rss_mib": 222.8828125,
+				"rss_mib": 222.8828125
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 222.8828125,
+				"rss_mib": 222.8828125
+			},
+			"recoveries_completed": 0,
+			"scenario": "idle",
+			"spawn_ms": 896.517
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 22.827,
+				"mean": 9.14966326530612,
+				"p50": 7.849,
+				"p95": 15.45,
+				"p99": 21.179,
+				"samples": 294
+			},
+			"animation_render_ms": {
+				"max": 1.709,
+				"mean": 0.521165680473373,
+				"p50": 0.449,
+				"p95": 0.946,
+				"p99": 1.294,
+				"samples": 169
+			},
+			"characters": 10,
+			"frame_ms": {
+				"max": 183.407,
+				"mean": 29.2929289940828,
+				"p50": 15.688,
+				"p95": 129.697,
+				"p99": 160.793,
+				"samples": 169
+			},
+			"measurement_seconds": 5.002127,
+			"memory_end": {
+				"process_peak_rss_mib": 223.05078125,
+				"rss_mib": 223.05078125
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 223.046875,
+				"rss_mib": 223.046875
+			},
+			"recoveries_completed": 0,
+			"scenario": "slope",
+			"spawn_ms": 891.979
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 38.763,
+				"mean": 20.1190673076923,
+				"p50": 19.909,
+				"p95": 22.077,
+				"p99": 22.762,
+				"samples": 208
+			},
+			"animation_render_ms": {
+				"max": 0.319,
+				"mean": 0.154115384615385,
+				"p50": 0.132,
+				"p95": 0.293,
+				"p99": 0.319,
+				"samples": 26
+			},
+			"characters": 10,
+			"frame_ms": {
+				"max": 237.587,
+				"mean": 197.554576923077,
+				"p50": 194.82,
+				"p95": 208.003,
+				"p99": 237.587,
+				"samples": 26
+			},
+			"measurement_seconds": 5.139296,
+			"memory_end": {
+				"process_peak_rss_mib": 223.05078125,
+				"rss_mib": 223.05078125
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 223.05078125,
+				"rss_mib": 223.05078125
+			},
+			"recoveries_completed": 0,
+			"scenario": "crouch",
+			"spawn_ms": 856.418
+		},
+		{
+			"actions_started": 70,
+			"animation_physics_ms": {
+				"max": 4.785,
+				"mean": 2.93717,
+				"p50": 2.835,
+				"p95": 3.749,
+				"p99": 3.971,
+				"samples": 300
+			},
+			"animation_render_ms": {
+				"max": 1.448,
+				"mean": 0.572736196319019,
+				"p50": 0.505,
+				"p95": 0.98,
+				"p99": 1.148,
+				"samples": 489
+			},
+			"characters": 10,
+			"frame_ms": {
+				"max": 54.302,
+				"mean": 10.2109938650307,
+				"p50": 11.842,
+				"p95": 14.979,
+				"p99": 50.967,
+				"samples": 489
+			},
+			"measurement_seconds": 5.002983,
+			"memory_end": {
+				"process_peak_rss_mib": 227.50390625,
+				"rss_mib": 227.50390625
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 227.28515625,
+				"rss_mib": 227.28515625
+			},
+			"recoveries_completed": 0,
+			"scenario": "combat",
+			"spawn_ms": 780.528
+		},
+		{
+			"actions_started": 15,
+			"animation_physics_ms": {
+				"max": 17.764,
+				"mean": 7.22430769230769,
+				"p50": 7.518,
+				"p95": 13.563,
+				"p99": 15.348,
+				"samples": 299
+			},
+			"animation_render_ms": {
+				"max": 0.085,
+				"mean": 0.00107488986784141,
+				"p50": 0.0,
+				"p95": 0.0,
+				"p99": 0.039,
+				"samples": 454
+			},
+			"characters": 10,
+			"frame_ms": {
+				"max": 57.407,
+				"mean": 11.1166784140969,
+				"p50": 9.46,
+				"p95": 32.316,
+				"p99": 39.84,
+				"samples": 454
+			},
+			"measurement_seconds": 5.048702,
+			"memory_end": {
+				"process_peak_rss_mib": 227.53125,
+				"rss_mib": 227.53125
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 227.51171875,
+				"rss_mib": 227.51171875
+			},
+			"recoveries_completed": 15,
+			"scenario": "recovery",
+			"spawn_ms": 841.732
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 7.497,
+				"mean": 2.75633110367893,
+				"p50": 2.649,
+				"p95": 3.456,
+				"p99": 6.199,
+				"samples": 299
+			},
+			"animation_render_ms": {
+				"max": 1.933,
+				"mean": 0.819144808743169,
+				"p50": 0.733,
+				"p95": 1.375,
+				"p99": 1.571,
+				"samples": 366
+			},
+			"characters": 15,
+			"frame_ms": {
+				"max": 54.161,
+				"mean": 13.6695081967213,
+				"p50": 14.87,
+				"p95": 17.926,
+				"p99": 20.419,
+				"samples": 366
+			},
+			"measurement_seconds": 5.011684,
+			"memory_end": {
+				"process_peak_rss_mib": 228.39453125,
+				"rss_mib": 228.39453125
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 228.39453125,
+				"rss_mib": 228.39453125
+			},
+			"recoveries_completed": 0,
+			"scenario": "idle",
+			"spawn_ms": 1227.043
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 21.806,
+				"mean": 10.4101056338028,
+				"p50": 8.917,
+				"p95": 16.787,
+				"p99": 19.682,
+				"samples": 284
+			},
+			"animation_render_ms": {
+				"max": 1.289,
+				"mean": 0.689675675675676,
+				"p50": 0.599,
+				"p95": 1.112,
+				"p99": 1.289,
+				"samples": 74
+			},
+			"characters": 15,
+			"frame_ms": {
+				"max": 194.744,
+				"mean": 66.7327972972973,
+				"p50": 48.3,
+				"p95": 163.852,
+				"p99": 194.744,
+				"samples": 74
+			},
+			"measurement_seconds": 5.025558,
+			"memory_end": {
+				"process_peak_rss_mib": 228.54296875,
+				"rss_mib": 228.54296875
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 228.54296875,
+				"rss_mib": 228.54296875
+			},
+			"recoveries_completed": 0,
+			"scenario": "slope",
+			"spawn_ms": 1301.781
+		},
+		{
+			"actions_started": 0,
+			"animation_physics_ms": {
+				"max": 32.364,
+				"mean": 29.7019779411765,
+				"p50": 29.771,
+				"p95": 31.546,
+				"p99": 32.049,
+				"samples": 136
+			},
+			"animation_render_ms": {
+				"max": 0.419,
+				"mean": 0.219823529411765,
+				"p50": 0.198,
+				"p95": 0.419,
+				"p99": 0.419,
+				"samples": 17
+			},
+			"characters": 15,
+			"frame_ms": {
+				"max": 300.002,
+				"mean": 290.388588235294,
+				"p50": 291.421,
+				"p95": 300.002,
+				"p99": 300.002,
+				"samples": 17
+			},
+			"measurement_seconds": 5.071399,
+			"memory_end": {
+				"process_peak_rss_mib": 228.55859375,
+				"rss_mib": 228.55859375
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 228.5546875,
+				"rss_mib": 228.5546875
+			},
+			"recoveries_completed": 0,
+			"scenario": "crouch",
+			"spawn_ms": 1165.408
+		},
+		{
+			"actions_started": 105,
+			"animation_physics_ms": {
+				"max": 6.73,
+				"mean": 4.09629096989967,
+				"p50": 4.001,
+				"p95": 5.134,
+				"p99": 6.374,
+				"samples": 299
+			},
+			"animation_render_ms": {
+				"max": 1.867,
+				"mean": 0.770053435114504,
+				"p50": 0.676,
+				"p95": 1.315,
+				"p99": 1.689,
+				"samples": 262
+			},
+			"characters": 15,
+			"frame_ms": {
+				"max": 100.18,
+				"mean": 19.0989923664122,
+				"p50": 16.397,
+				"p95": 36.237,
+				"p99": 60.817,
+				"samples": 262
+			},
+			"measurement_seconds": 5.015304,
+			"memory_end": {
+				"process_peak_rss_mib": 233.140625,
+				"rss_mib": 233.140625
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 232.90625,
+				"rss_mib": 232.90625
+			},
+			"recoveries_completed": 0,
+			"scenario": "combat",
+			"spawn_ms": 1153.69
+		},
+		{
+			"actions_started": 22,
+			"animation_physics_ms": {
+				"max": 22.164,
+				"mean": 9.51829720279719,
+				"p50": 8.977,
+				"p95": 17.97,
+				"p99": 21.232,
+				"samples": 286
+			},
+			"animation_render_ms": {
+				"max": 0.076,
+				"mean": 0.00108762886597938,
+				"p50": 0.0,
+				"p95": 0.0,
+				"p99": 0.045,
+				"samples": 194
+			},
+			"characters": 15,
+			"frame_ms": {
+				"max": 166.896,
+				"mean": 25.0736701030928,
+				"p50": 13.15,
+				"p95": 109.383,
+				"p99": 166.265,
+				"samples": 194
+			},
+			"measurement_seconds": 5.007647,
+			"memory_end": {
+				"process_peak_rss_mib": 233.1875,
+				"rss_mib": 233.1875
+			},
+			"memory_start": {
+				"process_peak_rss_mib": 233.1796875,
+				"rss_mib": 233.1796875
+			},
+			"recoveries_completed": 22,
+			"scenario": "recovery",
+			"spawn_ms": 1281.497
+		}
+	],
+	"spawn": {
+		"first_instance_ms": 73.81,
+		"note": "First and second benchmark instance construction; GameSession preloads player resources and the release launch flag passes through normal startup, so these are warm resource/instance measurements, not cold disk-load claims.",
+		"resource_load_ms": 0.012,
+		"warm_instance_ms": 72.355
+	},
+	"startup_to_ready_ms": 1864.843
+}

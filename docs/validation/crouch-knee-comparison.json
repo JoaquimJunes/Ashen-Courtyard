@@ -1,0 +1,294 @@
+{
+  "scope": "Targeted forward-downhill correction accepted; extended cases retain known pre-existing failures and are diagnostic only.",
+  "conditions": "Actual 30-degree collision slope, 4 seconds of crouch locomotion at 30/60/120 Hz. The diagonal case faces 45 degrees across the slope. Entry and steady intervals are reported separately. Speeds are m/s; skin/top/ankle_fit values are metres. The user explicitly deferred gait-entry, backward and diagonal corrections.",
+  "cases": {
+    "30 Hz uphill": {
+      "before": {
+        "knee": 6.972682,
+        "ankle": 2.153665,
+        "entry_knee": 6.968683,
+        "entry_ankle": 5.035445,
+        "stop_knee": 3.156643,
+        "stop_ankle": 3.579477,
+        "skin": 0.01499854400754,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.1920929e-06
+      },
+      "after": {
+        "knee": 6.86095,
+        "ankle": 2.153668,
+        "entry_knee": 5.830647,
+        "entry_ankle": 5.035444,
+        "stop_knee": 3.156697,
+        "stop_ankle": 3.579489,
+        "skin": 0.01499847508967,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.52662381e-06
+      }
+    },
+    "30 Hz downhill": {
+      "before": {
+        "knee": 7.795806,
+        "ankle": 3.37895,
+        "entry_knee": 8.367311,
+        "entry_ankle": 5.295185,
+        "stop_knee": 5.341457,
+        "stop_ankle": 2.162387,
+        "skin": 0.0124269425869,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.14961279e-06
+      },
+      "after": {
+        "knee": 2.865256,
+        "ankle": 3.378951,
+        "entry_knee": 6.874293,
+        "entry_ankle": 5.295191,
+        "stop_knee": 1.636474,
+        "stop_ankle": 2.162365,
+        "skin": 0.0124269425869,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.16800777e-06
+      }
+    },
+    "30 Hz diagonal downhill": {
+      "before": {
+        "knee": 9.603583,
+        "ankle": 3.14167,
+        "entry_knee": 7.200069,
+        "entry_ankle": 5.266162,
+        "stop_knee": 4.758704,
+        "stop_ankle": 1.968466,
+        "skin": -0.04805649444461,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.12461817e-06
+      },
+      "after": {
+        "knee": 3.901721,
+        "ankle": 3.141676,
+        "entry_knee": 4.765318,
+        "entry_ankle": 5.266148,
+        "stop_knee": 2.616365,
+        "stop_ankle": 1.968453,
+        "skin": -0.04805649444461,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.28944566e-06
+      }
+    },
+    "30 Hz backward downhill": {
+      "before": {
+        "knee": 9.064811,
+        "ankle": 3.069875,
+        "entry_knee": 14.69683,
+        "entry_ankle": 5.585993,
+        "stop_knee": 2.978514,
+        "stop_ankle": 2.097693,
+        "skin": 0.01499810442328,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.30723197e-06
+      },
+      "after": {
+        "knee": 9.062515,
+        "ankle": 3.069883,
+        "entry_knee": 13.61561,
+        "entry_ankle": 5.585993,
+        "stop_knee": 2.685495,
+        "stop_ankle": 2.097699,
+        "skin": 0.01499817892909,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.32879597e-06
+      }
+    },
+    "60 Hz uphill": {
+      "before": {
+        "knee": 7.510637,
+        "ankle": 2.291812,
+        "entry_knee": 13.07935,
+        "entry_ankle": 9.325933,
+        "stop_knee": 5.483157,
+        "stop_ankle": 5.208611,
+        "skin": 0.01499861106277,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.28392332e-06
+      },
+      "after": {
+        "knee": 7.36375,
+        "ankle": 2.291873,
+        "entry_knee": 12.35504,
+        "entry_ankle": 9.325972,
+        "stop_knee": 5.483157,
+        "stop_ankle": 5.208611,
+        "skin": 0.01499837264419,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.28392332e-06
+      }
+    },
+    "60 Hz downhill": {
+      "before": {
+        "knee": 8.900999,
+        "ankle": 3.455599,
+        "entry_knee": 11.9841,
+        "entry_ankle": 9.791188,
+        "stop_knee": 6.889492,
+        "stop_ankle": 2.599563,
+        "skin": 0.01242953166366,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.28392332e-06
+      },
+      "after": {
+        "knee": 4.348677,
+        "ankle": 3.455605,
+        "entry_knee": 12.83313,
+        "entry_ankle": 9.79117,
+        "stop_knee": 2.160936,
+        "stop_ankle": 2.599532,
+        "skin": 0.01242953166366,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.16800777e-06
+      }
+    },
+    "60 Hz diagonal downhill": {
+      "before": {
+        "knee": 10.4288,
+        "ankle": 3.180192,
+        "entry_knee": 9.627397,
+        "entry_ankle": 9.491581,
+        "stop_knee": 7.462167,
+        "stop_ankle": 2.379983,
+        "skin": -0.0577256847173,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.19358208e-06
+      },
+      "after": {
+        "knee": 4.035081,
+        "ankle": 3.180166,
+        "entry_knee": 5.959548,
+        "entry_ankle": 9.491551,
+        "stop_knee": 3.352026,
+        "stop_ankle": 2.379996,
+        "skin": -0.0577256847173,
+        "top": 0.95500010251999,
+        "ankle_fit": 1.34869913e-06
+      }
+    },
+    "60 Hz backward downhill": {
+      "before": {
+        "knee": 10.90421,
+        "ankle": 3.575869,
+        "entry_knee": 16.92897,
+        "entry_ankle": 9.402394,
+        "stop_knee": 3.498615,
+        "stop_ankle": 2.533871,
+        "skin": 0.01499783620238,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.36961046e-06
+      },
+      "after": {
+        "knee": 10.76355,
+        "ankle": 3.575807,
+        "entry_knee": 16.08969,
+        "entry_ankle": 9.402401,
+        "stop_knee": 3.096229,
+        "stop_ankle": 2.533896,
+        "skin": 0.01499823853374,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.36961046e-06
+      }
+    },
+    "120 Hz uphill": {
+      "before": {
+        "knee": 8.242122,
+        "ankle": 2.494351,
+        "entry_knee": 26.15209,
+        "entry_ankle": 18.67277,
+        "stop_knee": 5.390872,
+        "stop_ankle": 4.988056,
+        "skin": -0.17180289700627,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.21570099e-06
+      },
+      "after": {
+        "knee": 8.242122,
+        "ankle": 2.494292,
+        "entry_knee": 24.73456,
+        "entry_ankle": 18.67275,
+        "stop_knee": 5.390872,
+        "stop_ankle": 4.988056,
+        "skin": -0.17180289700627,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.43051147e-06
+      }
+    },
+    "120 Hz downhill": {
+      "before": {
+        "knee": 9.642323,
+        "ankle": 4.289382,
+        "entry_knee": 24.78493,
+        "entry_ankle": 18.95937,
+        "stop_knee": 5.719832,
+        "stop_ankle": 3.150228,
+        "skin": 0.01242531463504,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.36961046e-06
+      },
+      "after": {
+        "knee": 4.793755,
+        "ankle": 4.289363,
+        "entry_knee": 23.86003,
+        "entry_ankle": 18.95931,
+        "stop_knee": 1.152374,
+        "stop_ankle": 3.150228,
+        "skin": 0.01242531463504,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.43051147e-06
+      }
+    },
+    "120 Hz diagonal downhill": {
+      "before": {
+        "knee": 53.33333,
+        "ankle": 27.62349,
+        "entry_knee": 10.37352,
+        "entry_ankle": 18.11173,
+        "stop_knee": 4.649949,
+        "stop_ankle": 2.739158,
+        "skin": -0.06328810565174,
+        "top": 0.95529741048813,
+        "ankle_fit": 1.34869913e-06
+      },
+      "after": {
+        "knee": 31.25945,
+        "ankle": 27.51318,
+        "entry_knee": 9.255951,
+        "entry_ankle": 18.11173,
+        "stop_knee": 3.140759,
+        "stop_ankle": 2.739229,
+        "skin": -0.06328810565174,
+        "top": 0.95529741048813,
+        "ankle_fit": 1.34869913e-06
+      }
+    },
+    "120 Hz backward downhill": {
+      "before": {
+        "knee": 11.66373,
+        "ankle": 3.42125,
+        "entry_knee": 25.23637,
+        "entry_ankle": 19.10547,
+        "stop_knee": 4.81059,
+        "stop_ankle": 2.979593,
+        "skin": 0.01499784365296,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.43546993e-06
+      },
+      "after": {
+        "knee": 11.59394,
+        "ankle": 3.421193,
+        "entry_knee": 24.88345,
+        "entry_ankle": 19.10548,
+        "stop_knee": 3.641982,
+        "stop_ankle": 2.979637,
+        "skin": 0.01499826088548,
+        "top": 0.95500016212463,
+        "ankle_fit": 1.43051147e-06
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/abilities/ability_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"crawl"
+combat_action = false
+requires_ground = true
+allowed_modes = Array[StringName]([&"grounded"])

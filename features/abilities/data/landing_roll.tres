@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://features/abilities/landing_roll_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+requires_standing = true
+id = &"landing_roll"
+variant = &"dodge_ground"
+combat_action = false
+requires_ground = true
+allowed_modes = Array[StringName]([&"grounded", &"airborne"])
+input_buffer_seconds = 0.15
+stamina_cost = 25.0
+height = 0.0
+ground_duration = 0.40
+distance = 3.0
+speed = 11.0
+animation_start = 0.24
+pose_blend = 0.08
+fall_damage_multiplier = 0.5
+airborne_motion = 1

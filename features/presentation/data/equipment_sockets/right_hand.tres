@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/presentation/equipment_socket_definition.gd" id="1_hbpm0"]
+
+[resource]
+script = ExtResource("1_hbpm0")
+id = &"right_hand"
+bone_name = &"hand_r"
+local_transform = Transform3D(2.6301192e-08, 1.0000001, 9.852413e-07, 1.0000001, -1.3196841e-08, -1.1933085e-07, -1.677596e-07, 9.64524e-07, -0.99999994, 0, 0.045000076, 7.450581e-09)

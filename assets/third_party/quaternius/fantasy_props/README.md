@@ -1,0 +1,104 @@
+# Fantasy Props MegaKit — Standard
+
+Official source: https://quaternius.itch.io/fantasy-props-megakit
+
+94 glTF models extracted unchanged with their buffers and textures. This is the free Standard subset, not the full 200+ collection. Original CC0 terms are in `License_Standard.txt`.
+
+Open models under `Exports/glTF/` in Godot. Original archive (including FBX/OBJ alternatives), publisher page and SHA-256 provenance are in `source/`. No gameplay integration.
+
+## Model inventory
+
+- `Exports/glTF/Anvil.gltf`
+- `Exports/glTF/Anvil_Log.gltf`
+- `Exports/glTF/Axe_Bronze.gltf`
+- `Exports/glTF/Bag.gltf`
+- `Exports/glTF/Banner_1.gltf`
+- `Exports/glTF/Banner_1_Cloth.gltf`
+- `Exports/glTF/Banner_2.gltf`
+- `Exports/glTF/Banner_2_Cloth.gltf`
+- `Exports/glTF/Barrel.gltf`
+- `Exports/glTF/Barrel_Apples.gltf`
+- `Exports/glTF/Barrel_Holder.gltf`
+- `Exports/glTF/Bed_Twin1.gltf`
+- `Exports/glTF/Bed_Twin2.gltf`
+- `Exports/glTF/Bench.gltf`
+- `Exports/glTF/BookGroup_Medium_1.gltf`
+- `Exports/glTF/BookGroup_Medium_2.gltf`
+- `Exports/glTF/BookGroup_Medium_3.gltf`
+- `Exports/glTF/BookGroup_Small_1.gltf`
+- `Exports/glTF/BookGroup_Small_2.gltf`
+- `Exports/glTF/BookGroup_Small_3.gltf`
+- `Exports/glTF/BookStand.gltf`
+- `Exports/glTF/Book_5.gltf`
+- `Exports/glTF/Book_7.gltf`
+- `Exports/glTF/Book_Simplified_Single.gltf`
+- `Exports/glTF/Book_Stack_1.gltf`
+- `Exports/glTF/Book_Stack_2.gltf`
+- `Exports/glTF/Bookcase_2.gltf`
+- `Exports/glTF/Bottle_1.gltf`
+- `Exports/glTF/Bucket_Metal.gltf`
+- `Exports/glTF/Bucket_Wooden_1.gltf`
+- `Exports/glTF/Cabinet.gltf`
+- `Exports/glTF/Cage_Small.gltf`
+- `Exports/glTF/CandleStick.gltf`
+- `Exports/glTF/CandleStick_Stand.gltf`
+- `Exports/glTF/CandleStick_Triple.gltf`
+- `Exports/glTF/Candle_1.gltf`
+- `Exports/glTF/Candle_2.gltf`
+- `Exports/glTF/Carrot.gltf`
+- `Exports/glTF/Cauldron.gltf`
+- `Exports/glTF/Chain_Coil.gltf`
+- `Exports/glTF/Chair_1.gltf`
+- `Exports/glTF/Chalice.gltf`
+- `Exports/glTF/Chandelier.gltf`
+- `Exports/glTF/Chest_Wood.gltf`
+- `Exports/glTF/Coin.gltf`
+- `Exports/glTF/Coin_Pile.gltf`
+- `Exports/glTF/Coin_Pile_2.gltf`
+- `Exports/glTF/Crate_Metal.gltf`
+- `Exports/glTF/Crate_Wooden.gltf`
+- `Exports/glTF/Dummy.gltf`
+- `Exports/glTF/FarmCrate_Apple.gltf`
+- `Exports/glTF/FarmCrate_Carrot.gltf`
+- `Exports/glTF/FarmCrate_Empty.gltf`
+- `Exports/glTF/Key_Gold.gltf`
+- `Exports/glTF/Key_Metal.gltf`
+- `Exports/glTF/Lantern_Wall.gltf`
+- `Exports/glTF/Mug.gltf`
+- `Exports/glTF/Nightstand_Shelf.gltf`
+- `Exports/glTF/Peg_Rack.gltf`
+- `Exports/glTF/Pickaxe_Bronze.gltf`
+- `Exports/glTF/Pot_1.gltf`
+- `Exports/glTF/Pot_1_Lid.gltf`
+- `Exports/glTF/Potion_1.gltf`
+- `Exports/glTF/Potion_2.gltf`
+- `Exports/glTF/Potion_4.gltf`
+- `Exports/glTF/Pouch_Large.gltf`
+- `Exports/glTF/Rope_1.gltf`
+- `Exports/glTF/Rope_2.gltf`
+- `Exports/glTF/Rope_3.gltf`
+- `Exports/glTF/Scroll_1.gltf`
+- `Exports/glTF/Scroll_2.gltf`
+- `Exports/glTF/Shelf_Arch.gltf`
+- `Exports/glTF/Shelf_Simple.gltf`
+- `Exports/glTF/Shelf_Small_Bottles.gltf`
+- `Exports/glTF/Shield_Wooden.gltf`
+- `Exports/glTF/SmallBottle.gltf`
+- `Exports/glTF/SmallBottles_1.gltf`
+- `Exports/glTF/Stall_Cart_Empty.gltf`
+- `Exports/glTF/Stall_Empty.gltf`
+- `Exports/glTF/Stool.gltf`
+- `Exports/glTF/Sword_Bronze.gltf`
+- `Exports/glTF/Table_Fork.gltf`
+- `Exports/glTF/Table_Knife.gltf`
+- `Exports/glTF/Table_Large.gltf`
+- `Exports/glTF/Table_Plate.gltf`
+- `Exports/glTF/Table_Spoon.gltf`
+- `Exports/glTF/Torch_Metal.gltf`
+- `Exports/glTF/Vase_2.gltf`
+- `Exports/glTF/Vase_4.gltf`
+- `Exports/glTF/Vase_Rubble_Medium.gltf`
+- `Exports/glTF/WeaponStand.gltf`
+- `Exports/glTF/Whetstone.gltf`
+- `Exports/glTF/Workbench.gltf`
+- `Exports/glTF/Workbench_Drawers.gltf`

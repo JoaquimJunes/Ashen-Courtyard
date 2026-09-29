@@ -1,0 +1,57 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: No grounded animation clock advances during flight at 30 Hz
+PASS: Hop height unchanged at 30 Hz
+PASS: Roll waits for physical landing at 30 Hz (0.467 s)
+PASS: Ground roll lasts 0.55 s at 30 Hz (0.567 s)
+PASS: Total reach preserved at 30 Hz (4.3404 m)
+PASS: Landing never renews immunity at 30 Hz
+PASS: No grounded animation clock advances during flight at 60 Hz
+PASS: Hop height unchanged at 60 Hz
+PASS: Roll waits for physical landing at 60 Hz (0.467 s)
+PASS: Ground roll lasts 0.55 s at 60 Hz (0.550 s)
+PASS: Total reach preserved at 60 Hz (4.3404 m)
+PASS: Landing never renews immunity at 60 Hz
+PASS: No grounded animation clock advances during flight at 120 Hz
+PASS: Hop height unchanged at 120 Hz
+PASS: Roll waits for physical landing at 120 Hz (0.467 s)
+PASS: Ground roll lasts 0.55 s at 120 Hz (0.550 s)
+PASS: Total reach preserved at 120 Hz (4.3402 m)
+PASS: Landing never renews immunity at 120 Hz
+PASS: forward armor stays above floor across takeoff/landing blends (0.0150 m)
+PASS: forward pose transitions do not snap (max 62.4 degrees/frame)
+PASS: back armor stays above floor across takeoff/landing blends (0.0150 m)
+PASS: back pose transitions do not snap (max 58.6 degrees/frame)
+PASS: left armor stays above floor across takeoff/landing blends (0.0150 m)
+PASS: left pose transitions do not snap (max 58.6 degrees/frame)
+PASS: right armor stays above floor across takeoff/landing blends (0.0150 m)
+PASS: right pose transitions do not snap (max 58.6 degrees/frame)
+PASS: Legacy forward airborne torso stays near upright without spinning
+PASS: forward somersault advances after landing
+PASS: forward direction stays fixed across landing
+PASS: back referenced roll advances immediately on the ground
+PASS: back somersault advances after landing
+PASS: back direction stays fixed across landing
+PASS: left referenced roll advances immediately on the ground
+PASS: left somersault advances after landing
+PASS: left direction stays fixed across landing
+PASS: right referenced roll advances immediately on the ground
+PASS: right somersault advances after landing
+PASS: right direction stays fixed across landing
+PASS: Ceiling contact brings the grounded roll forward to the actual landing
+PASS: Long fall holds the pose and commitment past 0.70 s
+PASS: Long fall loses immunity and propulsion on schedule
+PASS: Lower landing completes its own grounded roll
+PASS: Edge departure setup reaches grounded roll
+PASS: Loss of support returns to airborne pose
+PASS: Loss of support pauses grounded animation progress
+PASS: Falling does not advance the roll or refill travel
+PASS: Second landing resumes and finishes the remaining roll
+PASS: Removing a wall cannot release banked dodge travel
+PASS: Pause freezes ground-roll clock and pose
+PASS: A short buffered backward roll starts only after grounded recovery
+PASS: Buffered follow-up charges one additional dodge
+PASS: Damage clears phase and blend state
+PASS: Death clears dodge phase and immunity
+PASS: Reset clears clocks, travel and cached blend poses
+LANDING ROLL RESULT: 54 checks, 0 failures

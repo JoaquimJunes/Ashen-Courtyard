@@ -1,0 +1,74 @@
+[gd_resource type="Resource" load_steps=15 format=3]
+
+[ext_resource type="Script" path="res://features/presentation/animation_profile.gd" id="1"]
+[ext_resource type="AnimationLibrary" path="res://assets/animations/ual/anim_ual_native_locomotion_library_v01.tres" id="3"]
+[ext_resource type="AnimationLibrary" path="res://assets/animations/ual/anim_ual_temporary_actions_library_v01.tres" id="4"]
+[ext_resource type="AnimationLibrary" path="res://assets/animations/ual/anim_ual_native_combat_library_v01.tres" id="5"]
+[ext_resource type="Script" path="res://features/presentation/attack_animation_definition.gd" id="6"]
+[ext_resource type="AnimationLibrary" path="res://assets/animations/ual/anim_ual_native_actions_library_v01.tres" id="7"]
+[ext_resource type="Script" path="res://features/presentation/spell_animation_definition.gd" id="8"]
+[ext_resource type="AnimationLibrary" path="res://assets/animations/ual/anim_ual_native_swimming_library_v01.tres" id="9"]
+
+[ext_resource type="Resource" path="res://assets/models/ual/rig_contract.tres" id="10"]
+[ext_resource type="AnimationLibrary" path="res://assets/animations/ual/anim_ual_mixamo_crawling_library_v01.tres" id="crawl"]
+
+[sub_resource type="Resource" id="Attack_A"]
+script = ExtResource("6")
+clip = &"combat/sword_regular_a"
+recovery_clip = &"combat/sword_regular_a_rec"
+strike_start = 0.16666667
+strike_end = 0.3
+
+[sub_resource type="Resource" id="Attack_B"]
+script = ExtResource("6")
+clip = &"combat/sword_regular_b"
+recovery_clip = &"combat/sword_regular_b_rec"
+strike_start = 0.2
+strike_end = 0.3
+
+[sub_resource type="Resource" id="Attack_Heavy"]
+script = ExtResource("6")
+clip = &"combat/sword_heavy"
+strike_start = 0.33333333
+strike_end = 0.5
+
+[sub_resource type="Resource" id="Spell_Cast"]
+script = ExtResource("8")
+enter_clip = &"casting/spell_enter"
+idle_clip = &"casting/spell_idle"
+shoot_clip = &"casting/spell_shoot"
+exit_clip = &"casting/spell_exit"
+
+[resource]
+script = ExtResource("1")
+rig_contract = ExtResource("10")
+native_source_clips = {
+"idle": "Idle", "walk": "Walk", "jog": "Jog_Fwd", "sprint": "Sprint", "crouch_idle": "Crouch_Idle", "crouch_walk": "Crouch_Fwd"
+}
+native_locomotion = ExtResource("3")
+native_combat = ExtResource("5")
+native_actions = ExtResource("7")
+native_swimming = ExtResource("9")
+retargeted_locomotion = ExtResource("crawl")
+light_attacks = Array[ExtResource("6")]([SubResource("Attack_A"), SubResource("Attack_B")])
+heavy_attack = SubResource("Attack_Heavy")
+sword_idle = &"combat/sword_idle"
+spell_cast = SubResource("Spell_Cast")
+mantle_clip = &"traversal/climb_up_1m_rm"
+mantle_source_end_seconds = 0.5
+temporary_actions = ExtResource("4")
+aliases = {
+"crawling/crawl": "crawl",
+"k_idle": "idle", "k_walk": "walk", "running/jog": "jog", "running/sprint": "sprint",
+"crouch/crouch_idle": "crouch_idle", "crouch/crouch_walk": "crouch_walk",
+"jump/jump_start": "jump_start", "jump/jump_air": "jump_air", "jump/jump_land": "jump_land",
+"dodge/roll_forward": "roll_forward", "dodge/roll_left": "roll_left", "dodge/roll_right": "roll_right", "dodge/roll_back": "roll_back",
+"combat/sword_regular_a": "sword_regular_a", "combat/sword_regular_b": "sword_regular_b",
+"combat/sword_regular_a_rec": "sword_regular_a_rec", "combat/sword_regular_b_rec": "sword_regular_b_rec",
+"combat/sword_idle": "sword_idle", "combat/sword_heavy": "sword_heavy",
+"casting/spell_enter": "spell_enter", "casting/spell_idle": "spell_idle",
+"casting/spell_shoot": "spell_shoot", "casting/spell_exit": "spell_exit",
+"traversal/climb_up_1m_rm": "climb_up_1m_rm",
+"swimming/swim_idle": "swim_idle", "swimming/swim_forward": "swim_forward"
+}
+temporary_fallbacks = PackedStringArray("Jump / fall / land", "Ground roll / forward dive", "Heal / hurt", "Ragdoll recovery", "Ledge grab / hang / shimmy")

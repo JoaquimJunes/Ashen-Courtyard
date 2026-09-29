@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/character_asset_import.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+source_path = "res://assets/models/azure_knight.glb"
+kind = "rigid"
+output_path = "res://assets/equipment/review/azure_sword.scn"
+mesh_regions = {&"Grip": "KnightRig/WeaponPivot/Sword/Grip", &"Pommel": "KnightRig/WeaponPivot/Sword/Pommel", &"Crossguard": "KnightRig/WeaponPivot/Sword/Crossguard", &"Blade": "KnightRig/WeaponPivot/Sword/Blade"}
+slot = &"right_hand"
+allowed_slots = Array[StringName]([&"right_hand", &"left_hand"])
+attachment_bone = &"hand_r"
+rigid_root = NodePath("KnightRig/WeaponPivot/Sword")
+provenance = {"author": "Ashen Courtyard project", "generator": "res://tools/build_models.py", "geometry": "Existing Azure knight Sword subtree, unchanged mesh coordinates and child transforms", "forward_axis": "-Z", "up_axis": "+Y"}

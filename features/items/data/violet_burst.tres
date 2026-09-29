@@ -1,0 +1,15 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Script"]
+[ext_resource type="Resource" path="res://features/items/data/burst_actions.tres" id="actions"]
+
+
+[resource]
+script = ExtResource("Script")
+id = &"violet_burst"
+display_name = "Violet Burst"
+description = "A nearby burst with line-of-sight checks."
+category = "magic"
+subtype = &"area"
+actions = ExtResource("actions")
+

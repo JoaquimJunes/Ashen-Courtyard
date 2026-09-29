@@ -1,0 +1,9 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Ground support permits ordinary regeneration
+PASS: Committed actions and reactions retain regeneration restrictions
+PASS: Airborne free action cannot regenerate
+PASS: Airborne explicit costs still apply atomically
+PASS: Failed combined payment does not partially spend
+PASS: Grounding resumes normal rate without banked regeneration
+RESOURCE POLICY: 6 checks, 0 failures

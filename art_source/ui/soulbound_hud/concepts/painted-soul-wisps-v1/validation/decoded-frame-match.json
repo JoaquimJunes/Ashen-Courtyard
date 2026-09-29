@@ -1,0 +1,14 @@
+{
+  "burst": {
+    "frame": 177,
+    "mean_RGB_absolute_error": 1.827
+  },
+  "settled": {
+    "frame": 324,
+    "mean_RGB_absolute_error": 1.2533
+  },
+  "below-full": {
+    "frame": 552,
+    "mean_RGB_absolute_error": 1.1651
+  }
+}

@@ -1,0 +1,66 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: 30 Hz / 0.80 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 30 Hz / 0.80 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 30 Hz / 0.80 m wall / 0.0 m base: reachable low grip is rejected by height policy
+PASS: 30 Hz / 1.20 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 30 Hz / 1.20 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 30 Hz / 1.20 m wall / 0.0 m base: reachable low grip is rejected by height policy
+PASS: 30 Hz / 1.25 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 30 Hz / 1.25 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 30 Hz / 1.50 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 30 Hz / 1.50 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 30 Hz / 0.80 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 30 Hz / 0.80 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 30 Hz / 0.80 m wall / 7.0 m base: reachable low grip is rejected by height policy
+PASS: 30 Hz / 1.20 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 30 Hz / 1.20 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 30 Hz / 1.20 m wall / 7.0 m base: reachable low grip is rejected by height policy
+PASS: 30 Hz / 1.25 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 30 Hz / 1.25 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 30 Hz / 1.50 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 30 Hz / 1.50 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 60 Hz / 0.80 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 60 Hz / 0.80 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 60 Hz / 0.80 m wall / 0.0 m base: reachable low grip is rejected by height policy
+PASS: 60 Hz / 1.20 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 60 Hz / 1.20 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 60 Hz / 1.20 m wall / 0.0 m base: reachable low grip is rejected by height policy
+PASS: 60 Hz / 1.25 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 60 Hz / 1.25 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 60 Hz / 1.50 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 60 Hz / 1.50 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 60 Hz / 0.80 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 60 Hz / 0.80 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 60 Hz / 0.80 m wall / 7.0 m base: reachable low grip is rejected by height policy
+PASS: 60 Hz / 1.20 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 60 Hz / 1.20 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 60 Hz / 1.20 m wall / 7.0 m base: reachable low grip is rejected by height policy
+PASS: 60 Hz / 1.25 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 60 Hz / 1.25 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 60 Hz / 1.50 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 60 Hz / 1.50 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 120 Hz / 0.80 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 120 Hz / 0.80 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 120 Hz / 0.80 m wall / 0.0 m base: reachable low grip is rejected by height policy
+PASS: 120 Hz / 1.20 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 120 Hz / 1.20 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 120 Hz / 1.20 m wall / 0.0 m base: reachable low grip is rejected by height policy
+PASS: 120 Hz / 1.25 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 120 Hz / 1.25 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 120 Hz / 1.50 m wall / 0.0 m base: takeoff records feet height before movement
+PASS: 120 Hz / 1.50 m wall / 0.0 m base: only above-jump ledges acquire attachment
+PASS: 120 Hz / 0.80 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 120 Hz / 0.80 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 120 Hz / 0.80 m wall / 7.0 m base: reachable low grip is rejected by height policy
+PASS: 120 Hz / 1.20 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 120 Hz / 1.20 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 120 Hz / 1.20 m wall / 7.0 m base: reachable low grip is rejected by height policy
+PASS: 120 Hz / 1.25 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 120 Hz / 1.25 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: 120 Hz / 1.50 m wall / 7.0 m base: takeoff records feet height before movement
+PASS: 120 Hz / 1.50 m wall / 7.0 m base: only above-jump ledges acquire attachment
+PASS: Direct requests cannot bypass the low-ledge entry rule
+PASS: A taller authored jump also skips a 1.5 m lip
+PASS: Lab reset clears the per-jump reference
+LEDGE HEIGHT: 63 checks, 0 failures

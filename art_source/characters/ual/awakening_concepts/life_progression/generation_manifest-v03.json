@@ -1,0 +1,60 @@
+{
+  "revision": 3,
+  "concept_approval": "approved by Neth",
+  "date": "2026-09-29",
+  "implementation_status": "not implemented",
+  "decision": "User-selected six attachments override the agent-selected revision 02 sequence. Preserve the approved fracture and skin patterns; only relabel Stage 0.",
+  "label_normalization": "Sonsolodated interpreted as the established Consolidated label already present on attachment 4.",
+  "stages": [
+    {
+      "stage": 0,
+      "name": "Fractured",
+      "approved_source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-f8582038-0491-44dd-b9fb-998eafc4669d.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-a5867ee1-1248-4608-8090-6ea28502ef31.png",
+      "file": "stage-0-fractured-v03.png",
+      "operation": "built-in image_gen heading relabel only"
+    },
+    {
+      "stage": 1,
+      "name": "Binding",
+      "approved_source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-e48bce59-ed6f-43b9-bbf2-4b2246394e27.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-e48bce59-ed6f-43b9-bbf2-4b2246394e27.png",
+      "file": "stage-1-binding-v03.png",
+      "operation": "unchanged copy"
+    },
+    {
+      "stage": 2,
+      "name": "Reinforced",
+      "approved_source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-582d3869-3970-4795-9ee9-b11ab37b55f0.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-582d3869-3970-4795-9ee9-b11ab37b55f0.png",
+      "file": "stage-2-reinforced-v03.png",
+      "operation": "unchanged copy"
+    },
+    {
+      "stage": 3,
+      "name": "Consolidated",
+      "approved_source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-c72b3385-d584-48f0-99b4-40ef5d82b9b7.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-c72b3385-d584-48f0-99b4-40ef5d82b9b7.png",
+      "file": "stage-3-consolidated-v03.png",
+      "operation": "unchanged copy"
+    },
+    {
+      "stage": 4,
+      "name": "Fortified",
+      "approved_source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-da68f2ed-2573-4317-8c77-da309470b4fd.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-da68f2ed-2573-4317-8c77-da309470b4fd.png",
+      "file": "stage-4-fortified-v03.png",
+      "operation": "unchanged copy"
+    },
+    {
+      "stage": 5,
+      "name": "Unbroken",
+      "approved_source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-c5f0f622-8f26-4f9a-8a25-9c465d6944dd.png",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-c5f0f622-8f26-4f9a-8a25-9c465d6944dd.png",
+      "file": "stage-5-unbroken-v03.png",
+      "operation": "unchanged copy"
+    }
+  ],
+  "relabel_prompt": "Use case: text-localization. Edit ONLY the printed heading at the very top center of this approved concept sheet. Replace \"1 — BINDING\" with exactly \"0 — FRACTURED\", using the same dark serif uppercase typography, size, centered position and thin horizontal rules. All artwork is already approved: preserve the full-body character, enlarged left hand, skin coverage, every stone fracture, purple runes, crystal, liquid, five empty sockets, pose, proportions, face, cloth, background and lighting unchanged. Do not refine, repaint, heal fractures, spread stone or reinterpret any detail. The only requested change is the top heading. Keep landscape 1536x1024.",
+  "earlier_manifest": "generation_manifest-v02.json"
+}

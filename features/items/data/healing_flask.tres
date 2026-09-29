@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Script"]
+[ext_resource type="Resource" path="res://features/items/data/flask_actions.tres" id="actions"]
+
+
+[resource]
+script = ExtResource("Script")
+id = &"healing_flask"
+display_name = "Healing Flask"
+description = "Three healing charges. Restored when the encounter or station resets."
+category = "gadget"
+subtype = &"flask"
+actions = ExtResource("actions")
+supply = 2
+max_charges = 3

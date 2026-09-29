@@ -1,0 +1,42 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Jog accelerates to its existing top speed
+PASS: Sprint accelerates to 6.5 m/s without overshoot
+PASS: Forward lean increases with actual running speed
+PASS: Releasing movement decelerates instead of stopping instantly
+PASS: Braking reaches a complete stop
+PASS: Sprint stopping distance remains controlled
+PASS: Speed-based lean settles upright after stopping
+PASS: 180-degree reversal brakes first
+PASS: Sharp-turn braking retains the approach direction before cutting
+PASS: After braking, the knight turns and accelerates into the new direction
+PASS: Body facing follows the new travel direction
+PASS: Reversing into an S-turn applies a 15% lean multiplier
+PASS: Enhanced S-turn lean remains bounded
+PASS: Reset clears momentum, braking, and S-turn history
+PASS: Dodge can interrupt running immediately
+PASS: Dodge travel does not inherit running momentum
+PASS: Diagonal transitions and repeated S-turns retain full sprint speed (min 6.500)
+PASS: Diagonal input never increases speed above straight running
+PASS: Returning from diagonal to forward keeps full speed
+PASS: 30 Hz reversal braking reduces speed
+PASS: 30 Hz acceleration reaches the same new velocity
+PASS: 30 Hz braking settles without drift
+PASS: 30 Hz turns maintain 4.0 m/s independently of heading
+PASS: 30 Hz turns maintain 6.5 m/s independently of heading
+PASS: 60 Hz reversal braking reduces speed
+PASS: 60 Hz acceleration reaches the same new velocity
+PASS: 60 Hz braking settles without drift
+PASS: 60 Hz turns maintain 4.0 m/s independently of heading
+PASS: 60 Hz turns maintain 6.5 m/s independently of heading
+PASS: 120 Hz reversal braking reduces speed
+PASS: 120 Hz acceleration reaches the same new velocity
+PASS: 120 Hz braking settles without drift
+PASS: 120 Hz turns maintain 4.0 m/s independently of heading
+PASS: 120 Hz turns maintain 6.5 m/s independently of heading
+PASS: 90.00-degree turn respects the inclusive 180-degree braking threshold
+PASS: 135.00-degree turn respects the inclusive 180-degree braking threshold
+PASS: 179.00-degree turn respects the inclusive 180-degree braking threshold
+PASS: 179.99-degree turn respects the inclusive 180-degree braking threshold
+PASS: 180.00-degree turn respects the inclusive 180-degree braking threshold
+MOMENTUM RESULT: 39 checks, 0 failures

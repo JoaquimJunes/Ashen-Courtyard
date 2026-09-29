@@ -1,0 +1,13 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/presentation/equipment_visual_definition.gd" id="1_als1u"]
+[ext_resource type="PackedScene" path="res://assets/equipment/review/wooden_shield.tscn" id="2_3xdue"]
+
+[resource]
+script = ExtResource("1_als1u")
+id = &"shield"
+display_name = "Wooden shield · existing review mesh"
+visual = ExtResource("2_3xdue")
+held_socket = &"left_hand"
+stowed_socket = &"back_shield"
+occupied_hands = Array[StringName]([&"left_hand"])

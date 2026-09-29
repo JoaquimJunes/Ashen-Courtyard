@@ -1,0 +1,19 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://tools/character_asset_import.gd" id="1_653ax"]
+
+[resource]
+script = ExtResource("1_653ax")
+source_path = "res://art_source/import_fixtures/chest_reference.glb"
+output_path = "res://.artifacts/import_examples/chest_reference.res"
+skeleton_path = NodePath("Skeleton3D")
+mesh_regions = {
+&"chest": NodePath("Skeleton3D/region_chest")
+}
+slot = &"torso"
+covered_regions = Array[StringName]([&"torso"])
+provenance = {
+"generator": "res://tools/build_character_import_fixtures.gd",
+"purpose": "Existing fitting-fixture roundtrip, not final art; geometry and materials unchanged",
+"reference_resource": "res://assets/models/ual/chest_fixture.res"
+}

@@ -1,0 +1,40 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS Preview instantiates the playable player
+PASS Preview uses the shared motor and action controller
+PASS 30 Hz: same 0.25 m physical arc (0.2499)
+PASS 30 Hz: roll requires actual contact
+PASS 30 Hz: 0.55 s grounded finish within one tick
+PASS 30 Hz: same 5.5 m travel (5.5000)
+PASS 30 Hz: armor above floor (0.0258)
+PASS 30 Hz: preparation feet planted (0.0108)
+PASS 30 Hz: finite budget and recovery
+PASS 30 Hz: finish releases animation and action ownership
+PASS 60 Hz: same 0.25 m physical arc (0.2499)
+PASS 60 Hz: roll requires actual contact
+PASS 60 Hz: 0.55 s grounded finish within one tick
+PASS 60 Hz: same 5.5 m travel (5.5000)
+PASS 60 Hz: armor above floor (0.0250)
+PASS 60 Hz: preparation feet planted (0.0108)
+PASS 60 Hz: finite budget and recovery
+PASS 60 Hz: finish releases animation and action ownership
+PASS 120 Hz: same 0.25 m physical arc (0.2507)
+PASS 120 Hz: roll requires actual contact
+PASS 120 Hz: 0.55 s grounded finish within one tick
+PASS 120 Hz: same 5.5 m travel (5.4999)
+PASS 120 Hz: armor above floor (0.0243)
+PASS 120 Hz: preparation feet planted (0.0108)
+PASS 120 Hz: finite budget and recovery
+PASS 120 Hz: finish releases animation and action ownership
+PASS Pause freezes body and pose
+PASS Frame step advances one real physics tick
+PASS Quarter speed scales the actual simulation
+PASS Replay 0 resets character and review state
+PASS Replay 0 repeats shared ability
+PASS Replay 1 resets character and review state
+PASS Replay 1 repeats shared ability
+PASS Replay 2 resets character and review state
+PASS Replay 2 repeats shared ability
+PASS F5 still launches the courtyard
+PASS Unloading preview restores playback time scale
+DODGE PREVIEW: 37 checks, 0 failures

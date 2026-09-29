@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<!-- Export occlusion only. Does not redraw or replace the approved HUD artwork. -->
+<rect width="1280" height="720" fill="black"/>
+<g transform="translate(-32 15)" fill="white">
+<circle cx="482" cy="420" r="138"/>
+<path d="M308 383 L340 344 L357 338 L365 307 L399 282 L421 275 L430 258 L533 195 L530 250 L528 276 L568 300 L584 317 L619 331 L586 357 L358 452 L336 436 Z"/>
+<path d="M585 335 L668 324 L688 333 L675 347 L727 350 L746 343 L778 329 L798 347 L822 343 L842 346 L851 338 L875 350 L910 339 L896 359 L910 368 L890 384 L878 392 L873 413 L886 423 L880 437 L870 451 L867 467 L886 479 L868 496 L842 487 L821 499 L800 493 L783 505 L763 499 L757 489 L602 493 L583 479 Z"/>
+<circle cx="365" cy="512" r="35"/>
+<circle cx="417" cy="556" r="36"/>
+<circle cx="480" cy="578" r="37"/>
+<circle cx="548" cy="559" r="37"/>
+<circle cx="608" cy="519" r="36"/>
+</g>
+</svg>

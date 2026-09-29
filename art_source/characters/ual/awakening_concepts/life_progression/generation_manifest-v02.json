@@ -1,0 +1,95 @@
+{
+  "revision": 2,
+  "date": "2026-09-29",
+  "tool": "built-in image_gen",
+  "concept_approval": "pending user review",
+  "implementation_status": "not implemented",
+  "baseline_reference": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-a071590a-a1e9-4603-a760-6e61dde1f575.png",
+  "prompt_files": [
+    "prompts-v02.md",
+    "correction-prompts-v02.md",
+    "binding-correction-v02.md"
+  ],
+  "stages": [
+    {
+      "stage": 0,
+      "name": "Fractured",
+      "description": "Dark fractured stone; exposed skin remains.",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-0761efa8-562c-49c0-9f9d-a0feccab7ba3.png",
+      "file": "stage-0-fractured-v02.png"
+    },
+    {
+      "stage": 1,
+      "name": "Binding",
+      "description": "Stone begins advancing along skin boundaries.",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-d0287cde-46c0-45ca-92c7-a0df0860f0f1.png",
+      "file": "stage-1-binding-v02.png"
+    },
+    {
+      "stage": 2,
+      "name": "Reinforced",
+      "description": "Larger fused sections; flesh patches shrink.",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-40b8feac-60b3-4b26-b17b-fc298a4d4a00.png",
+      "file": "stage-2-reinforced-v02.png"
+    },
+    {
+      "stage": 3,
+      "name": "Consolidated",
+      "description": "Most flesh petrified; small joint and fingertip patches.",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-79940c6c-b2cf-4f48-a2d5-2dc72a2a088c.png",
+      "file": "stage-3-consolidated-v02.png"
+    },
+    {
+      "stage": 4,
+      "name": "Fortified",
+      "description": "Almost entirely stone; tiny flesh traces at finger ends.",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-4fed8520-ba54-40cc-b7c2-e449e9962dad.png",
+      "file": "stage-4-fortified-v02.png"
+    },
+    {
+      "stage": 5,
+      "name": "Unbroken",
+      "description": "Entire left arm and hand transformed into intact stone.",
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-323a000b-e348-47a6-9674-382108e296ae.png",
+      "file": "stage-5-unbroken-v02.png"
+    }
+  ],
+  "retained_attempts": [
+    {
+      "stage": 1,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-f8582038-0491-44dd-b9fb-998eafc4669d.png",
+      "file": "stage-1-binding-v02-draft.png",
+      "selected": false
+    },
+    {
+      "stage": 2,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-582d3869-3970-4795-9ee9-b11ab37b55f0.png",
+      "file": "stage-2-reinforced-v02-draft.png",
+      "selected": false
+    },
+    {
+      "stage": 3,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-c72b3385-d584-48f0-99b4-40ef5d82b9b7.png",
+      "file": "stage-3-consolidated-v02-draft.png",
+      "selected": false
+    },
+    {
+      "stage": 4,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-da68f2ed-2573-4317-8c77-da309470b4fd.png",
+      "file": "stage-4-fortified-v02-draft.png",
+      "selected": false
+    },
+    {
+      "stage": 5,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-c5f0f622-8f26-4f9a-8a25-9c465d6944dd.png",
+      "file": "stage-5-unbroken-v02-draft.png",
+      "selected": false
+    },
+    {
+      "stage": 1,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-e48bce59-ed6f-43b9-bbf2-4b2246394e27.png",
+      "file": "stage-1-binding-v02-correction-draft.png",
+      "selected": false
+    }
+  ]
+}

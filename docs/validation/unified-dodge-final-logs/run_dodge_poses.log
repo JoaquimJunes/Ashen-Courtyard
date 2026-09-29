@@ -1,0 +1,11 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: (0.0, 0.0, -1.0) armor stays above the floor through entry/recovery (0.0150 m)
+PASS: (0.0, 0.0, -1.0) poses remain continuous (maximum 68.4 degrees/frame)
+PASS: (-1.0, 0.0, 0.0) armor stays above the floor through entry/recovery (0.0150 m)
+PASS: (-1.0, 0.0, 0.0) poses remain continuous (maximum 58.6 degrees/frame)
+PASS: (1.0, 0.0, 0.0) armor stays above the floor through entry/recovery (0.0150 m)
+PASS: (1.0, 0.0, 0.0) poses remain continuous (maximum 58.6 degrees/frame)
+PASS: (0.0, 0.0, 1.0) armor stays above the floor through entry/recovery (0.0150 m)
+PASS: (0.0, 0.0, 1.0) poses remain continuous (maximum 58.6 degrees/frame)
+DODGE POSES: 8 checks, 0 failures

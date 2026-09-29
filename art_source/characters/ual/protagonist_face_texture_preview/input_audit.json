@@ -1,0 +1,192 @@
+{
+  "source_path": "<PROJECT_ROOT>/art_source/characters/ual/UAL_reference.blend",
+  "source_sha256": "a4a0e90a7be55c848fda19a0b1ee9b4258c18a75e20b1263579d9c397a50f8a2",
+  "vertices": 8586,
+  "faces": 7540,
+  "triangles": 13823,
+  "has_custom_normals": true,
+  "attributes": [
+    [
+      "custom_normal",
+      "INT16_2D",
+      "CORNER"
+    ],
+    [
+      "UVMap",
+      "FLOAT2",
+      "CORNER"
+    ],
+    [
+      "UVMap.001",
+      "FLOAT2",
+      "CORNER"
+    ],
+    [
+      "sharp_face",
+      "BOOLEAN",
+      "FACE"
+    ],
+    [
+      ".uv_select_vert",
+      "BOOLEAN",
+      "CORNER"
+    ],
+    [
+      ".uv_select_edge",
+      "BOOLEAN",
+      "CORNER"
+    ],
+    [
+      ".uv_select_face",
+      "BOOLEAN",
+      "FACE"
+    ],
+    [
+      "material_index",
+      "INT",
+      "FACE"
+    ],
+    [
+      "position",
+      "FLOAT_VECTOR",
+      "POINT"
+    ],
+    [
+      ".edge_verts",
+      "INT32_2D",
+      "EDGE"
+    ],
+    [
+      ".corner_vert",
+      "INT",
+      "CORNER"
+    ],
+    [
+      ".corner_edge",
+      "INT",
+      "CORNER"
+    ]
+  ],
+  "uvs": [
+    [
+      "UVMap",
+      1
+    ],
+    [
+      "UVMap.001",
+      168
+    ]
+  ],
+  "coincident_vertex_groups": 992,
+  "duplicate_vertices": 1552,
+  "unweighted_vertices": [
+    2065,
+    8544,
+    8545,
+    8548,
+    8549,
+    8550,
+    8551,
+    8552,
+    8553,
+    8555,
+    8556,
+    8560,
+    8561,
+    8562,
+    8563,
+    8568
+  ],
+  "zero_area_faces": [],
+  "boundary_edges": 3170,
+  "nonmanifold_edges": 3171,
+  "loose_vertices": 0,
+  "loose_edges": 0,
+  "noncontiguous_edges": 15,
+  "face_normal_dot_min": -0.77348,
+  "bad_head_normals": [
+    [
+      1830,
+      7029,
+      -0.67189,
+      [
+        -0.0517907440662384,
+        0.9441590309143066,
+        0.32539430260658264
+      ],
+      [
+        -0.630901575088501,
+        -0.7721973061561584,
+        0.07532968372106552
+      ]
+    ],
+    [
+      5410,
+      20740,
+      -0.65251,
+      [
+        0.8995959758758545,
+        -0.11953094601631165,
+        0.42004701495170593
+      ],
+      [
+        -0.8440213799476624,
+        -0.5260341763496399,
+        0.1044798493385315
+      ]
+    ],
+    [
+      7507,
+      28780,
+      -0.75591,
+      [
+        0.10402664542198181,
+        0.8215650916099548,
+        -0.5605437159538269
+      ],
+      [
+        -0.4436850845813751,
+        -0.895021378993988,
+        -0.04561135172843933
+      ]
+    ],
+    [
+      7526,
+      28852,
+      -0.77348,
+      [
+        0.6196191906929016,
+        0.6234052777290344,
+        -0.47690463066101074
+      ],
+      [
+        -0.27214500308036804,
+        -0.9621989727020264,
+        0.01050366647541523
+      ]
+    ],
+    [
+      7533,
+      28880,
+      -0.58915,
+      [
+        0.3523969054222107,
+        -0.7393256425857544,
+        -0.5737718343734741
+      ],
+      [
+        -0.8748732805252075,
+        0.47016778588294983,
+        -0.116356760263443
+      ]
+    ]
+  ],
+  "bone_count": 65,
+  "actions": 43,
+  "modifiers": [
+    [
+      "Armature",
+      "ARMATURE"
+    ]
+  ]
+}

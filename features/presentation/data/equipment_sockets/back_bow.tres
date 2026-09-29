@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/presentation/equipment_socket_definition.gd" id="1_ee2yu"]
+
+[resource]
+script = ExtResource("1_ee2yu")
+id = &"back_bow"
+bone_name = &"spine_03"
+local_transform = Transform3D(0.9689124, -0.24740396, 0, 0.2472742, 0.9684043, -0.032390613, 0.008013563, 0.031383656, 0.9994753, -0.18, 0.07504809, -0.30282792)

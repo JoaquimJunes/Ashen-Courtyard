@@ -1,0 +1,48 @@
+{
+  "method": "built-in image_gen",
+  "status": "exploration-awaiting-user-selection",
+  "images": [
+    {
+      "direction": "a",
+      "version": 1,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-4bea8ec1-a985-4915-9d7a-1dc9fd9edb20.png",
+      "file": "direction-a-v01.png",
+      "purpose": "Initial draft; superseded because inset hand was mirrored"
+    },
+    {
+      "direction": "a",
+      "version": 2,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-eb65b4e0-68ce-4175-9dd1-ad4354dbbd39.png",
+      "file": "direction-a-v02.png",
+      "purpose": "Current review sheet; corrected dorsal left-hand inset"
+    },
+    {
+      "direction": "b",
+      "version": 1,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-59bc0504-617a-4140-87a8-41613c20c67c.png",
+      "file": "direction-b-v01.png",
+      "purpose": "Initial draft; superseded because inset hand was mirrored"
+    },
+    {
+      "direction": "b",
+      "version": 2,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-29c99aed-d956-44a2-a50c-4903dfd4c331.png",
+      "file": "direction-b-v02.png",
+      "purpose": "Current review sheet; corrected dorsal left-hand inset"
+    },
+    {
+      "direction": "c",
+      "version": 1,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-26b9208c-1a10-4bb3-a6ba-a94c1da57dfe.png",
+      "file": "direction-c-v01.png",
+      "purpose": "Initial draft; superseded because inset hand was mirrored"
+    },
+    {
+      "direction": "c",
+      "version": 2,
+      "source": "<USER_HOME>/.codex/generated_images/01a0ed15-cede-7ee3-9194-c94bb316aab0/exec-c2363a11-54a3-41ec-893e-8a6c4511c3b0.png",
+      "file": "direction-c-v02.png",
+      "purpose": "Current review sheet; corrected dorsal left-hand inset"
+    }
+  ]
+}

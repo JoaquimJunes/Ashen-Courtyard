@@ -1,0 +1,63 @@
+[
+  {
+    "pattern": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/frames/soul-0[0-5][0-9][0-9].png",
+    "evidence": [
+      {
+        "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/README.md",
+        "contains": "`soul-0000.png` through `soul-0599.png`"
+      },
+      {
+        "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/encoding.json",
+        "contains": "\"frames\": 600"
+      }
+    ],
+    "preview": {
+      "kind": "sequence",
+      "sequence": "painted-soul-wisps-v1",
+      "frame_from_filename": true,
+      "definition": {
+        "frames_pattern": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/frames/soul-0[0-5][0-9][0-9].png",
+        "metadata": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/encoding.json",
+        "loop": false
+      }
+    }
+  },
+  {
+    "pattern": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/assets/soul-wisps-atlas.png",
+    "types": [
+      "Textures",
+      "Animations"
+    ],
+    "evidence": [
+      {
+        "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/README.md",
+        "contains": "The atlas's two isolated right-hand sprites are used"
+      },
+      {
+        "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/source/animation.js",
+        "contains": "../assets/soul-wisps-atlas.png"
+      }
+    ],
+    "preview": {
+      "kind": "sequence",
+      "sequence": "painted-soul-wisps-v1"
+    }
+  },
+  {
+    "pattern": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/soul-wisps-painted.webm",
+    "evidence": [
+      {
+        "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/README.md",
+        "contains": "# Painted 2D Soul-wisp animation v1"
+      },
+      {
+        "path": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/README.md",
+        "contains": "[Play the video](soul-wisps-painted.webm)"
+      }
+    ],
+    "preview": {
+      "kind": "video",
+      "metadata": "art_source/ui/soulbound_hud/concepts/painted-soul-wisps-v1/validation/encoding.json"
+    }
+  }
+]

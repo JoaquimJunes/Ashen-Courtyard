@@ -1,0 +1,51 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: Prepare excluded
+PASS: excluded stops at supported grip rather than crossing or dropping ((1.819169, 0.35, 0.4))
+PASS: Blocked sideways input does not spend or injure
+PASS: Can move away from excluded after rejection
+PASS: Prepare gap
+PASS: gap stops at supported grip rather than crossing or dropping ((1.819169, 0.35, 0.4))
+PASS: Blocked sideways input does not spend or injure
+PASS: Can move away from gap after rejection
+PASS: Prepare height
+PASS: height stops at supported grip rather than crossing or dropping ((1.819169, 0.35, 0.4))
+PASS: Blocked sideways input does not spend or injure
+PASS: Can move away from height after rejection
+PASS: Prepare obstruction
+PASS: obstruction stops at supported grip rather than crossing or dropping ((0.652903, 0.35, 0.4))
+PASS: Blocked sideways input does not spend or injure
+PASS: Can move away from obstruction after rejection
+PASS: Prepare corner pause/reversal
+PASS: Enter outside corner
+PASS: Releasing input holds halfway around corner
+PASS: Pause cannot advance corner progress
+PASS: Opposite input reverses onto original edge
+PASS: Prepare corner pull-up
+PASS: Enter corner for pull-up
+PASS: Forward can pull up from a validated corner hold (completed / (1.687423, 1.500092, -0.406328))
+PASS: Prepare corner let-go
+PASS: Enter corner for release
+PASS: Dodge lets go during corner without cost or immunity
+PASS: Prepare corner hit
+PASS: Enter corner for damage
+PASS: Accepted hit releases corner ownership into ragdoll
+PASS: Prepare removed corner
+PASS: Enter corner before deleting support
+PASS: Deleted supporting surface clears route and falls normally
+PASS: Prepare reset/unload
+PASS: Enter corner for reset
+PASS: Reset clears requests, corner progress, and resource state
+PASS: Right remains ledge-relative after camera orbit
+PASS: Right remains ledge-relative after camera orbit
+PASS: Right remains ledge-relative after camera orbit
+PASS: Prepare zero-stamina shimmy
+PASS: Zero stamina still permits unpaid hanging movement
+PASS: Prepare two instances / unload during corner
+PASS: Enter corner before second instance
+PASS: Shared tuning never shares corner progress or costs
+PASS: Unloading revokes held attachment and all pending corner state
+PASS: Production corner course uses shared jump/grab
+PASS: Production lab inside corner is traversable
+PASS: Lab reset restores normal character
+SHIMMY SAFETY: 48 checks, 0 failures

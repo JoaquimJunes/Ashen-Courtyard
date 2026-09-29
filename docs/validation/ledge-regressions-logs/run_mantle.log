@@ -1,0 +1,53 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: 30 Hz: jump catches 1.5 m ledge
+PASS: Hang retains attachment after Grab releases action
+PASS: Hanging holds position; jump costs once; no drain or regen
+PASS: Attached mode rejects incompatible jump/combat
+PASS: Pull-up completes on actual top support (completed, (0.0, 1.500039, -0.48))
+PASS: Finish above ledge with standing collision restored
+PASS: Pull-up pays exactly 10; cannot regenerate during motion
+PASS: 30 Hz: jump catches 2.5 m ledge
+PASS: Hang retains attachment after Grab releases action
+PASS: Hanging holds position; jump costs once; no drain or regen
+PASS: Attached mode rejects incompatible jump/combat
+PASS: Pull-up completes on actual top support (completed, (0.0, 2.500078, -0.48))
+PASS: Finish above ledge with standing collision restored
+PASS: Pull-up pays exactly 10; cannot regenerate during motion
+PASS: 60 Hz: jump catches 1.5 m ledge
+PASS: Hang retains attachment after Grab releases action
+PASS: Hanging holds position; jump costs once; no drain or regen
+PASS: Attached mode rejects incompatible jump/combat
+PASS: Pull-up completes on actual top support (completed, (0.0, 1.500027, -0.48))
+PASS: Finish above ledge with standing collision restored
+PASS: Pull-up pays exactly 10; cannot regenerate during motion
+PASS: 60 Hz: jump catches 2.5 m ledge
+PASS: Hang retains attachment after Grab releases action
+PASS: Hanging holds position; jump costs once; no drain or regen
+PASS: Attached mode rejects incompatible jump/combat
+PASS: Pull-up completes on actual top support (completed, (0.0, 2.500034, -0.48))
+PASS: Finish above ledge with standing collision restored
+PASS: Pull-up pays exactly 10; cannot regenerate during motion
+PASS: 120 Hz: jump catches 1.5 m ledge
+PASS: Hang retains attachment after Grab releases action
+PASS: Hanging holds position; jump costs once; no drain or regen
+PASS: Attached mode rejects incompatible jump/combat
+PASS: Pull-up completes on actual top support (completed, (0.0, 1.500057, -0.480102))
+PASS: Finish above ledge with standing collision restored
+PASS: Pull-up pays exactly 10; cannot regenerate during motion
+PASS: 120 Hz: jump catches 2.5 m ledge
+PASS: Hang retains attachment after Grab releases action
+PASS: Hanging holds position; jump costs once; no drain or regen
+PASS: Attached mode rejects incompatible jump/combat
+PASS: Pull-up completes on actual top support (completed, (0.0, 2.499763, -0.48))
+PASS: Finish above ledge with standing collision restored
+PASS: Pull-up pays exactly 10; cannot regenerate during motion
+PASS: Prepare deliberate release
+PASS: Dodge binding releases into unpaid ordinary falling
+PASS: Prepare insufficient-stamina hang
+PASS: Insufficient stamina stays hanging without drain, regen or partial payment
+PASS: Insufficient stamina never blocks let-go
+PASS: Prepare attached damage
+PASS: Hit at zero hanging velocity enters ragdoll and releases attachment
+PASS: Reset restores motor/action/attachment after ragdoll
+MANTLE: 50 checks, 0 failures

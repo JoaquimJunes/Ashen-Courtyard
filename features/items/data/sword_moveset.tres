@@ -1,0 +1,28 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_action_profile.gd" id="Script"]
+[ext_resource type="Script" path="res://features/items/item_action_binding.gd" id="Binding"]
+[ext_resource type="Resource" path="res://features/abilities/data/light.tres" id="A0"]
+[ext_resource type="Resource" path="res://features/items/data/light_visual.tres" id="P0"]
+[ext_resource type="Resource" path="res://features/abilities/data/heavy.tres" id="A1"]
+[ext_resource type="Resource" path="res://features/items/data/heavy_visual.tres" id="P1"]
+
+[sub_resource type="Resource" id="Action0"]
+script = ExtResource("Binding")
+role = &"light"
+executor = "light"
+ability = ExtResource("A0")
+presentation = ExtResource("P0")
+item_cost = 0
+
+[sub_resource type="Resource" id="Action1"]
+script = ExtResource("Binding")
+role = &"heavy"
+executor = "heavy"
+ability = ExtResource("A1")
+presentation = ExtResource("P1")
+item_cost = 0
+
+[resource]
+script = ExtResource("Script")
+actions = Array[ExtResource("Binding")]([SubResource("Action0"), SubResource("Action1")])

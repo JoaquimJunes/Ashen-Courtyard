@@ -1,0 +1,6349 @@
+{
+  "version": 5,
+  "revision": 123,
+  "items": {
+    "art:af1896b78a221769f1b98db1": {
+      "display_name": "Hud Preview",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "In progress",
+      "attention": [
+        "Needs improvement"
+      ],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [
+        {
+          "id": "task-f8681b49-4728-44a9-b3b2-e1fdee4df92a",
+          "text": "Improve Soul Gauge Magical Burst Animation",
+          "done": false,
+          "source": ""
+        },
+        {
+          "id": "task-a2f9ac1a-1a45-4cb6-b09e-fef1293eea77",
+          "text": "Improve HealthBar visuals",
+          "done": false,
+          "source": ""
+        },
+        {
+          "id": "task-c794bdc7-6075-4431-8875-938e88d72d9b",
+          "text": "Review Stamina Bar",
+          "done": false,
+          "source": ""
+        }
+      ],
+      "related": [
+        "character-resources"
+      ]
+    },
+    "art:8daa2f1f0341f932f4de5a4e": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:afc836d7854d3e2facf38b47": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:a86a0d64942cec7588fd4924": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:50feb5dbe4a42535f7401773": {
+      "display_name": "Soul Gauge animation prompting",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:bc13e0890d71ab65f20157f2": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:f0eca0a5b7aa7805087b3f57": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "Ready for review",
+      "attention": [
+        "Needs visual review"
+      ],
+      "priority": "Low",
+      "note": "",
+      "checklist": [
+        {
+          "id": "task-37bb3102-8157-48f9-b50c-04ade3725f46",
+          "text": "Check if the file can be scraped without breaking anything",
+          "done": false,
+          "source": ""
+        }
+      ],
+      "related": []
+    },
+    "art:3c74cee70701a852e8b5f064": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:88789ce02555e8f9c5b6bd36": {
+      "display_name": "Stone Arm Evolution",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "Planned",
+      "attention": [
+        "Needs improvement"
+      ],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [
+        {
+          "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+          "text": "Improve the chest area",
+          "done": false,
+          "source": ""
+        }
+      ],
+      "related": [
+        "character-resources",
+        "soulbound-hud",
+        "adventure-progression",
+        "animation-system"
+      ]
+    },
+    "art:5d8f61eb9b5f49d07fdcc41b": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:34e23c3fcd5e4980e624a858": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:7af51bc3544ab7eac4550f8b": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:b2b48ed938db01077a2da91b": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:0b9083750385457e0400490e": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:f7d6ff95c35554bfdd3ced71": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:c2e7309fb0eb59da88700c39": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:f862dfc224c0f6373f49507c": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:a656103df37c2b45e7eec362": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:323bd44ccd57d469a5596f11": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:a33d84f559874a7cf3f40d0e": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:b184c84d6aa1a3a3182c0259": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:pack:stone-arm-life-progression-approved-v03": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:8ce95e23cfd8159d4d089a42": {
+      "display_name": "Souls gauge Burst Alignment Sheet",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "Planned",
+      "attention": [
+        "Needs improvement"
+      ],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [
+        {
+          "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+          "text": "Rethink Animation Visuals and Movement",
+          "done": false,
+          "source": ""
+        },
+        {
+          "id": "task-fbb2486d-4e1a-4f4a-b1b6-b246ca552118",
+          "text": "Make the animation",
+          "done": false,
+          "source": ""
+        },
+        {
+          "id": "task-598bdaf5-6ec0-4b6c-8b51-a5f894176162",
+          "text": "Make the animation work with HUD",
+          "done": false,
+          "source": ""
+        }
+      ],
+      "related": [
+        "character-resources",
+        "soulbound-hud"
+      ]
+    },
+    "art:pack:firefly-soul-wisps-v1-review": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:912dffdb552eb84ff39cc848": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:2a91d8085883f49b9a963a89": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:b6eb78df6a028ec9a0696782": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:b6351da34a769d98b211c1e1": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:db5e5d34f7bfd0885eedefd1": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:6021da49586d31ca4a60b882": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:28764a5abbf7089282e27a13": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:596859a8760091fe5485ef01": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:73f32a21d24dbd2a6f05b553": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:2612f49e441d71f34fba2feb": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:71e07b5070775eca62708ea4": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:pack:user-6bfc6597d300436083591503b41fc1fb": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:0c7ce88469c6ef9ec58c379a": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:6a1cd73acd480202d767686d": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:fac35a992138344480ccb002": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:22f188b22ea0b02fe67afac9": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:df445933f1968b0eb00c20a7": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:745bda1fa9ab90c47ed93dae": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:2901b396a70506cdf223ef05": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:e84f06dd1e3dbdf653fd5a0a": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:1db528a920ad5ea3278a8a4d": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:5e705c88af48031c2b63b5de": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:d17f339e0689f87ee64eb262": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:4caef7016fb9fce19be617e9": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:0df284714e42a6e9aea210b5": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:a58634140ce964fb2d0d00ac": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:pack:user-1ec8a2c18c8e44cfbb3d8f06a1e11263": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:cc179d42a1a7ff370644806e": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:2f907ba00a46955d167052b9": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:75c64939808c032c15dde144": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:c4d032da0b5d4e27efef45b2": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:8b36d23790448c86be4ad1e2": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:pack:user-cbf98e13ee1c42dfa5b6ecefc3c2b3f4": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:40a972ac9c58e83dc83fce41": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:390997a1d2350ec1d106a6de": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:fd7eb5c44c8778779e1d73fb": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:42ce161c692bf4a9b2eca99a": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:3d291f06644518f68fac64c4": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:a394a9746ddf8ec3e9dd928d": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:e4ce4351f7ed0b26f120f4cb": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:50bde4b923210ab6549843af": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:c5a52b4d7df69fc580b0e927": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:86492d4c318c0e5f4cb4d4b1": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "",
+      "art_tags": [],
+      "status": "Deferred",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:74bb65feb4257871df05684e": {
+      "display_name": "B - Road pilgrim",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:957b3708802fb48e0a4de627": {
+      "status": "Planned",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": [],
+      "display_name": "A - Cerimonial Pilgrim",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [
+        "Clothing"
+      ]
+    },
+    "art:6837fafd49c5d932aabbc0f3": {
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": [],
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [
+        "Clothing"
+      ]
+    },
+    "art:7b73e7a2866676fa0c589d1f": {
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": [],
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [
+        "Clothing"
+      ]
+    },
+    "art:64dc4d0afcd7950871c78e6f": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:73212403947b5ed8b0358dc6": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:16148fea319e9ca03ae34d3d": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:81fcd49dbe2485b4b985abb1": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:6f7df0febb9d007b264e1c81": {
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": [],
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Approved",
+      "art_tags": [
+        "Magic"
+      ]
+    },
+    "art:e75859067b646b75565a701e": {
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": [],
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [
+        "Magic"
+      ]
+    },
+    "art:27c7a2dc51f160c785157242": {
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": [],
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "Scrap",
+      "art_tags": [
+        "Magic"
+      ]
+    },
+    "boss-climbing": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "",
+      "art_tags": [],
+      "status": "In progress",
+      "attention": [],
+      "priority": "Normal",
+      "note": "Planned mechanic — planning and technical design are in progress. Gameplay implementation has not started; all acceptance checks remain pending. Full plan: docs/BOSS_CLIMBING_PLAN.md. Implementation target: Ultra AI agent, five development gates, then the laboratory acceptance route and regression/release validation.",
+      "checklist": [
+        {
+          "id": "boss-climbing:attachment",
+          "text": "Moving attachments follow translation, rotation and articulation, with at most 2 cm drift over 30 seconds and inherited release velocity applied once.",
+          "done": false,
+          "source": "docs/BOSS_CLIMBING_PLAN.md"
+        },
+        {
+          "id": "boss-climbing:traversal",
+          "text": "Traverse marked curves, animated joints and fully inverted undersides; leap and regrab, with unmarked or blocked routes stopping safely.",
+          "done": false,
+          "source": "docs/BOSS_CLIMBING_PLAN.md"
+        },
+        {
+          "id": "boss-climbing:collision",
+          "text": "Validate carry, rotation, posture, initial overlap and standing against world geometry and other boss limbs without penetration or unsafe capsule expansion.",
+          "done": false,
+          "source": "docs/BOSS_CLIMBING_PLAN.md"
+        },
+        {
+          "id": "boss-climbing:presentation",
+          "text": "Keep planted hands within 3 cm of accepted contacts, preserve shoulder continuity and bone lengths, and sample hitboxes and mouth-based breath from completed poses.",
+          "done": false,
+          "source": "docs/BOSS_CLIMBING_PLAN.md"
+        },
+        {
+          "id": "boss-climbing:resources-combat",
+          "text": "Verify shared stamina, supported recovery, bracing, charged weak-point stabs and single damage application at 30/60/120 Hz, within 0.5 stamina across equivalent runs.",
+          "done": false,
+          "source": "docs/BOSS_CLIMBING_PLAN.md"
+        },
+        {
+          "id": "boss-climbing:lifecycle",
+          "text": "Verify remapped controls, grip toggle, both shoulder cameras, independent render rates, pause, reset, teleport, death, unload, falling, water entry and two independent characters.",
+          "done": false,
+          "source": "docs/BOSS_CLIMBING_PLAN.md"
+        },
+        {
+          "id": "boss-climbing:hands-on-route",
+          "text": "Complete the hands-on route: approach → grab moving leg → cross joint → hang upside down → leap/regrab → rest → brace → charge/stab → release/land.",
+          "done": false,
+          "source": "docs/BOSS_CLIMBING_PLAN.md"
+        },
+        {
+          "id": "boss-climbing:validation-delivery",
+          "text": "Pass focused tests, the full regression runner, clean release/export and smoke checks; record profiling and update movement documentation and the context graph.",
+          "done": false,
+          "source": "docs/BOSS_CLIMBING_PLAN.md"
+        }
+      ],
+      "related": []
+    },
+    "art:pack:road-pilgrim-palette-style-exploration-v01": {
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "",
+      "art_tags": [],
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": []
+    },
+    "art:d7519caa68bc497877866d9b": {
+      "status": "",
+      "attention": [],
+      "priority": "Normal",
+      "note": "",
+      "checklist": [],
+      "related": [],
+      "display_name": "",
+      "animation_categories": null,
+      "animation_tags": null,
+      "review_label": "",
+      "art_tags": [
+        "Sprite"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-09-29T16:23:43.458Z",
+      "id": "art:af1896b78a221769f1b98db1",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 1
+    },
+    {
+      "at": "2026-09-29T16:24:04.723Z",
+      "id": "art:af1896b78a221769f1b98db1",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "In progress",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 2
+    },
+    {
+      "at": "2026-09-29T16:24:14.326Z",
+      "id": "art:af1896b78a221769f1b98db1",
+      "fields": [
+        "display_name"
+      ],
+      "before": {
+        "status": "In progress",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "In progress",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 3
+    },
+    {
+      "at": "2026-09-29T16:24:25.914Z",
+      "id": "art:af1896b78a221769f1b98db1",
+      "fields": [
+        "attention"
+      ],
+      "before": {
+        "status": "In progress",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 4
+    },
+    {
+      "at": "2026-09-29T16:24:39.473Z",
+      "id": "art:af1896b78a221769f1b98db1",
+      "fields": [
+        "related"
+      ],
+      "before": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 5
+    },
+    {
+      "at": "2026-09-29T16:26:14.564Z",
+      "id": "art:af1896b78a221769f1b98db1",
+      "fields": [
+        "checklist"
+      ],
+      "before": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-f8681b49-4728-44a9-b3b2-e1fdee4df92a",
+            "text": "Improve Soul Gauge Magical Burst Animation",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 6
+    },
+    {
+      "at": "2026-09-29T16:26:27.839Z",
+      "id": "art:af1896b78a221769f1b98db1",
+      "fields": [
+        "checklist"
+      ],
+      "before": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-f8681b49-4728-44a9-b3b2-e1fdee4df92a",
+            "text": "Improve Soul Gauge Magical Burst Animation",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-f8681b49-4728-44a9-b3b2-e1fdee4df92a",
+            "text": "Improve Soul Gauge Magical Burst Animation",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-a2f9ac1a-1a45-4cb6-b09e-fef1293eea77",
+            "text": "Improve HealthBar visuals",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 7
+    },
+    {
+      "at": "2026-09-29T16:26:49.949Z",
+      "id": "art:af1896b78a221769f1b98db1",
+      "fields": [
+        "checklist"
+      ],
+      "before": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-f8681b49-4728-44a9-b3b2-e1fdee4df92a",
+            "text": "Improve Soul Gauge Magical Burst Animation",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-a2f9ac1a-1a45-4cb6-b09e-fef1293eea77",
+            "text": "Improve HealthBar visuals",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "In progress",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-f8681b49-4728-44a9-b3b2-e1fdee4df92a",
+            "text": "Improve Soul Gauge Magical Burst Animation",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-a2f9ac1a-1a45-4cb6-b09e-fef1293eea77",
+            "text": "Improve HealthBar visuals",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-c794bdc7-6075-4431-8875-938e88d72d9b",
+            "text": "Review Stamina Bar",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Hud Preview",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 8
+    },
+    {
+      "at": "2026-09-29T16:33:08.242Z",
+      "id": "art:8daa2f1f0341f932f4de5a4e",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 9
+    },
+    {
+      "at": "2026-09-29T16:33:29.884Z",
+      "id": "art:afc836d7854d3e2facf38b47",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 10
+    },
+    {
+      "at": "2026-09-29T16:34:04.290Z",
+      "id": "art:a86a0d64942cec7588fd4924",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 11
+    },
+    {
+      "at": "2026-09-29T16:34:44.444Z",
+      "id": "art:50feb5dbe4a42535f7401773",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Soul Gauge animation prompting",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 12
+    },
+    {
+      "at": "2026-09-29T16:34:52.330Z",
+      "id": "art:50feb5dbe4a42535f7401773",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Soul Gauge animation prompting",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Soul Gauge animation prompting",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 13
+    },
+    {
+      "at": "2026-09-29T16:36:23.408Z",
+      "id": "art:bc13e0890d71ab65f20157f2",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 14
+    },
+    {
+      "at": "2026-09-29T16:38:32.869Z",
+      "id": "art:f0eca0a5b7aa7805087b3f57",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 15
+    },
+    {
+      "at": "2026-09-29T16:38:40.250Z",
+      "id": "art:f0eca0a5b7aa7805087b3f57",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 16
+    },
+    {
+      "at": "2026-09-29T16:38:42.634Z",
+      "id": "art:f0eca0a5b7aa7805087b3f57",
+      "fields": [
+        "priority"
+      ],
+      "before": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 17
+    },
+    {
+      "at": "2026-09-29T16:38:44.966Z",
+      "id": "art:f0eca0a5b7aa7805087b3f57",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Deferred",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 18
+    },
+    {
+      "at": "2026-09-29T16:38:49.408Z",
+      "id": "art:f0eca0a5b7aa7805087b3f57",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "Deferred",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 19
+    },
+    {
+      "at": "2026-09-29T16:39:06.543Z",
+      "id": "art:f0eca0a5b7aa7805087b3f57",
+      "fields": [
+        "checklist"
+      ],
+      "before": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-37bb3102-8157-48f9-b50c-04ade3725f46",
+            "text": "Check if the file can be scraped without breaking anything",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 20
+    },
+    {
+      "at": "2026-09-29T16:39:10.896Z",
+      "id": "art:f0eca0a5b7aa7805087b3f57",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-37bb3102-8157-48f9-b50c-04ade3725f46",
+            "text": "Check if the file can be scraped without breaking anything",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Ready for review",
+        "attention": [
+          "Needs visual review"
+        ],
+        "priority": "Low",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-37bb3102-8157-48f9-b50c-04ade3725f46",
+            "text": "Check if the file can be scraped without breaking anything",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 21
+    },
+    {
+      "at": "2026-09-29T16:39:58.009Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 22
+    },
+    {
+      "at": "2026-09-29T16:39:59.056Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 23
+    },
+    {
+      "at": "2026-09-29T16:40:00.495Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 24
+    },
+    {
+      "at": "2026-09-29T16:40:01.807Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 25
+    },
+    {
+      "at": "2026-09-29T16:40:05.265Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 26
+    },
+    {
+      "at": "2026-09-29T16:40:06.225Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "In progress",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 27
+    },
+    {
+      "at": "2026-09-29T16:40:07.311Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "In progress",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Ready for review",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 28
+    },
+    {
+      "at": "2026-09-29T16:40:13.088Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "Ready for review",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Deferred",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 29
+    },
+    {
+      "at": "2026-09-29T16:40:18.372Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "Deferred",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 30
+    },
+    {
+      "at": "2026-09-29T16:40:20.059Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "priority"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "High",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 31
+    },
+    {
+      "at": "2026-09-29T16:40:20.916Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "priority"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "High",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Low",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 32
+    },
+    {
+      "at": "2026-09-29T16:40:21.642Z",
+      "id": "art:3c74cee70701a852e8b5f064",
+      "fields": [
+        "priority"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Low",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 33
+    },
+    {
+      "at": "2026-09-29T16:42:22.747Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 34
+    },
+    {
+      "at": "2026-09-29T16:42:51.362Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "display_name"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 35
+    },
+    {
+      "at": "2026-09-29T16:42:56.010Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "attention"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 36
+    },
+    {
+      "at": "2026-09-29T16:43:09.272Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 37
+    },
+    {
+      "at": "2026-09-29T16:44:05.692Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "checklist"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 38
+    },
+    {
+      "at": "2026-09-29T16:44:28.148Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "related"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 39
+    },
+    {
+      "at": "2026-09-29T16:44:28.970Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "related"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources",
+          "soulbound-hud"
+        ],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 40
+    },
+    {
+      "at": "2026-09-29T16:44:44.097Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "related"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources",
+          "soulbound-hud"
+        ],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources",
+          "soulbound-hud",
+          "adventure-progression"
+        ],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 41
+    },
+    {
+      "at": "2026-09-29T16:44:58.519Z",
+      "id": "art:88789ce02555e8f9c5b6bd36",
+      "fields": [
+        "related"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources",
+          "soulbound-hud",
+          "adventure-progression"
+        ],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-4dd657bc-85ae-4a97-983d-c511421f8ac6",
+            "text": "Improve the chest area",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources",
+          "soulbound-hud",
+          "adventure-progression",
+          "animation-system"
+        ],
+        "display_name": "Stone Arm Evolution",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 42
+    },
+    {
+      "at": "2026-09-29T16:48:15.639Z",
+      "id": "art:5d8f61eb9b5f49d07fdcc41b",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 43
+    },
+    {
+      "at": "2026-09-29T16:50:16.886Z",
+      "id": "art:34e23c3fcd5e4980e624a858",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 44
+    },
+    {
+      "at": "2026-09-29T16:50:27.507Z",
+      "id": "art:7af51bc3544ab7eac4550f8b",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 45
+    },
+    {
+      "at": "2026-09-29T16:50:39.161Z",
+      "id": "art:b2b48ed938db01077a2da91b",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 46
+    },
+    {
+      "at": "2026-09-29T16:51:15.811Z",
+      "id": "art:0b9083750385457e0400490e",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 47
+    },
+    {
+      "at": "2026-09-29T16:51:46.440Z",
+      "id": "art:f7d6ff95c35554bfdd3ced71",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 48
+    },
+    {
+      "at": "2026-09-29T16:51:56.061Z",
+      "id": "art:c2e7309fb0eb59da88700c39",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 49
+    },
+    {
+      "at": "2026-09-29T16:52:05.626Z",
+      "id": "art:f862dfc224c0f6373f49507c",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 50
+    },
+    {
+      "at": "2026-09-29T16:52:14.159Z",
+      "id": "art:a656103df37c2b45e7eec362",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 51
+    },
+    {
+      "at": "2026-09-29T16:52:24.454Z",
+      "id": "art:323bd44ccd57d469a5596f11",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 52
+    },
+    {
+      "at": "2026-09-29T16:52:44.237Z",
+      "id": "art:a33d84f559874a7cf3f40d0e",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 53
+    },
+    {
+      "at": "2026-09-29T16:53:00.163Z",
+      "id": "art:b184c84d6aa1a3a3182c0259",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 54
+    },
+    {
+      "at": "2026-09-29T16:56:33.623Z",
+      "id": "art:pack:stone-arm-life-progression-approved-v03",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 55
+    },
+    {
+      "at": "2026-09-29T16:59:39.834Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 56
+    },
+    {
+      "at": "2026-09-29T17:00:06.839Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "display_name"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 57
+    },
+    {
+      "at": "2026-09-29T17:00:12.397Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 58
+    },
+    {
+      "at": "2026-09-29T17:00:16.982Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "attention"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 59
+    },
+    {
+      "at": "2026-09-29T17:00:38.615Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "checklist"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 60
+    },
+    {
+      "at": "2026-09-29T17:00:50.569Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "checklist"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-fbb2486d-4e1a-4f4a-b1b6-b246ca552118",
+            "text": "Make the animation",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 61
+    },
+    {
+      "at": "2026-09-29T17:00:59.931Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "checklist"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-fbb2486d-4e1a-4f4a-b1b6-b246ca552118",
+            "text": "Make the animation",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-fbb2486d-4e1a-4f4a-b1b6-b246ca552118",
+            "text": "Make the animation",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-598bdaf5-6ec0-4b6c-8b51-a5f894176162",
+            "text": "Make the animation work with HUD",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 62
+    },
+    {
+      "at": "2026-09-29T17:01:18.129Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "related"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-fbb2486d-4e1a-4f4a-b1b6-b246ca552118",
+            "text": "Make the animation",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-598bdaf5-6ec0-4b6c-8b51-a5f894176162",
+            "text": "Make the animation work with HUD",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-fbb2486d-4e1a-4f4a-b1b6-b246ca552118",
+            "text": "Make the animation",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-598bdaf5-6ec0-4b6c-8b51-a5f894176162",
+            "text": "Make the animation work with HUD",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 63
+    },
+    {
+      "at": "2026-09-29T17:01:18.934Z",
+      "id": "art:8ce95e23cfd8159d4d089a42",
+      "fields": [
+        "related"
+      ],
+      "before": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-fbb2486d-4e1a-4f4a-b1b6-b246ca552118",
+            "text": "Make the animation",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-598bdaf5-6ec0-4b6c-8b51-a5f894176162",
+            "text": "Make the animation work with HUD",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources"
+        ],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [
+          "Needs improvement"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [
+          {
+            "id": "task-6e6e80b2-7be8-44ca-8fdb-36ea379cfffc",
+            "text": "Rethink Animation Visuals and Movement",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-fbb2486d-4e1a-4f4a-b1b6-b246ca552118",
+            "text": "Make the animation",
+            "done": false,
+            "source": ""
+          },
+          {
+            "id": "task-598bdaf5-6ec0-4b6c-8b51-a5f894176162",
+            "text": "Make the animation work with HUD",
+            "done": false,
+            "source": ""
+          }
+        ],
+        "related": [
+          "character-resources",
+          "soulbound-hud"
+        ],
+        "display_name": "Souls gauge Burst Alignment Sheet",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 64
+    },
+    {
+      "at": "2026-09-29T17:01:46.667Z",
+      "id": "art:pack:firefly-soul-wisps-v1-review",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 65
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:912dffdb552eb84ff39cc848",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:2a91d8085883f49b9a963a89",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:b6eb78df6a028ec9a0696782",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:b6351da34a769d98b211c1e1",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:db5e5d34f7bfd0885eedefd1",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:6021da49586d31ca4a60b882",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:28764a5abbf7089282e27a13",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:596859a8760091fe5485ef01",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:04:09.367Z",
+      "id": "art:73f32a21d24dbd2a6f05b553",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 66
+    },
+    {
+      "at": "2026-09-29T17:09:05.055Z",
+      "id": "art:2612f49e441d71f34fba2feb",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 67
+    },
+    {
+      "at": "2026-09-29T17:09:23.948Z",
+      "id": "art:2612f49e441d71f34fba2feb",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 68
+    },
+    {
+      "at": "2026-09-29T17:12:14.186Z",
+      "id": "art:71e07b5070775eca62708ea4",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "Deferred",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 69
+    },
+    {
+      "at": "2026-09-29T17:12:16.341Z",
+      "id": "art:71e07b5070775eca62708ea4",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "Deferred",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "Deferred",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 70
+    },
+    {
+      "at": "2026-09-29T17:12:19.311Z",
+      "id": "art:71e07b5070775eca62708ea4",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "Deferred",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 71
+    },
+    {
+      "at": "2026-09-29T17:53:45.169Z",
+      "id": "art:pack:user-6bfc6597d300436083591503b41fc1fb",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 72
+    },
+    {
+      "at": "2026-09-29T17:53:47.206Z",
+      "id": "art:pack:user-6bfc6597d300436083591503b41fc1fb",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 73
+    },
+    {
+      "at": "2026-09-29T17:56:03.142Z",
+      "id": "art:0c7ce88469c6ef9ec58c379a",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 74
+    },
+    {
+      "at": "2026-09-29T17:56:03.142Z",
+      "id": "art:6a1cd73acd480202d767686d",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 74
+    },
+    {
+      "at": "2026-09-29T17:56:03.142Z",
+      "id": "art:fac35a992138344480ccb002",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 74
+    },
+    {
+      "at": "2026-09-29T17:56:03.142Z",
+      "id": "art:22f188b22ea0b02fe67afac9",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 74
+    },
+    {
+      "at": "2026-09-29T17:56:03.142Z",
+      "id": "art:df445933f1968b0eb00c20a7",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 74
+    },
+    {
+      "at": "2026-09-29T17:56:03.142Z",
+      "id": "art:745bda1fa9ab90c47ed93dae",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 74
+    },
+    {
+      "at": "2026-09-29T17:56:40.609Z",
+      "id": "art:2901b396a70506cdf223ef05",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 75
+    },
+    {
+      "at": "2026-09-29T17:56:49.447Z",
+      "id": "art:e84f06dd1e3dbdf653fd5a0a",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 76
+    },
+    {
+      "at": "2026-09-29T17:57:24.092Z",
+      "id": "art:1db528a920ad5ea3278a8a4d",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 77
+    },
+    {
+      "at": "2026-09-29T17:59:52.265Z",
+      "id": "art:5e705c88af48031c2b63b5de",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 78
+    },
+    {
+      "at": "2026-09-29T17:59:57.519Z",
+      "id": "art:d17f339e0689f87ee64eb262",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 79
+    },
+    {
+      "at": "2026-09-29T18:00:03.018Z",
+      "id": "art:4caef7016fb9fce19be617e9",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 80
+    },
+    {
+      "at": "2026-09-29T18:00:08.443Z",
+      "id": "art:0df284714e42a6e9aea210b5",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 81
+    },
+    {
+      "at": "2026-09-29T18:00:15.980Z",
+      "id": "art:a58634140ce964fb2d0d00ac",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 82
+    },
+    {
+      "at": "2026-09-29T18:01:28.897Z",
+      "id": "art:pack:user-1ec8a2c18c8e44cfbb3d8f06a1e11263",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 83
+    },
+    {
+      "at": "2026-09-29T18:01:30.718Z",
+      "id": "art:pack:user-1ec8a2c18c8e44cfbb3d8f06a1e11263",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 84
+    },
+    {
+      "at": "2026-09-29T18:01:30.718Z",
+      "id": "art:cc179d42a1a7ff370644806e",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 84
+    },
+    {
+      "at": "2026-09-29T18:01:30.718Z",
+      "id": "art:2f907ba00a46955d167052b9",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 84
+    },
+    {
+      "at": "2026-09-29T18:01:30.718Z",
+      "id": "art:75c64939808c032c15dde144",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 84
+    },
+    {
+      "at": "2026-09-29T18:01:30.718Z",
+      "id": "art:c4d032da0b5d4e27efef45b2",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 84
+    },
+    {
+      "at": "2026-09-29T18:01:30.718Z",
+      "id": "art:8b36d23790448c86be4ad1e2",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 84
+    },
+    {
+      "at": "2026-09-29T18:01:32.007Z",
+      "id": "art:pack:user-1ec8a2c18c8e44cfbb3d8f06a1e11263",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 85
+    },
+    {
+      "at": "2026-09-29T18:01:38.587Z",
+      "id": "art:cc179d42a1a7ff370644806e",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 86
+    },
+    {
+      "at": "2026-09-29T18:01:41.884Z",
+      "id": "art:2f907ba00a46955d167052b9",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 87
+    },
+    {
+      "at": "2026-09-29T18:01:44.922Z",
+      "id": "art:75c64939808c032c15dde144",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 88
+    },
+    {
+      "at": "2026-09-29T18:01:47.250Z",
+      "id": "art:c4d032da0b5d4e27efef45b2",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 89
+    },
+    {
+      "at": "2026-09-29T18:01:50.182Z",
+      "id": "art:8b36d23790448c86be4ad1e2",
+      "fields": [
+        "review_label"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 90
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:pack:user-cbf98e13ee1c42dfa5b6ecefc3c2b3f4",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:40a972ac9c58e83dc83fce41",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:390997a1d2350ec1d106a6de",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:fd7eb5c44c8778779e1d73fb",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:42ce161c692bf4a9b2eca99a",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:3d291f06644518f68fac64c4",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:a394a9746ddf8ec3e9dd928d",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:e4ce4351f7ed0b26f120f4cb",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:50bde4b923210ab6549843af",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:04:06.599Z",
+      "id": "art:c5a52b4d7df69fc580b0e927",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 91
+    },
+    {
+      "at": "2026-09-29T18:47:00.529Z",
+      "id": "art:86492d4c318c0e5f4cb4d4b1",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "Deferred",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 92
+    },
+    {
+      "at": "2026-09-29T18:47:15.171Z",
+      "id": "art:74bb65feb4257871df05684e",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 93
+    },
+    {
+      "at": "2026-09-29T18:47:50.766Z",
+      "id": "art:74bb65feb4257871df05684e",
+      "fields": [
+        "display_name"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Road pilgrim",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 94
+    },
+    {
+      "at": "2026-09-29T18:47:57.800Z",
+      "id": "art:74bb65feb4257871df05684e",
+      "fields": [
+        "display_name"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "Road pilgrim",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "B - Road pilgrim",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 95
+    },
+    {
+      "at": "2026-09-29T19:01:40.638Z",
+      "id": "art:957b3708802fb48e0a4de627",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 96
+    },
+    {
+      "at": "2026-09-29T19:01:47.363Z",
+      "id": "art:6837fafd49c5d932aabbc0f3",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 97
+    },
+    {
+      "at": "2026-09-29T19:01:54.547Z",
+      "id": "art:7b73e7a2866676fa0c589d1f",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 98
+    },
+    {
+      "at": "2026-09-29T19:02:30.087Z",
+      "id": "art:957b3708802fb48e0a4de627",
+      "fields": [
+        "display_name"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "A - Cerimonial Pilgrim",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 99
+    },
+    {
+      "at": "2026-09-29T19:02:32.236Z",
+      "id": "art:957b3708802fb48e0a4de627",
+      "fields": [
+        "status"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "A - Cerimonial Pilgrim",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "A - Cerimonial Pilgrim",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 100
+    },
+    {
+      "at": "2026-09-29T19:53:43.005Z",
+      "id": "art:64dc4d0afcd7950871c78e6f",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 101
+    },
+    {
+      "at": "2026-09-29T21:19:51.874Z",
+      "id": "art:73212403947b5ed8b0358dc6",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 102
+    },
+    {
+      "at": "2026-09-29T21:19:57.344Z",
+      "id": "art:16148fea319e9ca03ae34d3d",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 103
+    },
+    {
+      "at": "2026-09-29T21:20:00.889Z",
+      "id": "art:81fcd49dbe2485b4b985abb1",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 104
+    },
+    {
+      "at": "2026-09-29T21:56:56.409Z",
+      "id": "art:6f7df0febb9d007b264e1c81",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved"
+      },
+      "revision": 105
+    },
+    {
+      "at": "2026-09-29T21:57:03.575Z",
+      "id": "art:e75859067b646b75565a701e",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 106
+    },
+    {
+      "at": "2026-09-29T21:57:07.983Z",
+      "id": "art:27c7a2dc51f160c785157242",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap"
+      },
+      "revision": 107
+    },
+    {
+      "at": "2026-09-29T22:32:21.597Z",
+      "id": "boss-climbing",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "In progress",
+        "attention": [],
+        "priority": "Normal",
+        "note": "Planned mechanic — planning and technical design are in progress. Gameplay implementation has not started; all acceptance checks remain pending. Full plan: docs/BOSS_CLIMBING_PLAN.md. Implementation target: Ultra AI agent, five development gates, then the laboratory acceptance route and regression/release validation.",
+        "checklist": [
+          {
+            "id": "boss-climbing:attachment",
+            "text": "Moving attachments follow translation, rotation and articulation, with at most 2 cm drift over 30 seconds and inherited release velocity applied once.",
+            "done": false,
+            "source": "docs/BOSS_CLIMBING_PLAN.md"
+          },
+          {
+            "id": "boss-climbing:traversal",
+            "text": "Traverse marked curves, animated joints and fully inverted undersides; leap and regrab, with unmarked or blocked routes stopping safely.",
+            "done": false,
+            "source": "docs/BOSS_CLIMBING_PLAN.md"
+          },
+          {
+            "id": "boss-climbing:collision",
+            "text": "Validate carry, rotation, posture, initial overlap and standing against world geometry and other boss limbs without penetration or unsafe capsule expansion.",
+            "done": false,
+            "source": "docs/BOSS_CLIMBING_PLAN.md"
+          },
+          {
+            "id": "boss-climbing:presentation",
+            "text": "Keep planted hands within 3 cm of accepted contacts, preserve shoulder continuity and bone lengths, and sample hitboxes and mouth-based breath from completed poses.",
+            "done": false,
+            "source": "docs/BOSS_CLIMBING_PLAN.md"
+          },
+          {
+            "id": "boss-climbing:resources-combat",
+            "text": "Verify shared stamina, supported recovery, bracing, charged weak-point stabs and single damage application at 30/60/120 Hz, within 0.5 stamina across equivalent runs.",
+            "done": false,
+            "source": "docs/BOSS_CLIMBING_PLAN.md"
+          },
+          {
+            "id": "boss-climbing:lifecycle",
+            "text": "Verify remapped controls, grip toggle, both shoulder cameras, independent render rates, pause, reset, teleport, death, unload, falling, water entry and two independent characters.",
+            "done": false,
+            "source": "docs/BOSS_CLIMBING_PLAN.md"
+          },
+          {
+            "id": "boss-climbing:hands-on-route",
+            "text": "Complete the hands-on route: approach → grab moving leg → cross joint → hang upside down → leap/regrab → rest → brace → charge/stab → release/land.",
+            "done": false,
+            "source": "docs/BOSS_CLIMBING_PLAN.md"
+          },
+          {
+            "id": "boss-climbing:validation-delivery",
+            "text": "Pass focused tests, the full regression runner, clean release/export and smoke checks; record profiling and update movement documentation and the context graph.",
+            "done": false,
+            "source": "docs/BOSS_CLIMBING_PLAN.md"
+          }
+        ],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 108
+    },
+    {
+      "at": "2026-09-29T22:54:34.478Z",
+      "id": "art:pack:road-pilgrim-palette-style-exploration-v01",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [
+          "SPECIAL"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 109
+    },
+    {
+      "at": "2026-09-29T22:54:35.754Z",
+      "id": "art:pack:road-pilgrim-palette-style-exploration-v01",
+      "fields": [
+        "attention"
+      ],
+      "before": {
+        "status": "",
+        "attention": [
+          "SPECIAL"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 110
+    },
+    {
+      "at": "2026-09-29T22:54:36.965Z",
+      "id": "art:pack:road-pilgrim-palette-style-exploration-v01",
+      "fields": [
+        "attention"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [
+          "SPECIAL"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 111
+    },
+    {
+      "at": "2026-09-29T22:54:39.950Z",
+      "id": "art:pack:road-pilgrim-palette-style-exploration-v01",
+      "fields": [
+        "attention"
+      ],
+      "before": {
+        "status": "",
+        "attention": [
+          "SPECIAL"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 112
+    },
+    {
+      "at": "2026-09-29T22:54:42.613Z",
+      "id": "art:pack:road-pilgrim-palette-style-exploration-v01",
+      "fields": [
+        "attention"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [
+          "SPECIAL"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 113
+    },
+    {
+      "at": "2026-09-29T22:54:43.193Z",
+      "id": "art:pack:road-pilgrim-palette-style-exploration-v01",
+      "fields": [
+        "attention"
+      ],
+      "before": {
+        "status": "",
+        "attention": [
+          "SPECIAL"
+        ],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": ""
+      },
+      "revision": 114
+    },
+    {
+      "at": "2026-09-29T23:06:07.961Z",
+      "id": "art:d7519caa68bc497877866d9b",
+      "fields": [
+        "status",
+        "attention",
+        "priority",
+        "note",
+        "checklist",
+        "related",
+        "display_name",
+        "animation_categories",
+        "animation_tags",
+        "review_label",
+        "art_tags"
+      ],
+      "before": null,
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "",
+        "art_tags": [
+          "Sprite"
+        ]
+      },
+      "revision": 115
+    },
+    {
+      "at": "2026-09-29T23:06:10.006Z",
+      "id": "art:d7519caa68bc497877866d9b",
+      "fields": [
+        "art_tags"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "",
+        "art_tags": [
+          "Sprite"
+        ]
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "",
+        "art_tags": [
+          "Sprite",
+          "Combat"
+        ]
+      },
+      "revision": 116
+    },
+    {
+      "at": "2026-09-29T23:06:10.711Z",
+      "id": "art:d7519caa68bc497877866d9b",
+      "fields": [
+        "art_tags"
+      ],
+      "before": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "",
+        "art_tags": [
+          "Sprite",
+          "Combat"
+        ]
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "",
+        "art_tags": [
+          "Sprite"
+        ]
+      },
+      "revision": 117
+    },
+    {
+      "at": "2026-09-29T23:07:02.227Z",
+      "id": "art:957b3708802fb48e0a4de627",
+      "fields": [
+        "art_tags"
+      ],
+      "before": {
+        "display_name": "A - Cerimonial Pilgrim",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved",
+        "art_tags": [],
+        "status": "Planned",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": []
+      },
+      "after": {
+        "status": "Planned",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "A - Cerimonial Pilgrim",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved",
+        "art_tags": [
+          "Clothing"
+        ]
+      },
+      "revision": 118
+    },
+    {
+      "at": "2026-09-29T23:07:06.630Z",
+      "id": "art:6837fafd49c5d932aabbc0f3",
+      "fields": [
+        "art_tags"
+      ],
+      "before": {
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap",
+        "art_tags": [],
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": []
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap",
+        "art_tags": [
+          "Clothing"
+        ]
+      },
+      "revision": 119
+    },
+    {
+      "at": "2026-09-29T23:07:08.673Z",
+      "id": "art:7b73e7a2866676fa0c589d1f",
+      "fields": [
+        "art_tags"
+      ],
+      "before": {
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap",
+        "art_tags": [],
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": []
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap",
+        "art_tags": [
+          "Clothing"
+        ]
+      },
+      "revision": 120
+    },
+    {
+      "at": "2026-09-29T23:07:20.045Z",
+      "id": "art:6f7df0febb9d007b264e1c81",
+      "fields": [
+        "art_tags"
+      ],
+      "before": {
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved",
+        "art_tags": [],
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": []
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Approved",
+        "art_tags": [
+          "Magic"
+        ]
+      },
+      "revision": 121
+    },
+    {
+      "at": "2026-09-29T23:07:22.304Z",
+      "id": "art:e75859067b646b75565a701e",
+      "fields": [
+        "art_tags"
+      ],
+      "before": {
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap",
+        "art_tags": [],
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": []
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap",
+        "art_tags": [
+          "Magic"
+        ]
+      },
+      "revision": 122
+    },
+    {
+      "at": "2026-09-29T23:07:24.183Z",
+      "id": "art:27c7a2dc51f160c785157242",
+      "fields": [
+        "art_tags"
+      ],
+      "before": {
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap",
+        "art_tags": [],
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": []
+      },
+      "after": {
+        "status": "",
+        "attention": [],
+        "priority": "Normal",
+        "note": "",
+        "checklist": [],
+        "related": [],
+        "display_name": "",
+        "animation_categories": null,
+        "animation_tags": null,
+        "review_label": "Scrap",
+        "art_tags": [
+          "Magic"
+        ]
+      },
+      "revision": 123
+    }
+  ]
+}

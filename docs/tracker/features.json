@@ -1,0 +1,584 @@
+[
+  {
+    "id": "shared-motion",
+    "title": "Shared character motion",
+    "category": "Game systems",
+    "subcategory": "Character architecture",
+    "status": "Implemented",
+    "summary": "Player and Warden share motion requests, momentum resolution and motor collision handling.",
+    "attention": "None recorded",
+    "note": "The motor alone moves the collision body; player fall reactions remain separate from Warden behavior.",
+    "sources": [
+      "docs/MOTION_PIPELINE.md",
+      "features/character/character_simulation.gd"
+    ]
+  },
+  {
+    "id": "action-lifecycle",
+    "title": "Shared action lifecycle",
+    "category": "Game systems",
+    "subcategory": "Character architecture",
+    "status": "Implemented",
+    "summary": "Actions share commitment, timing, one buffered follow-up, interruption and cleanup.",
+    "attention": "None recorded",
+    "note": "Accepted actions capture their definitions and pay validated costs when starting.",
+    "sources": [
+      "docs/SECTION2_REVIEW.md",
+      "features/abilities/action_lifecycle.gd"
+    ]
+  },
+  {
+    "id": "character-resources",
+    "title": "Health, stamina and mana",
+    "category": "Game systems",
+    "subcategory": "Character resources",
+    "status": "Implemented",
+    "summary": "Per-character resources handle damage, healing, atomic spending and delayed regeneration.",
+    "attention": "None recorded",
+    "note": "Stamina regeneration depends on movement state; flasks use inventory-backed charges.",
+    "sources": [
+      "features/character/character_resources.gd",
+      "features/character/resource_regeneration_policy.gd"
+    ]
+  },
+  {
+    "id": "item-inventory",
+    "title": "Item catalog and inventory",
+    "category": "Game systems",
+    "subcategory": "Items and equipment",
+    "status": "Implemented",
+    "summary": "Shared definitions support owned copies, stacks, charges, movesets and versioned records.",
+    "attention": "None recorded",
+    "note": "Existing sword, two spells and flask use the system. Loot acquisition and a full inventory UI are deferred.",
+    "sources": [
+      "docs/ITEM_SYSTEM.md",
+      "features/items/character_items.gd"
+    ]
+  },
+  {
+    "id": "equipment-loadouts",
+    "title": "Equipment and quick slots",
+    "category": "Game systems",
+    "subcategory": "Items and equipment",
+    "status": "Implemented",
+    "summary": "Hand assignments and spell/gadget slots coordinate held, stowed and released equipment.",
+    "attention": "None recorded",
+    "note": "Bow/shield fixtures demonstrate two-handed stowing; bow attacks, blocking, bashing and dual wielding are deferred.",
+    "sources": [
+      "docs/ITEM_SYSTEM.md",
+      "features/items/equipment_controller.gd"
+    ]
+  },
+  {
+    "id": "item-upgrades",
+    "title": "Authored item upgrades",
+    "category": "Game systems",
+    "subcategory": "Items and equipment",
+    "status": "Implemented",
+    "summary": "Individual items apply authored damage/healing multipliers by upgrade level.",
+    "attention": "None recorded",
+    "note": "Test Grounds exposes sample +1/+2 upgrades. Upgrade currency, crafting and adventure progression are deferred.",
+    "sources": [
+      "docs/ITEM_SYSTEM.md",
+      "features/items/item_upgrade_profile.gd"
+    ]
+  },
+  {
+    "id": "animation-system",
+    "title": "Animation and appearance system",
+    "category": "Game systems",
+    "subcategory": "Presentation",
+    "status": "Implemented",
+    "summary": "Physics-owned poses, reusable rig profiles and item animation banks keep visuals aligned with gameplay.",
+    "attention": "Review",
+    "note": "UAL is the temporary player model; some actions retain adapters. Final art and replacement animations require review.",
+    "sources": [
+      "docs/ANIMATION_SYSTEM.md",
+      "docs/UAL_FOUNDATION.md",
+      "docs/UAL_SWORD_ATTACKS.md"
+    ]
+  },
+  {
+    "id": "fitted-hitboxes",
+    "title": "Fitted damage sensing",
+    "category": "Game systems",
+    "subcategory": "Combat sensing",
+    "status": "Implemented",
+    "summary": "Seventeen animated body regions confirm projectile, melee and area contacts on both player appearances.",
+    "attention": "Review",
+    "note": "Regions take equal damage. Combat reads the prior physics snapshot; the Warden retains its existing receiver path.",
+    "sources": [
+      "docs/HITBOXES.md",
+      "features/combat/character_hitboxes.gd"
+    ]
+  },
+  {
+    "id": "camera-targeting",
+    "title": "Shoulder camera and target lock",
+    "category": "Game systems",
+    "subcategory": "Camera and controls",
+    "status": "Implemented",
+    "summary": "Configurable shoulder view, camera collision and target locking support third-person control.",
+    "attention": "None recorded",
+    "note": "Camera preferences persist; targeting and locomotion facing have separate owners.",
+    "sources": [
+      "GAME_CONTEXT.md",
+      "features/presentation/shoulder_camera.gd",
+      "features/combat/character_targeting.gd"
+    ]
+  },
+  {
+    "id": "menus-settings",
+    "title": "Menus and saved settings",
+    "category": "Game systems",
+    "subcategory": "Interface",
+    "status": "Implemented",
+    "summary": "Shared menus provide camera, remappable controls, display settings and staged Apply/Discard behavior.",
+    "attention": "None recorded",
+    "note": "Navigation restores focus and remembers the last settings tab; PS1 effects can be toggled.",
+    "sources": [
+      "GAME_CONTEXT.md",
+      "features/ui/settings_panel.gd",
+      "features/ui/pause_menu.gd"
+    ]
+  },
+  {
+    "id": "test-grounds",
+    "title": "Test Grounds and diagnostics",
+    "category": "Game systems",
+    "subcategory": "Development tools",
+    "status": "Implemented",
+    "summary": "Eight lab stations, practice combat, item testing and optional diagnostics exercise the shared player.",
+    "attention": "None recorded",
+    "note": "Fixtures for future abilities do not implement those abilities. Resets rebuild the starter loadout.",
+    "sources": [
+      "GAME_CONTEXT.md",
+      "docs/ITEM_SYSTEM.md",
+      "features/ui/lab_tools.gd"
+    ]
+  },
+  {
+    "id": "soulbound-hud",
+    "title": "Soulbound HUD and mana evolution",
+    "category": "Game systems",
+    "subcategory": "Interface",
+    "status": "Partial",
+    "summary": "An editable browser preview demonstrates the reviewed health artwork, Soul reserves and six mana stages.",
+    "attention": "Improvement",
+    "note": "Godot integration, 12-HP balance, kill rewards and gameplay reserves are not implemented.",
+    "sources": [
+      "GAME_CONTEXT.md",
+      "art_source/ui/soulbound_hud/README.md",
+      "art_source/ui/soulbound_hud/docs/MANA_EVOLUTION.md"
+    ]
+  },
+  {
+    "id": "performance-scale",
+    "title": "Performance and character scaling",
+    "category": "Game systems",
+    "subcategory": "Performance",
+    "status": "Partial",
+    "summary": "Contact caching, shared validation and prepared combat assets are implemented and release-benchmarked on Iris Xe.",
+    "attention": "Improvement",
+    "note": "Five actors meet matrix p95 targets but spikes remain; ten exceed fitted-motion/combat budgets. Native profiling and full-encounter validation remain.",
+    "sources": [
+      "docs/validation/ANIMATION_PRIORITIES.md",
+      "docs/ANIMATION_SYSTEM.md"
+    ]
+  },
+  {
+    "id": "procedural-world",
+    "title": "Seeded seamless world generation",
+    "category": "Game systems",
+    "subcategory": "World and persistence",
+    "status": "Planned",
+    "summary": "A finite procedural world and seamless dungeons use reproducible seeds, guaranteed landmarks and placement rules.",
+    "attention": "None recorded",
+    "note": "The roadmap proposes a 256 × 256 m pilot with 64 m regions; these are test dimensions.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md"
+    ]
+  },
+  {
+    "id": "world-streaming",
+    "title": "World streaming",
+    "category": "Game systems",
+    "subcategory": "World and persistence",
+    "status": "Planned",
+    "summary": "Off-thread generation, asynchronous resource loading and budgeted activation support regional traversal.",
+    "attention": "None recorded",
+    "note": "Loading-order determinism, safe connectivity and measured boundary costs belong to the generation pilot.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md"
+    ]
+  },
+  {
+    "id": "saves-checkpoints",
+    "title": "Saves, checkpoints and currency recovery",
+    "category": "Game systems",
+    "subcategory": "World and persistence",
+    "status": "Partial",
+    "summary": "Serialization contracts exist; gameplay saves, checkpoint respawning and recoverable progression currency are planned.",
+    "attention": "None recorded",
+    "note": "Item records round-trip with validation. Disk saves, persistent world changes and safe-load placement are not implemented.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md",
+      "docs/ITEM_SYSTEM.md",
+      "GAME_CONTEXT.md"
+    ]
+  },
+  {
+    "id": "structural-collapse",
+    "title": "Structural collapse",
+    "category": "Game systems",
+    "subcategory": "World simulation",
+    "status": "Planned",
+    "summary": "Connected prebuilt pieces lose support, become physical groups and persist significant destruction.",
+    "attention": "None recorded",
+    "note": "Start with one small structure and measured body/collapse limits; terrain remains intact.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md"
+    ]
+  },
+  {
+    "id": "adventure-progression",
+    "title": "Adventure content and progression",
+    "category": "Game systems",
+    "subcategory": "Adventure content",
+    "status": "Planned",
+    "summary": "Quest lines, encounters, loot and broader progression follow the movement and world pilots.",
+    "attention": "None recorded",
+    "note": "Freeform builds and equipment-weight effects are future direction; detailed gameplay rules remain deferred.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md",
+      "docs/ITEM_SYSTEM.md"
+    ]
+  },
+  {
+    "id": "running",
+    "title": "Walking, running and sprinting",
+    "category": "Gameplay mechanics",
+    "subcategory": "Ground movement",
+    "status": "Implemented",
+    "summary": "Camera-relative travel uses momentum, reversal braking, slope adaptation and steps up to 0.60 m.",
+    "attention": "Review",
+    "note": "Gait cadence and planted contacts follow movement; target-facing lateral/backward travel still uses forward clips.",
+    "sources": [
+      "GAME_CONTEXT.md",
+      "docs/validation/LOCOMOTION_REVIEW.md"
+    ]
+  },
+  {
+    "id": "forward-dive",
+    "title": "Adaptive forward dive",
+    "category": "Gameplay mechanics",
+    "subcategory": "Dodging",
+    "status": "Implemented",
+    "summary": "Forward/no-direction dodge selects a clearance-aware dive with retained travel until contact.",
+    "attention": "Review",
+    "note": "Gap and platform crossings are validated; the old dodge hop was removed.",
+    "sources": [
+      "docs/DIVE_CLEARANCE_PLAN.md",
+      "docs/CLIFF_DIVE_LANDING.md"
+    ]
+  },
+  {
+    "id": "ground-rolls",
+    "title": "Side and backward rolls",
+    "category": "Gameplay mechanics",
+    "subcategory": "Dodging",
+    "status": "Implemented",
+    "summary": "Directional rolls start grounded with 0.70 s playback and retain departure speed when leaving an edge.",
+    "attention": "Review",
+    "note": "Rolls retain the authored reach, stamina cost and immunity window without a physical hop.",
+    "sources": [
+      "docs/GROUND_ROLLS.md",
+      "docs/CLIFF_DIVE_LANDING.md"
+    ]
+  },
+  {
+    "id": "jumping",
+    "title": "Jumping",
+    "category": "Gameplay mechanics",
+    "subcategory": "Air movement",
+    "status": "Implemented",
+    "summary": "A fixed 1.2 m jump costs 15 stamina and supports edge grace, input buffering and limited air steering.",
+    "attention": "Review",
+    "note": "Compatible attacks and spells remain usable in the air; momentum survives action completion.",
+    "sources": [
+      "docs/MOVEMENT_02_JUMP_FALL_LAND.md",
+      "features/abilities/data/jump.tres"
+    ]
+  },
+  {
+    "id": "falling-landing",
+    "title": "Falling and landing damage",
+    "category": "Gameplay mechanics",
+    "subcategory": "Air movement",
+    "status": "Implemented",
+    "summary": "Impact speed determines soft, damaging and lethal landings using equivalent-height thresholds.",
+    "attention": "Review",
+    "note": "Dodge immunity does not prevent fall damage; deep-water entry follows swimming rules.",
+    "sources": [
+      "docs/MOVEMENT_02_JUMP_FALL_LAND.md",
+      "docs/SWIMMING.md"
+    ]
+  },
+  {
+    "id": "timed-landing-roll",
+    "title": "Timed landing roll",
+    "category": "Gameplay mechanics",
+    "subcategory": "Air movement",
+    "status": "Implemented",
+    "summary": "A fresh dodge in the final 0.15 s can spend 25 stamina for a roll and halve eligible nonlethal fall damage.",
+    "attention": "Review",
+    "note": "Lethal heights never receive the discount; failed heavy cliff dives enter ragdoll.",
+    "sources": [
+      "docs/CLIFF_DIVE_LANDING.md",
+      "features/abilities/data/landing_roll.tres"
+    ]
+  },
+  {
+    "id": "ragdoll-recovery",
+    "title": "Ragdoll and automatic get-up",
+    "category": "Gameplay mechanics",
+    "subcategory": "Reactions",
+    "status": "Implemented",
+    "summary": "Descending hits and lethal landings activate physical ragdoll; survivors recover after settling and clearance checks.",
+    "attention": "Review",
+    "note": "Supported get-up uses face-up/down variants; water and blocked-standing crawl recovery have validated fallbacks.",
+    "sources": [
+      "docs/GET_UP_RECOVERY.md",
+      "docs/CRAWLING.md",
+      "docs/SWIMMING.md"
+    ]
+  },
+  {
+    "id": "ledge-grab",
+    "title": "Ledge grab, hang and pull-up",
+    "category": "Gameplay mechanics",
+    "subcategory": "Ledge traversal",
+    "status": "Implemented",
+    "summary": "Eligible static lips support persistent hanging, clearance-tested pull-ups and deliberate release.",
+    "attention": "Review",
+    "note": "Hanging neither drains nor regenerates stamina; pull-up costs 10. Supported landing-height variation is bounded.",
+    "sources": [
+      "docs/LEDGE_GRAB_PLAN.md",
+      "GAME_CONTEXT.md"
+    ]
+  },
+  {
+    "id": "ledge-shimmy",
+    "title": "Sideways hanging and corners",
+    "category": "Gameplay mechanics",
+    "subcategory": "Ledge traversal",
+    "status": "Implemented",
+    "summary": "Left/right input moves along validated ledges and rounds inside/outside corners independently of camera orbit.",
+    "attention": "Review",
+    "note": "Blocked or unsupported routes retain the last safe hold; this is not free wall climbing.",
+    "sources": [
+      "docs/LEDGE_SHIMMY.md",
+      "features/traversal/ledge_traversal.gd"
+    ]
+  },
+  {
+    "id": "crouching",
+    "title": "Crouching and low passages",
+    "category": "Gameplay mechanics",
+    "subcategory": "Posture",
+    "status": "Implemented",
+    "summary": "Persistent crouch supports 2 m/s travel, low tunnels and clearance-checked standing transitions.",
+    "attention": "Bug correction",
+    "note": "Forward-downhill knee correction is implemented; gait-entry snaps, backward knees and diagonal contact/skin defects remain deferred.",
+    "sources": [
+      "docs/MOVEMENT_03_CROUCH.md",
+      "docs/validation/ANIMATION_PRIORITIES.md"
+    ]
+  },
+  {
+    "id": "crawling",
+    "title": "Hands-and-knees crawling",
+    "category": "Gameplay mechanics",
+    "subcategory": "Posture",
+    "status": "Implemented",
+    "summary": "Hold crouch for 0.5 s to enter a persistent 1 m/s crawl through the supported 0.90 m passage.",
+    "attention": "Review",
+    "note": "Implemented on the UAL player despite older deferred notes. Unsupported animation profiles reject entry; combat and traversal actions are disabled.",
+    "sources": [
+      "docs/CRAWLING.md",
+      "features/crawling/crawling.gd",
+      "features/character/player.gd"
+    ]
+  },
+  {
+    "id": "surface-swimming",
+    "title": "Surface swimming and water exits",
+    "category": "Gameplay mechanics",
+    "subcategory": "Water movement",
+    "status": "Implemented",
+    "summary": "Water entry transitions to floating/swimming, stamina-funded fast strokes and automatic validated ledge exits.",
+    "attention": "Review",
+    "note": "Test Grounds station 05 is playable; deep-water entry cancels incompatible actions and landing damage.",
+    "sources": [
+      "docs/SWIMMING.md",
+      "features/swimming/swimming.gd"
+    ]
+  },
+  {
+    "id": "underwater-swimming",
+    "title": "Underwater diving and swimming",
+    "category": "Gameplay mechanics",
+    "subcategory": "Water movement",
+    "status": "Implemented",
+    "summary": "Camera pitch/yaw steer underwater travel; crouch descends, jump ascends and released input holds depth.",
+    "attention": "Review",
+    "note": "Underwater combat, currents and moving/wavy water remain deferred; low-roof posture transitions are collision checked.",
+    "sources": [
+      "docs/SWIMMING.md",
+      "features/swimming/swimming.gd"
+    ]
+  },
+  {
+    "id": "breath-drowning",
+    "title": "Head-based breath and drowning",
+    "category": "Gameplay mechanics",
+    "subcategory": "Water movement",
+    "status": "Implemented",
+    "summary": "Mouth/nose immersion consumes 20 seconds of breath, then applies drowning damage through shared health handling.",
+    "attention": "Review",
+    "note": "Breathing follows the completed head pose during crouch, crawl, ledge and ragdoll states; camera tint is independent.",
+    "sources": [
+      "docs/HITBOXES.md",
+      "features/swimming/head_water_detector.gd"
+    ]
+  },
+  {
+    "id": "sword-combat",
+    "title": "Light combos and heavy attacks",
+    "category": "Gameplay mechanics",
+    "subcategory": "Combat",
+    "status": "Implemented",
+    "summary": "Sword attacks use committed timing, stamina costs, hit confirmation and one queued follow-up.",
+    "attention": "Review",
+    "note": "Light attacks use native UAL2 A/B clips and recoveries. Tap for light; hold for the interruptible UAL1 Sword_Attack heavy windup.",
+    "sources": [
+      "docs/UAL_SWORD_ATTACKS.md",
+      "docs/ITEM_SYSTEM.md",
+      "features/abilities/ability_controller.gd",
+      "docs/UAL_ACTIONS.md"
+    ]
+  },
+  {
+    "id": "spell-casting",
+    "title": "Azure Bolt and Violet Burst",
+    "category": "Gameplay mechanics",
+    "subcategory": "Magic",
+    "status": "Implemented",
+    "summary": "Equipped spells deliver a projectile or area burst with mana costs, windup and recovery.",
+    "attention": "None recorded",
+    "note": "Both allow grounded/airborne casting. Crawling and swimming disallow spells; accepted casts retain their selected-item values.",
+    "sources": [
+      "docs/ITEM_SYSTEM.md",
+      "features/abilities/data/bolt.tres",
+      "features/abilities/data/burst.tres",
+      "docs/CRAWLING.md",
+      "docs/SWIMMING.md"
+    ]
+  },
+  {
+    "id": "healing-items",
+    "title": "Flask and healing gadgets",
+    "category": "Gameplay mechanics",
+    "subcategory": "Combat",
+    "status": "Implemented",
+    "summary": "Healing actions consume inventory-backed flask charges or the selected gadget's authored supply policy.",
+    "attention": "None recorded",
+    "note": "Stackable potion and reusable charm are testing fixtures; retry/station reset restores starter equipment.",
+    "sources": [
+      "docs/ITEM_SYSTEM.md",
+      "features/items/character_items.gd"
+    ]
+  },
+  {
+    "id": "warden-encounter",
+    "title": "Warden encounter and retries",
+    "category": "Gameplay mechanics",
+    "subcategory": "Combat",
+    "status": "Implemented",
+    "summary": "The courtyard boss uses telegraphed combo, overhead and lunge patterns with death/victory and retry flow.",
+    "attention": "None recorded",
+    "note": "The Warden shares action/motion foundations while retaining its own controller and legacy Knight presentation.",
+    "sources": [
+      "GAME_CONTEXT.md",
+      "features/abilities/warden_actions.gd"
+    ]
+  },
+  {
+    "id": "sliding",
+    "title": "Sliding",
+    "category": "Gameplay mechanics",
+    "subcategory": "Ground movement",
+    "status": "Planned",
+    "summary": "A future slide mechanic will define entry speed, slope response, braking and exits.",
+    "attention": "None recorded",
+    "note": "Controls, animation references and acceptance criteria remain to be agreed before implementation.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md"
+    ]
+  },
+  {
+    "id": "free-climbing",
+    "title": "Free wall climbing",
+    "category": "Gameplay mechanics",
+    "subcategory": "Climbing",
+    "status": "Planned",
+    "summary": "Future climbing includes vertical/lateral wall travel, attachment, corners, release and ledge exits.",
+    "attention": "None recorded",
+    "note": "Existing ledge hanging and water exits provide only part of the traversal foundation.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md",
+      "docs/SWIMMING.md"
+    ]
+  },
+  {
+    "id": "boss-climbing",
+    "title": "Boss climbing",
+    "category": "Gameplay mechanics",
+    "subcategory": "Climbing",
+    "status": "Planned",
+    "summary": "Shadow of the Colossus-inspired climbing on an articulated giant: marked surfaces, inverted traversal, leaps, resting, bracing and charged weak-point stabs.",
+    "attention": "None recorded",
+    "note": "Planning and technical design are in progress; gameplay implementation and acceptance testing are pending. The full Ultra-agent plan records agreed controls, shared stamina, moving-surface ownership, collision safety, presentation, development gates and validation.",
+    "sources": [
+      "docs/BOSS_CLIMBING_PLAN.md"
+    ]
+  },
+  {
+    "id": "object-handling",
+    "title": "Push, carry and throw",
+    "category": "Gameplay mechanics",
+    "subcategory": "Object interaction",
+    "status": "Planned",
+    "summary": "Future object handling covers weight, contact, pickup, held state, aiming, release and impact.",
+    "attention": "None recorded",
+    "note": "Laboratory fixtures do not implement these interactions.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md",
+      "GAME_CONTEXT.md"
+    ]
+  },
+  {
+    "id": "powered-flight",
+    "title": "Powered flight",
+    "category": "Gameplay mechanics",
+    "subcategory": "Air movement",
+    "status": "Planned",
+    "summary": "Permanently unlocked flight will share spell mana and provide takeoff, hover, steering and landing.",
+    "attention": "None recorded",
+    "note": "Mana exhaustion must switch to ordinary falling in the same tick; flight is not currently playable.",
+    "sources": [
+      "DEVELOPMENT_ROADMAP.md",
+      "GAME_CONTEXT.md"
+    ]
+  }
+]

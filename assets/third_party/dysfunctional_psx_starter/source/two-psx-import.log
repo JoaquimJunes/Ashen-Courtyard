@@ -1,0 +1,492 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+ERROR: Condition "_sock == -1" is true. Returning: FAILED
+   at: _inet_open (drivers/unix/net_socket_unix.cpp:287)
+ERROR: Condition "err != OK" is true. Returning: ERR_CANT_CREATE
+   at: listen (core/io/tcp_server.cpp:54)
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (74 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Espada PS1.fbx[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | EspadaRef.png[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | D_Hair_01.png[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | D_MBody_01.png[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | D_Medal.png[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | D_MFace_01.png[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | D_MPants_01.png[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | D_XMasHat.png[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | Baconleaf.fbx[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | D_Male_Head2.png[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | D_Male_Head.png[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | D_Male_Legs.png[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | D_Male_Torso.png[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | Male_Custom_PS1.fbx[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | D_ADStatue.png[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | AngelicDemonStatue.fbx[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | Apple.fbx[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | D_Apple.png[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | PS1_BigTree.fbx[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | D_Bark.png[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | D_Leaves.png[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | N_Bark.png[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | N_Leaves.png[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | Bush.fbx[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | D_Bush.png[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | PS1_CaseFile.fbx[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | D_CaseFile.png[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | N_CaseFile.png[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | DoubleBed.fbx[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | D_DoubleBed.png[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | D_WoodFence.png[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | FenceWood_Collection.fbx[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | GraveyardFenceSet.fbx[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | D_GraveWall.png[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | D_CoffeePolybucks.png[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | PS1_CoffeePlaybucks.fbx[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | RockB_1.fbx[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | D_RockB.png[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | GraveDirt.fbx[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | StickGrave.fbx[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | D_GraveDirt.png[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | D_StickGrave.png[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | D_StoneWall.jpg[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | StoneWall_Set.fbx[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | D_WoodChair.png[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | WoodChair.fbx[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | D_XmasTree.png[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | XmasTree.fbx[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | Axe.fbx[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | D_Axe.png[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | D_Flashlight.png[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | Flashlight.fbx[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | D_FlashlightChest.png[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | FlashlightChest.fbx[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | D_FlashlightGun.png[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | FlashlightGun.fbx[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | PS1_Camera.fbx[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | D_OldCamera.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | D_Spade.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | Spade.fbx[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | D_BBat.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | BaseballBat.fbx[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | Claymore.fbx[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | D_Claymore.png[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | Deagle.fbx[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | D_Deagle.png[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | N_Deagle.png[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | Flintlock.fbx[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | Flintlock_Diffuse.png[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | PS1_GBaton.fbx[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | D_GBaton.png[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | Glock17.fbx[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | D_Katana.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | Katana.fbx[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (74 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mreimport[22m | D_Bush.png[39m[0m
+[   1% ] [90m[1mreimport[22m | N_Deagle.png[39m[0m
+[   2% ] [90m[1mreimport[22m | D_CaseFile.png[39m[0m
+[   4% ] [90m[1mreimport[22m | N_CaseFile.png[39m[0m
+[   5% ] [90m[1mreimport[22m | D_Deagle.png[39m[0m
+[   6% ] [90m[1mreimport[22m | D_DoubleBed.png[39m[0m
+[   8% ] [90m[1mreimport[22m | D_WoodFence.png[39m[0m
+[   9% ] [90m[1mreimport[22m | D_Claymore.png[39m[0m
+[  10% ] [90m[1mreimport[22m | D_GraveWall.png[39m[0m
+[  12% ] [90m[1mreimport[22m | D_CoffeePolybucks.png[39m[0m
+[  13% ] [90m[1mreimport[22m | D_RockB.png[39m[0m
+[  14% ] [90m[1mreimport[22m | D_BBat.png[39m[0m
+[  16% ] [90m[1mreimport[22m | D_GraveDirt.png[39m[0m
+[  17% ] [90m[1mreimport[22m | D_StickGrave.png[39m[0m
+[  18% ] [90m[1mreimport[22m | D_StoneWall.jpg[39m[0m
+[  20% ] [90m[1mreimport[22m | D_Spade.png[39m[0m
+[  21% ] [90m[1mreimport[22m | D_WoodChair.png[39m[0m
+[  22% ] [90m[1mreimport[22m | D_OldCamera.png[39m[0m
+[  24% ] [90m[1mreimport[22m | D_XmasTree.png[39m[0m
+[  25% ] [90m[1mreimport[22m | D_Axe.png[39m[0m
+[  26% ] [90m[1mreimport[22m | D_Flashlight.png[39m[0m
+[  28% ] [90m[1mreimport[22m | D_FlashlightGun.png[39m[0m
+[  29% ] [90m[1mreimport[22m | D_FlashlightChest.png[39m[0m
+[  30% ] [90m[1mreimport[22m | D_MFace_01.png[39m[0m
+[  32% ] [90m[1mreimport[22m | D_MPants_01.png[39m[0m
+[  33% ] [90m[1mreimport[22m | D_XMasHat.png[39m[0m
+[  34% ] [90m[1mreimport[22m | D_Katana.png[39m[0m
+[  36% ] [90m[1mreimport[22m | D_Male_Head2.png[39m[0m
+[  37% ] [90m[1mreimport[22m | D_Male_Head.png[39m[0m
+[  38% ] [90m[1mreimport[22m | D_Medal.png[39m[0m
+[  40% ] [90m[1mreimport[22m | D_Male_Legs.png[39m[0m
+[  41% ] [90m[1mreimport[22m | D_Male_Torso.png[39m[0m
+[  42% ] [90m[1mreimport[22m | D_MBody_01.png[39m[0m
+[  44% ] [90m[1mreimport[22m | D_ADStatue.png[39m[0m
+[  45% ] [90m[1mreimport[22m | D_GBaton.png[39m[0m
+[  46% ] [90m[1mreimport[22m | D_Hair_01.png[39m[0m
+[  48% ] [90m[1mreimport[22m | EspadaRef.png[39m[0m
+[  49% ] [90m[1mreimport[22m | D_Apple.png[39m[0m
+[  50% ] [90m[1mreimport[22m | Flintlock_Diffuse.png[39m[0m
+[  52% ] [90m[1mreimport[22m | D_Bark.png[39m[0m
+[  53% ] [90m[1mreimport[22m | D_Leaves.png[39m[0m
+[  54% ] [90m[1mreimport[22m | N_Bark.png[39m[0m
+[  56% ] [90m[1mreimport[22m | N_Leaves.png[39m[0m
+[  57% ] [90m[1mreimport[22m | FlashlightGun.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  58% ] [90m[1mreimport[22m | PS1_Camera.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+ERROR: Resource file not found: res:// (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:351)
+ERROR: Can't open file from path 'res://assets/third_party/dysfunctional_psx_starter/models/Tools/OldCamera/FBX/N_Camera.png'.
+   at: get_file_as_bytes (core/io/file_access.cpp:942)
+WARNING: FBX: Image index '0' couldn't be loaded from path: res://assets/third_party/dysfunctional_psx_starter/models/Tools/OldCamera/FBX/N_Camera.png because there was no data to load. Skipping it.
+     at: _parse_images (modules/fbx/fbx_document.cpp:1084)
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  60% ] [90m[1mreimport[22m | Katana.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  61% ] [90m[1mreimport[22m | Spade.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  62% ] [90m[1mreimport[22m | BaseballBat.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  64% ] [90m[1mreimport[22m | Claymore.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  65% ] [90m[1mreimport[22m | Glock17.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  66% ] [90m[1mreimport[22m | Deagle.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+ERROR: Resource file not found: res:// (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:351)
+ERROR: Can't open file from path 'res://assets/third_party/dysfunctional_psx_starter/models/Weapons/Deagle/FBX/N_Deagle.png'.
+   at: get_file_as_bytes (core/io/file_access.cpp:942)
+WARNING: FBX: Image index '0' couldn't be loaded from path: res://assets/third_party/dysfunctional_psx_starter/models/Weapons/Deagle/FBX/N_Deagle.png because there was no data to load. Skipping it.
+     at: _parse_images (modules/fbx/fbx_document.cpp:1084)
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  68% ] [90m[1mreimport[22m | PS1_GBaton.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+ERROR: Resource file not found: res:// (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:351)
+ERROR: Can't open file from path 'res://assets/third_party/dysfunctional_psx_starter/models/Weapons/GladiatorBaton/FBX/N_TVGladiator.png'.
+   at: get_file_as_bytes (core/io/file_access.cpp:942)
+WARNING: FBX: Image index '0' couldn't be loaded from path: res://assets/third_party/dysfunctional_psx_starter/models/Weapons/GladiatorBaton/FBX/N_TVGladiator.png because there was no data to load. Skipping it.
+     at: _parse_images (modules/fbx/fbx_document.cpp:1084)
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  69% ] [90m[1mreimport[22m | Flintlock.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  70% ] [90m[1mreimport[22m | Espada PS1.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  72% ] [90m[1mreimport[22m | Baconleaf.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+ERROR: Index 0 = 0 is out of bounds (state->root_nodes.size() = 0).
+   at: generate_scene (modules/fbx/fbx_document.cpp:2124)
+[92m[ DONE ][39m [1mimport[22m
+[0m
+ERROR: Condition "f.is_null()" is true. Continuing.
+   at: get_multiple_md5 (core/io/file_access.cpp:1002)
+[  73% ] [90m[1mreimport[22m | Male_Custom_PS1.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  74% ] [90m[1mreimport[22m | AngelicDemonStatue.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+ERROR: Resource file not found: res:// (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:351)
+ERROR: Can't open file from path 'res://assets/third_party/dysfunctional_psx_starter/models/Props/Angelic Demon Statue/D_Brazier.jpg'.
+   at: get_file_as_bytes (core/io/file_access.cpp:942)
+WARNING: FBX: Image index '1' couldn't be loaded from path: res://assets/third_party/dysfunctional_psx_starter/models/Props/Angelic Demon Statue/D_Brazier.jpg because there was no data to load. Skipping it.
+     at: _parse_images (modules/fbx/fbx_document.cpp:1084)
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  76% ] [90m[1mreimport[22m | Apple.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  77% ] [90m[1mreimport[22m | PS1_BigTree.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  78% ] [90m[1mreimport[22m | Bush.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+ERROR: Resource file not found: res:// (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:351)
+ERROR: Can't open file from path 'res://assets/third_party/dysfunctional_psx_starter/models/Props/Bush/FBX/D_Bush.png'.
+   at: get_file_as_bytes (core/io/file_access.cpp:942)
+WARNING: FBX: Image index '0' couldn't be loaded from path: res://assets/third_party/dysfunctional_psx_starter/models/Props/Bush/FBX/D_Bush.png because there was no data to load. Skipping it.
+     at: _parse_images (modules/fbx/fbx_document.cpp:1084)
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  80% ] [90m[1mreimport[22m | PS1_CaseFile.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  81% ] [90m[1mreimport[22m | DoubleBed.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  82% ] [90m[1mreimport[22m | FenceWood_Collection.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  84% ] [90m[1mreimport[22m | GraveyardFenceSet.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  85% ] [90m[1mreimport[22m | PS1_CoffeePlaybucks.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  86% ] [90m[1mreimport[22m | RockB_1.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  88% ] [90m[1mreimport[22m | GraveDirt.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+ERROR: Resource file not found: res:// (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:351)
+ERROR: Can't open file from path 'res://assets/third_party/dysfunctional_psx_starter/models/Props/StickGrave/FBX/N_Gravestone.png'.
+   at: get_file_as_bytes (core/io/file_access.cpp:942)
+WARNING: FBX: Image index '0' couldn't be loaded from path: res://assets/third_party/dysfunctional_psx_starter/models/Props/StickGrave/FBX/N_Gravestone.png because there was no data to load. Skipping it.
+     at: _parse_images (modules/fbx/fbx_document.cpp:1084)
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  89% ] [90m[1mreimport[22m | StickGrave.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  90% ] [90m[1mreimport[22m | StoneWall_Set.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  92% ] [90m[1mreimport[22m | WoodChair.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  93% ] [90m[1mreimport[22m | XmasTree.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  94% ] [90m[1mreimport[22m | Axe.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | Flashlight.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  97% ] [90m[1mreimport[22m | FlashlightChest.fbx[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  98% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (74 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Started Loading editor (5 steps)[39m[0m
+[   0% ] [90m[1mloading_editor_layout[22m | Loading editor layout...[39m[0m
+[  16% ] [90m[1mloading_editor_layout[22m | Loading docks...[39m[0m
+[  33% ] [90m[1mloading_editor_layout[22m | Reopening scenes...[39m[0m
+[  50% ] [90m[1mloading_editor_layout[22m | Loading central editor layout...[39m[0m
+[  66% ] [90m[1mloading_editor_layout[22m | Loading plugin window layout...[39m[0m
+[  83% ] [90m[1mloading_editor_layout[22m | Editor layout ready.[39m[0m
+[92m[ DONE ][39m [1mloading_editor_layout[22m
+[0m
+ERROR: Condition "_sock == -1" is true. Returning: FAILED
+   at: _inet_open (drivers/unix/net_socket_unix.cpp:287)
+ERROR: Condition "err != OK" is true. Returning: ERR_CANT_CREATE
+   at: listen (core/io/tcp_server.cpp:54)
+ERROR: Cannot save file '<USER_HOME>/.config/godot/editor_settings-4.6.tres'.
+   at: save (scene/resources/resource_format_text.cpp:1756)
+ERROR: Error saving editor settings to <USER_HOME>/.config/godot/editor_settings-4.6.tres
+   at: save (editor/settings/editor_settings.cpp:1404)
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+     at: cleanup (core/object/object.cpp:2641)

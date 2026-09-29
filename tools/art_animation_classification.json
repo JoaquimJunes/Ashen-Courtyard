@@ -1,0 +1,553 @@
+{
+  "version": 1,
+  "identities": [],
+  "clip_overrides": [
+    {
+      "path": "assets/animations/Mixamo/Jump To Hang.fbx",
+      "name": "mixamo_com",
+      "title": "Jump to Free Hang",
+      "start_state": "Airborne",
+      "end_state": "Free hanging",
+      "transition_steps": [
+        "Airborne reach",
+        "Catch ledge",
+        "Settle into free hang"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/jump-to-hang-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "The clip begins airborne; a ground takeoff is absent.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "2ee56ea961b042f726a3b17781182d32fce4a9ec11e9bf8a35cd903de7194495",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Jumping",
+        "Free hanging"
+      ],
+      "filename": "jump_to_free_hang"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jumping To Hanging.fbx",
+      "name": "mixamo_com",
+      "title": "Jump to Braced Hang",
+      "start_state": "Airborne",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Airborne reach",
+        "Catch ledge",
+        "Settle into braced hang"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/jumping-to-hanging-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Raised knees and feet face forward in the final braced pose; a ground takeoff is absent.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "b328b9069b854716546f41db25228cd21bc5436be11a392a64aa73a63cefa0bd",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Jumping",
+        "Braced hanging"
+      ],
+      "filename": "jump_to_braced_hang"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jumping To Hanging (1).fbx",
+      "name": "mixamo_com",
+      "title": "Jump to Braced Hang",
+      "start_state": "Airborne",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Airborne reach",
+        "Catch ledge",
+        "Settle into braced hang"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/jumping-to-hanging-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Raised knees and feet face forward in the final braced pose; a ground takeoff is absent.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "7b0e0479a896c8b0c9a1006c9888e1291b41d45cba4d3dfaa42e02132d63bef6",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Jumping",
+        "Braced hanging"
+      ],
+      "filename": "jump_to_braced_hang"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jump Braced Hang Wall.fbx",
+      "name": "mixamo_com",
+      "title": "Airborne to Braced Hang",
+      "start_state": "Airborne",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Airborne reach",
+        "Catch ledge",
+        "Settle into braced hang"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/jump-braced-hang-wall-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "This faster transition remains distinct from Jumping To Hanging. The clip starts airborne."
+      ],
+      "source_sha256": "630ce042736a5dcac0916a925b17b69c012be784cbc56431736240a995b5e3d2",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging"
+      ],
+      "filename": "airborne_to_braced_hang"
+    },
+    {
+      "path": "assets/animations/Mixamo/Falling to Braced Hang.fbx",
+      "name": "mixamo_com",
+      "title": "Airborne to Braced Hang",
+      "start_state": "Airborne",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Airborne reach",
+        "Catch ledge",
+        "Settle into braced hang"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/jump-braced-hang-wall-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "This faster transition remains distinct from Jumping To Hanging. The clip starts airborne."
+      ],
+      "source_sha256": "716ad0da097ea6355928e009af822e4f63e0d3847b19ac22ca6cc7686241b643",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging"
+      ],
+      "filename": "airborne_to_braced_hang"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang To Crouch.fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang to Mantle to Crouch",
+      "start_state": "Braced hanging",
+      "end_state": "Crouching",
+      "transition_steps": [
+        "Pull up from braced hang",
+        "Move over ledge",
+        "Settle into crouch"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/braced-hang-to-crouch-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Source hip rises 1.492 m and travels forward 0.579 m across the clip.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "a1d07eddf93cee82aa1706a932e3e1b94ffffae8d61901066c0330f98842ae17",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Climbing",
+        "Crouching",
+        "Braced hanging",
+        "Mantling"
+      ],
+      "filename": "braced_hang_to_mantle_to_crouch"
+    },
+    {
+      "path": "assets/animations/Mixamo/Sprint To Wall Climb.fbx",
+      "name": "mixamo_com",
+      "title": "Sprint to Mantle to Crouch",
+      "start_state": "Sprinting",
+      "end_state": "Crouching",
+      "transition_steps": [
+        "Sprint approach",
+        "Jump and reach",
+        "Pull over ledge",
+        "Settle into crouch"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/sprint-to-wall-climb-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "The final pose is crouched, not a continuing wall-climb idle.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "891b0ddc372e6fe803543e3b53becb620a2871dc9309fb0203be177c68a0c678",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Locomotion",
+        "Jumping",
+        "Climbing",
+        "Crouching",
+        "Mantling"
+      ],
+      "filename": "sprint_to_mantle_to_crouch"
+    },
+    {
+      "path": "assets/animations/Mixamo/Freehang Climb.fbx",
+      "name": "mixamo_com",
+      "title": "Free Hang to Mantle to Standing",
+      "start_state": "Free hanging",
+      "end_state": "Standing",
+      "transition_steps": [
+        "Pull up",
+        "Swing legs over ledge",
+        "Plant feet",
+        "Rise to standing"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/freehang-climb-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "f0aa93d4df94663cb14ab77f61b8f47b5e41454ed5bd7204904b26b28a73292b",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Free hanging",
+        "Climbing",
+        "Mantling"
+      ],
+      "filename": "free_hang_to_mantle_to_standing"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Drop.fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang Drop to Lower Hold",
+      "start_state": "Braced hanging",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Release hold",
+        "Drop down",
+        "Catch lower hold"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/braced-hang-drop-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Hands return overhead after a 0.835 m drop; the clip ends hanging rather than continuing to fall.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "f3e9438cdd91308edf1fc0586fd1ca09f6f14d38e6e4b53e0ab761a7aeb38229",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging",
+        "Falling"
+      ],
+      "filename": "braced_hang_drop_to_lower_hold"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Drop (1).fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang Drop to Lower Hold",
+      "start_state": "Braced hanging",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Release hold",
+        "Drop down",
+        "Catch lower hold"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/braced-hang-drop-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Hands return overhead after a 0.835 m drop; the clip ends hanging rather than continuing to fall.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "07c03e548ac2e78b2e54c0836b9c85f0df2b914a68e9b2229123f1ac148ef74a",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging",
+        "Falling"
+      ],
+      "filename": "braced_hang_drop_to_lower_hold"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Fall.fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang Drop to Landing",
+      "start_state": "Braced hanging",
+      "end_state": "Standing",
+      "transition_steps": [
+        "Release hold",
+        "Fall away",
+        "Land",
+        "Recover upright"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/braced-hang-fall-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "7fd1a2d4a470557bd6ef7c37280bedefffb3d640b2fb5ea096723cedc2a02094",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging",
+        "Falling",
+        "Landing"
+      ],
+      "filename": "braced_hang_drop_to_landing"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Shimmy Left.fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang — Shimmy Left",
+      "start_state": "Braced hanging",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Reach sideways",
+        "Shift weight",
+        "Regrip"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/braced-hang-shimmy-left-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "The left and right clips have opposite leading arms. Authored root motion is in place; lateral travel distance is not implied."
+      ],
+      "source_sha256": "dcfc95ffca184542c85083707ae0f89108db4efdce3593f8cd010acbbdbf642e",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging",
+        "Climbing"
+      ],
+      "filename": "braced_hang_shimmy_left_inplace",
+      "motion_mode": "In place"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Shimmy.fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang — Shimmy Left",
+      "start_state": "Braced hanging",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Reach sideways",
+        "Shift weight",
+        "Regrip"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/braced-hang-shimmy-left-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "The left and right clips have opposite leading arms. Authored root motion is in place; lateral travel distance is not implied."
+      ],
+      "source_sha256": "5f210e982173dd18b2ea3656e6634299b75d40b1e4995a1bdb80c7e068aefc5f",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging",
+        "Climbing"
+      ],
+      "filename": "braced_hang_shimmy_left_inplace",
+      "motion_mode": "In place"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Shimmy Right.fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang — Shimmy Right",
+      "start_state": "Braced hanging",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Reach sideways",
+        "Shift weight",
+        "Regrip"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/braced-hang-shimmy-right-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "The left and right clips have opposite leading arms. Authored root motion is in place; lateral travel distance is not implied."
+      ],
+      "source_sha256": "75e7ac7a15c4f2b7c78aa30147d2d9ea0587a7a901aea2ae62e667bf89bd87de",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging",
+        "Climbing"
+      ],
+      "filename": "braced_hang_shimmy_right_inplace",
+      "motion_mode": "In place"
+    },
+    {
+      "path": "assets/animations/Mixamo/Braced Hang Shimmy(1).fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang — Shimmy Right",
+      "start_state": "Braced hanging",
+      "end_state": "Braced hanging",
+      "transition_steps": [
+        "Reach sideways",
+        "Shift weight",
+        "Regrip"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/braced-hang-shimmy-right-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "The left and right clips have opposite leading arms. Authored root motion is in place; lateral travel distance is not implied."
+      ],
+      "source_sha256": "7111637841e2e88bb358dc08aa3d455d6bd4289d3802dadd50f11c98babd0e5f",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging",
+        "Climbing"
+      ],
+      "filename": "braced_hang_shimmy_right_inplace",
+      "motion_mode": "In place"
+    },
+    {
+      "path": "assets/animations/Mixamo/Free Hang Left Shimmy.fbx",
+      "name": "mixamo_com",
+      "title": "Free Hang — Shimmy Left",
+      "start_state": "Free hanging",
+      "end_state": "Free hanging",
+      "transition_steps": [
+        "Reach sideways",
+        "Shift weight",
+        "Regrip"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/free-hang-left-shimmy-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact."
+      ],
+      "source_sha256": "6fc27da42857d8a0d1ff913b78a20a0c7bbe9262cbc0b17fdbcb77be041a6509",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Free hanging",
+        "Climbing"
+      ],
+      "filename": "free_hang_shimmy_left"
+    },
+    {
+      "path": "assets/animations/Mixamo/Free Hang Right Shimmy.fbx",
+      "name": "mixamo_com",
+      "title": "Free Hang — Shimmy Right",
+      "start_state": "Free hanging",
+      "end_state": "Free hanging",
+      "transition_steps": [
+        "Reach sideways",
+        "Shift weight",
+        "Regrip"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/free-hang-right-shimmy-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact."
+      ],
+      "source_sha256": "0c8cac17ed28a6fb8d33aaed1000d1a9d217a4dec7e45f2c1d83113c9d5e830d",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Free hanging",
+        "Climbing"
+      ],
+      "filename": "free_hang_shimmy_right"
+    },
+    {
+      "path": "assets/animations/Mixamo/Hanging Idle.fbx",
+      "name": "mixamo_com",
+      "title": "Free Hang Idle",
+      "start_state": "Free hanging",
+      "end_state": "Free hanging",
+      "transition_steps": [],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/hanging-idle-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Hands remain overhead and legs dangle; this is a hanging idle, not a transition."
+      ],
+      "source_sha256": "7e1be342c93ab82275d7b34edd249b0bae04f15738a5fdd2b59bd398cc42befc",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Free hanging"
+      ],
+      "filename": "free_hang_idle"
+    },
+    {
+      "path": "assets/animations/Mixamo/Hanging.fbx",
+      "name": "mixamo_com",
+      "title": "Hanging",
+      "start_state": "",
+      "end_state": "",
+      "transition_steps": [],
+      "naming_status": "needs_review",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/hanging-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "Bent arms and hands near the face differ from Free Hang Idle; the hold/contact type is not established."
+      ],
+      "source_sha256": "811177e82e9a7976fd1dab3fa51acc317240e29c0176652654a66d5faedd7e0b",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [],
+      "filename": "hanging"
+    },
+    {
+      "path": "assets/animations/Mixamo/Jump From Wall.fbx",
+      "name": "mixamo_com",
+      "title": "Braced Hang Wall Jump",
+      "start_state": "Braced hanging",
+      "end_state": "Airborne",
+      "transition_steps": [
+        "Push away from wall",
+        "Turn away",
+        "Descend"
+      ],
+      "naming_status": "verified",
+      "naming_evidence": [
+        "Visual review of the exact clip across its complete time range (nine samples): .artifacts/animation-naming/traversal/jump-from-wall-sheet.jpg.",
+        "States describe visible poses and movement; no wall or ledge mesh was present, so contact labels describe the gesture rather than measured contact.",
+        "The clip ends tucked and descending; no settled landing is visible.",
+        "Original imported skeleton poses were also inspected in front and side projections across the full clip range; retargeted mannequin poses were not the sole evidence."
+      ],
+      "source_sha256": "0a5fe8f1fd019bf9ff221f9fe9e79975d490fddb01caa112b9de14f92e29ed7c",
+      "animation_categories": [
+        "Movement"
+      ],
+      "animation_tags": [
+        "Braced hanging",
+        "Jumping"
+      ],
+      "filename": "braced_hang_wall_jump"
+    }
+  ],
+  "description": "Literal clip names and original filenames seed labels without altering playback bindings. Naming overrides pin path, exact clip name and source_sha256; optional title/start_state/end_state/transition_steps/naming_evidence describe reviewed motion. naming_status is source_name, needs_review or verified; verified requires recorded evidence. A changed fingerprint invalidates curated names/classification. Unnamed/duplicate clip identities also require the parent preview fingerprint and exact index."
+}

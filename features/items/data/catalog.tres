@@ -1,0 +1,18 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_catalog.gd" id="Script"]
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Item"]
+[ext_resource type="Resource" path="res://features/items/data/azure_sword.tres" id="0"]
+[ext_resource type="Resource" path="res://features/items/data/azure_bolt.tres" id="1"]
+[ext_resource type="Resource" path="res://features/items/data/violet_burst.tres" id="2"]
+[ext_resource type="Resource" path="res://features/items/data/healing_flask.tres" id="3"]
+[ext_resource type="Resource" path="res://features/items/data/practice_blade.tres" id="4"]
+[ext_resource type="Resource" path="res://features/items/data/review_bow.tres" id="5"]
+[ext_resource type="Resource" path="res://features/items/data/review_shield.tres" id="6"]
+[ext_resource type="Resource" path="res://features/items/data/practice_potion.tres" id="7"]
+[ext_resource type="Resource" path="res://features/items/data/practice_tool.tres" id="8"]
+
+
+[resource]
+script = ExtResource("Script")
+definitions = Array[ExtResource("Item")]([ExtResource("0"), ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5"), ExtResource("6"), ExtResource("7"), ExtResource("8")])

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/character_asset_import.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+source_path = "res://assets/third_party/quaternius/fantasy_props/Exports/glTF/Shield_Wooden.gltf"
+kind = "rigid"
+output_path = "res://assets/equipment/review/wooden_shield.scn"
+mesh_regions = {&"Shield": "Shield_Wooden"}
+slot = &"left_hand"
+allowed_slots = Array[StringName]([&"right_hand", &"left_hand"])
+attachment_bone = &"hand_l"
+provenance = {"author": "Quaternius", "publisher": "https://quaternius.itch.io/fantasy-props-megakit", "license": "CC0", "edition": "Fantasy Props MegaKit Standard", "archive_sha256": "8b6f7e806d222e585478f0e1bdc6b271bbc7bc6f84dd6af8ca703a7c64f0cb1e", "geometry": "Original Shield_Wooden mesh, material and used textures; unchanged coordinates", "front_axis": "+Z", "up_axis": "+Y"}

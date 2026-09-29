@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "images": {
+    "01-empty": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "rgb_energy": 0,
+      "visible_bounds": null
+    },
+    "02-burst": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "rgb_energy": 37267907,
+      "visible_bounds": [
+        161,
+        54,
+        804,
+        646
+      ]
+    },
+    "03-gather": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "rgb_energy": 30972687,
+      "visible_bounds": [
+        158,
+        127,
+        754,
+        651
+      ]
+    },
+    "04-settled-a": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "rgb_energy": 9705043,
+      "visible_bounds": [
+        220,
+        176,
+        673,
+        615
+      ]
+    },
+    "05-settled-b": {
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "rgb_energy": 9564850,
+      "visible_bounds": [
+        223,
+        173,
+        674,
+        615
+      ]
+    }
+  },
+  "idle_b_to_a_energy_ratio": 0.9855546235086233,
+  "all_protected_hud_pixels_unchanged": true,
+  "black_margin_pixels": 32,
+  "transition_pairs": 6,
+  "guide_links_checked": 53,
+  "existing_hud_files_unchanged": 703,
+  "preview_integration": false,
+  "visual_review": "Inspected individual poses and four-panel fixed-HUD alignment sheet; user artistic approval remains pending."
+}

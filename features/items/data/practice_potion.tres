@@ -1,0 +1,16 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://features/items/item_definition.gd" id="Script"]
+[ext_resource type="Resource" path="res://features/items/data/flask_actions.tres" id="actions"]
+
+
+[resource]
+script = ExtResource("Script")
+id = &"practice_potion"
+display_name = "Potion — stack test"
+description = "Test consumable using the existing healing action. Each use consumes one potion."
+category = "gadget"
+subtype = &"potion"
+actions = ExtResource("actions")
+supply = 1
+max_stack = 20

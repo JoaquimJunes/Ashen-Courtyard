@@ -1,0 +1,27 @@
+Godot Engine v4.6.2.stable.official.71f334935 - https://godotengine.org
+
+PASS: 30 Hz: cliff dive starts through the shared action lifecycle
+PASS: 30 Hz: forward speed continues beyond 5.5 m and 0.70 s until contact
+PASS: 30 Hz: real impact replaces dive with normal heavy recovery
+PASS: 30 Hz: no airborne roll, extra cost, renewed immunity, or negative budget
+PASS: 30 Hz: wall stops forward travel while gravity still lands the player
+PASS: 30 Hz: pause freezes an extended cliff dive
+PASS: 30 Hz: interruption releases extended dive ownership
+PASS: 30 Hz: reset removes all cliff-dive state
+PASS: 60 Hz: cliff dive starts through the shared action lifecycle
+PASS: 60 Hz: forward speed continues beyond 5.5 m and 0.70 s until contact
+PASS: 60 Hz: real impact replaces dive with normal heavy recovery
+PASS: 60 Hz: no airborne roll, extra cost, renewed immunity, or negative budget
+PASS: 60 Hz: wall stops forward travel while gravity still lands the player
+PASS: 60 Hz: pause freezes an extended cliff dive
+PASS: 60 Hz: interruption releases extended dive ownership
+PASS: 60 Hz: reset removes all cliff-dive state
+PASS: 120 Hz: cliff dive starts through the shared action lifecycle
+PASS: 120 Hz: forward speed continues beyond 5.5 m and 0.70 s until contact
+PASS: 120 Hz: real impact replaces dive with normal heavy recovery
+PASS: 120 Hz: no airborne roll, extra cost, renewed immunity, or negative budget
+PASS: 120 Hz: wall stops forward travel while gravity still lands the player
+PASS: 120 Hz: pause freezes an extended cliff dive
+PASS: 120 Hz: interruption releases extended dive ownership
+PASS: 120 Hz: reset removes all cliff-dive state
+CLIFF DIVE: 24 checks, 0 failures
